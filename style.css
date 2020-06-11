@@ -1,0 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,700|Roboto:100,300,400,500);
+
+.avatar img {
+  border-radius: 50%;
+}
