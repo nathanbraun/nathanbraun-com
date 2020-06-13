@@ -37,4 +37,4 @@ Last updated: **2020-06-10**
 ## Get in touch!
 My email is [nate@nathanbraun.com](mailto:nate@nathanbraun.com).
 
-If you're in the Milwaukee area, get in touch and we get meet up in person.
+If you're in the Milwaukee area, feel free to reach out and we can meet up in person.
