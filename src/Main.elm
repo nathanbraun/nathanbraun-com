@@ -538,7 +538,7 @@ heading { level, rawText, children } =
             )
         , Font.bold
         , Font.family [ Font.typeface "Roboto" ]
-        , Element.paddingEach { bottom = 0, left = 0, right = 0, top = 20 }
+        , Element.paddingEach { bottom = 0, left = 0, right = 0, top = 15 }
         , Element.Region.heading (Block.headingLevelToInt level)
         , Element.htmlAttribute
             (Html.Attributes.attribute "name" (rawTextToId rawText))

@@ -31,7 +31,7 @@ view document page =
                 (Element.rgb255 245 245 245)
             ]
             [ Element.column
-                [ Element.paddingXY 30 80
+                [ Element.paddingXY 30 35
                 , Element.spacing 15
                 , Element.Region.mainContent
                 , Element.width (Element.fill |> Element.maximum 800)

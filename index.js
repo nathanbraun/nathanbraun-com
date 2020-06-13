@@ -16,3 +16,11 @@ const pagesInit = require("elm-pages");
 pagesInit({
   mainElmModule: Elm.Main
 });
+
+
+var ga = document.createElement('script');
+
+ga.setAttribute('src','http://example.com/site.js');
+
+document.head.appendChild(my_awesome_script);
+
