@@ -360,8 +360,8 @@ elmUiRenderer =
             ]
             [ Element.none ]
     , text = Element.text
-    , strong = \content -> Element.row [ Font.bold ] content
-    , emphasis = \content -> Element.row [ Font.italic ] content
+    , strong = Element.row [ Font.bold ]
+    , emphasis = Element.row [ Font.italic ]
     , codeSpan = code
     , link =
         \{ title, destination } body ->
@@ -464,7 +464,14 @@ elmUiRenderer =
                         )
                 )
     , codeBlock = codeBlock
-    , html = Markdown.Html.oneOf []
+    , html =
+        Markdown.Html.oneOf
+            [ Markdown.Html.tag "emphasize"
+                (\name children ->
+                    Element.column [ Font.size 56 ] (Element.text name :: children)
+                )
+                |> Markdown.Html.withAttribute "name"
+            ]
     , table = Element.column []
     , tableHeader = Element.column []
     , tableBody = Element.column []
