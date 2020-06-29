@@ -17,7 +17,6 @@ import Layout
 import Markdown.Block as Block exposing (Block, Inline, ListItem(..), Task(..))
 import Markdown.Parser
 import Markdown.Renderer
-import MarkdownRenderer exposing (elmUiRenderer)
 import Metadata exposing (Metadata)
 import MySitemap
 import Page.Article
@@ -28,6 +27,7 @@ import Pages.PagePath as PagePath exposing (PagePath)
 import Pages.Platform
 import Pages.StaticHttp as StaticHttp
 import Palette
+import Render exposing (elmUiRenderer)
 
 
 manifest : Manifest.Config Pages.PathKey

@@ -1,4 +1,4 @@
-module MarkdownRenderer exposing (elmUiRenderer)
+module Render exposing (elmUiRenderer)
 
 import Element exposing (Element)
 import Element.Background
