@@ -36,10 +36,10 @@ pagesInit({
 });
 
 
-// add in google analytics
-// var gt = document.createElement('script');
-// gt.setAttribute('src',"https://www.googletagmanager.com/gtag/js?id=UA-158299232-1");
-// document.head.appendChild(gt);
+// global site tag
+var gt = document.createElement('script');
+gt.setAttribute('src',"https://www.googletagmanager.com/gtag/js?id=UA-158299232-1");
+document.head.appendChild(gt);
 
 // var ga = document.createElement('script');
 // ga.setAttribute('src','./myscript.js');
