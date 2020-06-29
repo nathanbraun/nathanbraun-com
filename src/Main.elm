@@ -53,7 +53,7 @@ type alias Rendered =
 main : Pages.Platform.Program Model Msg Metadata Rendered
 main =
     Pages.Platform.init
-        { init = \_ -> init
+        { init = init
         , view = view
         , update = update
         , subscriptions = subscriptions
@@ -140,17 +140,25 @@ type alias Model =
     {}
 
 
-init : ( Model, Cmd Msg )
-init =
-    ( Model, Cmd.none )
+type alias Path =
+    { path : PagePath Pages.PathKey
+    , query : Maybe String
+    , fragment : Maybe String
+    }
+
+
+init : Maybe Path -> ( Model, Cmd Msg )
+init url =
+    ( Model
+    , url
+        |> Maybe.map (.path >> PagePath.toString)
+        |> Maybe.withDefault "/"
+        |> Analytics.trackPageNavigation
+    )
 
 
 type Msg
-    = UrlChange
-        { path : PagePath Pages.PathKey
-        , query : Maybe String
-        , fragment : Maybe String
-        }
+    = UrlChange Path
 
 
 update : Msg -> Model -> ( Model, Cmd Msg )

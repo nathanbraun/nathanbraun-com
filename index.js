@@ -27,7 +27,6 @@ pagesInit({
 }).then(app => {
   const analytics = new Analytics(
     "UA-158299232-1"
-    // fetchMetaData("googleAnalyticsPropertyId") || "fake"
   );
 
   app.ports.trackAnalytics.subscribe(payload => {
