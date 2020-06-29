@@ -1,5 +1,6 @@
 module Main exposing (main)
 
+import Analytics
 import Color
 import Data.Author as Author
 import Date
@@ -23,7 +24,7 @@ import Page.Article
 import Pages exposing (images, pages)
 import Pages.Manifest as Manifest
 import Pages.Manifest.Category
-import Pages.PagePath exposing (PagePath)
+import Pages.PagePath as PagePath exposing (PagePath)
 import Pages.Platform
 import Pages.StaticHttp as StaticHttp
 import Palette
@@ -59,11 +60,22 @@ main =
         , documents = [ markdownDocument ]
         , manifest = manifest
         , canonicalSiteUrl = canonicalSiteUrl
-        , onPageChange = Nothing
+        , onPageChange = Just UrlChange
         , internals = Pages.internals
         }
         |> Pages.Platform.withFileGenerator generateFiles
         |> Pages.Platform.toProgram
+
+
+
+-- onPageChange :
+--     { path : PagePath Pages.PathKey
+--     , query : Maybe String
+--     , fragment : Maybe String
+--     }
+--     -> Cmd a
+-- onPageChange path =
+--     Analytics.trackPageNavigation "fantasymath"
 
 
 generateFiles :
@@ -133,15 +145,21 @@ init =
     ( Model, Cmd.none )
 
 
-type alias Msg =
-    ()
+type Msg
+    = UrlChange
+        { path : PagePath Pages.PathKey
+        , query : Maybe String
+        , fragment : Maybe String
+        }
 
 
 update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model =
     case msg of
-        () ->
-            ( model, Cmd.none )
+        UrlChange url ->
+            ( model
+            , Analytics.trackPageNavigation <| PagePath.toString url.path
+            )
 
 
 subscriptions : Model -> Sub Msg

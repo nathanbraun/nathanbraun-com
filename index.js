@@ -1,4 +1,5 @@
 import hljs from "highlight.js/lib/highlight";
+import Analytics from "./analytics";
 import "highlight.js/styles/github.css";
 import elm from 'highlight.js/lib/languages/elm';
 // we're just importing the syntaxes we want from hljs
@@ -6,21 +7,42 @@ import elm from 'highlight.js/lib/languages/elm';
 // see https://bjacobel.com/2016/12/04/highlight-bundle-size/
 hljs.registerLanguage('elm', elm);
 
-
 import "./style.css";
 // @ts-ignore
 window.hljs = hljs;
 const { Elm } = require("./src/Main.elm");
 const pagesInit = require("elm-pages");
 
+// const fetchMetaData = field => {
+//   const element = document.querySelector(`meta[name=${field}]`);
+
+//   if (element) {
+//     return element.getAttribute("content");
+//   }
+// };
+
+
 pagesInit({
   mainElmModule: Elm.Main
+}).then(app => {
+  const analytics = new Analytics(
+    "UA-158299232-1"
+    // fetchMetaData("googleAnalyticsPropertyId") || "fake"
+  );
+
+  app.ports.trackAnalytics.subscribe(payload => {
+    analytics[payload.action](payload.data);
+  });
 });
 
 
-var ga = document.createElement('script');
+// add in google analytics
+// var gt = document.createElement('script');
+// gt.setAttribute('src',"https://www.googletagmanager.com/gtag/js?id=UA-158299232-1");
+// document.head.appendChild(gt);
 
-ga.setAttribute('src','http://example.com/site.js');
+// var ga = document.createElement('script');
+// ga.setAttribute('src','./myscript.js');
+// document.head.appendChild(ga);
 
-document.head.appendChild(my_awesome_script);
-
+// <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158299232-1"></script>
