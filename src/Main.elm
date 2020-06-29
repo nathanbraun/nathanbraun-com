@@ -148,13 +148,17 @@ type alias Path =
 
 
 init : Maybe Path -> ( Model, Cmd Msg )
-init url =
-    ( Model
-    , url
-        |> Maybe.map (.path >> PagePath.toString)
-        |> Maybe.withDefault "/"
-        |> Analytics.trackPageNavigation
-    )
+init path =
+    case path of
+        Nothing ->
+            ( Model, Cmd.none )
+
+        Just url ->
+            ( Model
+            , url.path
+                |> PagePath.toString
+                |> Analytics.trackPageNavigation
+            )
 
 
 type Msg
