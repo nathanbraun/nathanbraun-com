@@ -6,6 +6,7 @@ import Element.Border
 import Element.Font as Font
 import Element.Input
 import Element.Region
+import Form
 import Html exposing (Html)
 import Html.Attributes
 import Markdown.Block as Block exposing (Block, Inline, ListItem(..), Task(..))
@@ -145,6 +146,8 @@ elmUiRenderer =
                     Element.column [ Font.size 56 ] (Element.text name :: children)
                 )
                 |> Markdown.Html.withAttribute "name"
+            , Markdown.Html.tag "contact-form"
+                (\children -> Form.view [] |> Element.html)
             ]
     , table = Element.column []
     , tableHeader = Element.column []

@@ -140,16 +140,16 @@ type alias Model =
     {}
 
 
-type alias Path =
+type alias Url =
     { path : PagePath Pages.PathKey
     , query : Maybe String
     , fragment : Maybe String
     }
 
 
-init : Maybe Path -> ( Model, Cmd Msg )
-init path =
-    case path of
+init : Maybe Url -> ( Model, Cmd Msg )
+init maybeUrl =
+    case maybeUrl of
         Nothing ->
             ( Model, Cmd.none )
 
@@ -162,15 +162,26 @@ init path =
 
 
 type Msg
-    = UrlChange Path
+    = UrlChange Url
 
 
 update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model =
     case msg of
         UrlChange url ->
+            let
+                rawUrlString =
+                    PagePath.toString url.path
+
+                urlString =
+                    if rawUrlString == "" then
+                        "/"
+
+                    else
+                        rawUrlString
+            in
             ( model
-            , Analytics.trackPageNavigation <| PagePath.toString url.path
+            , Analytics.trackPageNavigation <| urlString
             )
 
 

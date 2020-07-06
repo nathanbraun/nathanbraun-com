@@ -5,3 +5,5 @@ type: page
 
 # The Pandas Book
 This my great book page!
+
+<contact-form/>
