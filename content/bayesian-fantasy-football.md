@@ -73,8 +73,8 @@ sure that was ever useful to anyone.
 
 ## Bayesian Fantasy Football vs Matthew Berry (Moderated by Keith Olbermann)
 To complement the paid, weekly in-season advice, I wrote up a free draft
-article, where I basically advocated drafting based on ADP, which i made sound
-more exciting by calling it drafting according to the wisdom of crowds
+article, where I basically advocated drafting based on ADP, which I made sound
+more exciting by calling it drafting according to the wisdom of crowds (1).
 
 In it, I included an analysis of — within any single position — how the
 difference between ADP and Matthew Berry (whose was well known and whose
@@ -100,3 +100,12 @@ I still like the idea of ADP as priors and weekly results as data and think
 the Bayesian Fantasy Football model was ahead of its time in a lot of ways.
 But it was restrictive enough that, when I developed a better approach (the
 current Fantasy Math model), it made sense to scrap it.
+
+### Footnotes
+1 — This article was
+[well](https://www.reddit.com/r/fantasyfootball/comments/1pvy2t/would_like_to_take_time_to_credit_my_1st_place_72/)-
+("changed my perspective on drafting") [recieved](https://www.reddit.com/r/fantasyfootball/comments/3dgfug/last_year_someone_led_me_to_a_great_drafting/) 
+("made my draft significantly less stressful... went from last place ... to first") —
+and I'd still generally advocate drafting this way.
+
+

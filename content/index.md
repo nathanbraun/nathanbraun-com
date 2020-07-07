@@ -18,9 +18,9 @@ My book, [Learn to Code with Fantasy Football](https://fantasycoding.com) is out
 I am currently working on:
 
 - rewriting [Fantasy Math](fantasymath) to use GraphQL, working on new probabalistic models
-- [baseball](https://codebaseball.com), [basketball](https://codebasketball.com) and [soccer](https://codewithsoccer.com) versions of Learn to Code with Fantasy Football
+- a general purpose [introducion to Pandas](https://learnpandas.com)
 
-Last updated: **2020-06-10**
+Last updated: **2020-07-07**
 
 ## Fantasy & Sports Analytics Projects
 - [Fantasy Math](fantasymath)
@@ -35,6 +35,6 @@ Last updated: **2020-06-10**
 - [Quotes](quotes)
 
 ## Get in touch!
-My email is [nbraun@hey.com](mailto:nbraun@hey.com).
+My email is [nate@nathanbraun.com](mailto:nate@nathanbraun.com).
 
 If you're in the Milwaukee area, feel free to reach out and we can meet up in person.
