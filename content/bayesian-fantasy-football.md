@@ -38,9 +38,8 @@ In hindsight, and after revisiting probabilistic and Bayesian models again
 recently, I'm not I understood the math and techniques behind what I was doing
 that well, but I willed it into existence, and it worked OK.
 
-Even now, I don't think anyone else is projecting performance distributions
-(except [Fantasy Math](https://fantasymath.com), and they definitely weren't in
-2013, so in many ways it was a trailblazer.
+Even now, I don't think anyone else is projecting performance distributions so
+in many ways it was a trailblazer.
 
 ## Assumptions and Issues
 The model basically assumed players had some fixed, hidden (but approximated

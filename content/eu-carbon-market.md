@@ -6,7 +6,7 @@ type: page
 # Permit Prices in the EU Carbon Market
 I got my Masters degree in Applied Economics from Montana State in 2011. For my
 [thesis](http://etd.lib.montana.edu/etd/2011/braun/BraunN1211.pdf) I looked at
-a minor, surface-level puzzle related to permit prices in the EU carbon market.
+a minor, surface-level puzzle related to permit prices in the European Union carbon market.
 
 Some background:
 
@@ -34,28 +34,29 @@ predictions about when a firm might use offsets and how many they would use. I
 was also able to speculate about the nature of these transaction costs.
 
 ## Navigating Regulations was Difficult
-The takeaway is that navigating the regulatory process and even getting ahold
-of basic information (like the amount of offsets they were allowed to use) was
-a real problem.
+The takeaway is that navigating the regulatory process — even just getting
+ahold of basic information (like the amount of offsets they were allowed to
+use) was a real problem.
 
-Firms were more likely to use offsets when they: had more emissions (and
-therefore stood to benefit more financially), were in a country with a larger
-cap (ditto), were short (i.e. not allocated enough permits to cover their
-emissions and as a result had to buy them on the open market), and if they had
-used offsets in the past.
+Firms were more likely to use offsets when they:
+- had more emissions (and therefore stood to benefit more financially)
+- were in a country with a larger cap (ditto)
+- were short (i.e. not allocated enough permits to cover their emissions and as a result had to buy them on the open market)
+- and if they had used offsets in the past
 
 When firms did use offsets they almost always used them up to their cap. Or,
 what they *believed* was their cap, which wasn't always the same thing.
 
 One example: offset caps were set by country and typically given as a percent,
-say 20% for Germany. But that 20% applied to *allocations* (the number of EU
-permits the firm received initially), NOT the number of emissions. But when I
-looked through the data, it was obvious firms were doing it both ways. It was
-obvious they were confused and no one was really checking.
+say 20% for Germany. But that 20% applied to *allocations*, NOT emissions —
+that is, firms were allowed to use 0.20\*n permits they initially received, as
+opposed to 0.20\*n emissions.  But when I looked through the data, there were
+many firms doing it both ways. It was obvious they were confused and no one was
+really checking.
 
-There were other, similar examples. Essentially every rule that could plausibly
-be misinterpreted had at least some firms misinterpreting it, though they did
-seem to be getting better (and more accurate) over time.
+There were other, similar examples. Every rule that could plausibly be
+misinterpreted had at least some firms misinterpreting it, though they did seem
+to be getting better (and more accurate) over time.
 
 Naturally, given what a cluster this seemed, some grad school friends and I
 decided the market was ripe for our advice and spent a few weeks calling

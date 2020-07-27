@@ -50,8 +50,7 @@ as an author. I would guess future books on other topics might be tougher.
 
 I also enjoy teaching and believe I'm pretty good at:
 
-- synthesizing/summarizing and finding themes/commonalities among large
-  amounts of information 
+- synthesizing/summarizing and finding themes/commonalities among large amounts of information 
 - picking out a path to knowledge and introducing things at the right time
 - getting in the mind of the reader and finding and avoiding potentially
   confusing spots they might trip up on
