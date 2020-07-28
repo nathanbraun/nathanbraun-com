@@ -20,7 +20,7 @@ I am currently working on:
 - rewriting [Fantasy Math](fantasymath) to use GraphQL, working on new probabalistic models
 - a general purpose [introducion to Pandas](https://learnpandas.com)
 
-Last updated: **2020-07-07**
+Last updated: **2020-07-28**
 
 ## Fantasy & Sports Analytics Projects
 - [Fantasy Math](fantasymath)
