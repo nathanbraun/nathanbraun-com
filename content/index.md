@@ -9,6 +9,7 @@ type: page
 - Twitter: [@nathanbraun](https://twitter.com/nathanbraun)
 - Github: [@nathanbraun](https://github.com/nathanbraun)
 - Goodreads: [@nathanbraun](https://goodreads.com/nathanbraun)
+- Beeminder: [@braun](https://www.beeminder.com/braun)
 
 I am a programmer, data scientist and author.
 
