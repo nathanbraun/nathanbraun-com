@@ -32,6 +32,9 @@ Last updated: **2020-07-28**
 - [On Differences in Permit Prices in the EU Carbon Market](eu-carbon-market)
 - BP Oil Spill
 
+## Other Projects
+- [Vote Squared](voting), a quadratic polling app.
+
 ## Other Notes
 - [Quotes](quotes)
 
