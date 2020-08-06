@@ -5,7 +5,7 @@ type: page
 
 # Nathan Braun
 
-- Email: [n@nathanbraun.com](mailto:n@nathanbraun.com)
+- Email: [nate@nathanbraun.com](mailto:nate@nathanbraun.com)
 - Twitter: [@nathanbraun](https://twitter.com/nathanbraun)
 - Github: [@nathanbraun](https://github.com/nathanbraun)
 - Goodreads: [@nathanbraun](https://goodreads.com/nathanbraun)
@@ -39,6 +39,6 @@ Last updated: **2020-07-28**
 - [Quotes](quotes)
 
 ## Get in touch!
-My email is [n@nathanbraun.com](mailto:n@nathanbraun.com).
+My email is [nate@nathanbraun.com](mailto:nate@nathanbraun.com).
 
 If you're in the Milwaukee area, feel free to reach out and we can meet up in person.
