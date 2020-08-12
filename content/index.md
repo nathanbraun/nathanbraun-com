@@ -24,13 +24,13 @@ I am currently working on:
 Last updated: **2020-07-28**
 
 ## Fantasy & Sports Analytics Projects
-- [Fantasy Math](fantasymath)
-- [Learn to Code with Fantasy Football](ltcwff)
-- [Bayesian Fantasy Football](bayesian-fantasy-football)
+- [Fantasy Math](fantasymath), my active site for weekly fantasy start-sit advice
+- [Learn to Code with Fantasy Football](ltcwff), my book for learning Python and data science fundemntals via fantasy football
+- [Bayesian Fantasy Football](bayesian-fantasy-football), my old site for weekly fantasy advice, subsumed by Fantasy Math
 
 ## Environmental Economics Projects
-- [On Differences in Permit Prices in the EU Carbon Market](eu-carbon-market)
-- [BP Oil Spill](oil-spill)
+- [On Differences in Permit Prices in the EU Carbon Market](eu-carbon-market), my masters thesis
+- [BP Oil Spill](oil-spill), on which I worked right out of graduate school to quantify economic impacts
 
 ## Other Projects
 - [Vote Squared](voting), a quadratic polling app.

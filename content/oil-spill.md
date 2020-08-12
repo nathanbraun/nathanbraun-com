@@ -20,7 +20,9 @@ spill.
 ## Trips lost due to the spill
 The lost recreation value due to the spill basically came down to:
 
-`lost value = n of trips forgone * value of each trip`
+```
+lost value = n of trips forgone * value of each trip
+```
 
 I worked mostly on quantifying the number of forgone trips. In theory:
 
