@@ -25,7 +25,8 @@ Last updated: **2020-07-28**
 
 ## Fantasy & Sports Analytics Projects
 - [Fantasy Math](fantasymath), my active site for weekly fantasy start-sit advice
-- [Learn to Code with Fantasy Football](ltcwff), my book for learning Python and data science fundemntals via fantasy football
+- [Learn to Code with Fantasy Football](ltcwff), my book for learning Python
+  and data science fundamentals via fantasy football
 - [Bayesian Fantasy Football](bayesian-fantasy-football), my old site for weekly fantasy advice, subsumed by Fantasy Math
 
 ## Environmental Economics Projects
