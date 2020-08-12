@@ -30,7 +30,7 @@ Last updated: **2020-07-28**
 
 ## Environmental Economics Projects
 - [On Differences in Permit Prices in the EU Carbon Market](eu-carbon-market)
-- BP Oil Spill
+- [BP Oil Spill](oil-spill)
 
 ## Other Projects
 - [Vote Squared](voting), a quadratic polling app.
