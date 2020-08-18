@@ -22,6 +22,11 @@ casinos like vines on a tree."
 
 \- *Derek Künsken, The Quantum Magician*
 
+---
+"Our universe might have slid into equilibrium emitting nothing more than a
+quiet hiss. The fact that it spawned such plentitude is a miracle..."
+
+\- Ted Chiang, Exhalation
 
 ---
 "When you understand the power of honest praise (as opposed to bullshitting,

@@ -36,6 +36,7 @@ Last updated: **2020-07-28**
 - [Vote Squared](voting), a quadratic polling app (2020-present).
 
 ## Other Notes
+- [Notes on Principles](principles) by Ray Dalio
 - [Quotes](quotes)
 
 ## Get in touch!
