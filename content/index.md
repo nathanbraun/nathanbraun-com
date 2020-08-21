@@ -19,23 +19,23 @@ My book, [Learn to Code with Fantasy Football](https://fantasycoding.com) is out
 I am currently working on:
 
 - rewriting [Fantasy Math](fantasymath) to use GraphQL, working on new probabalistic models
-- a general purpose [introducion to Pandas](https://learnpandas.com)
+- a general purpose [introduction to Pandas](https://learnpandas.com)
 
 Last updated: **2020-07-28**
 
 ## Fantasy & Sports Analytics Projects
 - [Fantasy Math](fantasymath), model for weekly fantasy start-sit advice (2017-present)
 - [Learn to Code with Fantasy Football](ltcwff), learn Python & data science (2019-present)
-- [Bayesian Fantasy Football](bayesian-fantasy-football), bayesian model for weekly fantasy advice (2013-2016)
+# - [Bayesian Fantasy Football](bayesian-fantasy-football), Bayesian model for weekly fantasy advice (2013-2016)
 
 ## Environmental Economics Projects
 - [On Differences in Permit Prices in the EU Carbon Market](eu-carbon-market), MS thesis (2011)
-- [BP Oil Spill](oil-spill), on which I worked quantifing economic impacts (2011-2015)
+- [BP Oil Spill](oil-spill), on which I worked quantifying economic impacts (2011-2015)
 
 ## Other Projects
 - [Vote Squared](voting), a quadratic polling app (2020-present).
 
-## Other Notes
+## Misc Notes
 - [Notes on Principles](principles) by Ray Dalio
 - [Quotes](quotes)
 
