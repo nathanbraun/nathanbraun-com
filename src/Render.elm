@@ -56,20 +56,11 @@ elmUiRenderer =
     , hardLineBreak = Html.br [] [] |> Element.html
     , image =
         \image ->
-            case image.title of
-                Just title ->
-                    Element.image [ Element.width Element.fill ]
-                        { src =
-                            image.src
-                        , description = image.alt
-                        }
-
-                Nothing ->
-                    Element.image [ Element.width Element.fill ]
-                        { src =
-                            image.src
-                        , description = image.alt
-                        }
+            Element.image [ Element.width Element.fill ]
+                { src =
+                    image.src
+                , description = image.alt
+                }
     , blockQuote =
         \children ->
             Element.column
@@ -146,6 +137,66 @@ elmUiRenderer =
                     Element.column [ Font.size 56 ] (Element.text name :: children)
                 )
                 |> Markdown.Html.withAttribute "name"
+            , Markdown.Html.tag "custom-image2"
+                (\src1 alt1 src2 alt2 width children ->
+                    Element.wrappedRow
+                        [ Element.spacing 20
+                        , Element.centerX
+                        , Element.padding 25
+                        ]
+                        [ Element.image
+                            [ Element.width
+                                (Element.px
+                                    (width
+                                        |> String.toInt
+                                        |> Maybe.withDefault 100
+                                    )
+                                )
+                            , Element.centerX
+                            ]
+                            { src = src1
+                            , description = alt1
+                            }
+                        , Element.image
+                            [ Element.width
+                                (Element.px
+                                    (width
+                                        |> String.toInt
+                                        |> Maybe.withDefault 100
+                                    )
+                                )
+                            , Element.centerX
+                            ]
+                            { src = src2
+                            , description = alt2
+                            }
+                        ]
+                )
+                |> Markdown.Html.withAttribute "src1"
+                |> Markdown.Html.withAttribute "alt1"
+                |> Markdown.Html.withAttribute "src2"
+                |> Markdown.Html.withAttribute "alt1"
+                |> Markdown.Html.withAttribute "width"
+            , Markdown.Html.tag "custom-image"
+                (\src alt width children ->
+                    Element.image
+                        [ Element.width
+                            (Element.px
+                                (width
+                                    |> String.toInt
+                                    |> Maybe.withDefault 100
+                                )
+                            )
+                        , Element.centerX
+                        , Element.padding 25
+                        ]
+                        { src = src
+                        , description = alt
+                        }
+                )
+                |> Markdown.Html.withAttribute "src"
+                |> Markdown.Html.withAttribute "alt"
+                |> Markdown.Html.withAttribute "width"
             , Markdown.Html.tag "contact-form"
                 (\children -> Form.view [] |> Element.html)
             ]

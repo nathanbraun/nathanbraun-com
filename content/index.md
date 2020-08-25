@@ -34,6 +34,7 @@ Last updated: **2020-07-28**
 
 ## Other Projects
 - [Vote Squared](voting), a quadratic polling app (2020-present).
+- [Scramble Tracker](scramble), track whose shots you used during a golf scramble (2020-present)
 
 ## Misc Notes
 - [Notes on Principles](principles) by Ray Dalio
