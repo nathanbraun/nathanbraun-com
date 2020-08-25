@@ -26,7 +26,7 @@ Last updated: **2020-07-28**
 ## Fantasy & Sports Analytics Projects
 - [Fantasy Math](fantasymath), model for weekly fantasy start-sit advice (2017-present)
 - [Learn to Code with Fantasy Football](ltcwff), learn Python & data science (2019-present)
-# - [Bayesian Fantasy Football](bayesian-fantasy-football), Bayesian model for weekly fantasy advice (2013-2016)
+- [Bayesian Fantasy Football](bayesian-fantasy-football), Bayesian model for weekly fantasy advice (2013-2016)
 
 ## Environmental Economics Projects
 - [On Differences in Permit Prices in the EU Carbon Market](eu-carbon-market), MS thesis (2011)
