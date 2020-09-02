@@ -9,7 +9,8 @@ Every year I play in a golf scramble with a bunch of friends, and every year
 a minor argument erupts over how to make the teams as fair as possible.
 
 The past few years, we've let the market decide — picking out captains,
-allocating each $100 fake dollars, and bidding on everyone else.
+allocating each captain $100 fake dollars, and having them bid on everyone
+else.
 
 Because we play for (small amounts of) money, the incentive leading up the
 auction is for everyone to pretend to be a lot worse than they are so they go
@@ -32,8 +33,9 @@ The app itself is really simple, with basically two screens:
 
 <custom-image2 src1="images/scramble1.png" alt1="screen 1" src2="images/scramble2.png" alt2="screen 2" width="300"/>
 
-But I did spend some time thinking about how to get the most information with
+I did spend some time thinking about how to get the most information with
 as few clicks as possible.
+
 
 ## Technology
 I built the site using what is quickly becoming my go to stack of Elm for the
