@@ -38,7 +38,8 @@ Last updated: **2020-07-28**
 - [Scramble Tracker](scramble), track whose shots you used during a golf scramble (2020-present)
 
 ## Misc Notes
-- [Notes on Principles](principles) by Ray Dalio
+- [Principles](principls), notes on Principles by Ray Dalio
+- [Deep Work](deepwork), notes on Deep Work by Cal Newport
 - [Quotes](quotes)
 
 ## Get in touch!
