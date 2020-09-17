@@ -27,6 +27,7 @@ Last updated: **2020-07-28**
 - [Fantasy Math](fantasymath), model for weekly fantasy start-sit advice (2017-present)
 - [Learn to Code with Fantasy Football](ltcwff), learn Python & data science (2019-present)
 - [Draft Pick Trade Calculator](pickcalculator), calculator to evaluate draft pick trades (2015-2018)
+- [Keeper Trade Calculator](keepercalculator), calculator to evaluate draft pick keeper trades (2015-2018)
 - [Bayesian Fantasy Football](bayesian-fantasy-football), Bayesian model for weekly fantasy advice (2013-2016)
 
 ## Environmental Economics Projects
