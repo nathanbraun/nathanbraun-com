@@ -18,10 +18,12 @@ My book, [Learn to Code with Fantasy Football](https://fantasycoding.com) is out
 ## What I'm doing now
 I am currently working on:
 
-- rewriting [Fantasy Math](fantasymath) to use GraphQL, working on new probabalistic models
+- finishing a project-based, intermediate level follow up to [LTCWFF](ltcwff)
 - a general purpose [introduction to Pandas](https://learnpandas.com)
 
-Last updated: **2020-07-28**
+Here are some of my current [pain](pain) points.
+
+Last updated: **2020-09-23**
 
 ## Fantasy & Sports Analytics Projects
 - [Fantasy Math](fantasymath), model for weekly fantasy start-sit advice (2017-present)
