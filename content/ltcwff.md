@@ -105,7 +105,7 @@ I've had a requests for hard copies, and in the future I may consider other
 options like Amazon publishing for those.
 
 ## Reception
-Reception has been [very positive](https://fantasycoding.com/#testimonials).
+Reception has been [very positive](https://fantasycoding.com/testimonials).
 
 I offer a 30 day refund, and have had only a few people take me up on it.
 
