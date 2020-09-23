@@ -52,8 +52,7 @@ I also enjoy teaching and believe I'm pretty good at:
 
 - synthesizing/summarizing and finding themes/commonalities among large amounts of information 
 - picking out a path to knowledge and introducing things at the right time
-- getting in the mind of the reader and finding and avoiding potentially
-  confusing spots they might trip up on
+- getting in the mind of the reader and finding and avoiding potentially confusing spots they might trip up on
   
 At first I tried to write in prose form, but found that was way too slow,
 mostly because it was too hard to keep from trying to edit/rewrite/make
