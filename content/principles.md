@@ -5,35 +5,114 @@ type: page
 
 # Notes on Principles by Ray Dalio
 [Principles](https://www.amazon.com/Principles-Life-Work-Ray-Dalio-ebook/dp/B071CTK28D/)
-by Ray Dalio is one of my favorite books. I think probably everyone would
-benefit from reading it.
+by Ray Dalio is one of my favorite books. I think everyone would benefit from
+reading it.
 
-I'd recommend skipping Parts 1 (Dalio's autobiography) and 3 (which are the
-principles from Part 2 applied to work).
+The book is divided into three parts:
+1. Dalio's **autobiography** (ok, but not earth shattering)
+2. **Life principles** (excellent) 
+3. **Work principles** (the life principles applied to work, repetitive and definitely less practical).
 
-Part 2 is well worth it by itself though. Below are my notes/summary.
+To start, I'd just read part 2. That's what Derek Sivers, who also really liked
+the book — ["I wanted to highlight almost every paragraph"](https://sive.rs/book/Principles) — and even Dalio
+himself at one point recommend.
 
-# Life Principles
+# Examples
+This book is good, but can give off a bit of a platitude vibe, which turns some
+people off. So I figured I'd give a few examples of ideas that I've personally
+found useful.
+
+If these seem intriguing, might want to check out the rest of my notes (further
+below) or read the book. If not, might want to pass.
+
+## Navigating Levels
+One idea that was useful to me when writing [LTCWFF](ltcwff) was the idea of
+"levels".
+
+> *Reality exists at different levels and each of them gives you different
+but valuable perspectives. ... We are constantly seeing things at different
+levels and navigating between them, whether we know it or not, whether we do
+it well or not... For example, you can navigate levels to move from your
+values to what you do to realize them on a day-to-day basis.*
+
+> \> *I want meaningful work that's full of learning.* \
+\>\> *I want to be a doctor.* \
+\>\>\> *I need to go to medical school.* \
+\>\>\>\> *I need to get good grades in the sciences.* \
+\>\>\>\>\> *I need to stay home tonight and study.* 
+
+According to Dalio, when a line of reason has gotten jumbled, it's often
+because the speaker is jumping around different levels without showing how they
+connect.
+
+That's why, when conveying information, it's important to:
+
+- Be aware what level you're examining a given subject.
+- Consciously navigate levels rather than see subjects as undifferentiated piles of facts that can be browsed randomly.
+
+Of course, I had always known that in theory, but explicitly keeping it in mind
+has probably made my thinking and writing better.
+
+## Believability
+Believable people are those who have repeatedly and accomplished the thing in
+question — strong track record of at least 3 successes — and have good,
+logical explanations of how they did it when probed.
+
+If you have a different view with someone who is more believable than you, you
+should make clear you're trying to understand their perspective.
+
+## Designer vs Worker Level You.
+Think of yourself as a machine operating within a machine; and know you have
+ability to alter machines to produce better outcomes.
+
+*Distinguish between you as the designer of your machine, and you as a worker
+with your machine.*
+
+*It's much more important that you are a good designer/manager of your life
+than a good worker in it.*
+
+> "To be successful, the "designer/manager you" has to be objective about what
+  the "worker you" is really like, not believing in him more than he
+  deservers, or putting him in jobs he shouldn't be in. Instead of having this
+  strategic perspective, most people operate emotionally and in the moment;
+  their lives are a series of undirected emotional experiences, going from one
+  thing to the next."
+
+This is one of my favorite concepts, one I've found particularly useful.
+
+For example: for a long time, I had been getting up early (and staying up late)
+to hack away on my side projects (which I always hoped would turn into
+something more) but found once we had our second child that that was really
+hard to do.
+
+So I decided to go down to 80% at my day job to work on my own stuff. I viewed
+this as a "designer level you" move, vs just continuing to hack along harder
+and harder (and with less and less sleep) in my role as "worker me". My first
+project made more than 20% of my old salary, and now I'm working on my things
+full time.
+
+# Full Notes
+Full notes start here.
 
 Dalio thinks of life where each problem is a puzzle. The reward is principle
 that helps avoid same sort of problem in future. He's written down the
 principles that've worked for him and put them into this book.
 
-# 1. Embrace Reality and Deal with It
+## 1. Embrace Reality and Deal with It
 Nothing more important than understanding how reality works and how to deal
 with it.
 
-## 1.1 Be a hyperrealist
+### 1.1 Be a hyperrealist
 dreams + reality + determination = successful life
 
-## 1.2 Truth (accurate understanding of reality) foundation for good outcome
+### 1.2 Truth (accurate understanding of reality) foundation for good outcome
 
 Most people fight seeing what's true when it's not what they want.
 
 It's more important to understand/deal with bad stuff because the good stuff
 will take care of itself.
 
-## 1.3 Be radically open-minded and radically transparent
+### 1.3 Be radically open-minded and radically transparent
 Both are invaluable for rapid learning and effective change.
 
 They make what you are doing, and why, clear to yourself and others.
@@ -47,9 +126,9 @@ how world works.
 
 Both bring more meaningful work and meaningful relationships.
 
-## 1.4 Look to nature to learn how reality works
-## 1.5 Evolving is the point
-## 1.6 Understand nature's practical lessons
+### 1.4 Look to nature to learn how reality works
+### 1.5 Evolving is the point
+### 1.6 Understand nature's practical lessons
 
 Dalio spends some time talking about how nature "evolves for the good of the
 whole", which I'm not sure I really buy. I personally think nature/the
@@ -80,7 +159,7 @@ the scheme of things.
 > And our lifetimes are only about 1/3k of humanity's existence, which itself
 > is only 1/20k billion of Earth's existence."
 
-### Success
+#### Success
 Dalio defines success as struggling and evolving as effectively as possible.
 
 In other words, learning rapidly about oneself and environment, then changing
@@ -90,7 +169,7 @@ to improve.
 
 Your work doesn't have to be a job, but Dalio thinks it's better if it is.
 
-## 1.7 Pain + Reflection = Progress
+### 1.7 Pain + Reflection = Progress
 A fundamental law of nature: in order to gain strength, have to push limits,
 which is painful.
 
@@ -142,19 +221,19 @@ Note this loop/feedback/operating at pain thing isn't just a matter of dealing
 with success (seeking out harder and harder goals), but major failures too,
 which will happen.
 
-## 1.8 Weigh 2nd and 3rd order consequences
+### 1.8 Weigh 2nd and 3rd order consequences
 People who overweigh 1st order consequences rarely reach their goals.
 
 Example: temptations like shitty food or avoiding pain from exercise.
 
-## 1.9 Own your outcomes
+### 1.9 Own your outcomes
 *Mostly, life gives you so many decisions to make and so many opportunities
 to recover from mistakes that you can have a great life.*
 
 *Whatever circumstances are, will be more likely to succeed and find happiness
 if you take responsibility for making decisions well.*
 
-## 1.10 Look at machine from higher level
+### 1.10 Look at machine from higher level
 Think of yourself as a machine operating within a machine; and know you have
 ability to alter machines to produce better outcomes.
 
@@ -174,7 +253,7 @@ than a good worker in it.*
 Get over ego driven emotions re: people watching you struggle (anger,
 embarrassment, defensiveness, etc.
 
-### Weaknesses
+#### Weaknesses
 You have four choices when encountering weaknesses:
 1. Deny them (most people do this).
 2. Accept them and work at them to convert into strengths (may or may not work, prob best option if you can do it and it's worth it).
@@ -196,7 +275,7 @@ Have to decide to what extent you will put interests of others above your own,
 and which others. Will do either consciously or subconsciously, so should
 think about it.
 
-# 2. Use 5-Step Process to Get What You Want Out of Life
+## 2. Use 5-Step Process to Get What You Want Out of Life
 1. Have clear goals.
 2. Identify, don't tolerate problems that stand in the way.
 3. Accurately diagnose problems to get at root cause.
@@ -208,7 +287,7 @@ higher.
 
 Import to do all of these one at a time and in order.
 
-## 2.1 Have clear goals
+### 2.1 Have clear goals
 Have to prioritize, but good news is can have much more than nec to be happy.
 
 goals != desires
@@ -226,7 +305,7 @@ Need: flexibility, self-accountability.
 Note: not always about moving forward, dealing well with setbacks/tragedy can
 be goal too.
 
-## 2.2 Identify and don't tolerate problems in your way
+### 2.2 Identify and don't tolerate problems in your way
 Each problem an opportunity, essential to bring to surface
 - even if unpleasant
 - related: go to pain, don't avoid it
@@ -242,7 +321,7 @@ Prioritize and work on larger, important (to you) problems.
 
 Once you identify a problem, don't tolerate it.
 
-## 2.3 Diagnose problems to get at root causes
+### 2.3 Diagnose problems to get at root causes
 Focus on what *is* before what to do about it.
 
 Moving too quickly to a solution is common mistake.
@@ -255,7 +334,7 @@ Distinguish proximate causes (verbs) from root causes (adjectives)
 
 Can only truly solve problems by removing root causes.
 
-## 2.4 Design a plan
+### 2.4 Design a plan
 Replay how you got to this point, then figure out what you have to do going
 forward.
 
@@ -276,7 +355,7 @@ tasks, narrative, goals all different.
 Making a good plan doesn't take that long, but too many people don't do it at
 all.
 
-## 2.5 Push through to completion
+### 2.5 Push through to completion
 Great planners who don't execute go no where.
 
 Important to remember the connections between tasks and goals they are meant
@@ -295,7 +374,7 @@ Note the process is iterative.
 Process is both synthesizing (first three steps) and shaping (designing
 solutions and implementing).
 
-## 2.6 Remember weaknesses don't matter if you find solutions
+### 2.6 Remember weaknesses don't matter if you find solutions
 You probably can't do all of these steps well.
 
 Good thing to do: rely on others.
@@ -303,14 +382,14 @@ Good thing to do: rely on others.
 Everyone has at least one of these that they're not that great at that stands
 in the way of success, figure out which it is for you and deal with it .
 
-# 3. Be Radically Open Minded
-## 3.1 Recognize your two barriers
+## 3. Be Radically Open Minded
+### 3.1 Recognize your two barriers
 Two biggest barriers to good decision making are ego and blind spots.
 
 Make it hard to objectively see what is true about you and your circumstances
 and make best possible decisions by getting most out of others.
 
-### Higher level vs lower level you
+#### Higher level vs lower level you
 Have two "yous" that fight to control you
 
 Lower level
@@ -343,7 +422,7 @@ Instead should:
 2. use compensating mechanisms (like programmed reminders)
 3. rely on others who are strong in areas you are not
 
-## 3.2 Practice radical open-mindedness
+### 3.2 Practice radical open-mindedness
 Radical open mindedness is motivated by genuine worry you might not be seeing
 choices optimally  
 
@@ -367,7 +446,7 @@ Distinguish between arguing and seeking to understand. Both have their places:
 - arguing for when people are peers
 - if one person is more knowledgeable more appropriate to have a student-teacher relationship
 
-### Believability
+#### Believability
 Believable people are those who have repeatedly and accomplished the thing in
 question — strong track record of at least 3 successes — and have good,
 logical explanations of how they did it when probed.
@@ -377,7 +456,7 @@ should make clear you're trying to understand their perspective.
 
 If you're more believable, politely remind the other person of that.
 
-## 3.3 Appreciate art of thoughtful disagreement
+### 3.3 Appreciate art of thoughtful disagreement
 Goal of thoughtful disagreement is not to convince other party you are right,
 but to find out what's true and decide what to do about it
 
@@ -413,7 +492,7 @@ as conflict.*
 That's why it's not easy: need to teach yourself art of having exchanges in
 ways that don't trigger reactions in yourself and others.
 
-## 3.4 Triangulate your view with believable people who are willing to disagree
+### 3.4 Triangulate your view with believable people who are willing to disagree
 Smart people who can thoughtfully disagree are best teachers.
 
 Also good to have two knowledgeable people thoughtfully disagree while you
@@ -423,7 +502,7 @@ Also ok to turn over decision making when subjects are too complex for you to
 understand. You're giving into lower level self if you need to make your own
 decisions, even when not qualified.
 
-# 3.5 Recognize signs of closed and open mindedness
+### 3.5 Recognize signs of closed and open mindedness
 Close minded people:
 - don't want their ideas challenged
 - are more likely to make statements vs asking questions
@@ -437,7 +516,7 @@ Open minded people
 - are curious about why there is disagreement
 - ask questions, also consider relative believability
 
-## 3.6 Understand how you can become radically open-minded ==
+### 3.6 Understand how you can become radically open-minded
 Regularly use pain as guide towards reflection.
 
 Mental pain often from being too attached to an idea when person or event
@@ -465,7 +544,7 @@ is best. Not doing this is dangerously arrogant.
 More open-mindedness doesn't mean losing assertiveness. It should actually
 increase confidence because it increases odds of arriving at correct decision.
 
-## Are you up for it?
+### Are you up for it?
 Are you willing to fight to find out what's true?
 
 Do believe it's essential to your well being?
@@ -475,7 +554,7 @@ the way of achieving your goals?
 
 If no, accept that you'll never live up to your potential.
 
-# 4. Understand People are Wired Differently
+## 4. Understand People are Wired Differently
 Most attributes are double-edged swords, can both help and hurt, depending on
 application.
 
@@ -483,7 +562,7 @@ Important to know how others and yourself are wired.
 
 Desire for meaningful work and relationships is genetically programmed.
 
-## Subconscious
+### Subconscious
 Large parts of our brains don't do logical things.
 
 Your subconscious from the "two yous" thing from earlier isn't just
@@ -505,7 +584,7 @@ prefrontal cortex (logical, outer you)
   and achieve their goals and those who don't is the former reflect on their
   amygdala hijackings and put in context of what they really want.
 
-## Habits
+### Habits
 Greatest challenge: having higher level you manage lower level you. 
 
 Best way of doing that: consciously develop habits that will make doing things
@@ -529,7 +608,7 @@ very impactful to your life.
 
 Dalio's best habit: using pain to trigger quality reflections.
 
-## Misc How People Are Wired Notes
+### Misc How People Are Wired Notes
 Bridgewater uses briggs meyer, workplace personality inventory, team
 dimensions profile, stratified systems theory
 
@@ -547,9 +626,9 @@ Having right people in right roles in support of goal is important.
 Treat lower/subconscious you with kindness, don't nec need to fight with it all
 the time.
 
-# 5. Learn How to Make Decisions Effectively
-## 5.1 a Biggest threat to good decision making is harmful emotions
-## 5.1 b Decision making is a two-step process (learning, then deciding)
+## 5. Learn How to Make Decisions Effectively
+### 5.1 a Biggest threat to good decision making is harmful emotions
+### 5.1 b Decision making is a two-step process (learning, then deciding)
 
 Decision making processes more are more subconscious and complex than commonly
 understood.
@@ -573,7 +652,7 @@ Learning comes down to two things:
 - quality of synthesis determines quality of decision making
 2. knowing how to navigate levels
 
-## 5.2 Synthesize
+### 5.2 Synthesize
 Faced all the time with infinite number of things that come at you. Dalio
 calls them dots.
 
@@ -592,7 +671,7 @@ New is overvalued relative to great.
 
 Don't overfit limited numbers of dots.
 
-## 5.3 Synthesize the situation through time
+### 5.3 Synthesize the situation through time
 Keep in mind both rates of change and absolute levels; can be "getting better"
 while still being way below the bar.
 
@@ -607,7 +686,7 @@ Be an imperfectionist:
 - perfectionists spend too much time on little differences at the margin at the expense of important things
 - typically 5-10 important factors to consider when making a decision; important to understand these really well
 
-## 5.4 Navigate levels effectively
+### 5.4 Navigate levels effectively
 Reality exists at different levels; each gives valuable perspectives.
 
 Constantly seeing things at different levels and navigating between them.
@@ -645,14 +724,14 @@ Summary:
 
 Do all of that with radical open mindedness.
 
-## 5.5. Logic, reason, common sense are best tools for synthesizing reality
+### 5.5. Logic, reason, common sense are best tools for synthesizing reality
 Another higher vs lower self principle.
 
 Fundamentals of good decision making are relatively simple and timeless
 
 > "Until you make the subconscious concious, it'll direct your life and you will call it fate." - Carl Jung
 
-## 5.6 Make decisions as expected value calculations
+### 5.6 Make decisions as expected value calculations
 Raising your probability of being right is valuable no matter what your
 probability of being right already is.
 
@@ -661,7 +740,7 @@ Knowing when not to bet is as important as knowing what bets are worth making.
 Best choices are ones that have more pros than cons, not the ones that don't
 have ANY cons.
 
-## 5.7 Prioritize by weighing value of additional info vs cost of not deciding
+### 5.7 Prioritize by weighing value of additional info vs cost of not deciding
 Some decisions best made after acquiring more info, others immediately.
 
 All of your "must-dos" must be above bar before you do your "like-to-dos".
@@ -671,7 +750,7 @@ time to do with important thinks.
 
 Don't mistake possibilities for probabilities.
 
-## 5.8 Simplify and 5.9 Use principles for decision making shortcuts
+### 5.8 Simplify and 5.9 Use principles for decision making shortcuts
 Get rid of irrelevant details so essential things and relationships between
 them stand out.
 
@@ -696,26 +775,26 @@ Identifying which "one of those" a situation is is like id'ing an animal.
 Can be challenging since many since many cases are hybrids, in which case you
 have to weigh principles against each other.
 
-## 5.10 Believability weight decision making
+### 5.10 Believability weight decision making
 If disagreeing, see if you can start by agreeing which principles should be
 used to make a decision.
 
-## 5.11 Convert principles into algorithms and have computer make decisions too
-## 5.12 Be wary of AI without deep understanding
+### 5.11 Convert principles into algorithms and have computer make decisions too
+### 5.12 Be wary of AI without deep understanding
 Sometimes can use to test how decision would have worked in past/other
 simulations.
 
 Not super practical, prob more relevant for investment (and maybe fantasy
 football if you have a [sweet model](fantasymath)) decisions.
 
-# General Notes & Questions
+## General Notes & Questions
 What to do when you don't have the type of access to experts etc Dalio is
 talking about?
 
 It's one thing for Ray Dalio, who can talk to Bill Gates or the Dali Lama, but
 what am I believable at and what believable people do I have access to?
 
-## Connections between chapters?
+### Connections between chapters?
 Navigating levels principle (5.4) sort of ironic, because (though principles
 are all good) sort of feels like we're jumping levels here, particularly from
 chapter to chapter.
@@ -726,7 +805,7 @@ one level lower) doing 2 (5 step process).
 Then chapters 3-5 (open-mindedness, wired, decisions) are a way to do 2 (the
 five step process) better.
 
-## Themes
+### Themes
 Could potentially reorganize around themes, for example:
 - higher vs lower level you
 - embracing reality
@@ -735,7 +814,7 @@ Could potentially reorganize around themes, for example:
 - believability
 - navigating levels and synthesizing
 
-## Favorites
+### Favorites
 My favorite principles/concepts:
 - look at your machine from a higher level (1.10)
 - being realistic about your own weaknesses (1.10)
