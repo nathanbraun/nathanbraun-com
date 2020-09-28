@@ -18,9 +18,12 @@ the book — ["I wanted to highlight almost every paragraph"](https://sive.rs/bo
 himself at one point recommend.
 
 # Examples
-This book is good, but can give off a bit of a platitude vibe, which turns some
-people off. So I figured I'd give a few examples of ideas that I've personally
-found useful.
+This book is good, but can give off a bit of a platitude vibe, which turns
+some people off and also makes me feel like a bit of a fanboy talking about
+it.
+
+So I figured I'd give a few examples of ideas that I've personally found
+useful.
 
 If these seem intriguing, might want to check out the rest of my notes (further
 below) or read the book. If not, might want to pass.
@@ -62,14 +65,15 @@ If you have a different view with someone who is more believable than you, you
 should make clear you're trying to understand their perspective.
 
 ## Designer vs Worker Level You.
-Think of yourself as a machine operating within a machine; and know you have
-ability to alter machines to produce better outcomes.
+Dalio recommends thinking of yourself as a worker operating in a machine that
+you've designed, and says it's important to distinguish between you as the
+designer of your machine, and you as a worker within your machine.
 
-*Distinguish between you as the designer of your machine, and you as a worker
-with your machine.*
+**"It's much more important that you are a good designer/manager of your life
+than a good worker in it."**
 
-*It's much more important that you are a good designer/manager of your life
-than a good worker in it.*
+That's not to say being a good worker isn't important (Dalio also says good
+work habits are way underrated), but it's not *as* important.
 
 > "To be successful, the "designer/manager you" has to be objective about what
   the "worker you" is really like, not believing in him more than he
