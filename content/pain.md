@@ -4,18 +4,27 @@ type: page
 ---
 
 # Current Pain Points
-Last updated 2020-09-23
+Last updated **2020-09-23**
 
 This page is for an up to date list of professional, technical, knowledge etc
 type issues I'm currently grappling with.
 
-Note: the point of this isn't to complain or wallow, more trying to reflect
-and be transparent. Also, as someone always on the lookout for new software
-ideas, I always enjoy hearing about other people's pain points too.
+Note: the point isn't to complain. Instead it's part reflection, part
+invitation (definitely interested in any thoughts or resources, 
+[nate@nathanbraun.com](mailto:nate@nathanbraun.com)).
 
-Always appreciate thoughts or resources on these: [nate@nathanbraun.com](mailto:nate@nathanbraun.com)
+Also, as someone always on the lookout for new software ideas, I think it's
+interesting (and often valuable) to hear people talk about pain points too.
 
-## Getting Started with A/B Testing
+### Update 2020-09-28.
+Putting these in writing (in public) for a few days has already made them seem
+more solvable, in a good way. My higher agency self is already saying:
+
+*These are your pain points? These are enough of a problem for you that you
+created a separate page to list them on your site? Creating a good plan to
+solve these (with contigencies etc) might take a day, at most.*
+
+## 1. Getting Started with A/B Testing
 I'm a big fan of Patrick Mackenzie, Rob Walling and Gabriel Weinberg, all of
 whom espouse the many benefits of A/B testing.
 
@@ -33,7 +42,7 @@ For example, here's a test I currently have going on
 
 ```
 <test id="0002-header-size" version="A" name="h1">
-# Learn Coding + Data Science Fundamentals with Fantasy Football
+o
 </test>
 <test id="0002-header-size" version="B" name="h2">
 ## Learn Coding + Data Science Fundamentals with Fantasy Football
@@ -42,16 +51,17 @@ For example, here's a test I currently have going on
 
 Great. But I'm a little unsure how to go about getting started testing in
 a systematic way. In particular when it comes to copy, which is something I'd
-always unsure about.
+always like to test.
 
 I.e., I took an initial stab at my sales site and think it looks OK. Now do
 I just take another, independent crack at it and wee which version does better?
 
-Or am I supposed to start by picking out buttons on what I have and change
-their color?
+Or is it better to start by picking out buttons on what I have and change their
+color?
 
-I'm sure there's information out there on this, and it's on my to do list to
-find it.
+I'm sure there's information out there on this, and it's definitely on my to
+do list to find it (or just start expirimenting and flesh out my thoughts on
+this).
 
 ### Preliminary thoughts on solution
 I could see it actually being sort of haphazard, especially when you first
@@ -59,9 +69,9 @@ start out. I wouldn't be surprised if indeed, I am supposed to take a few
 different cracks at copy (or rearrange the order of what I have) and see what
 works.
 
-Either way, will do more research and perhaps report back.
+Either way, will figure it out and perhaps report back.
 
-## Dealing with Moderators on Reddit
+## 2. Dealing with Moderators on Reddit
 The bulk of my initial traction for my book came from Reddit, via a few posts
 like this:
 
@@ -76,25 +86,22 @@ It seemed like a win-win, it was obviously something people were interested in
 it was going to be worth it for me to do.
 
 After the book was out and doing well, I decided to look at a baseball
-version. I did an initial post on r/baseball, which for a few hours took off
-before the mods took it down, despite the upvotes (95%), positive comments
-etc.
+version. I did an initial post on r/baseball, which for a few hours was on
+a similar trajectory to my initial r/fantasyfootball post. Then the mods took
+it down, despite the upvote rate (95%), positive comments etc.
 
-So now my Learn to Code with Baseball book mailing list sits at a few hundred
-emails instead of a few thousand. I still might do it, but I guarantee if
-I had 3k+ email addresses of people who were interested it'd be out right now.
-
-I understand reddit moderators have to put up with a lot, and user experience
-would suffer if 80% of posts were people trying to sell things. But it was
-definitely frustrating to have a positive, highly upvoted, seemingly win-win
-post removed, especially since it was a highly critical traction channel.
+I understand reddit moderators have to put up with a lot of dcrap, and user
+experience would suffer if 80% of posts were people trying to sell things. But
+it was definitely frustrating to have a positive, highly upvoted, seemingly
+win-win post removed, especially as a critical traction channel.
 
 ### Preliminary thoughts on solutions
 I've actually thought about testing out reddit ads. I (and most people I'd
-guess) usually ignore them, but I doubt the content of many ads would get 1k+
-upvotes and some platinum icons posted on their own, so it's prob worth at
-least trying.
+guess) usually ignore them, but I've usually had good responses to my posts,
+so it's probably worth trying.
 
 If not I guess I'd either have to ingratiate myself with moderators (not nec
-always possible, maybe with r/baseball, probably not with r/nba) or find
-another traction channel.
+always possible) or find another traction channel. I suppose traction isn't
+always (or usually) fair, and if making a promising traction channel work
+means sucking up to reddit moderators or making more of an effort to comment
+in order to become more visible, so be it.
