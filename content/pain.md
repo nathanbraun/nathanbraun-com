@@ -14,7 +14,8 @@ invitation (definitely interested in any thoughts or resources,
 [nate@nathanbraun.com](mailto:nate@nathanbraun.com)).
 
 Also, as someone always on the lookout for new software ideas, I think it's
-interesting (and often valuable) to hear people talk about pain points too.
+interesting (and often valuable) to hear people talk about pain points. Maybe
+others find it interesting too.
 
 ### Update 2020-09-28.
 Putting these in writing (in public) for a few days has already made them seem
@@ -53,11 +54,10 @@ Great. But I'm a little unsure how to go about getting started testing in
 a systematic way. In particular when it comes to copy, which is something I'd
 always like to test.
 
-I.e., I took an initial stab at my sales site and think it looks OK. Now do
-I just take another, independent crack at it and wee which version does better?
-
-Or is it better to start by picking out buttons on what I have and change their
-color?
+I.e., *I took an initial stab at my sales site and think it looks OK. Now do
+I just take another, independent crack at it and see which version does
+better? Or I am I supposed to start by picking out buttons on what I have and
+change their color or something?*
 
 I'm sure there's information out there on this, and it's definitely on my to
 do list to find it (or just start expirimenting and flesh out my thoughts on
@@ -90,7 +90,7 @@ version. I did an initial post on r/baseball, which for a few hours was on
 a similar trajectory to my initial r/fantasyfootball post. Then the mods took
 it down, despite the upvote rate (95%), positive comments etc.
 
-I understand reddit moderators have to put up with a lot of dcrap, and user
+I understand reddit moderators have to put up with a lot of crap, and user
 experience would suffer if 80% of posts were people trying to sell things. But
 it was definitely frustrating to have a positive, highly upvoted, seemingly
 win-win post removed, especially as a critical traction channel.
