@@ -115,8 +115,10 @@ elmUiRenderer =
                 (items
                     |> List.indexedMap
                         (\index itemBlocks ->
-                            Element.row [ Element.spacing 5 ]
-                                [ Element.row [ Element.alignTop ]
+                            Element.paragraph
+                                [ Element.spacing 5
+                                ]
+                                [ Element.paragraph [ Element.alignTop ]
                                     (Element.text
                                         (String.fromInt
                                             (index
