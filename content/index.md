@@ -43,6 +43,7 @@ Last updated: **2020-09-23**
 ## Misc Notes
 - [Principles](principles), notes on Principles by Ray Dalio
 - [Deep Work](deepwork), notes on Deep Work by Cal Newport
+- [Three Languages of Politics](politics), notes on the book by Arnold Kling
 - [Quotes](quotes)
 
 ## Get in touch!
