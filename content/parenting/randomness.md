@@ -11,14 +11,14 @@ about randomness, so we invented the following "game".
 ## How You Play
 1. Find a quarter (not necessarily easy in our cashless society!).
 2. Everybody writes down their guess, heads or tails.
-3. The kid flips the quarter.
+3. The kid flips the quarter. Initially Penelope's flip was more of a drop and it was debatable whether we were getting suficient entropy, but eventually she developed her own technique of bouncing the coin off the wall, which worked.
 4. Record the results.
 5. Do steps (2) and (3) 10 times.
-6. Tally the results, both who guessed the most correctly as well as the
-   overall number of heads and tails.
+6. Tally the results, both who guessed the most correctly as well as the overall number of heads and tails.
 
 ## Notes
-Yeah, this "game" is 100% luck, but most little kid games are (war anyone?). 
+Yeah, this "game" is 100% luck, but most little kid games are (war, candyland
+etc). 
 
 The benefit of doing 10 flips and recording them (as opposed to just flipping
 a coin a bunch of times) is it let us see the breakdown of heads and tails at
@@ -37,6 +37,7 @@ limit theorem before she's 5.
 
 ![Coinflip Results](images/coinflip.jpg)
 
-Our results. P is my 4 year old, (D)ad is me. (G)randpa and A (her two year
-old brother, who guessed but did not get what was going on and also scribbled
-on the sheet) also played. Can see P is the best guesser!
+Our results. (P)enelope is my 4 year old, (D)ad is me. (G)randpa and (A)rlo
+(her two year old brother, who sort of guessed but definitely did not get what
+was going on and also scribbled on the sheet) also played. Can see Penelope is
+the best guesser!
