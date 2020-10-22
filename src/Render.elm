@@ -124,7 +124,7 @@ elmUiRenderer =
                                             (index
                                                 + startingIndex
                                             )
-                                            ++ " "
+                                            ++ ". "
                                         )
                                         :: itemBlocks
                                     )
@@ -268,7 +268,17 @@ heading { level, rawText, children } =
             )
         , Font.bold
         , Font.family [ Font.typeface "Roboto" ]
-        , Element.paddingEach { bottom = 0, left = 0, right = 0, top = 15 }
+        , Element.paddingEach
+            (case level of
+                Block.H1 ->
+                    { bottom = 0, left = 0, right = 0, top = 15 }
+
+                Block.H2 ->
+                    { bottom = 0, left = 0, right = 0, top = 15 }
+
+                _ ->
+                    { bottom = 0, left = 0, right = 0, top = 0 }
+            )
         , Element.Region.heading (Block.headingLevelToInt level)
         , Element.htmlAttribute
             (Html.Attributes.attribute "name" (rawTextToId rawText))

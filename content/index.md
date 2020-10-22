@@ -41,9 +41,13 @@ Last updated: **2020-09-23**
 - [Scramble Tracker](scramble), track whose shots you used during a golf scramble (2020-present)
 
 ## Misc Notes
+### Book Notes
 - [Principles](principles), notes on Principles by Ray Dalio
 - [Deep Work](deepwork), notes on Deep Work by Cal Newport
 - [Three Languages of Politics](politics), notes on the book by Arnold Kling
+### Parenting
+- [Teaching Little Kids About Randomness](parenting/randomness), notes on a game my 4 year old and I liked 
+### Other
 - [Quotes](quotes)
 
 ## Get in touch!
