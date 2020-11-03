@@ -13,21 +13,20 @@ type: page
 
 I am a programmer, data scientist and author.
 
-My book, [Learn to Code with Fantasy Football](https://fantasycoding.com) is out now.
+My book, [Learn to Code with Fantasy Football](https://fantasycoding.com) is
+out now. I also just published a [baseball](https://codebaseball.com) version.
 
 ## What I'm doing now
-I am currently working on:
+I am currently:
 
-- finishing a project-based, intermediate level follow up to [LTCWFF](ltcwff)
-- a general purpose [introduction to Pandas](https://learnpandas.com)
+- wrapping up few loose ends related to [Learn to Code with Baseball](https://codebaseball.com)
+- on part-time paternity leave (welcome Fiona!)
 
-Here are some of my current [pain](pain) points.
-
-Last updated: **2020-09-23**
+Last updated: **2020-11-03**
 
 ## Fantasy & Sports Analytics Projects
 - [Fantasy Math](fantasymath), model for weekly fantasy start-sit advice (2017-present)
-- [Learn to Code with Fantasy Football](ltcwff), learn Python & data science (2019-present)
+- [Learn to Code with Fantasy Football](ltcwff), book on Python & data science (2019-present)
 - [Draft Pick Trade Calculator](pickcalculator), calculator to evaluate draft pick trades (2015-2018)
 - [Keeper Trade Calculator](keepercalculator), calculator to evaluate draft pick keeper trades (2015-2018)
 - [Bayesian Fantasy Football](bayesian-fantasy-football), Bayesian model for weekly fantasy advice (2013-2016)
@@ -44,7 +43,7 @@ Last updated: **2020-09-23**
 ### Book Notes
 - [Principles](principles), notes on Principles by Ray Dalio
 - [Deep Work](deepwork), notes on Deep Work by Cal Newport
-- [Three Languages of Politics](politics), notes on the book by Arnold Kling
+
 ### Parenting
 - [Teaching Little Kids About Randomness](parenting/randomness), notes on a game my 4 year old and I liked 
 ### Other
