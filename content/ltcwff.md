@@ -1,5 +1,5 @@
 ---
-title: Fantasy Math Writeup — Nathan Braun
+title: Learn to Code with Fantasy Football Writeup — Nathan Braun
 type: page
 ---
 

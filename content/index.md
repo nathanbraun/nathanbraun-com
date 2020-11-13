@@ -26,6 +26,7 @@ Last updated: **2020-11-03**
 
 ## Fantasy & Sports Analytics Projects
 - [Learn to Code with Baseball](baseball), baseball version of [LTCWFF](ltcwff) (2020-present)
+- [Intermediate Coding with Fantasy Football](intermediate), project-based follow up [LTCWFF](ltcwff) (2020)
 - [Fantasy Math](fantasymath), model for weekly fantasy start-sit advice (2017-present)
 - [Learn to Code with Fantasy Football](ltcwff), book on Python & data science (2019-present)
 - [Draft Pick Trade Calculator](pickcalculator), calculator to evaluate draft pick trades (2015-2018)
