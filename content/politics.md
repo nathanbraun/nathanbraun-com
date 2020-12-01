@@ -13,68 +13,81 @@ issues in terms of three, separate axes:
 - conservatives view issues on the **civilization** vs **barbarism** axis
 - libertarians view issues in terms of **freedom** vs **coercion**
 
-- once you notice this framework, it becomes a lot easier to understand
-  people's views on almost any issue
+Once you notice this framework, it becomes a lot easier to understand people's
+views on almost any issue.
 
-  - for example, illegal immigration:
-    - progressives view immigrants as oppressed by unjust immigration laws.
-      they're more likely to pay attention to kids in cages or stories of fully
-      assimilated DREAMERs exceling in school at risk of being deported
-    - conservatives argue that immigrants will have negative cultural impacts,
-      i.e. that their civilization (western, market oriented, traditional values)
-      might be in jeapordy. they also care a lot about the laws. they tend to
-      focus on rates of criminality by immigrants (and specific examples), as
-      well as immigrants advocating things like Sharia law
-    - liberterians believe people should have the freedom be able to live, work
-      and enter whatever mutually beneficial work arrangement they want, and
-      laws prohibiting this. they'd pay more attention to stories of hardworking
-      immigrations who came up from nothing (conservatives also appreciate this
-      narrative) who are driving an Uber to earn money to send back to their
-      families
+Many issues span all three axes, for example —
 
-- but often an issue (or fight about them) will be between two of the three
-  camps
-  - immigration is an issue where it's easy to see/understand all three sides.
-    - many issues are like that
-  - for example, columbus day:
-    - progressives view Columbus as an invador, who oppressed/killed/cheated
-      native american peoples
-    - conservatives view columbus day as something america has *always*
-      celebrated (e.g. the famous 18-- columbia exposition in chicago)
-      - and, while not exactly denying that columbus did some bad things, was a
-        sort of symbolic tipping point from barbarism to
-        civilization/progress/literacy/america/industrial revolution etc
-    - this particular issue doesn't seem to fit that well on the libertarian
-      axis
+## Example: Illegal Immigration
+**Progressives** view immigrants as oppressed by unjust immigration laws. They're
+more likely to pay attention to kids in cages or stories about fully
+assimilated DREAMERs exceling in school at risk of being deported.
+  
+**Conservatives** argue that immigrants will have negative cultural impacts, i.e.
+that their civilization (western/market oriented/traditional values) might be
+in jeapordy. They also tend to focus on (by definition) illegal immigration is
+against the law. They tend to focus on rates of criminality by immigrants (and
+specific ancedotes), as well as immigrants advocating things like Sharia law.
 
-  - or the recent california prop 22, which if passed would classify uber and
-    lyft drivers as contractors (vs employees entitled to full benefits)
-    - progressives view uber/lyft as oppressing drivers by classifying them as
-      contract workers and not giving them health benefits
-    - libertarians think drivers should have the freedom to driver for uber/lyft
-      if they want, and do something else otherwise. the idea of government
-      coercing uber/lyft into classifying drivers as full employees is abhorent
+**Liberterians** believe people should have the freedom be able to live, work and
+enter whatever mutually beneficial work arrangement they want and are against
+immigration laws that prohibit this. They'd pay more attention to stories of
+hardworking immigrations who came up from nothing (conservatives also
+appreciate this narrative) who are driving an Uber to earn money to send back
+to their families
 
-  - doesn't seem like conservatives have much of a horse here
-    - might be different if uber/lyft weren't so new and instead the law was
-      about using gov coercian to preserve coal mining or lobster fishing or
-      something
+## Some issues span only two axes
+Immigration is an issue where it's easy to see all three sides. Many issues are
+like that. But often an issue (or fight about them) will be between two of the
+three camps. For example —
 
-- not all axis always equal
-  - e.g. civil rights in US in 1960s historically has been viewed on the
-    oppressor-oppressed dimension
-    - though at the time a lot of people definitely argued individual
-      businesses and people should have the *freedom* to discriminate if they
-      want to
-      - some still argue this today, but have to be pretty hardcore on the
-        freedom-coercian axis
-  - but most people in US today prob view the issue through that lens, and take
-    a favorable view of civil rights, etc
-  - another example: most people prob view the stuff going on in france
-    (charlie hebdo, murder of a teacher, killing in churches) through the
-    civilization-barbarism axis
+### Columbus day
+Progressives view Columbus as an invador, who oppressed, killed and cheated
+native American peoples.
 
-# other points
+Conservatives view columbus day as something america has *always* celebrated
+(e.g. the famous 1893 Columbian Exposition in Chicago) and — while not exactly
+denying that columbus did some bad things — was a sort of symbolic tipping
+point from barbarism to civilization, progress, literacy, america, the
+industrial revolution etc.
+
+This particular issue doesn't seem to fit that well on the libertarian axis all
+that well (maybe they're against state holidays in general?).
+
+### Prop 22
+Or the recent California Proposition 22, which if passed would classify Uber
+and Lyft drivers as contractors vs employees entitled to full benefits.
+
+Progressives view Uber and Lyft as oppressing drivers by classifying them as
+contract workers and not giving them health benefits.
+
+Libertarians think drivers should have the freedom to driver for Uber/Lyft
+if they want, and do something else otherwise. The idea of government coercing
+Uber or Lyft into classifying drivers as full employees is abhorent.
+
+It doesn't seem like **conservatives** have much of a horse in this one. Maybe
+it'd be different if rid-sharing companies weren't so new and instead the law
+was about using government coercian to preserve coal mining or lobster fishing
+or something.
+
+## Not all axis are always equal
+On some issues, a dominant axis may emerge, where even people who don't usually
+think in terms of that axis find themselves.
+
+For example civil rights in US in 1960s historically has been viewed on the
+oppressor-oppressed dimension, even though at the time a lot of people
+definitely argued individual businesses and people should have the *freedom* to
+discriminate if they want.
+
+While some people still argue this, they're pretty hardcore on the
+freedom-coercian axis. Most people in US today view the issue through that
+lens, and take a favorable view of civil rights, etc
+
+Another example: most people prob view the stuff going on in France (Charlie
+Hebdo, murder of a teacher, killings in churches) through the
+civilization-barbarism axis. Same with the immediate aftermath of 9-11.
+
+# Other points
 - open question: how much do establishment politicians (and their orgs) really
   believe this?
   - vs picking conciously picking out and exploiting arguments from an axis

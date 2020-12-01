@@ -9,20 +9,6 @@ type: page
 \- *Charlie Munger*
 
 ---
-"It was their good fortune, or else their misery, to belong to a generation in
-which every individual would be given a chance to discover and expose his
-worth, down to the final ounce of strength and nerve."
-
-\- *Shelby Foote, The Civil War*
-
----
-"Life colonized the energy gradients: plants put themselves between sun and
-stone; animals put themselves between plants and decay. Criminals infiltrated
-casinos like vines on a tree."
-
-\- *Derek Künsken, The Quantum Magician*
-
----
 "Our universe might have slid into equilibrium emitting nothing more than a
 quiet hiss. The fact that it spawned such plentitude is a miracle..."
 
@@ -36,16 +22,22 @@ quiet hiss. The fact that it spawned such plentitude is a miracle..."
   small and identifiable set of other people.
 
 > "If there is no way of defining property rights that meets that requirement,
-  we have a problem. **The alternative institutions - courts, tort law,
-  government regulation, intergovernmental negotiations, and the like** - that
-  we use to deal with that problem **work very poorly**. The more dispersed the
-  effects, the worse they work.
+  we have a problem. *The alternative institutions — courts, tort law,
+  government regulation, intergovernmental negotiations ... work very poorly*.
+  The more dispersed the effects, the worse they work.
   
 > "If technological changes result in making actions with such dispersed
   effects play a much larger role in our lives ...  we have a problem for
   which no known institutions provide a reasonably good solution."
 
 \- *David Friedman, Future Imperfect*
+
+---
+"Life colonized the energy gradients: plants put themselves between sun and
+stone; animals put themselves between plants and decay. Criminals infiltrated
+casinos like vines on a tree."
+
+\- *Derek Künsken, The Quantum Magician*
 
 ---
 "When you understand the power of honest praise (as opposed to bullshitting,
@@ -66,3 +58,9 @@ you voice your praise."
 \- *Bill Bryson, The Body*
 
 ---
+"It was their good fortune, or else their misery, to belong to a generation in
+which every individual would be given a chance to discover and expose his
+worth, down to the final ounce of strength and nerve."
+
+\- *Shelby Foote, The Civil War*
+
