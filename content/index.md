@@ -44,6 +44,7 @@ Last updated: **2020-11-03**
 ### Book Notes
 - [Principles](principles), notes on Principles by Ray Dalio
 - [Deep Work](deepwork), notes on Deep Work by Cal Newport
+- [Three Languages of Politics](politics), notes on the book by Arnold Kling
 
 ### Parenting
 - [Teaching Little Kids About Randomness](parenting/randomness), notes on a game my 4 year old and I liked 

@@ -78,14 +78,14 @@ elmUiRenderer =
     , unorderedList =
         \items ->
             Element.paragraph
-                [ Element.spacing 6
+                [ Element.spacing 8
                 , Element.paddingXY 5 0
                 , Element.width Element.fill
                 ]
                 (items
                     |> List.map
                         (\(ListItem task children) ->
-                            Element.row [ Element.spacing 5 ]
+                            Element.row [ Element.spacing 8 ]
                                 [ Element.row
                                     [ Element.alignTop ]
                                     ((case task of
@@ -104,7 +104,7 @@ elmUiRenderer =
                                                 (Element.text "•")
                                      )
                                         :: Element.text " "
-                                        :: [ Element.paragraph [] children ]
+                                        :: [ Element.paragraph [ Element.spacing 8 ] children ]
                                     )
                                 ]
                         )
