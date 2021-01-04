@@ -8,7 +8,7 @@ One of the simplest, most illuminating books I've ever read is Arnold Kling's
 [The Three Languages of Politics](https://www.amazon.com/Three-Languages-Politics-Talking-Political-dp-1948647427/dp/1948647427/ref=dp_ob_title_bk).
 
 Kling's idea: conservatives, liberals and libertarians *communicate* (more on
-whether it's just communicate or something more later) about political issues
+whether it's just communicate or something else later) about political issues
 on three, separate axes:
 - progressives on the *oppressed* vs *oppressor* axis
 - conservatives on the *civilization* vs *barbarism* axis
@@ -17,7 +17,7 @@ on three, separate axes:
 Once you notice this framework, it becomes a lot easier to understand other's
 views on almost any issue.
 
-Many issues span all three axes. Illegal immigration is a classic example:
+Many issues span all three axes. Illegal immigration is typical example.
 
 ## Illegal Immigration
 **Progressives** view immigrants as oppressed by unjust immigration laws, border
@@ -34,9 +34,9 @@ against the law. They often focus on rates of criminality by immigrants (and
 specific anecdotes), as well as anecdotes about immigrants advocating things
 like Sharia law.
 
-**Libertarians** believe people should have the freedom be able to live, work and
-enter whatever mutually beneficial work arrangement they want. They are against
-immigration laws that prohibit this.
+**Libertarians** believe people should have the freedom to live, work and
+enter whatever mutually beneficial work arrangement they want. They are
+against immigration laws that prohibit this.
 
 They'd pay more attention to stories of hardworking immigrations who came up
 from nothing (conservatives also appreciate this narrative) who are driving an
@@ -107,35 +107,39 @@ For example, **conservatives care about civilization**.
 
 Do progressives? It's debatable. It's especially obvious with the
 environmental movement and the left's romanticized views on pre-colonial,
-indigenous societies. Also see how progressives tended to be pro-Covid
-lockdown positions (many pointed out how they reducing carbon emissions).
+indigenous societies. Also see how progressives tended to end up pro Covid
+lockdown (many pointing out they're reducing carbon emissions).
 
 Do libertarians? Maybe but not always. For example, many libertarians argue
 immigrants should be let in on principle, even if it puts some of the
 freedom/market aspects of western culture at risk
 
-**Liberarians care aboute freedom.**
+**Libertarians care about freedom.**
 
-Do progressives? Putting aside the obvious historical examples of communism,
-socialism etc. At the margin, are progressives in favor of people being free
-to spend their money (or hire, or eat, or wear) who they want, or less?
+Do progressives? There is obvious
+[historical](https://en.wikipedia.org/wiki/Communism)
+[evidence](https://en.wikipedia.org/wiki/Socialism) to the contrary.
+But even at the margin, are progressives in favor of people being free to spend
+their money (or hire, or eat, or wear) on what they want, or less?
 
 Do conservatives? Again, sort of, but in many ways no. See the NSA, Patriot
-Act, Snowden as traitor, etc.
+Act, Snowden as traitor, drug war, historical opposition to gay marriage, etc.
 
 **Progressives care about stopping oppression.**
 
-Do conservatives? No one is really pro-oppression, but I think conservatives
-likely take issue with much that is categorized as oppression today. For
-example, conservatives are fond of pointing out that when you control for
-violent crime rates, it doesn't appear minorities are systematically more
-likely to be shot by police than whites.
+Do conservatives?
+
+While no one would categorize themselves as pro-oppression, my reading is
+conservatives take issue with much that is categorized as oppression today. For
+example, many are fond of pointing out that when you control for violent crime
+rates, it doesn't appear minorities are systematically more likely to be shot
+by police than whites.
 
 I think libertarians would generally agree (though in that specific example
 libertarians would say police in general are way too militarized and
 powerful). They also have more a of a freedom bent, and are hesitant to call
 anything the result of voluntary transactions oppression. "yeah, working in
-a sweat shop would suck, but these workers technically have a choice"
+a sweat shop would suck, but these workers technically have a choice".
 
 ### 2. Is this just the way people communicate, or is it something more?
 Kling is careful to say he's talking about *communicating* about political
@@ -178,17 +182,50 @@ civilization either — makes this axis intriguing.
 
 Here I'm mostly thinking of progressives, which seems to have taken the
 oppression/non-oppression axis so far in one direction (particularly when it
-comes to racial, sexual and gender identities) that it seems almost
-allergy-like†.
+comes to racial, sexual and gender identities) that it always reminds me
+(perhaps weirdly) of *allergies*.
 
-† Allergies are caused by your body's immune system reacting too strongly to
-things that are really not that big of a deal. In the same way, the left's
-hyper sensitivity to any sort of identity-based oppression is causing some
-real dysfunction, both within the left itself and in society at large.
+Allergies are caused by your body's immune system reacting too strongly to
+things that are really not that big of a deal. In the same way, my impression
+is that the left's hyper sensitivity to any sort of identity-based oppression
+is causing some real dysfunction, both within the left itself and in society at
+large.
 
-## Loose Ends
-- How does this theory fit with with Bryan Caplan's [simplistic view of left and right](https://www.econlib.org/archives/2015/10/my_simplistic_t.html) (the theory: the left hates markets, the right hates the left)?
-- Many of the ideological fault lines seem to be about nature vs nurture (e.g. Pinker's the Blank Slate). How does that fit in? Is it mostly relevant in shaping views on the extent of true oppression?
-- Where do conspiracy theories fit? Are certain groups (conservatives) more inclined to buy into conspiracy theories? If so, why?
-- What about "elites"/believe science narrative? Where does this fit?
-- Do people's cobbled-together, irrational, self-justifying minds make thinking about axes less useful? E.g. see the GOP House Freedom Caucus, which starting in 2016 did a massive shift away from Freedom/towards Trumpism. The three axes model doesn't seem to explain this well.
+### 6. Many of the ideological fault lines seem to be about nature vs nurture, how does this fit in?
+
+My guess: this is mostly relevant in impacting how people view the extent of
+oppression.
+
+For example: take the underrepresentation of women in tech. If everyone is
+a [Blank
+Slate](https://www.amazon.com/dp/B000QCTNIM/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1),
+this disparity could very well be due to oppression.
+
+But if — on *average* (individuals are of course all over the place, which is
+good!) — women are less inclined to study tech related fields for some nature
+related reason (whether it's the things/people dynamic or because on average
+[girls are better at
+reading](https://marginalrevolution.com/marginalrevolution/2019/09/girls-comparative-advantage-in-reading-can-largely-explain-the-gender-gap-in-math-related-fields.html),
+whatever) than this disparity might be just something that happens, no
+oppression necessary.
+
+Note: even if true, this doesn't at all mean women can't like tech or are
+"weird" or less feminine if they do, any more than men who [like to
+read](https://goodreads.com/nathanbraun). Again, differences *within* groups
+swamp differences *between* groups. It also doesn't rule out any oppression
+whatsoever.
+
+### 7. How does this theory fit with with Bryan Caplan's simplistic model of left and right?
+
+Caplan (possibly somewhat tongue in cheek) [theory](https://www.econlib.org/archives/2015/10/my_simplistic_t.html):
+the left hates markets, the right hates the left.
+
+### 8. Where do conspiracy theories fit?
+
+Are certain groups (OK, conservatives) more inclined to buy into conspiracy
+theories? If so, why?
+
+### 9. Do people's cobbled-together, irrational, self-justifying minds make thinking about axes less useful?
+
+E.g. see the GOP House Freedom Caucus, which starting in 2016 did a massive shift away from Freedom/towards Trumpism. To the extent this sort of thing happens (both at the individual and group level), the model seems less useful.
+
