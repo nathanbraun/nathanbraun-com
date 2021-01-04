@@ -95,9 +95,9 @@ of viewing contentious issues through the various lenses, here are some
 miscellaneous thoughts and open questions.
 
 ### 1. It's not that people are just on different axes, they often take issue with the "good" ends of other axes
-Each axis has its good end, i.e. freedom, civilization, non-oppression (OK
-fine, it's debatable whether the progressive axis has a "good" end or whether
-they're just anti-oppression).
+Each axis has its good end, i.e. freedom, civilization, non-oppression (it's
+debatable whether the progressive axis has a "good" end or whether they're just
+anti-oppression).
 
 To me, it seems like thinking primarily on an axis means you tend to discount
 whether the good end of the other axes are worth pursuing. I think helps
@@ -105,33 +105,35 @@ explain certain behavior, and makes the model even more useful.
 
 For example, **conservatives care about civilization**.
 
-Do progressives? It's debatable. It's especially obvious with the
-environmental movement and the left's romanticized views on pre-colonial,
-indigenous societies. Also see how progressives tended to end up pro Covid
-lockdown (many pointing out they're reducing carbon emissions).
+Do progressives? It's debatable. I think any anti-civilization feelings are
+particularly on the left come up especially within the environmental movement
+and the left's romanticized views on pre-colonial, indigenous societies.
+Progressives also tended to end up pro covid lockdown
 
-Do libertarians? Maybe but not always. For example, many libertarians argue
-immigrants should be let in on principle, even if it puts some of the
-freedom/market aspects of western culture at risk
+Do libertarians care about civilization? Perhaps more than progressives, but
+not always. For example, many libertarians argue immigrants should be let in on
+principle, even if it puts some of the freedom/market aspects of western
+culture at risk
 
 **Libertarians care about freedom.**
 
-Do progressives? There is obvious
+Do progressives value freedom? There is obvious
 [historical](https://en.wikipedia.org/wiki/Communism)
 [evidence](https://en.wikipedia.org/wiki/Socialism) to the contrary.
 But even at the margin, are progressives in favor of people being free to spend
 their money (or hire, or eat, or wear) on what they want, or less?
 
-Do conservatives? Again, sort of, but in many ways no. See the NSA, Patriot
-Act, Snowden as traitor, drug war, historical opposition to gay marriage, etc.
+What about conservatives? Again, sort of, but in many ways no. See the NSA,
+Patriot Act, Snowden as traitor, drug war, historical opposition to gay
+marriage, etc.
 
 **Progressives care about stopping oppression.**
 
 Do conservatives?
 
-While no one would categorize themselves as pro-oppression, my reading is
-conservatives take issue with much that is categorized as oppression today. For
-example, many are fond of pointing out that when you control for violent crime
+While very few people think about themselves as pro-oppression, I think many
+non-progressives take issue with much that is categorized as oppression today.
+For example, conservatives point out that when you control for violent crime
 rates, it doesn't appear minorities are systematically more likely to be shot
 by police than whites.
 
@@ -154,76 +156,84 @@ I'm not sure that goes far enough, though it's obviously noisy. But I would
 expect, for example, that people who identify with the freedom-coercion axis
 generally favor smaller government, fewer regulations etc.
 
-### 3. How much do these axes bleed into each other?
-When you stare at them for a while, the boundaries between axes gets a bit
-fuzzy.
-- *oppression* is arguably another word for infringing on someones *liberty*
-- many progressives frame their oppression arguments in terms of "positive liberty", e.g. if a sweatshop worker or a poor kid in the ghetto doesn't have good options, they're not technically free.
-- one of the foundational concepts of western civilization is freedom (life, liberty, pursuit of happiness) and equality under the law
+Also, given the way most people's interal monologue, language as thinking
+brains work, the the difference between language and thinking isn't
+necessarily clear.
 
-To the extent there is overlap, what should we do about it?
-
-Probably just not think about it too hard. It's a model, not necessarily
-exactly the way the world works in granular detail.
-
-### 4. Is there another axis?
+### 3. Is there another axis?
 In a follow up edition, Kling toyed with adding what he called a bobo/anti
 bobo axis.
 
-Bobo is an idea from the NYT columnist David Brooks, and (in my understanding)
-is basically the cosmopolitan/elite/smug/believe science vs the
-backlash/anti-smug/troll/the CDC originally said not to wear masks axis.
+Bobo is an idea from the NYT columnist David Brooks 2000 book [Bobos in
+Paradise](https://www.amazon.com/dp/B00BORKAW6/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1),
+which (in my understanding, I've never read the it) is basically the
+cosmopolitan/elite/smug/"believe science" vs the backlash/anti-smug/troll/"the
+CDC originally said not to wear masks" axis.
 
 In particular, the phenomena of Trump, who — while he definitely has
 conservative themes like law and order, isn't exactly the epitome of western
-civilization either — makes this axis intriguing.
+civilization — makes this axis intriguing.
 
-### 5. On average, are members of some groups at more "extreme" ends of their axis than others?
+### 4. On average, are members of some groups at more "extreme" ends of their axis than others?
 
 Here I'm mostly thinking of progressives, which seems to have taken the
 oppression/non-oppression axis so far in one direction (particularly when it
-comes to racial, sexual and gender identities) that it always reminds me
-(perhaps weirdly) of *allergies*.
+comes to racial, sexual and gender identities) that it always reminds me (not
+sure if this is weird or not) of *allergies*.
 
 Allergies are caused by your body's immune system reacting too strongly to
-things that are really not that big of a deal. In the same way, my impression
-is that the left's hyper sensitivity to any sort of identity-based oppression
-is causing some real dysfunction, both within the left itself and in society at
-large.
+things that are really not that big of a deal. In the same way, I think the
+left's hyper sensitivity to any sort of (real or percieved) identity-based
+oppression is causing some real dysfunction, both within the left itself and
+in society at large.
 
-### 6. Many of the ideological fault lines seem to be about nature vs nurture, how does this fit in?
+### 5. Many of today's ideological fault lines seem to be about nature vs nurture, how does this fit in?
 
 My guess: this is mostly relevant in impacting how people view the extent of
 oppression.
 
 For example: take the underrepresentation of women in tech. If everyone is
 a [Blank
-Slate](https://www.amazon.com/dp/B000QCTNIM/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1),
-this disparity could very well be due to oppression.
+Slate](https://www.amazon.com/dp/B000QCTNIM/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1), the fact there are fewer women in tech 
+might be due to oppression.
 
-But if — on *average* (individuals are of course all over the place, which is
-good!) — women are less inclined to study tech related fields for some nature
-related reason (whether it's the things/people dynamic or because on average
-[girls are better at
+But if — on *average* (individuals are all over the place, which is good!) —
+women are naturally less inclined to study tech related fields (whether because
+of a things/people dynamic or because on average [girls are better at
 reading](https://marginalrevolution.com/marginalrevolution/2019/09/girls-comparative-advantage-in-reading-can-largely-explain-the-gender-gap-in-math-related-fields.html),
 whatever) than this disparity might be just something that happens, no
 oppression necessary.
 
 Note: even if true, this doesn't at all mean women can't like tech or are
-"weird" or less feminine if they do, any more than men who [like to
+"weird" (or less feminine) if they do, any more than men who [like to
 read](https://goodreads.com/nathanbraun). Again, differences *within* groups
-swamp differences *between* groups. It also doesn't rule out any oppression
-whatsoever.
+swamp differences *between* groups. It also doesn't preclude oppression.
 
-### 7. How does this theory fit with with Bryan Caplan's simplistic model of left and right?
+### 6. How does this theory fit with with Bryan Caplan's simplistic model of left and right?
 
-Caplan (possibly somewhat tongue in cheek) [theory](https://www.econlib.org/archives/2015/10/my_simplistic_t.html):
+Caplan's [theory](https://www.econlib.org/archives/2015/10/my_simplistic_t.html):
 the left hates markets, the right hates the left.
 
-### 8. Where do conspiracy theories fit?
+While possibly somewhat tognue in cheek, these models do attempt to explain
+similar things.
+
+### 7. Where do conspiracy theories fit?
 
 Are certain groups (OK, conservatives) more inclined to buy into conspiracy
 theories? If so, why?
+
+### 8. How much do these axes bleed into each other?
+When you stare at them for a while, the boundaries between axes gets a bit
+fuzzy.
+- *oppression* is arguably another word for infringing on someones *liberty*
+- many progressives frame their oppression arguments in terms of "positive liberty", e.g. if a sweatshop worker or a poor kid in the ghetto doesn't have good options, they're not technically free.
+- one of the foundational concepts of western civilization is freedom (life, liberty, pursuit of happiness) and equality under the law
+
+So, question: to the extent there is overlap, what should we do about it?
+
+Answer: probably just not think about it too hard. It's a model, not
+necessarily exactly the way the world works in granular detail.
+
 
 ### 9. Do people's cobbled-together, irrational, self-justifying minds make thinking about axes less useful?
 
