@@ -41,11 +41,11 @@ generate :
     -> String
 generate { siteTagline, siteUrl } siteMetadata =
     Rss.generate
-        { title = "elm-pages Blog"
+        { title = "Nathan Braun"
         , description = siteTagline
-        , url = "https://elm-pages.com/blog"
+        , url = "https://nathanbraun.com"
         , lastBuildTime = Pages.builtAt
-        , generator = Just "elm-pages"
+        , generator = Just "Nathan Braun"
         , items = siteMetadata |> List.filterMap metadataToRssItem
         , siteUrl = siteUrl
         }
@@ -74,14 +74,6 @@ metadataToRssItem page =
                     , content = Nothing
                     , enclosure = Nothing
                     , contentEncoded =
-                        let
-                            _ =
-                                Debug.log "html"
-                                    (page.body
-                                        |> HtmlStringMarkdownRenderer.renderMarkdown
-                                        |> Result.toMaybe
-                                    )
-                        in
                         page.body
                             |> HtmlStringMarkdownRenderer.renderMarkdown
                             |> Result.toMaybe

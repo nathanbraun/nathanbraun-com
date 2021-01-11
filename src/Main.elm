@@ -345,16 +345,16 @@ head metadata =
                     in
                     Seo.summary
                         { canonicalUrlOverride = Nothing
-                        , siteName = "elm-pages-starter"
+                        , siteName = "Nathan Braun"
                         , image =
                             { url = meta.avatar
-                            , alt = meta.name ++ "'s elm-pages articles."
+                            , alt = meta.name ++ "'s posts"
                             , dimensions = Nothing
                             , mimeType = Nothing
                             }
                         , description = meta.bio
                         , locale = Nothing
-                        , title = meta.name ++ "'s elm-pages articles."
+                        , title = meta.name ++ "'s posts"
                         }
                         |> Seo.profile
                             { firstName = firstName
@@ -365,16 +365,16 @@ head metadata =
                 Metadata.BlogIndex ->
                     Seo.summaryLarge
                         { canonicalUrlOverride = Nothing
-                        , siteName = "elm-pages"
+                        , siteName = "Nathan Braun"
                         , image =
                             { url = images.nIcon
-                            , alt = "elm-pages logo"
+                            , alt = "N"
                             , dimensions = Nothing
                             , mimeType = Nothing
                             }
                         , description = siteTagline
                         , locale = Nothing
-                        , title = "elm-pages blog"
+                        , title = "Nathan Braun"
                         }
                         |> Seo.website
            )
@@ -382,8 +382,7 @@ head metadata =
 
 canonicalSiteUrl : String
 canonicalSiteUrl =
-    -- "https://nathanbraun.com"
-    "http://localhost:3000"
+    "https://nathanbraun.com"
 
 
 siteTagline : String
