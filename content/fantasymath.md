@@ -1,6 +1,8 @@
 ---
-title: Fantasy Math Writeup — Nathan Braun
-type: page
+title: Fantasy Math 
+type: blog
+description: Writeup on fantasymath.com
+published: "2020-07-20"
 ---
 
 # Fantasy Math

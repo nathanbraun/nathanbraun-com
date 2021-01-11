@@ -1,6 +1,8 @@
 ---
-title: Learn to Code with Fantasy Football Writeup — Nathan Braun
-type: page
+title: Learn to Code with Fantasy Football
+type: blog
+description: Writeup of Learn to Code with Fantasy Football
+published: "2020-08-01"
 ---
 
 # Learn to Code with Fantasy Football

@@ -1,6 +1,8 @@
 ---
-title: Scramble Tracker — Nathan Braun
-type: page
+title: Scramble Tracker
+type: blog
+description: Writeup of scramble tracker project.
+published: "2020-08-24"
 ---
 
 # Scramble Tracker — Keep Track of Shots You Used During a Golf Scramble

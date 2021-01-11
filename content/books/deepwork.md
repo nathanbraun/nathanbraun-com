@@ -1,6 +1,8 @@
 ---
-title: Notes on Principles by Ray Dalio — Nathan Braun
-type: page
+title: Notes on Deep Work by Cal Newport
+type: blog
+description: Notes on Deep Work by Cal Newport
+published: "2020-09-09"
 ---
 
 # Notes on Deep Work
