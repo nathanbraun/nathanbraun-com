@@ -1,5 +1,7 @@
 module Main exposing (main)
 
+-- import PodcastFeed
+
 import Analytics
 import Color
 import Data.Author as Author
@@ -27,7 +29,6 @@ import Pages.PagePath as PagePath exposing (PagePath)
 import Pages.Platform
 import Pages.StaticHttp as StaticHttp
 import Palette
-import PodcastFeed
 import Render exposing (elmUiRenderer)
 
 
@@ -68,7 +69,7 @@ main =
         , internals = Pages.internals
         }
         |> Pages.Platform.withFileGenerator generateFiles
-        |> Pages.Platform.withFileGenerator PodcastFeed.generate
+        -- |> Pages.Platform.withFileGenerator PodcastFeed.generate
         |> Pages.Platform.toProgram
 
 
@@ -381,7 +382,8 @@ head metadata =
 
 canonicalSiteUrl : String
 canonicalSiteUrl =
-    "https://nathanbraun.com"
+    -- "https://nathanbraun.com"
+    "http://localhost:3000"
 
 
 siteTagline : String

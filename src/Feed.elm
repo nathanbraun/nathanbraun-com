@@ -1,5 +1,7 @@
 module Feed exposing (fileToGenerate)
 
+import HtmlStringMarkdownRenderer
+import Json.Decode as Decode exposing (Decoder)
 import Metadata exposing (Metadata(..))
 import Pages
 import Pages.PagePath as PagePath exposing (PagePath)
@@ -21,7 +23,7 @@ fileToGenerate :
         , content : String
         }
 fileToGenerate config siteMetadata =
-    { path = [ "blog", "feed.xml" ]
+    { path = [ "feed.xml" ]
     , content = generate config siteMetadata
     }
 
@@ -69,8 +71,31 @@ metadataToRssItem page =
                     , categories = []
                     , author = article.author.name
                     , pubDate = Rss.Date article.published
-                    , content = Just page.body
+                    , content = Nothing
+                    , enclosure = Nothing
+                    , contentEncoded =
+                        let
+                            _ =
+                                Debug.log "html"
+                                    (page.body
+                                        |> HtmlStringMarkdownRenderer.renderMarkdown
+                                        |> Result.toMaybe
+                                    )
+                        in
+                        page.body
+                            |> HtmlStringMarkdownRenderer.renderMarkdown
+                            |> Result.toMaybe
                     }
 
         _ ->
             Nothing
+
+
+bodyDecoder : String -> Decoder String
+bodyDecoder body =
+    case HtmlStringMarkdownRenderer.renderMarkdown body of
+        Ok renderedBody ->
+            Decode.succeed renderedBody
+
+        Err error ->
+            Decode.fail error

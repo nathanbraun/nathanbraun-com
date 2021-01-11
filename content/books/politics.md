@@ -1,6 +1,10 @@
 ---
 title: Notes on Arnold Kling's Three Languages of Politics
-type: page
+type: blog
+author: Nathan Braun
+description: test blog post on root page
+image: images/article-covers/hello.jpg
+published: "2019-09-21"
 ---
 
 # The Three Languages of Politics
@@ -164,7 +168,7 @@ In a follow up edition, Kling toyed with adding what he called a bobo/anti
 bobo axis.
 
 Bobo is an idea from the NYT columnist David Brooks 2000 book [Bobos in
-Paradise](https://www.amazon.com/dp/B00BORKAW6/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1),
+Paradise](https://www.amazon.com/dp/B00BORKAW6/),
 which (in my understanding, I've never read the it) is basically the
 cosmopolitan/elite/smug/"believe science" vs the backlash/anti-smug/troll/"the
 CDC originally said not to wear masks" axis.
@@ -193,7 +197,7 @@ oppression.
 
 For example: take the underrepresentation of women in tech. If everyone is
 a [Blank
-Slate](https://www.amazon.com/dp/B000QCTNIM/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1), the fact there are fewer women in tech 
+Slate](https://www.amazon.com/dp/B000QCTNIM/), the fact there are fewer women in tech 
 might be due to oppression.
 
 But if — on *average* (individuals are all over the place, which is good!) —
