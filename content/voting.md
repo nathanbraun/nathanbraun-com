@@ -1,7 +1,11 @@
 ---
-title: Quadratic Voting App — Nathan Braun
-type: page
+title: Quadratic Voting App
+type: blog
+description: Writeup of Quadratic Voting App project.
+published: "2020-08-05"
 ---
+
+
 
 # Vote Squared - Quadratic Voting App
 

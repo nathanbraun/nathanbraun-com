@@ -1,6 +1,8 @@
 ---
-title: BP Oil Spill — Nathan Braun
-type: page
+title: BP Oil Spill 
+type: blog
+description: My role calculating damages due to the BP oil spill
+published: "2020-08-12"
 ---
 
 # BP Oil Spill

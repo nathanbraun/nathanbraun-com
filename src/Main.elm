@@ -306,8 +306,8 @@ head metadata =
                         { canonicalUrlOverride = Nothing
                         , siteName = "Nathan Braun's Homepage"
                         , image =
-                            { url = meta.image
-                            , alt = meta.description
+                            { url = images.nIcon
+                            , alt = "N"
                             , dimensions = Nothing
                             , mimeType = Nothing
                             }

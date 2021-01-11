@@ -1,6 +1,8 @@
 ---
 title: Teaching Kids About Randomness
-type: page
+type: blog
+description: A game my 4 year old and I liked.
+published: "2020-10-21"
 ---
 
 # Teaching Little Kids About Randomness

@@ -1,6 +1,8 @@
 ---
-title: Notes on Principles by Ray Dalio — Nathan Braun
-type: page
+title: Notes on Principles by Ray Dalio
+type: blog
+description: Notes on Principles by Ray Dalio
+published: "2020-08-18"
 ---
 
 # Notes on Principles by Ray Dalio

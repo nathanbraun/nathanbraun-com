@@ -6,6 +6,7 @@ type: page
 # Nathan Braun
 
 - Email: [nate@nathanbraun.com](mailto:nate@nathanbraun.com)
+- RSS: [nathanbraun.com/feed.xml](https://nathanbraun.com/feed.xml)
 - Twitter: [@nathanbraun](https://twitter.com/nathanbraun)
 - Github: [@nathanbraun](https://github.com/nathanbraun)
 - Goodreads: [@nathanbraun](https://goodreads.com/nathanbraun)
