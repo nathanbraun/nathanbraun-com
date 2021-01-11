@@ -19,7 +19,6 @@ views on almost any issue.
 
 Many issues span all three axes. Illegal immigration is typical example.
 
-## Illegal Immigration
 **Progressives** view immigrants as oppressed by unjust immigration laws, border
 patrol agents, ICE, etc. They're more likely to pay attention to kids in cages
 or stories about fully assimilated DREAMERs excelling in school at risk of
@@ -42,7 +41,7 @@ They'd pay more attention to stories of hardworking immigrations who came up
 from nothing (conservatives also appreciate this narrative) who are driving an
 Uber to earn money to send back to their families.
 
-## Other Examples
+### Other Examples
 Other examples of issues that pretty clearly span all three axes (see if you
 can mentally make the argument for each axis):
 
@@ -56,7 +55,7 @@ can mentally make the argument for each axis):
 If I were a middle or high school civics teacher, I'd make students analyze
 issues in terms of the axes all day long.
 
-## Some issues are fights between two axes
+### Some issues are fights between two axes
 Many issues have three distinct axes based arguments. But often an issue (or
 a fight about them) will be between two of the three camps. Take Columbus day.
 
@@ -71,7 +70,7 @@ symbolic tipping point to modern America, civilization, progress, etc.
 This particular issue doesn't seem to fit that well on the **libertarian** axis.
 Maybe libertarians are against state holidays generally?
 
-## Axes aren't always equal
+### Axes aren't always equal
 On some issues, a dominant axis may emerge, where most people find themselves
 on a certain axis, even if they don't usually frame issues this way.
 
@@ -95,26 +94,26 @@ of viewing contentious issues through the various lenses, here are some
 miscellaneous thoughts and open questions.
 
 ### 1. It's not that people are just on different axes, they often take issue with the "good" ends of other axes
-Each axis has its good end, i.e. freedom, civilization, non-oppression (it's
-debatable whether the progressive axis has a "good" end or whether they're just
-anti-oppression).
+Each axis has its good end, i.e. freedom, civilization, non-oppression (OK,
+it's debatable whether the progressive axis has a "good" end or whether they're
+just anti-oppression).
 
-To me, it seems like thinking primarily on an axis means you tend to discount
-whether the good end of the other axes are worth pursuing. I think helps
-explain certain behavior, and makes the model even more useful.
+It seems like thinking primarily on an axis means you tend to discount whether
+the good end of the other axes are worth pursuing. I think helps explain
+certain behavior, and makes the model even more useful.
 
 For example, **conservatives care about civilization**.
 
-Do progressives? It's debatable. I think any anti-civilization feelings are
-particularly on the left come up especially within the environmental movement
-and the left's romanticized views on pre-colonial, indigenous societies.
-Progressives also tended to end up pro covid lockdown
+Do progressives? Debatable. I think anti-civilization feelings on the left are
+often related to the environmental movement, as well as the left's romanticized
+views on pre-colonial, indigenous societies.
+
+Maybe a stretch: are lukewarm feelings towards civilization why progressives
+tended to favor pro lockdown responses to covid?
 
 Do libertarians care about civilization? Perhaps more than progressives, but
-not always. For example, many libertarians argue immigrants should be let in on
-principle, even if it puts some of the freedom/market aspects of western
-culture at risk
-
+not always. For example, many libertarians advocate open borders principle,
+even if it puts some of the freedom/market aspects of western culture at risk.
 **Libertarians care about freedom.**
 
 Do progressives value freedom? There is obvious
@@ -123,9 +122,9 @@ Do progressives value freedom? There is obvious
 But even at the margin, are progressives in favor of people being free to spend
 their money (or hire, or eat, or wear) on what they want, or less?
 
-What about conservatives? Again, sort of, but in many ways no. See the NSA,
-Patriot Act, Snowden as traitor, drug war, historical opposition to gay
-marriage, etc.
+What about conservatives? Again, probably more so than progressives, but in
+many ways no. See the NSA, Patriot Act, Snowden as traitor, drug war,
+historical opposition to gay marriage, etc.
 
 **Progressives care about stopping oppression.**
 
@@ -137,11 +136,11 @@ For example, conservatives point out that when you control for violent crime
 rates, it doesn't appear minorities are systematically more likely to be shot
 by police than whites.
 
-I think libertarians would generally agree (though in that specific example
-libertarians would say police in general are way too militarized and
-powerful). They also have more a of a freedom bent, and are hesitant to call
-anything the result of voluntary transactions oppression. "yeah, working in
-a sweat shop would suck, but these workers technically have a choice".
+I think libertarians generally agree (though on this issue, many would also
+point out police too militarized and powerful).  They also have more a of a
+freedom bent, and are hesitant to call anything the result of voluntary
+transactions oppression. "yeah, working in a sweat shop would suck, but these
+workers technically have a choice".
 
 ### 2. Is this just the way people communicate, or is it something more?
 Kling is careful to say he's talking about *communicating* about political
@@ -182,10 +181,10 @@ comes to racial, sexual and gender identities) that it always reminds me (not
 sure if this is weird or not) of *allergies*.
 
 Allergies are caused by your body's immune system reacting too strongly to
-things that are really not that big of a deal. In the same way, I think the
-left's hyper sensitivity to any sort of (real or percieved) identity-based
-oppression is causing some real dysfunction, both within the left itself and
-in society at large.
+things that are really not that big of a deal. Similarly, I think the left's
+hyper sensitivity to any sort of (real or percieved) identity-based oppression
+is causing real dysfunction, both within the left itself and in society at
+large.
 
 ### 5. Many of today's ideological fault lines seem to be about nature vs nurture, how does this fit in?
 

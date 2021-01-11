@@ -69,7 +69,7 @@ metadataToRssItem page =
                     , categories = []
                     , author = article.author.name
                     , pubDate = Rss.Date article.published
-                    , content = Nothing
+                    , content = Just page.body
                     }
 
         _ ->

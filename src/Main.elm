@@ -27,6 +27,7 @@ import Pages.PagePath as PagePath exposing (PagePath)
 import Pages.Platform
 import Pages.StaticHttp as StaticHttp
 import Palette
+import PodcastFeed
 import Render exposing (elmUiRenderer)
 
 
@@ -43,6 +44,7 @@ manifest =
     , startUrl = pages.index
     , shortName = Nothing
     , sourceIcon = images.nIcon
+    , icons = []
     }
 
 
@@ -50,20 +52,23 @@ type alias Rendered =
     Element Msg
 
 
-main : Pages.Platform.Program Model Msg Metadata Rendered
+main : Pages.Platform.Program Model Msg Metadata Rendered Pages.PathKey
 main =
     Pages.Platform.init
-        { init = init
+        { init = \_ -> init
         , view = view
         , update = update
         , subscriptions = subscriptions
         , documents = [ markdownDocument ]
         , manifest = manifest
         , canonicalSiteUrl = canonicalSiteUrl
-        , onPageChange = Just UrlChange
+
+        -- , onPageChange = Just UrlChange
+        , onPageChange = Nothing
         , internals = Pages.internals
         }
         |> Pages.Platform.withFileGenerator generateFiles
+        |> Pages.Platform.withFileGenerator PodcastFeed.generate
         |> Pages.Platform.toProgram
 
 
@@ -147,18 +152,23 @@ type alias Url =
     }
 
 
-init : Maybe Url -> ( Model, Cmd Msg )
-init maybeUrl =
-    case maybeUrl of
-        Nothing ->
-            ( Model, Cmd.none )
+init : ( Model, Cmd Msg )
+init =
+    ( Model, Cmd.none )
 
-        Just url ->
-            ( Model
-            , url.path
-                |> PagePath.toString
-                |> Analytics.trackPageNavigation
-            )
+
+
+-- init : Maybe Url -> ( Model, Cmd Msg )
+-- init maybeUrl =
+--     case maybeUrl of
+--         Nothing ->
+--             ( Model, Cmd.none )
+--         Just url ->
+--             ( Model
+--             , url.path
+--                 |> PagePath.toString
+--                 |> Analytics.trackPageNavigation
+--             )
 
 
 type Msg
@@ -185,8 +195,11 @@ update msg model =
             )
 
 
-subscriptions : Model -> Sub Msg
-subscriptions _ =
+
+-- subscriptions : Model -> Sub Msg
+
+
+subscriptions _ _ _ =
     Sub.none
 
 

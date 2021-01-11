@@ -30,7 +30,7 @@ quadratic voting does it one better by allowing people to vote not only on
 their rank order of preference (Amash, Biden, Trump) but also the intensity of
 that rank (super high, meh, none).
 
-It also penalizes extreme, inflexible preferences but giving you less votes
+It also penalizes extreme, inflexible preferences by giving you less votes
 overall.
 
 ## votesquared.com
@@ -54,8 +54,8 @@ My first vote for apple costs **$1**, after which I have **$24** left to use on 
 pear, grape or more votes for apple.
 
 From there, I can spend another **$1** on my first vote for one of the other
-fruits, or **$3** for my second vote for apple. A third vote for apple costs an
-additional **$5**.
+fruits, or **$3** for my second vote for apple. If I did that then a third vote
+for apple would cost an additional **$5**.
 
 The total cost for n votes on any particular option ends up being n^2. With
 a budget of **$25**, that means the most you can cast at most 5 votes for any
