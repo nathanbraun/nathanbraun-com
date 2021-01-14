@@ -128,8 +128,8 @@ put some of the freedom/market aspects of western culture at risk.
 [obvious](https://en.wikipedia.org/wiki/Communism),
 [historical](https://en.wikipedia.org/wiki/Socialism) evidence that
 progressives don't value freedom that highly. But even today, at the margin
-— are progressives in favor of individuals being free to spend their money (or
-hire, or eat, or wear) on what they want, or less?
+— are progressives in favor of individuals being free to spend their money on
+(or hire, or eat, or wear) what they want, or less?
 
 *Conservatives and freedom.* Again, conservatives probably care more about
 freedom than than progressives, but they're definitely willing to make it take
@@ -146,10 +146,10 @@ when you control for violent crime rates, it doesn't appear minorities are
 systematically more likely to be shot by police than whites.
 
 *Libertarians and oppression.* I think libertarians would generally agree
-(though on this issue, many would also point out police too militarized and
+(though on this issue, many would also say police are too militarized and
 powerful). They also have more of a freedom bent, and are hesitant to call
-anything the result of voluntary transactions oppression. "Yeah, working in
-a sweat shop would suck, but these workers technically have a choice".
+anything the result of voluntary transactions oppression. "Yeah, working in a
+sweat shop would suck, but these workers technically have a choice".
 
 While we're on the subject of police shootings, an aside: the dueling
 progressive-conservative slogans, "black lives matter" vs police as the "thin
