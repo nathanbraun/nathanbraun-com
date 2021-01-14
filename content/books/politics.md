@@ -119,7 +119,7 @@ in tendencies to romanticize pre-colonial, indigenous societies.
 
 *Libertarians and civilization.* I would say libertarians appreciate
 civilization more than progressives, but not as much as conservatives.
-Example: many libertarians advocate open borders principle, even if it might
+Example: many libertarians advocate open borders on principle, even if it might
 put some of the freedom/market aspects of western culture at risk.
 
 **Libertarians care about freedom.** Do progressives and conservatives?
@@ -225,8 +225,8 @@ swamp differences *between* groups. It also doesn't preclude oppression.
 Caplan's [theory](https://www.econlib.org/archives/2015/10/my_simplistic_t.html):
 the left hates markets, the right hates the left.
 
-While possibly somewhat tongue in cheek, these models do attempt to explain
-similar things.
+While possibly tongue in cheek, these models do attempt to explain similar
+things.
 
 ### 7. Where do conspiracy theories fit?
 
