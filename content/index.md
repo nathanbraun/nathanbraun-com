@@ -1,4 +1,4 @@
----
+--
 title: Nathan Braun
 type: page
 ---
@@ -9,7 +9,7 @@ type: page
 - RSS: [nathanbraun.com/feed.xml](https://nathanbraun.com/feed.xml)
 - Twitter: [@nathanbraun](https://twitter.com/nathanbraun)
 - Github: [@nathanbraun](https://github.com/nathanbraun)
-- Goodreads: [@nathanbraun](https://goodreads.com/nathanbraun)
+- Goodreads: [@nathanbraun](https://www.goodreads.com/review/list/150191)
 
 I am a programmer, data scientist and author.
 
