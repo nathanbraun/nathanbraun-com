@@ -56,16 +56,16 @@ type alias Rendered =
 main : Pages.Platform.Program Model Msg Metadata Rendered Pages.PathKey
 main =
     Pages.Platform.init
-        { init = \_ -> init
+        { init = init
         , view = view
         , update = update
         , subscriptions = subscriptions
         , documents = [ markdownDocument ]
         , manifest = manifest
         , canonicalSiteUrl = canonicalSiteUrl
+        , onPageChange = Just UrlChange
 
-        -- , onPageChange = Just UrlChange
-        , onPageChange = Nothing
+        -- , onPageChange = Nothing
         , internals = Pages.internals
         }
         |> Pages.Platform.withFileGenerator generateFiles
@@ -153,27 +153,36 @@ type alias Url =
     }
 
 
-init : ( Model, Cmd Msg )
-init =
-    ( Model, Cmd.none )
+type alias UrlPlus =
+    { path : PagePath Pages.PathKey
+    , query : Maybe String
+    , fragment : Maybe String
+    , metadata : Metadata
+    }
 
 
 
--- init : Maybe Url -> ( Model, Cmd Msg )
--- init maybeUrl =
---     case maybeUrl of
---         Nothing ->
---             ( Model, Cmd.none )
---         Just url ->
---             ( Model
---             , url.path
---                 |> PagePath.toString
---                 |> Analytics.trackPageNavigation
---             )
+-- init : ( Model, Cmd Msg )
+-- init =
+--     ( Model, Cmd.none )
+
+
+init : Maybe { path : Url, metadata : metadata } -> ( Model, Cmd Msg )
+init maybeUrl =
+    case maybeUrl of
+        Nothing ->
+            ( Model, Cmd.none )
+
+        Just url ->
+            ( Model
+            , url.path.path
+                |> PagePath.toString
+                |> Analytics.trackPageNavigation
+            )
 
 
 type Msg
-    = UrlChange Url
+    = UrlChange UrlPlus
 
 
 update : Msg -> Model -> ( Model, Cmd Msg )
