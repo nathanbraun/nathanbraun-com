@@ -18,7 +18,7 @@ const { Elm } = require("./src/Main.elm");
 const pagesInit = require("elm-pages");
 
 const trackPage = function(gtag, url) {
-  gtag("event", 'page_view', {'path_path': url});
+  gtag("event", 'page_view', {'page_path': url});
 };
 
 pagesInit({

@@ -201,7 +201,8 @@ update msg model =
                         rawUrlString
             in
             ( model
-            , Analytics.trackPageNavigation <| urlString
+            , rawUrlString
+                |> Analytics.trackPageNavigation
             )
 
 
