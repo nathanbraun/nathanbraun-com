@@ -139,6 +139,14 @@ elmUiRenderer =
                     Element.column [ Font.size 56 ] (Element.text name :: children)
                 )
                 |> Markdown.Html.withAttribute "name"
+            , Markdown.Html.tag "ul"
+                (\children ->
+                    Element.row [ Font.underline ] children
+                )
+            , Markdown.Html.tag "strike"
+                (\children ->
+                    Element.row [ Font.strike ] children
+                )
             , Markdown.Html.tag "custom-image2"
                 (\src1 alt1 src2 alt2 width children ->
                     Element.wrappedRow

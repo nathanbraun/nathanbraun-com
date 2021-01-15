@@ -67,9 +67,9 @@ the same way).
 So I bulleted out the whole book, then rewrote it as prose.
 
 ### Ray Dalio and Navigating Levels
-I really like Ray Dalio's book [Principles](principles), and I often thought about the part
-in his book on navigating levels while writing and bullet pointing everything
-out.
+I really like Ray Dalio's book [Principles](books/principles), and I often
+thought about the part in his book on navigating levels while writing and
+bullet pointing everything out.
 
   > *Reality exists at different levels and each of them gives you different
   but valuable perspectives. ... We are constantly seeing things at different
@@ -97,8 +97,7 @@ probably made the book better and has a lot to do with how the book has been
 received.
 
 ## Format and Delivery
-I released the book an en ebook (pdf, code, datasets, Anki cards) on
-[Gumroad](https://gumroad.com/l/VvjqSj), which I've generally been happy with.
+I released the book an en ebook (pdf, code, datasets, Anki cards) on <strike>Gumroad</strike> (update: I've moved to SendOwl), which I've generally been happy with.  
 
 It's really meant to be coded along with, and I think a pdf format is the best
 way to do that.
@@ -122,9 +121,9 @@ material. So recently I went back and added more than 100 problems with full
 solutions (most of them code).
 
 ## Future Plans
-I think there are people in other sports who would appreciate a similar book,
-and I'm working on a baseball (to be followed potentially by basketball and
-soccer) version now.
+I think there are people in other sports who would appreciate a similar book.
+I've released a [baseball](https://codebaseball.com) version and may do other
+sports depending on interest.
 
 I also think the material may be good enough as a general purpose (non sports
 related) introduction to Python, Pandas and general data science practices.
