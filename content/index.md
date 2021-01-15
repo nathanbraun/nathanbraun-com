@@ -24,6 +24,11 @@ I am currently:
 
 Last updated: **2020-11-03**
 
+## Projects
+- [Vim For Everyone](vim), a site extolling the virtues of Vim for non-coders (2021).
+- [Vote Squared](voting), a quadratic polling app (2020-present).
+- [Scramble Tracker](scramble), track whose shots you used during a golf scramble (2020-present)
+
 ## Fantasy & Sports Analytics Projects
 - [Learn to Code with Baseball](baseball), baseball version of [LTCWFF](ltcwff) (2020-present)
 - [Intermediate Coding with Fantasy Football](intermediate), project-based follow up [LTCWFF](ltcwff) (2020)
@@ -36,10 +41,6 @@ Last updated: **2020-11-03**
 ## Environmental Economics Projects
 - [On Differences in Permit Prices in the EU Carbon Market](eu-carbon-market), MS thesis (2011)
 - [BP Oil Spill](oil-spill), on which I worked quantifying economic impacts (2011-2015)
-
-## Other Projects
-- [Vote Squared](voting), a quadratic polling app (2020-present).
-- [Scramble Tracker](scramble), track whose shots you used during a golf scramble (2020-present)
 
 ## Misc Notes
 ### Book Notes
