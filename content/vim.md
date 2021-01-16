@@ -29,11 +29,12 @@ Vim out.
 
 ## Motivation
 I've been using Vim for about 10 years. Initially, it was for code, but within
-a few months couldn't handle typing in anything else (too slow) and was using
-it to take and manage all my notes (notes on meetings, plan my days, etc).
+a few months I found handle in anything else too slow and frustrating and so
+was using Vim to take and manage all my notes (on meetings, plan my days,
+etc).
 
-I was inspired to create [Vim For Everyone](https://vimforeveryone.com) by
-reading recently about other personal note taking tools — Roam, Notion,
+I was inspired to create [Vim For Everyone](https://vimforeveryone.com) after
+hearing a lot recently about other personal note taking tools — Roam, Notion,
 Workflowy, Evernote etc. After it looking into them, it was quickly apparent
 that (at least for me) they weren't going match the setup I had in Vim.
 
