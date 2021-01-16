@@ -29,9 +29,8 @@ Vim out.
 
 ## Motivation
 I've been using Vim for about 10 years. Initially, it was for code, but within
-a few months I found handle in anything else too slow and frustrating and so
-was using Vim to take and manage all my notes (on meetings, plan my days,
-etc).
+a few months I found everything else too slow and frustrating and so was using
+Vim to take and manage all my notes (on meetings, plan my days, etc).
 
 I was inspired to create [Vim For Everyone](https://vimforeveryone.com) after
 hearing a lot recently about other personal note taking tools — Roam, Notion,
