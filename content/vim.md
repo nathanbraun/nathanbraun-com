@@ -21,10 +21,10 @@ The main motivation to use Vim is speed. Going from hunting and pecking to
 regular touch typing is big jump. Going from regular typing to Vim is
 a similar jump.
 
-I'll save the evangelizing for actual the site, but suffice to say if you're
-interested in taking notes on, and consuming and making connections between
-information — and you like keyboard shortcuts — you should definitely check
-out Vim.
+I'll save the evangelizing for the site, but suffice to say if you're
+interested in taking notes on, and ingesting and making connections between
+information — and you like keyboard shortcuts — you should definitely check out
+Vim.
 
 ## Motivation
 I've been using Vim for about 10 years. Initially, it was for code, but within
@@ -58,7 +58,6 @@ thoughts at some point.
 
 ## Bottom Line
 Here's how useful the non-coding, note-taking aspects of Vim has been for me:
-if [Vim For Everyone](https://vimforeveryone) gets a few people that never
-would have heard of it otherwise to try Vim, and a handful of them get as much
-use out of it as I do, I could see this site being the most valuable thing
-I've done to date.
+if [Vim For Everyone](https://vimforeveryone) gets a few new people to try
+Vim, and a handful of them get as much out of it as I do, it'd probably be the
+most valuable thing I've built to date.
