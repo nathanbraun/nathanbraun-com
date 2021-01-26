@@ -52,6 +52,7 @@ Last updated: **2020-11-03**
 - [Teaching Little Kids About Randomness](parenting/randomness), notes on a game my 4 year old and I liked 
 ### Other
 - [Quotes](quotes)
+- Notes on Patri Friedman's [Advice Experience Hierchy](advice)
 
 ## Get in touch!
 My email is [nate@nathanbraun.com](mailto:nate@nathanbraun.com).
