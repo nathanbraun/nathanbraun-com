@@ -53,6 +53,7 @@ Last updated: **2020-11-03**
 ### Other
 - [Quotes](quotes)
 - Notes on Patri Friedman's [Advice Experience Hierchy](advice)
+- A simple explanation of the [Monty Hall Problem](monty-hall)
 
 ## Get in touch!
 My email is [nate@nathanbraun.com](mailto:nate@nathanbraun.com).

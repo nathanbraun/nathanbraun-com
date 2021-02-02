@@ -30,8 +30,7 @@ I agree with Friedman that usefulness follows a power law up the hierarchy:
 
 > "Advice that has worked for someone long-term is easily 10x or 100x more
 > valuable than 1, 2, 3, 4, 5. And advice based on a large cross-section of
-> people is easily 10x or 100x more valuable than one person's experience. -
-> Patri Friedman
+> people is easily 10x or 100x more valuable than one person's experience."
 
 Since hearing about this, I've tried to move away from handing out advice and
 recommendations that are less than 6, or at least adding a caveat if I do
@@ -44,7 +43,7 @@ they'd be at least a 6 on the advice experience hierarchy.
 
 - [Vim](vim) (probably a 7).
 - Reading every night before I fall asleep.
-- Chopping up big container of vegetables in advance for each day of the week.
+- On weekends, chopping up big container of vegetables for each day of the week.
 - Lifting weights, playing pickup basketball for cardiovascular exercise in lieu of jogging.
 
 ## Examples of Level 9 Advice
@@ -52,6 +51,7 @@ Because advice gets scarcer as you move up the hierarchy, I'd also be
 interested in collecting examples of type 9 advice.
 
 For example:
+- [Teach Your Child to Read in 100 Easy Lessons](https://www.amazon.com/Teach-Your-Child-Read-Lessons/dp/0671631985/)
 - [80,000 Hours Career Guide](https://80000hours.org/career-guide/)
 - People like [Paul Graham](http://www.paulgraham.com/articles.html) for building VC backed startups or [Rob Walling](https://robwalling.com/blog/) for the bootstrapped small scale versions.
 

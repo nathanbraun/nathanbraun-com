@@ -56,11 +56,3 @@ you voice your praise."
   would be audible. Our hearing really could not get any better.”"
 
 \- *Bill Bryson, The Body*
-
----
-"It was their good fortune, or else their misery, to belong to a generation in
-which every individual would be given a chance to discover and expose his
-worth, down to the final ounce of strength and nerve."
-
-\- *Shelby Foote, The Civil War*
-
