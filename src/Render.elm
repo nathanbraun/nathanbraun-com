@@ -101,7 +101,9 @@ elmUiRenderer =
                                                 , Element.paddingXY 10 0
                                                 , Element.alignTop
                                                 ]
-                                                (Element.text "•")
+                                                (Element.text "⁃")
+                                      -- (Element.text "•")
+                                      -- (Element.text "◦")
                                      )
                                         :: Element.text " "
                                         :: [ Element.paragraph [ Element.spacing 8 ] children ]
