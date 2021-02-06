@@ -5,24 +5,17 @@ type: page
 
 # Nathan Braun
 
+I am a programmer, data scientist and author. My book, [Learn to Code with
+Fantasy Football](https://fantasycoding.com) is out now. There's also
+a [baseball](https://codebaseball.com) version.
+
+An RSS feed of this site is available
+[here](https://nathanbraun.com/feed.xml). Other places to find me:
+
 - Email: [nate@nathanbraun.com](mailto:nate@nathanbraun.com)
-- RSS: [nathanbraun.com/feed.xml](https://nathanbraun.com/feed.xml)
 - Twitter: [@nathanbraun](https://twitter.com/nathanbraun)
 - Github: [@nathanbraun](https://github.com/nathanbraun)
 - Goodreads: [@nathanbraun](https://www.goodreads.com/review/list/150191)
-
-I am a programmer, data scientist and author.
-
-My book, [Learn to Code with Fantasy Football](https://fantasycoding.com) is
-out now. I also just published a [baseball](https://codebaseball.com) version.
-
-## What I'm doing now
-I am currently:
-
-- wrapping up few loose ends related to [Learn to Code with Baseball](https://codebaseball.com)
-- on part-time paternity leave (welcome Fiona!)
-
-Last updated: **2020-11-03**
 
 ## Projects
 - [Vim For Everyone](vim), a site extolling the virtues of Vim for non-coders (2021).
@@ -42,20 +35,15 @@ Last updated: **2020-11-03**
 - [On Differences in Permit Prices in the EU Carbon Market](eu-carbon-market), MS thesis (2011)
 - [BP Oil Spill](oil-spill), on which I worked quantifying economic impacts (2011-2015)
 
-## Misc Notes
-### Book Notes
+## Book Notes
 - [Principles](books/principles), notes on Principles by Ray Dalio
 - [Deep Work](books/deepwork), notes on Deep Work by Cal Newport
 - [Three Languages of Politics](books/politics), notes on the book by Arnold Kling
 
-### Parenting
+## Parenting Notes
 - [Teaching Little Kids About Randomness](parenting/randomness), notes on a game my 4 year old and I liked 
-### Other
+
+## Other
 - [Quotes](quotes)
 - Notes on Patri Friedman's [Advice Experience Hierchy](advice)
 - A simple explanation of the [Monty Hall Problem](monty-hall)
-
-## Get in touch!
-My email is [nate@nathanbraun.com](mailto:nate@nathanbraun.com).
-
-If you're in the Milwaukee area, feel free to reach out and we can meet up in person.
