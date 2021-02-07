@@ -38,3 +38,10 @@ quiet hiss. The fact that it spawned such plentitude is a miracle..."
 
 \- *Ted Chiang, Exhalation*
 
+---
+"My financial advisor told me about a client who became very wealthy in tech.
+They owned several homes, married and had children, traveled all over the
+world, and bought expensive things. When asked what made them happiest, they
+replied, 'Sitting in a quiet room writing code.'"
+
+\- *Leah Culver*

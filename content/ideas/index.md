@@ -43,15 +43,15 @@ etc.
 
 I've used Beeminder and mostly like it, but have a [few
 issues](ideas/beeminder) (some with Beeminder, one with human nature) that
-make me think the following could be a good idea: 
+make me think the following could be a good idea.
+
 A Beeminder type like service that:
 - only looks at digital distraction type goals (limited time on Instagram, not using phone after 7 pm)
 - costs a flat monthly fee
 - donates all punishment dollars to charity
 
 In theory, Beeminder can already do this (among other things), it just costs
-$40 a month + keeps half of any penalties you pay (vs donating them to
-charity).
+$40 a month + keeps half of any penalties you pay.
 
 ## Tooling
 ---
