@@ -97,6 +97,48 @@ and harder (and with less and less sleep) in my role as "worker me". My first
 project made more than 20% of my old salary, and now I'm working on my things
 full time.
 
+# General Notes & Questions
+*See full notes below for more info/summary.*
+
+What to do when you don't have the type of access to experts etc Dalio is
+talking about?
+
+It's one thing for Ray Dalio, who can talk to Bill Gates or the Dali Lama, but
+what am I believable at and what believable people do I have access to?
+
+### Connections between chapters?
+Navigating levels principle (5.4) sort of ironic, because (though principles
+are all good) sort of feels like we're jumping levels here, particularly from
+chapter to chapter.
+
+One possibility: starts with 1 (embrace reality and deal with it) by (going
+one level lower) doing 2 (5 step process).
+
+Then chapters 3-5 (open-mindedness, wired, decisions) are a way to do 2 (the
+five step process) better.
+
+### Themes
+Could potentially reorganize around themes, for example:
+- higher vs lower level you
+- embracing reality
+- you are designer and worker in your machine
+- open minded/pain as training
+- believability
+- navigating levels and synthesizing
+
+### Favorites
+My favorite principles/concepts:
+- look at your machine from a higher level (1.10)
+- being realistic about your own weaknesses (1.10)
+- higher level vs lower level you (3.1, 4, 5.1) and habits (4)
+- navigating levels (5.4)
+- seek out pain to grow (1.7) and id and don't tolerate problems (2.2)
+- designing plans with timelines and metrics (2.4)
+
+Not as new to me personally but def critical:
+- own your outcomes (1.9)
+- decisions as EV calculations (5.6)
+
 # Full Notes
 Full notes start here.
 
@@ -792,43 +834,3 @@ simulations.
 
 Not super practical, prob more relevant for investment (and maybe fantasy
 football if you have a [sweet model](fantasymath)) decisions.
-
-## General Notes & Questions
-What to do when you don't have the type of access to experts etc Dalio is
-talking about?
-
-It's one thing for Ray Dalio, who can talk to Bill Gates or the Dali Lama, but
-what am I believable at and what believable people do I have access to?
-
-### Connections between chapters?
-Navigating levels principle (5.4) sort of ironic, because (though principles
-are all good) sort of feels like we're jumping levels here, particularly from
-chapter to chapter.
-
-One possibility: starts with 1 (embrace reality and deal with it) by (going
-one level lower) doing 2 (5 step process).
-
-Then chapters 3-5 (open-mindedness, wired, decisions) are a way to do 2 (the
-five step process) better.
-
-### Themes
-Could potentially reorganize around themes, for example:
-- higher vs lower level you
-- embracing reality
-- you are designer and worker in your machine
-- open minded/pain as training
-- believability
-- navigating levels and synthesizing
-
-### Favorites
-My favorite principles/concepts:
-- look at your machine from a higher level (1.10)
-- being realistic about your own weaknesses (1.10)
-- higher level vs lower level you (3.1, 4, 5.1) and habits (4)
-- navigating levels (5.4)
-- seek out pain to grow (1.7) and id and don't tolerate problems (2.2)
-- designing plans with timelines and metrics (2.4)
-
-Not as new to me personally but def critical:
-- own your outcomes (1.9)
-- decisions as EV calculations (5.6)
