@@ -17,6 +17,8 @@ An RSS feed of this site is available
 - Github: [@nathanbraun](https://github.com/nathanbraun)
 - Goodreads: [@nathanbraun](https://www.goodreads.com/review/list/150191)
 
+Here is a list of [open ideas](ideas).
+
 ## Projects
 - [Vim For Everyone](vim), a site extolling the virtues of Vim for non-coders (2021).
 - [Vote Squared](voting), a quadratic polling app (2020-present).

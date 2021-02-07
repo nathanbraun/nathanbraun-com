@@ -13,6 +13,7 @@ import Pages.Directory as Directory exposing (Directory)
 import Pages.ImagePath as ImagePath
 import Pages.PagePath as PagePath exposing (PagePath)
 import Palette
+import String.Extra exposing (toTitleCase)
 
 
 view :
@@ -59,18 +60,32 @@ header currentPath =
             , Element.width Element.fill
             , Element.Region.navigation
             ]
-            (case PagePath.toString currentPath of
-                "" ->
+            (case PagePath.toString currentPath |> String.split "/" of
+                [] ->
                     [ Element.none ]
 
-                _ ->
+                "" :: [] ->
+                    [ Element.none ]
+
+                path :: [] ->
                     [ Element.link []
                         { url = ""
                         , label =
                             Element.paragraph
                                 [ Font.color (Element.rgb255 7 81 219)
                                 ]
-                                [ Element.text "← Back to Nathan's Homepage" ]
+                                [ Element.text "← Home" ]
+                        }
+                    ]
+
+                sub :: other ->
+                    [ Element.link []
+                        { url = sub
+                        , label =
+                            Element.paragraph
+                                [ Font.color (Element.rgb255 7 81 219)
+                                ]
+                                [ Element.text ("← " ++ (sub |> toTitleCase)) ]
                         }
                     ]
             )
@@ -92,6 +107,7 @@ highlightableLink currentPath linkDirectory displayName =
             [ Font.underline
             , Font.color Palette.color.primary
             ]
+
          else
             []
         )
