@@ -20,15 +20,12 @@ the book — ["I wanted to highlight almost every paragraph"](https://sive.rs/bo
 himself at one point recommend.
 
 # Examples
-This book is good, but can give off a bit of a platitude vibe, which turns
-some people off and also makes me feel like a bit of a fanboy talking about
-it.
+This book is good, but can give off a platitude vibe, which turns some people
+off.
 
 So I figured I'd give a few examples of ideas that I've personally found
-useful.
-
-If these seem intriguing, might want to check out the rest of my notes (further
-below) or read the book. If not, might want to pass.
+useful. If these seem intriguing, might want to check out the rest of my notes
+(further below) or read the book.
 
 ## Navigating Levels
 One idea that was useful to me when writing [LTCWFF](ltcwff) was the idea of
@@ -87,26 +84,19 @@ work habits are way underrated), but it's not *as* important.
 This is one of my favorite concepts, one I've found particularly useful.
 
 For example: for a long time, I had been getting up early (and staying up late)
-to hack away on my side projects (which I always hoped would turn into
-something more) but found once we had our second child that that was really
-hard to do.
+to hack away on side projects (which I always hoped would eventually take off)
+but found once we had our second child that that was really hard to do.
 
-So I decided to go down to 80% at my day job to work on my own stuff. I viewed
-this as a "designer level you" move, vs just continuing to hack along harder
-and harder (and with less and less sleep) in my role as "worker me". My first
-project made more than 20% of my old salary, and now I'm working on my things
-full time.
+So I decided to go down to 80% at my day job to spend one day a week working on
+my own stuff. I viewed this as a "designer level you" move, vs just continuing
+to hack along harder and harder (and with less and less sleep) in my role as
+"worker me". My first project made more than 20% of my old salary, and now I'm
+working on my things full time.
 
 # General Notes & Questions
 *See full notes below for more info/summary.*
 
-What to do when you don't have the type of access to experts etc Dalio is
-talking about?
-
-It's one thing for Ray Dalio, who can talk to Bill Gates or the Dali Lama, but
-what am I believable at and what believable people do I have access to?
-
-### Connections between chapters?
+## Connections between chapters?
 Navigating levels principle (5.4) sort of ironic, because (though principles
 are all good) sort of feels like we're jumping levels here, particularly from
 chapter to chapter.
@@ -117,7 +107,7 @@ one level lower) doing 2 (5 step process).
 Then chapters 3-5 (open-mindedness, wired, decisions) are a way to do 2 (the
 five step process) better.
 
-### Themes
+## Themes
 Could potentially reorganize around themes, for example:
 - higher vs lower level you
 - embracing reality
@@ -126,7 +116,7 @@ Could potentially reorganize around themes, for example:
 - believability
 - navigating levels and synthesizing
 
-### Favorites
+## Favorites
 My favorite principles/concepts:
 - look at your machine from a higher level (1.10)
 - being realistic about your own weaknesses (1.10)
@@ -138,6 +128,13 @@ My favorite principles/concepts:
 Not as new to me personally but def critical:
 - own your outcomes (1.9)
 - decisions as EV calculations (5.6)
+
+## Issues
+What to do when you don't have the type of access to experts etc Dalio is
+talking about?
+
+It's one thing for Ray Dalio, who can talk to Bill Gates or the Dali Lama, but
+what am I believable at and what believable people do I have access to?
 
 # Full Notes
 Full notes start here.
