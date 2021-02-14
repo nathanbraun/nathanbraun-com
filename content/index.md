@@ -15,7 +15,7 @@ An RSS feed of this site is available
 - Email: [nate@nathanbraun.com](mailto:nate@nathanbraun.com)
 - Twitter: [@nathanbraun](https://twitter.com/nathanbraun)
 - Github: [@nathanbraun](https://github.com/nathanbraun)
-- Goodreads: [@nathanbraun](https://www.goodreads.com/review/list/150191)
+- Goodreads: [@nathanbraun](https://www.goodreads.com/review/list/150191?order=d&sort=date_added)
 
 Here is a list of [open ideas](ideas).
 
