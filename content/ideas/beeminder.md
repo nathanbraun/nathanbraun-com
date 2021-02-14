@@ -33,30 +33,29 @@ Beeminder keeps the money you pay when you don't reach your goals. On the one
 hand, this is fine: they have cool tracking tools and integrations that aren't
 costless to develop or run. Plus they're friendly, always erring towards not
 charging if your data got messed up, automatically pausing your account if you
-go inactive, and even paying random users when they don't achieve their own
-goals.
+go inactive, and even pay random users when they don't achieve their own goals.
 
 This is fine, but it also leads to clear conflicts of interests. One example:
 say you want to go the gym more, and you know paying $1 or $5 isn't going to
-motivate you. You want pay $20 if you don't go.
+motivate you. You want pay $20 every time you don't go.
 
 Instead of letting you set the penalty at $20, BM requires you first put $5 on
-the line, fail, get charged $5, increase the penalty to $10, fail again, where
-upon it'll increase to $20 and you can start being motivated.
+the line, fail, get charged $5, increase the penalty to $10, and fail again.
+Only then, finally, will your pledge be $20 so you can start being motivated.
 
-At first I missed this and increasing penalty amount was some black box
-algorithm meant to maximize my chances of achieving my goals. Then read the BM
-folks says the reason they do this is because they need to make money on your
+At first I missed this and figured the increasing penalty amount was some black
+box algorithm meant to maximize my chances of achieving my goals. Then I read
+the BM folks says they do this is because they need to make money on your
 smaller, less motivating amounts first.
 
 Another example: [some people](https://blog.beeminder.com/mbork/) are
 motivated enough by BM's long term data tracking features that they enjoy
 using it without putting *any* money on the line. In that case BM *is* helping
 you achieve your goals, but isn't getting any penalty money, so it seems
-reasonable to charge something, however this brings us to the last point,
+reasonable to charge *something*, however this brings us to the last point,
 which is...
 
-## Beeminder is expensive
+## Beeminder is really expensive
 Beeminder is really expensive for what it is, which is a product where you pay
 a monthly fee in order to pay them *more* money when you don't achieve your
 goals.
@@ -70,9 +69,9 @@ putting money on the line) it's **$40 a month** (this option also lets you
 donate half your goal related losses to charity).
 
 While I'm familiar with [Patio11's law of SAAS
-pricing](https://secondbreakfast.co/patio11-s-law), and BM is certainly free
-to charge what they cant, this seems like *way* too much money to me, well
-beyond the market price.
+pricing](https://secondbreakfast.co/patio11-s-law), and BM is free to charge
+what they can, this seems like *way* too much money to me, well beyond the
+market price.
 
 ## Idea
 Hence this idea, a BM type like service that:
