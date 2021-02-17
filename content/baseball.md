@@ -4,7 +4,8 @@ type: page
 ---
 
 # Learn to Code with Baseball
-Learn to Code with Baseball — available at codebaseball.com — is the baseball
+Learn to Code with Baseball — available at
+[codebaseball.com](https://codebaseball.com?utm_source=nathanbraun&utm_content=ltcwbb&utm_medium=organic&utm_campaign=writeup) — is the baseball
 adaptation of [Learn to Code With Fantasy Football](ltcwff).
 
 I wrote it early in 2020, put it down for a while due to Covid, and picked it

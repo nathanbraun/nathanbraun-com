@@ -7,7 +7,7 @@ published: "2020-08-01"
 
 # Learn to Code with Fantasy Football
 Learn to Code with Fantasy Football (LTCWFF) — available at
-[fantasycoding.com](https://fantasycoding.com) — is a book I wrote mostly over
+[fantasycoding.com](https://fantasycoding.com?utm_source=nathanbraun&utm_content=ltcwff&utm_medium=organic&utm_campaign=writeup) — is a book I wrote mostly over
 the Summer of 2019.
 
 It covers Python, Pandas (Python's main data analysis library), SQL, web

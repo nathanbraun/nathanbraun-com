@@ -6,8 +6,8 @@ type: page
 # Nathan Braun
 
 I am a programmer, data scientist and author. My book, [Learn to Code with
-Fantasy Football](https://fantasycoding.com) is out now. I also recently
-published a [baseball](https://codebaseball.com) version.
+Fantasy Football](https://fantasycoding.com?utm_source=nathanbraun&utm_content=home&utm_medium=organic&utm_campaign=writeup) is out now. I also recently
+published a [baseball](https://codebaseball.com?utm_source=nathanbraun&utm_content=home&utm_medium=organic&utm_campaign=writeup) version.
 
 An RSS feed of this site is available
 [here](https://nathanbraun.com/feed.xml). Other places to find me:
