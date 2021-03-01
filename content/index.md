@@ -48,4 +48,5 @@ Here is a list of [open ideas](ideas).
 ## Other
 - [Quotes](quotes)
 - Notes on Patri Friedman's [Advice Experience Hierchy](advice)
+- Notes on Ray Dalio's [Designer vs Worker Level You](designer-vs-worker)
 - A simple explanation of the [Monty Hall Problem](monty-hall)
