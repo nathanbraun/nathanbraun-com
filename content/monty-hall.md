@@ -47,40 +47,15 @@ He's not alone:
 > "I also wrote a simulation script." — [u/Jusque](https://www.reddit.com/r/Bayes/comments/ku100i/the_monty_hall_problem/giqwl50/?utm_source=reddit&utm_medium=web2x&context=3)
 
 ## Simple Explanation
-Here's the clearest way I've found to think about it. You can go into it with
-two strategies:
+Here's the clearest way I've found to think about it.
 
-### Strategy #1: Don't Switch
-Say you go in determined not to switch. No matter what, you're not switching.
-What happens?
+Say you always switch. Now there are two outcomes:
 
-You pick a door. Monty opens another, empty door. This means nothing. No
-matter which door you picked initially (prize or no prize), there's always at
-least one other empty door for Monty to show you (he knows ahead of time
-what's behind everything).
+You originally pick one of the two dud doors (2/3 chance). Then Monty will open
+the *other* dud and so if you switch to the unopened door, you'll win.
 
-So he shows you an empty door. You don't switch. If you happened to have
-guessed the right door initially, you get the prize. 
+You originally pick the prize (1/3 chance). Monty will open one of the two
+duds, you'll switch to the other, unopened dud. You won't win.
 
-*There's a 1/3 chance you win with this strategy.* Fine.
-
-### Strategy #2: Always Switch
-Now say you go into it saying you'll always switch.
-
-What happens? You pick a door, Monty opens another, empty door. Again, no
-matter what you picked originally (prize or no prize), there's always at least
-one empty door for Monty to show you (he knows ahead of time what's behind
-everything).
-
-So shows you an empty door. You switch. What happens?
-
-**Well, if you guessed one of the two empty doors originally (it doesn't matter
-which one), Monty will open the other empty door, and you'll switch to the
-prize.**
-
-Since originally two out of the three doors are empty, *you have a 2/3 of
-winning if you go into it planning on switching.*
-
-The only way you *don't* win is if you pick the prize door originally, then
-Monty opens an empty door, you switch away to the *other* empty door and walk
-away with nothing (or a goat).  There's a 1/3 this happens.
+So: 2/3 of winning if you switch. Don't switch, it all depends on whether you
+pick the prize initially, which you have a 1/3 of doing.
