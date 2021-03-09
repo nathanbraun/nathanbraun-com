@@ -52,10 +52,11 @@ Here's the clearest way I've found to think about it.
 Say you always switch. Now there are two outcomes:
 
 You originally pick one of the two dud doors (2/3 chance). Then Monty will open
-the *other* dud and so if you switch to the unopened door, you'll win.
+the *other* dud (he has to, the only other option is the prize door and he
+can't open that) and so if you switch to the unopened door, you'll win.
 
 You originally pick the prize (1/3 chance). Monty will open one of the two
 duds, you'll switch to the other, unopened dud. You won't win.
 
 So: 2/3 of winning if you switch. Don't switch, it all depends on whether you
-pick the prize initially, which you have a 1/3 of doing.
+pick the prize initially, which you'll do 1/3 of the time.
