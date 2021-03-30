@@ -45,3 +45,9 @@ world, and bought expensive things. When asked what made them happiest, they
 replied, 'Sitting in a quiet room writing code.'"
 
 \- *Leah Culver*
+
+---
+“We are like butterflies who flutter for a day and think it is forever.
+
+\- *Carl Sagan*
+
