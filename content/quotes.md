@@ -7,6 +7,7 @@ type: page
 "I think a life properly lived is just learn, learn, learn all the time."
 
 \- *Charlie Munger*
+
 ---
 > "Markets, property rights, and trade provide a very powerful set of tools
   for coordinating the activities of a multitude of individual actors. But
@@ -26,6 +27,19 @@ type: page
 \- *David Friedman, Future Imperfect*
 
 ---
+"Being around optimistic, motivated, intelligent peers is like intellectual
+rocket fuel."
+\- *Laura Deming, [Advice for Ambitious Teenagers](https://ldeming.posthaven.com/advice-for-ambitious-teenagers)*
+
+---
+"My financial advisor told me about a client who became very wealthy in tech.
+They owned several homes, married and had children, traveled all over the
+world, and bought expensive things. When asked what made them happiest, they
+replied, 'Sitting in a quiet room writing code.'"
+
+\- *Leah Culver*
+
+---
 "Life colonized the energy gradients: plants put themselves between sun and
 stone; animals put themselves between plants and decay. Criminals infiltrated
 casinos like vines on a tree."
@@ -39,15 +53,7 @@ quiet hiss. The fact that it spawned such plentitude is a miracle..."
 \- *Ted Chiang, Exhalation*
 
 ---
-"My financial advisor told me about a client who became very wealthy in tech.
-They owned several homes, married and had children, traveled all over the
-world, and bought expensive things. When asked what made them happiest, they
-replied, 'Sitting in a quiet room writing code.'"
-
-\- *Leah Culver*
-
----
-“We are like butterflies who flutter for a day and think it is forever.
+"We are like butterflies who flutter for a day and think it is forever."
 
 \- *Carl Sagan*
 

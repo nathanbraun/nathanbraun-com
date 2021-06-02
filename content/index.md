@@ -48,7 +48,7 @@ Here is a list of [open ideas](ideas).
 - [Quarantine Backyard Bird List](parenting/quarantine-bird-list), every bird we saw during COVID, 3/20-3/21
 
 ## Other
-- [Quotes](quotes)
+- Some [quotes](quotes) I like.
 - Notes on Patri Friedman's [Advice Experience Hierchy](advice)
 - Notes on Ray Dalio's [Designer vs Worker Level You](designer-vs-worker)
 - A simple explanation of the [Monty Hall Problem](monty-hall)
