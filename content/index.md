@@ -17,8 +17,6 @@ An RSS feed of this site is available
 - Github: [@nathanbraun](https://github.com/nathanbraun)
 - Goodreads: [@nathanbraun](https://www.goodreads.com/review/list/150191?order=d&sort=date_added)
 
-Here is a list of [open ideas](ideas).
-
 ## Projects
 - [Vim For Everyone](vim), a site extolling the virtues of Vim for non-coders (2021).
 - [Vote Squared](voting), a quadratic polling app (2020-present).
@@ -48,6 +46,8 @@ Here is a list of [open ideas](ideas).
 - [Quarantine Backyard Bird List](parenting/quarantine-bird-list), every bird we saw during COVID, 3/20-3/21
 
 ## Other
+- A list of [open ideas](ideas) to work on.
+- A backlog of productivity/self improvement [experiments](experiments) to try.
 - Some [quotes](quotes) I like.
 - Notes on Patri Friedman's [Advice Experience Hierchy](advice)
 - Notes on Ray Dalio's [Designer vs Worker Level You](designer-vs-worker)
