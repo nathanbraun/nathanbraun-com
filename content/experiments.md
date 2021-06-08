@@ -16,16 +16,35 @@ Some of these would work on a week timescale, others would be longer.
 
 ## Backlog
 ### 1. Do a blub study
+Ben Kuhn wrote a [good essay about these ](https://www.benkuhn.net/blub/).
+
+> "Sometimes people ask me what they should learn to become a better
+> programmer...  I always feel a little bit embarrassed and boring when I
+> instead suggest going really deep on what you already know: your main
+> programming language, web framework, object-relational mapper, UI library,
+> version control system, database, Unix tools, etc. It’s not shiny or
+> esoteric, but for me, building a detailed mental model of those (and how they
+> compare to alternatives) might be the learning that’s contributed most to my
+> effectiveness as an engineer." - Ben Kuhn
+
 ### 2. Try the Feynman technique
+Came across this in an [article by Scott Young](https://www.calnewport.com/blog/2012/10/26/mastering-linear-algebra-in-10-days-astounding-experiments-in-ultra-learning/) on Cal Newport's blog.
+
+Could also combine (1) and (2) and do the Feynman technique on a blub studies topic.
+
 ### 3. Try Hemingway's advice to always know what's next
 I came across this in a [writeup by Tyler
 Tringas](https://medium.com/personal-growth/hemingway-on-coding-3cffc43c61e).
-Apparently, Hemingway gave this advice to an aspiring writer.
+Hemingway:
 
 > "The best way is always to stop when you are going good and when you know
 > what will happen next. If you do that every day when you are writing a novel
 > you will never be stuck. That is the most valuable thing I can tell you so
-> try to remember it." — Earnest Hemingway
+> try to remember it."
+
+This would be more of a true experiment (i.e. as opposed to an aspiration).
+Doesn't seem like it'd make *that* big of a difference but if it's Hemingway's
+most valuable advice might be worth trying.
 
 ### 4. Spend regular time in nature
 The other day we had some people working on our house and me and the dog had to
@@ -61,6 +80,7 @@ is Singapore. I'm on book two of LKY's [autobiography](https://www.amazon.com/Th
 - [Authoritarian Rule of Law](https://www.amazon.com/gp/product/B00866GYDW/ref=x_gr_w_glide_sin?caller=Goodreads&callerLink=https%3A%2F%2Fwww.goodreads.com%2Fbook%2Fshow%2F13832316-authoritarian-rule-of-law&tag=x_gr_w_glide_sin-20)
 - [Myth or Magic: the Singapore Health Care System](https://www.goodreads.com/book/show/18401211-myth-or-magic---the-singapore-healthcare-system)
 ### Run with a weighted vest
+Started doing this regularly recently.
 
 ## Past Experiments
 ### Run immediately after dropping kids off at school
