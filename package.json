@@ -17,6 +17,10 @@
   "devDependencies": {
     "elm": "latest-0.19.1",
     "elm-format": "^0.8.2",
-    "http-server": "^0.12.3"
+    "elm-tailwind-modules": "^0.3.2",
+    "html-comment-regex": "^1.1.2",
+    "http-server": "^0.12.3",
+    "postcss": "^8.3.0",
+    "tailwindcss": "^2.1.4"
   }
 }

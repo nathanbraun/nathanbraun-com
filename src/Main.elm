@@ -18,7 +18,7 @@ import Json.Decode
 import Layout
 import Markdown.Block as Block exposing (Block, Inline, ListItem(..), Task(..))
 import Markdown.Parser
-import Markdown.Renderer
+import Markdown.Renderer exposing (defaultHtmlRenderer)
 import Metadata exposing (Metadata)
 import MySitemap
 import Page.Article
@@ -50,7 +50,7 @@ manifest =
 
 
 type alias Rendered =
-    Element Msg
+    Html Msg
 
 
 main : Pages.Platform.Program Model Msg Metadata Rendered Pages.PathKey
@@ -116,7 +116,7 @@ markdownDocument :
     { extension : String
     , metadata :
         Json.Decode.Decoder Metadata
-    , body : String -> Result String (Element msg)
+    , body : String -> Result String (Html msg)
     }
 markdownDocument =
     { extension = "md"
@@ -132,13 +132,15 @@ markdownDocument =
                                 Markdown.Parser.deadEndToString
                             |> String.join "\n"
                     )
-                |> Result.andThen (Markdown.Renderer.render elmUiRenderer)
+                |> Result.andThen (Markdown.Renderer.render defaultHtmlRenderer)
                 |> Result.map
-                    (Element.column
-                        [ Element.width Element.fill
-                        , Element.spacing 20
-                        ]
-                    )
+                    (Html.div [])
+
+    -- (Element.column
+    --     [ Element.width Element.fill
+    --     , Element.spacing 20
+    --     ]
+    -- )
     }
 
 
@@ -239,7 +241,7 @@ pageView :
     -> List ( PagePath Pages.PathKey, Metadata )
     -> { path : PagePath Pages.PathKey, frontmatter : Metadata }
     -> Rendered
-    -> { title : String, body : List (Element Msg) }
+    -> { title : String, body : List (Html Msg) }
 pageView model siteMetadata page viewForPage =
     case page.frontmatter of
         Metadata.Page metadata ->
@@ -253,26 +255,37 @@ pageView model siteMetadata page viewForPage =
             --            ]
             }
 
-        Metadata.Article metadata ->
-            Page.Article.view metadata viewForPage
-
-        Metadata.Author author ->
-            { title = author.name
+        _ ->
+            { title = "nothing"
             , body =
-                [ Palette.blogHeading author.name
-                , Author.view [] author
-                , Element.paragraph [ Element.centerX, Font.center ] [ viewForPage ]
+                [ viewForPage
                 ]
+
+            --        |> Element.textColumn
+            --            [ Element.width Element.fill
+            --            ]
             }
 
-        Metadata.BlogIndex ->
-            { title = "Nathan Braun's Blog"
-            , body =
-                [ Element.column [ Element.padding 20, Element.centerX ]
-                    [ Index.view siteMetadata
-                    ]
-                ]
-            }
+
+
+-- Metadata.Article metadata ->
+--     Page.Article.view metadata viewForPage
+-- Metadata.Author author ->
+--     { title = author.name
+--     , body =
+--         [ Palette.blogHeading author.name
+--         , Author.view [] author
+--         , Element.paragraph [ Element.centerX, Font.center ] [ viewForPage ]
+--         ]
+--     }
+-- Metadata.BlogIndex ->
+--     { title = "Nathan Braun's Blog"
+--     , body =
+--         [ Element.column [ Element.padding 20, Element.centerX ]
+--             [ Index.view siteMetadata
+--             ]
+--         ]
+--     }
 
 
 commonHeadTags : List (Head.Tag Pages.PathKey)

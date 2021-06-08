@@ -1,12 +1,15 @@
 module Layout exposing (view)
 
+-- import Html exposing (Html)
+-- import Html.Styled exposing (div, toUnstyled)
+
 import DocumentSvg
 import Element exposing (Element)
 import Element.Background
 import Element.Border
 import Element.Font as Font
 import Element.Region
-import Html exposing (Html)
+import Html exposing (Html, div)
 import Metadata exposing (Metadata)
 import Pages
 import Pages.Directory as Directory exposing (Directory)
@@ -17,7 +20,7 @@ import String.Extra exposing (toTitleCase)
 
 
 view :
-    { title : String, body : List (Element msg) }
+    { title : String, body : List (Html msg) }
     ->
         { path : PagePath Pages.PathKey
         , frontmatter : Metadata
@@ -26,29 +29,31 @@ view :
 view document page =
     { title = document.title
     , body =
-        Element.column
-            [ Element.width Element.fill
-            , Element.Background.color
-                (Element.rgb255 245 245 245)
-            ]
-            [ Element.column
-                [ Element.paddingXY 30 35
-                , Element.spacing 15
-                , Element.Region.mainContent
-                , Element.width (Element.fill |> Element.maximum 800)
-                , Element.centerX
-                ]
-                (header page.path
-                    :: document.body
-                )
-            ]
-            |> Element.layout
-                [ Element.width Element.fill
-                , Font.size 18
-                , Font.light
-                , Font.family [ Font.typeface "IBM Plex Sans" ]
-                , Font.color (Element.rgba255 0 0 0 0.8)
-                ]
+        div [] document.body
+
+    -- Element.column
+    --     [ Element.width Element.fill
+    --     , Element.Background.color
+    --         (Element.rgb255 245 245 245)
+    --     ]
+    --     [ Element.column
+    --         [ Element.paddingXY 30 35
+    --         , Element.spacing 15
+    --         , Element.Region.mainContent
+    --         , Element.width (Element.fill |> Element.maximum 800)
+    --         , Element.centerX
+    --         ]
+    --         (header page.path
+    --             :: document.body
+    --         )
+    --     ]
+    --     |> Element.layout
+    --         [ Element.width Element.fill
+    --         , Font.size 18
+    --         , Font.light
+    --         , Font.family [ Font.typeface "IBM Plex Sans" ]
+    --         , Font.color (Element.rgba255 0 0 0 0.8)
+    --         ]
     }
 
 
