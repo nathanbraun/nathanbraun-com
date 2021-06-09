@@ -10,12 +10,13 @@
   "author": "Dillon Kearns",
   "license": "BSD-3",
   "dependencies": {
+    "@tailwindcss/typography": "^0.4.1",
     "elm-pages": "^1.5.4",
     "highlight.js": "^9.15.10",
     "node-sass": "^4.14.1"
   },
   "devDependencies": {
-    "elm": "latest-0.19.1",
+    "elm": "^0.19.1-5",
     "elm-format": "^0.8.2",
     "elm-tailwind-modules": "^0.3.2",
     "html-comment-regex": "^1.1.2",

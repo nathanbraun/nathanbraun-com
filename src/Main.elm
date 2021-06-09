@@ -13,6 +13,7 @@ import Head
 import Head.Seo as Seo
 import Html exposing (Html)
 import Html.Attributes
+import Html.Styled
 import Index
 import Json.Decode
 import Layout
@@ -29,7 +30,7 @@ import Pages.PagePath as PagePath exposing (PagePath)
 import Pages.Platform
 import Pages.StaticHttp as StaticHttp
 import Palette
-import Render exposing (elmUiRenderer)
+import Render exposing (styledRenderer)
 
 
 manifest : Manifest.Config Pages.PathKey
@@ -50,7 +51,7 @@ manifest =
 
 
 type alias Rendered =
-    Html Msg
+    Html.Styled.Html Msg
 
 
 main : Pages.Platform.Program Model Msg Metadata Rendered Pages.PathKey
@@ -116,7 +117,7 @@ markdownDocument :
     { extension : String
     , metadata :
         Json.Decode.Decoder Metadata
-    , body : String -> Result String (Html msg)
+    , body : String -> Result String (Html.Styled.Html msg)
     }
 markdownDocument =
     { extension = "md"
@@ -132,9 +133,9 @@ markdownDocument =
                                 Markdown.Parser.deadEndToString
                             |> String.join "\n"
                     )
-                |> Result.andThen (Markdown.Renderer.render defaultHtmlRenderer)
+                |> Result.andThen (Markdown.Renderer.render styledRenderer)
                 |> Result.map
-                    (Html.div [])
+                    (Html.Styled.div [])
 
     -- (Element.column
     --     [ Element.width Element.fill
@@ -241,7 +242,7 @@ pageView :
     -> List ( PagePath Pages.PathKey, Metadata )
     -> { path : PagePath Pages.PathKey, frontmatter : Metadata }
     -> Rendered
-    -> { title : String, body : List (Html Msg) }
+    -> { title : String, body : List (Html.Styled.Html Msg) }
 pageView model siteMetadata page viewForPage =
     case page.frontmatter of
         Metadata.Page metadata ->
