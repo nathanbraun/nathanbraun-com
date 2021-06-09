@@ -6,7 +6,9 @@ import Element.Background
 import Element.Border
 import Element.Font as Font
 import Element.Region
-import Html exposing (Html)
+import Html
+import Html.Styled exposing (..)
+import Html.Styled.Attributes as Attr exposing (css)
 import Metadata exposing (Metadata)
 import Pages
 import Pages.Directory as Directory exposing (Directory)
@@ -14,103 +16,64 @@ import Pages.ImagePath as ImagePath
 import Pages.PagePath as PagePath exposing (PagePath)
 import Palette
 import String.Extra exposing (toTitleCase)
+import Tailwind.Breakpoints as Bp
+import Tailwind.Utilities as Tw
 
 
 view :
-    { title : String, body : List (Element msg) }
+    { title : String, body : List (Html.Styled.Html msg) }
     ->
         { path : PagePath Pages.PathKey
         , frontmatter : Metadata
         }
-    -> { title : String, body : Html msg }
+    -> { title : String, body : Html.Html msg }
 view document page =
     { title = document.title
     , body =
-        Element.column
-            [ Element.width Element.fill
-            , Element.Background.color
-                (Element.rgb255 245 245 245)
-            ]
-            [ Element.column
-                [ Element.paddingXY 30 35
-                , Element.spacing 15
-                , Element.Region.mainContent
-                , Element.width (Element.fill |> Element.maximum 800)
-                , Element.centerX
+        toUnstyled <|
+            div
+                [ css
+                    [ Tw.bg_gray_100
+                    , Tw.font_sans
+                    , Tw.text_lg
+                    , Tw.flex
+                    , Tw.justify_center
+                    , Tw.h_full
+                    , Tw.min_h_screen
+                    , Tw.text_gray_700
+                    ]
                 ]
-                (header page.path
-                    :: document.body
-                )
-            ]
-            |> Element.layout
-                [ Element.width Element.fill
-                , Font.size 18
-                , Font.light
-                , Font.family [ Font.typeface "IBM Plex Sans" ]
-                , Font.color (Element.rgba255 0 0 0 0.8)
+                [ div [ css [ Bp.md [ Tw.mt_8 ], Tw.max_w_3xl, Tw.flex_col ] ]
+                    (header page.path
+                        :: document.body
+                    )
                 ]
     }
 
 
-header : PagePath Pages.PathKey -> Element msg
+header : PagePath Pages.PathKey -> Html.Styled.Html msg
 header currentPath =
-    Element.column [ Element.width Element.fill, Font.regular ]
-        [ Element.row
-            [ Element.spaceEvenly
-            , Element.width Element.fill
-            , Element.Region.navigation
-            ]
-            (case PagePath.toString currentPath |> String.split "/" of
-                [] ->
-                    [ Element.none ]
+    div [ css [] ]
+        [ case PagePath.toString currentPath |> String.split "/" of
+            [] ->
+                div [ css [ Tw.mt_10 ] ] []
 
-                "" :: [] ->
-                    [ Element.none ]
+            "" :: [] ->
+                div [ css [ Tw.mt_10 ] ] []
 
-                path :: [] ->
-                    [ Element.link []
-                        { url = ""
-                        , label =
-                            Element.paragraph
-                                [ Font.color (Element.rgb255 7 81 219)
-                                ]
-                                [ Element.text "← Home" ]
-                        }
+            path :: [] ->
+                div [ css [ Tw.mb_6 ] ]
+                    [ a [ Attr.href "", css [ Tw.no_underline, Tw.w_auto ] ]
+                        [ text
+                            "← Home"
+                        ]
                     ]
 
-                sub :: other ->
-                    [ Element.link []
-                        { url = sub
-                        , label =
-                            Element.paragraph
-                                [ Font.color (Element.rgb255 7 81 219)
-                                ]
-                                [ Element.text ("← " ++ (sub |> toTitleCase)) ]
-                        }
+            sub :: other ->
+                div [ css [ Tw.mt_6, Tw.mb_8 ] ]
+                    [ a [ Attr.href sub, css [ Tw.no_underline, Tw.w_auto ] ]
+                        [ text
+                            ("← " ++ (sub |> toTitleCase))
+                        ]
                     ]
-            )
         ]
-
-
-highlightableLink :
-    PagePath Pages.PathKey
-    -> Directory Pages.PathKey Directory.WithIndex
-    -> String
-    -> Element msg
-highlightableLink currentPath linkDirectory displayName =
-    let
-        isHighlighted =
-            currentPath |> Directory.includes linkDirectory
-    in
-    Element.link
-        (if isHighlighted then
-            [ Font.underline
-            , Font.color Palette.color.primary
-            ]
-
-         else
-            []
-        )
-        { url = linkDirectory |> Directory.indexPath |> PagePath.toString
-        , label = Element.text displayName
-        }

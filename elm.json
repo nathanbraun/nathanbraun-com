@@ -2,7 +2,8 @@
     "type": "application",
     "source-directories": [
         "src",
-        "gen"
+        "gen",
+        "tw"
     ],
     "elm-version": "0.19.1",
     "dependencies": {
@@ -25,6 +26,7 @@
             "justinmimbs/date": "3.2.0",
             "mdgriffith/elm-ui": "1.1.7",
             "pablohirafuji/elm-syntax-highlight": "3.3.0",
+            "rtfeldman/elm-css": "16.1.1",
             "rtfeldman/elm-iso8601-date-strings": "1.1.3",
             "zwilias/elm-html-string": "2.0.2"
         },

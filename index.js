@@ -41,6 +41,10 @@ pagesInit({
   });
 });
 
+window.addEventListener('beforeinstallprompt', (e) => {
+  // Prevent Chrome 67 and earlier from automatically showing the prompt
+  e.preventDefault();
+});
 
 // global site tag
 var gt = document.createElement('script');

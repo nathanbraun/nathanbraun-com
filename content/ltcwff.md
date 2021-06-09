@@ -97,7 +97,7 @@ probably made the book better and has a lot to do with how the book has been
 received.
 
 ## Format and Delivery
-I released the book an en ebook (pdf, code, datasets, Anki cards) on <strike>Gumroad</strike> (update: I've moved to SendOwl), which I've generally been happy with.  
+I released the book an en ebook (pdf, code, datasets, Anki cards) on Gumroad (update: I've moved to SendOwl), which I've generally been happy with.  
 
 It's really meant to be coded along with, and I think a pdf format is the best
 way to do that.

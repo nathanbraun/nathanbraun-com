@@ -13,12 +13,13 @@ import Head
 import Head.Seo as Seo
 import Html exposing (Html)
 import Html.Attributes
+import Html.Styled
 import Index
 import Json.Decode
 import Layout
 import Markdown.Block as Block exposing (Block, Inline, ListItem(..), Task(..))
 import Markdown.Parser
-import Markdown.Renderer
+import Markdown.Renderer exposing (defaultHtmlRenderer)
 import Metadata exposing (Metadata)
 import MySitemap
 import Page.Article
@@ -29,7 +30,7 @@ import Pages.PagePath as PagePath exposing (PagePath)
 import Pages.Platform
 import Pages.StaticHttp as StaticHttp
 import Palette
-import Render exposing (elmUiRenderer)
+import Render exposing (styledRenderer)
 
 
 manifest : Manifest.Config Pages.PathKey
@@ -50,7 +51,7 @@ manifest =
 
 
 type alias Rendered =
-    Element Msg
+    Html.Styled.Html Msg
 
 
 main : Pages.Platform.Program Model Msg Metadata Rendered Pages.PathKey
@@ -116,7 +117,7 @@ markdownDocument :
     { extension : String
     , metadata :
         Json.Decode.Decoder Metadata
-    , body : String -> Result String (Element msg)
+    , body : String -> Result String (Html.Styled.Html msg)
     }
 markdownDocument =
     { extension = "md"
@@ -132,13 +133,15 @@ markdownDocument =
                                 Markdown.Parser.deadEndToString
                             |> String.join "\n"
                     )
-                |> Result.andThen (Markdown.Renderer.render elmUiRenderer)
+                |> Result.andThen (Markdown.Renderer.render styledRenderer)
                 |> Result.map
-                    (Element.column
-                        [ Element.width Element.fill
-                        , Element.spacing 20
-                        ]
-                    )
+                    (Html.Styled.div [])
+
+    -- (Element.column
+    --     [ Element.width Element.fill
+    --     , Element.spacing 20
+    --     ]
+    -- )
     }
 
 
@@ -239,7 +242,7 @@ pageView :
     -> List ( PagePath Pages.PathKey, Metadata )
     -> { path : PagePath Pages.PathKey, frontmatter : Metadata }
     -> Rendered
-    -> { title : String, body : List (Element Msg) }
+    -> { title : String, body : List (Html.Styled.Html Msg) }
 pageView model siteMetadata page viewForPage =
     case page.frontmatter of
         Metadata.Page metadata ->
@@ -253,26 +256,37 @@ pageView model siteMetadata page viewForPage =
             --            ]
             }
 
-        Metadata.Article metadata ->
-            Page.Article.view metadata viewForPage
-
-        Metadata.Author author ->
-            { title = author.name
+        _ ->
+            { title = "nothing"
             , body =
-                [ Palette.blogHeading author.name
-                , Author.view [] author
-                , Element.paragraph [ Element.centerX, Font.center ] [ viewForPage ]
+                [ viewForPage
                 ]
+
+            --        |> Element.textColumn
+            --            [ Element.width Element.fill
+            --            ]
             }
 
-        Metadata.BlogIndex ->
-            { title = "Nathan Braun's Blog"
-            , body =
-                [ Element.column [ Element.padding 20, Element.centerX ]
-                    [ Index.view siteMetadata
-                    ]
-                ]
-            }
+
+
+-- Metadata.Article metadata ->
+--     Page.Article.view metadata viewForPage
+-- Metadata.Author author ->
+--     { title = author.name
+--     , body =
+--         [ Palette.blogHeading author.name
+--         , Author.view [] author
+--         , Element.paragraph [ Element.centerX, Font.center ] [ viewForPage ]
+--         ]
+--     }
+-- Metadata.BlogIndex ->
+--     { title = "Nathan Braun's Blog"
+--     , body =
+--         [ Element.column [ Element.padding 20, Element.centerX ]
+--             [ Index.view siteMetadata
+--             ]
+--         ]
+--     }
 
 
 commonHeadTags : List (Head.Tag Pages.PathKey)
