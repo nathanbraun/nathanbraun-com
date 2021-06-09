@@ -38,6 +38,9 @@ view document page =
                     , Tw.text_lg
                     , Tw.flex
                     , Tw.justify_center
+                    , Tw.h_full
+                    , Tw.min_h_screen
+                    , Tw.text_gray_700
                     ]
                 ]
                 [ div [ css [ Bp.md [ Tw.mt_8 ], Tw.max_w_3xl, Tw.flex_col ] ]

@@ -36,14 +36,39 @@ styledRenderer =
                     , Tw.border
                     , Tw.rounded
                     , Tw.bg_white
-                    , Tw.text_gray_700
                     , Tw.shadow_lg
                     , Tw.italic
                     ]
                 , Tw.px_4
                 ]
             ]
-    , html = Markdown.Html.oneOf []
+    , html =
+        Markdown.Html.oneOf
+            [ Markdown.Html.tag "row"
+                (\children ->
+                    div
+                        [ css
+                            [ Tw.flex
+                            , Tw.flex_wrap
+                            , Tw.place_content_evenly
+                            , Tw.space_x_1
+                            ]
+                        ]
+                        children
+                )
+            , Markdown.Html.tag "image"
+                (\src desc _ ->
+                    img
+                        [ css [ Tw.object_scale_down, Tw.max_w_xs ]
+                        , Attr.src
+                            src
+                        , Attr.alt desc
+                        ]
+                        []
+                )
+                |> Markdown.Html.withAttribute "src"
+                |> Markdown.Html.withAttribute "desc"
+            ]
     , text = text
     , codeSpan = \_ -> div [] []
     , strong = \content -> strong [ css [ Tw.font_bold ] ] content
@@ -63,7 +88,7 @@ styledRenderer =
             case image.title of
                 Just _ ->
                     img
-                        [ css [ Tw.object_contain, Tw.w_full ]
+                        [ css [ Tw.object_scale_down, Tw.w_full ]
                         , Attr.src
                             image.src
                         , Attr.alt image.alt
@@ -72,7 +97,7 @@ styledRenderer =
 
                 Nothing ->
                     img
-                        [ css [ Tw.object_contain, Tw.w_full ]
+                        [ css [ Tw.object_scale_down, Tw.w_full ]
                         , Attr.src
                             image.src
                         , Attr.alt image.alt
