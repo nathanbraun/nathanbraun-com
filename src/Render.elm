@@ -18,34 +18,49 @@ import Markdown.Html
 import Markdown.Renderer
 import Tailwind.Breakpoints as Bp
 import Tailwind.Utilities as Tw
+import Types exposing (Model)
 
 
-styledRenderer : Markdown.Renderer.Renderer (Html.Html msg)
-styledRenderer =
+styledRenderer : List Block -> Result String (Model -> Html.Html msg)
+styledRenderer blocks =
+    blocks
+        |> Markdown.Renderer.render engine
+        |> Result.map
+            (\blockViews model ->
+                blockViews
+                    |> renderAll model
+                    |> div []
+            )
+
+
+engine : Markdown.Renderer.Renderer (Model -> Html.Html msg)
+engine =
     { heading = heading
     , paragraph =
-        \children ->
+        \children model ->
             p [ css [ Tw.mx_3, Bp.md [ Tw.mx_0 ] ] ]
-                children
+                (renderAll model children)
     , blockQuote =
-        p
-            [ css
-                [ Bp.md
-                    [ Tw.border
-                    , Tw.border_solid
-                    , Tw.border
-                    , Tw.rounded
-                    , Tw.bg_white
-                    , Tw.shadow_lg
-                    , Tw.italic
+        \children model ->
+            p
+                [ css
+                    [ Bp.md
+                        [ Tw.border
+                        , Tw.border_solid
+                        , Tw.border
+                        , Tw.rounded
+                        , Tw.bg_white
+                        , Tw.shadow_lg
+                        , Tw.italic
+                        ]
+                    , Tw.px_4
                     ]
-                , Tw.px_4
                 ]
-            ]
+                (renderAll model children)
     , html =
         Markdown.Html.oneOf
             [ Markdown.Html.tag "row"
-                (\children ->
+                (\children model ->
                     div
                         [ css
                             [ Tw.flex
@@ -54,10 +69,12 @@ styledRenderer =
                             , Tw.space_x_1
                             ]
                         ]
-                        children
+                        (renderAll model
+                            children
+                        )
                 )
             , Markdown.Html.tag "image"
-                (\src desc _ ->
+                (\src desc children model ->
                     img
                         [ css [ Tw.object_scale_down, Tw.max_w_xs ]
                         , Attr.src
@@ -68,23 +85,33 @@ styledRenderer =
                 )
                 |> Markdown.Html.withAttribute "src"
                 |> Markdown.Html.withAttribute "desc"
+            , Markdown.Html.tag "test"
+                (\_ model ->
+                    text model.test
+                )
             ]
-    , text = text
-    , codeSpan = \_ -> div [] []
-    , strong = \content -> strong [ css [ Tw.font_bold ] ] content
-    , emphasis = \content -> em [ css [ Tw.italic ] ] content
-    , hardLineBreak = br [] []
+    , text = \children _ -> text children
+    , codeSpan = \_ _ -> div [] []
+    , strong =
+        \children model ->
+            strong [ css [ Tw.font_bold ] ]
+                (renderAll model children)
+    , emphasis =
+        \children model ->
+            em [ css [ Tw.italic ] ]
+                (renderAll model children)
+    , hardLineBreak = \_ -> br [] []
     , link =
-        \{ destination } body ->
+        \{ destination } body model ->
             a
                 [ Attr.href destination
                 , css
                     [ Tw.underline
                     ]
                 ]
-                body
+                (renderAll model body)
     , image =
-        \image ->
+        \image _ ->
             case image.title of
                 Just _ ->
                     img
@@ -104,7 +131,7 @@ styledRenderer =
                         ]
                         []
     , unorderedList =
-        \items ->
+        \items model ->
             ul [ css [ Tw.mr_2, Bp.md [ Tw.mr_0 ] ] ]
                 (items
                     |> List.map
@@ -133,11 +160,11 @@ styledRenderer =
                                                         ]
                                                         []
                                     in
-                                    li [] (checkbox :: children)
+                                    li [] (checkbox :: renderAll model children)
                         )
                 )
     , orderedList =
-        \startingIndex items ->
+        \startingIndex items model ->
             ol
                 (case startingIndex of
                     1 ->
@@ -150,32 +177,19 @@ styledRenderer =
                     |> List.map
                         (\itemBlocks ->
                             li []
-                                itemBlocks
+                                (renderAll model
+                                    itemBlocks
+                                )
                         )
                 )
-    , codeBlock = \_ -> div [] []
-    , thematicBreak = hr [] []
-    , table =
-        Html.table
-            [ {-
-                 table-layout: auto;
-                     text-align: left;
-                     width: 100%;
-                     margin-top: 2em;
-                     margin-bottom: 2em;
-              -}
-              css
-                [--Tw.table_auto
-                 --, Tw.w_full
-                 --, Tw.mt_4
-                 --, Tw.mb_4
-                ]
-            ]
-    , tableHeader = Html.thead []
-    , tableBody = Html.tbody []
-    , tableRow = \_ -> div [] []
-    , tableCell = \_ -> div [] []
-    , tableHeaderCell = \_ _ -> div [] []
+    , codeBlock = \_ _ -> div [] []
+    , thematicBreak = \_ -> hr [] []
+    , table = \children model -> div [] (renderAll model children)
+    , tableHeader = \children model -> div [] (renderAll model children)
+    , tableBody = \children model -> div [] (renderAll model children)
+    , tableRow = \children model -> div [] (renderAll model children)
+    , tableCell = \children model -> div [] (renderAll model children)
+    , tableHeaderCell = \_ _ _ -> div [] []
 
     -- , strikethrough =
     --     \children -> Html.del [] children
@@ -434,10 +448,11 @@ heading :
     { level : Block.HeadingLevel
     , rawText : String
     , children :
-        List (Html.Html msg)
+        List (Model -> Html.Html msg)
     }
+    -> Model
     -> Html.Html msg
-heading { level, rawText, children } =
+heading { level, rawText, children } model =
     let
         commonCss =
             [ Tw.font_header
@@ -459,7 +474,7 @@ heading { level, rawText, children } =
                         ++ commonCss
                     )
                 ]
-                children
+                (renderAll model children)
 
         Block.H2 ->
             h2
@@ -472,7 +487,7 @@ heading { level, rawText, children } =
                         ++ commonCss
                     )
                 ]
-                children
+                (renderAll model children)
 
         _ ->
             (case level of
@@ -501,4 +516,9 @@ heading { level, rawText, children } =
                         ++ commonCss
                     )
                 ]
-                children
+                (renderAll model children)
+
+
+renderAll : model -> List (model -> view) -> List view
+renderAll model =
+    List.map ((|>) model)

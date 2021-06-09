@@ -31,6 +31,7 @@ import Pages.Platform
 import Pages.StaticHttp as StaticHttp
 import Palette
 import Render exposing (styledRenderer)
+import Types exposing (Model, Msg(..), Url, UrlPlus)
 
 
 manifest : Manifest.Config Pages.PathKey
@@ -51,7 +52,7 @@ manifest =
 
 
 type alias Rendered =
-    Html.Styled.Html Msg
+    Model -> Html.Styled.Html Msg
 
 
 main : Pages.Platform.Program Model Msg Metadata Rendered Pages.PathKey
@@ -117,14 +118,13 @@ markdownDocument :
     { extension : String
     , metadata :
         Json.Decode.Decoder Metadata
-    , body : String -> Result String (Html.Styled.Html msg)
+    , body : String -> Result String Rendered
     }
 markdownDocument =
     { extension = "md"
     , metadata = Metadata.decoder
     , body =
         \markdownBody ->
-            -- Html.div [] [ Markdown.toHtml [] markdownBody ]
             Markdown.Parser.parse markdownBody
                 |> Result.mapError
                     (\error ->
@@ -133,9 +133,7 @@ markdownDocument =
                                 Markdown.Parser.deadEndToString
                             |> String.join "\n"
                     )
-                |> Result.andThen (Markdown.Renderer.render styledRenderer)
-                |> Result.map
-                    (Html.Styled.div [])
+                |> Result.andThen styledRenderer
 
     -- (Element.column
     --     [ Element.width Element.fill
@@ -145,39 +143,26 @@ markdownDocument =
     }
 
 
-type alias Model =
-    {}
-
-
-type alias Url =
-    { path : PagePath Pages.PathKey
-    , query : Maybe String
-    , fragment : Maybe String
-    }
-
-
-type alias UrlPlus =
-    { path : PagePath Pages.PathKey
-    , query : Maybe String
-    , fragment : Maybe String
-    , metadata : Metadata
-    }
-
-
 
 -- init : ( Model, Cmd Msg )
 -- init =
 --     ( Model, Cmd.none )
 
 
+initialModel : Model
+initialModel =
+    { test = "hello world!"
+    }
+
+
 init : Maybe { path : Url, metadata : metadata } -> ( Model, Cmd Msg )
 init maybeUrl =
     case maybeUrl of
         Nothing ->
-            ( Model, Cmd.none )
+            ( initialModel, Cmd.none )
 
         Just url ->
-            ( Model
+            ( initialModel
             , url.path.path
                 |> PagePath.toString
                 |> Analytics.trackPageNavigation
@@ -248,7 +233,7 @@ pageView model siteMetadata page viewForPage =
         Metadata.Page metadata ->
             { title = metadata.title
             , body =
-                [ viewForPage
+                [ viewForPage model
                 ]
 
             --        |> Element.textColumn
@@ -259,7 +244,7 @@ pageView model siteMetadata page viewForPage =
         _ ->
             { title = "nothing"
             , body =
-                [ viewForPage
+                [ viewForPage model
                 ]
 
             --        |> Element.textColumn
