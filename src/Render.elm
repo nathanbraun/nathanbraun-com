@@ -188,11 +188,10 @@ engine =
     , tableHeader = \children model -> div [] (renderAll model children)
     , tableBody = \children model -> div [] (renderAll model children)
     , tableRow = \children model -> div [] (renderAll model children)
-    , tableCell = \children model -> div [] (renderAll model children)
+    , tableCell = \maybeAlignment children model -> div [] (renderAll model children)
     , tableHeaderCell = \_ _ _ -> div [] []
-
-    -- , strikethrough =
-    --     \children -> Html.del [] children
+    , strikethrough =
+        \children model -> Html.del [] (renderAll model children)
     }
 
 

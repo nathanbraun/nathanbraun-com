@@ -174,7 +174,9 @@ renderMarkdown markdown =
                                 |> Maybe.withDefault []
                     in
                     Html.th attrs
-            , tableCell = Html.td []
+            , tableCell = \maybeAlignment -> Html.td []
+            , strikethrough =
+                \children -> Html.del [] children
             }
         |> Result.map (List.map (Html.toString 0))
         |> Result.map (String.join "")
