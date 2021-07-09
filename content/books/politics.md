@@ -225,7 +225,7 @@ swamp differences *between* groups. It also doesn't preclude oppression.
 Caplan's [theory](https://www.econlib.org/archives/2015/10/my_simplistic_t.html):
 the left hates markets, the right hates the left.
 
-[While](While) possibly tongue in cheek, these models do attempt to explain similar
+While possibly tongue in cheek, these models do attempt to explain similar
 things.
 
 ### 7. Where do conspiracy theories fit?

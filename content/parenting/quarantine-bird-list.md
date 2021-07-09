@@ -13,6 +13,8 @@ decided to start a list of all the birds we saw in our yard during quarantine.
 We were in the middle of Spring migration and I figured it'd be interesting to
 keep track of what we saw over the next month or so.
 
+...
+
 Almost one year later and the kids are about ready to go back to daycare, which
 means it might finally be time to call it a wrap on the list.
 
