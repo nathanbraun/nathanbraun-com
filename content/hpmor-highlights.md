@@ -5,7 +5,7 @@ type: page
 
 # HPMOR Highlights
 
-Here are a list of the passages I highlighted in a recen rereading of Harry
+Here are a list of the passages I highlighted in a recent rereading of Harry
 Potter and the Methods of Rationality. Each highlight includes % through the
 book.
 
