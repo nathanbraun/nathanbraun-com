@@ -10,8 +10,8 @@ Potter and the Methods of Rationality. Each highlight includes % through the
 book.
 
 > You couldn’t change history. But you could get it right to start with. Do
-something differently the first time around. (7.99%)
-
+something differently the first time around...
+> 
 > Twenty years later, that was what he would desperately wish had happened twenty
 years ago, and twenty years before twenty years later happened to be right now.
 Altering the distant past was easy, you just had to think of it at the right
