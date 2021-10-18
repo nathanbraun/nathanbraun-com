@@ -2,7 +2,8 @@
     "type": "application",
     "source-directories": [
         "src",
-        ".elm-pages"
+        ".elm-pages",
+        "tw"
     ],
     "elm-version": "0.19.1",
     "dependencies": {
@@ -12,7 +13,8 @@
             "elm/core": "1.0.5",
             "elm/html": "1.0.0",
             "elm/json": "1.1.3",
-            "elm/url": "1.0.0"
+            "elm/url": "1.0.0",
+            "rtfeldman/elm-css": "17.0.1"
         },
         "indirect": {
             "MartinSStewart/elm-serialize": "1.2.5",
@@ -35,6 +37,7 @@
             "miniBill/elm-codec": "2.0.0",
             "noahzgordon/elm-color-extra": "1.0.2",
             "robinheghan/murmur3": "1.0.0",
+            "rtfeldman/elm-hex": "1.0.0",
             "tripokey/elm-fuzzy": "5.2.1",
             "vito/elm-ansi": "10.0.1",
             "zwilias/json-decode-exploration": "6.0.0"

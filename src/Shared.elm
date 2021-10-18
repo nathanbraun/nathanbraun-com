@@ -1,13 +1,17 @@
 module Shared exposing (Data, Model, Msg(..), SharedMsg(..), template)
 
 import Browser.Navigation
+import Css.Global exposing (global)
 import DataSource
 import Html exposing (Html)
+import Html.Styled exposing (div, toUnstyled)
+import Html.Styled.Attributes as Attr exposing (css)
 import Pages.Flags
 import Pages.PageUrl exposing (PageUrl)
 import Path exposing (Path)
 import Route exposing (Route)
 import SharedTemplate exposing (SharedTemplate)
+import Tailwind.Utilities as Tw
 import View exposing (View)
 
 
@@ -95,6 +99,11 @@ view :
     -> View msg
     -> { body : Html msg, title : String }
 view sharedData page model toMsg pageView =
-    { body = Html.div [] pageView.body
+    { body =
+        toUnstyled <|
+            div []
+                [ global Tw.globalStyles
+                , div [ css [ Tw.text_lg, Tw.text_gray_700 ] ] pageView.body
+                ]
     , title = pageView.title
     }
