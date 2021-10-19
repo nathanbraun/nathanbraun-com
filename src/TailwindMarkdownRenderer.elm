@@ -1,57 +1,122 @@
 module TailwindMarkdownRenderer exposing (renderer)
 
 import Css
-import Html.Styled as Html
+import Html.Styled as Html exposing (..)
 import Html.Styled.Attributes as Attr exposing (css)
-import Markdown.Block as Block
+import Markdown.Block as Block exposing (Block)
 import Markdown.Html
 import Markdown.Renderer
+import Shared exposing (Model)
 import SyntaxHighlight
+import Tailwind.Breakpoints as Bp
 import Tailwind.Utilities as Tw
 
 
-renderer : Markdown.Renderer.Renderer (Html.Html msg)
+renderer : Markdown.Renderer.Renderer (Model -> Html.Html msg)
 renderer =
     { heading = heading
-    , paragraph = Html.p []
-    , thematicBreak = Html.hr [] []
-    , text = Html.text
-    , strong = \content -> Html.strong [ css [ Tw.font_bold ] ] content
-    , emphasis = \content -> Html.em [ css [ Tw.italic ] ] content
-    , blockQuote = Html.blockquote []
-    , codeSpan =
-        \content ->
-            Html.code
+    , paragraph =
+        \children model ->
+            p [ css [ Tw.mx_3, Bp.md [ Tw.mx_0 ] ] ]
+                (renderAll model children)
+    , blockQuote =
+        \children model ->
+            p
                 [ css
-                    [ Tw.font_semibold
-                    , Tw.font_medium
-                    , Css.color (Css.rgb 226 0 124) |> Css.important
+                    [ Bp.md
+                        [ Tw.border
+                        , Tw.border_solid
+                        , Tw.border
+                        , Tw.rounded
+                        , Tw.bg_white
+                        , Tw.shadow_lg
+                        , Tw.italic
+                        ]
+                    , Tw.px_4
                     ]
                 ]
-                [ Html.text content ]
+                (renderAll model children)
+    , html =
+        Markdown.Html.oneOf
+            [ Markdown.Html.tag "row"
+                (\children model ->
+                    div
+                        [ css
+                            [ Tw.flex
+                            , Tw.flex_wrap
+                            , Tw.place_content_evenly
+                            , Tw.space_x_1
+                            ]
+                        ]
+                        (renderAll model
+                            children
+                        )
+                )
+            , Markdown.Html.tag "image"
+                (\src desc _ _ ->
+                    img
+                        [ css [ Tw.object_scale_down, Tw.max_w_xs ]
+                        , Attr.src
+                            src
+                        , Attr.alt desc
+                        ]
+                        []
+                )
+                |> Markdown.Html.withAttribute "src"
+                |> Markdown.Html.withAttribute "desc"
+            , Markdown.Html.tag "test"
+                (\_ model ->
+                    case model.showMobileMenu of
+                        True ->
+                            div [] [ text "True" ]
 
-    --, codeSpan = code
+                        False ->
+                            div [] [ text "False" ]
+                )
+            ]
+    , text = \children _ -> text children
+    , codeSpan = \_ _ -> div [] []
+    , strong =
+        \children model ->
+            strong [ css [ Tw.font_bold ] ]
+                (renderAll model children)
+    , emphasis =
+        \children model ->
+            em [ css [ Tw.italic ] ]
+                (renderAll model children)
+    , hardLineBreak = \_ -> br [] []
     , link =
-        \{ destination } body ->
-            Html.a
+        \{ destination } body model ->
+            a
                 [ Attr.href destination
                 , css
                     [ Tw.underline
                     ]
                 ]
-                body
-    , hardLineBreak = Html.br [] []
+                (renderAll model body)
     , image =
-        \image ->
+        \image _ ->
             case image.title of
                 Just _ ->
-                    Html.img [ Attr.src image.src, Attr.alt image.alt ] []
+                    img
+                        [ css [ Tw.object_scale_down, Tw.w_full ]
+                        , Attr.src
+                            image.src
+                        , Attr.alt image.alt
+                        ]
+                        []
 
                 Nothing ->
-                    Html.img [ Attr.src image.src, Attr.alt image.alt ] []
+                    img
+                        [ css [ Tw.object_scale_down, Tw.w_full ]
+                        , Attr.src
+                            image.src
+                        , Attr.alt image.alt
+                        ]
+                        []
     , unorderedList =
-        \items ->
-            Html.ul []
+        \items model ->
+            ul [ css [ Tw.mr_2, Bp.md [ Tw.mr_0 ] ] ]
                 (items
                     |> List.map
                         (\item ->
@@ -61,10 +126,10 @@ renderer =
                                         checkbox =
                                             case task of
                                                 Block.NoTask ->
-                                                    Html.text ""
+                                                    text ""
 
                                                 Block.IncompleteTask ->
-                                                    Html.input
+                                                    input
                                                         [ Attr.disabled True
                                                         , Attr.checked False
                                                         , Attr.type_ "checkbox"
@@ -72,19 +137,19 @@ renderer =
                                                         []
 
                                                 Block.CompletedTask ->
-                                                    Html.input
+                                                    input
                                                         [ Attr.disabled True
                                                         , Attr.checked True
                                                         , Attr.type_ "checkbox"
                                                         ]
                                                         []
                                     in
-                                    Html.li [] (checkbox :: children)
+                                    li [] (checkbox :: renderAll model children)
                         )
                 )
     , orderedList =
-        \startingIndex items ->
-            Html.ol
+        \startingIndex items model ->
+            ol
                 (case startingIndex of
                     1 ->
                         [ Attr.start startingIndex ]
@@ -95,100 +160,25 @@ renderer =
                 (items
                     |> List.map
                         (\itemBlocks ->
-                            Html.li []
-                                itemBlocks
+                            li []
+                                (renderAll model
+                                    itemBlocks
+                                )
                         )
                 )
-    , html =
-        Markdown.Html.oneOf
-            []
     , codeBlock = codeBlock
-
-    --\{ body, language } ->
-    --    let
-    --        classes =
-    --            -- Only the first word is used in the class
-    --            case Maybe.map String.words language of
-    --                Just (actualLanguage :: _) ->
-    --                    [ Attr.class <| "language-" ++ actualLanguage ]
-    --
-    --                _ ->
-    --                    []
-    --    in
-    --    Html.pre []
-    --        [ Html.code classes
-    --            [ Html.text body
-    --            ]
-    --        ]
-    , table =
-        Html.table
-            [ {-
-                 table-layout: auto;
-                     text-align: left;
-                     width: 100%;
-                     margin-top: 2em;
-                     margin-bottom: 2em;
-              -}
-              css
-                [--Tw.table_auto
-                 --, Tw.w_full
-                 --, Tw.mt_4
-                 --, Tw.mb_4
-                ]
-            ]
-    , tableHeader = Html.thead []
-    , tableBody = Html.tbody []
-    , tableRow = Html.tr []
+    , thematicBreak = \_ -> hr [] []
+    , table = \children model -> div [] (renderAll model children)
+    , tableHeader = \children model -> div [] (renderAll model children)
+    , tableBody = \children model -> div [] (renderAll model children)
+    , tableRow = \children model -> div [] (renderAll model children)
+    , tableCell = \maybeAlignment children model -> div [] (renderAll model children)
+    , tableHeaderCell = \_ _ _ -> div [] []
     , strikethrough =
-        \children -> Html.del [] children
-    , tableHeaderCell =
-        \maybeAlignment ->
-            let
-                attrs =
-                    maybeAlignment
-                        |> Maybe.map
-                            (\alignment ->
-                                case alignment of
-                                    Block.AlignLeft ->
-                                        "left"
-
-                                    Block.AlignCenter ->
-                                        "center"
-
-                                    Block.AlignRight ->
-                                        "right"
-                            )
-                        |> Maybe.map Attr.align
-                        |> Maybe.map List.singleton
-                        |> Maybe.withDefault []
-            in
-            Html.th attrs
-    , tableCell =
-        \maybeAlignment ->
-            let
-                attrs =
-                    maybeAlignment
-                        |> Maybe.map
-                            (\alignment ->
-                                case alignment of
-                                    Block.AlignLeft ->
-                                        "left"
-
-                                    Block.AlignCenter ->
-                                        "center"
-
-                                    Block.AlignRight ->
-                                        "right"
-                            )
-                        |> Maybe.map Attr.align
-                        |> Maybe.map List.singleton
-                        |> Maybe.withDefault []
-            in
-            Html.td attrs
+        \children model -> Html.del [] (renderAll model children)
     }
 
 
-rawTextToId : String -> String
 rawTextToId rawText =
     rawText
         |> String.split " "
@@ -196,101 +186,88 @@ rawTextToId rawText =
         |> String.toLower
 
 
-heading : { level : Block.HeadingLevel, rawText : String, children : List (Html.Html msg) } -> Html.Html msg
-heading { level, rawText, children } =
+heading :
+    { level : Block.HeadingLevel
+    , rawText : String
+    , children :
+        List (Model -> Html.Html msg)
+    }
+    -> Model
+    -> Html.Html msg
+heading { level, rawText, children } model =
+    let
+        commonCss =
+            [ Tw.font_header
+            , Tw.text_gray_800
+            , Tw.tracking_tight
+            , Tw.text_center
+            , Tw.mx_3
+            , Bp.md [ Tw.text_left, Tw.mx_0 ]
+            ]
+    in
     case level of
         Block.H1 ->
-            Html.h1
+            h1
                 [ css
-                    [ Tw.text_4xl
-                    , Tw.font_bold
-                    , Tw.tracking_tight
-                    , Tw.mt_2
-                    , Tw.mb_4
-                    ]
+                    ([ Tw.text_4xl
+                     , Tw.mt_4
+                     , Tw.mb_4
+                     ]
+                        ++ commonCss
+                    )
                 ]
-                children
+                (renderAll model children)
 
         Block.H2 ->
-            Html.h2
+            h2
                 [ Attr.id (rawTextToId rawText)
                 , Attr.attribute "name" (rawTextToId rawText)
                 , css
-                    [ Tw.text_3xl
-                    , Tw.font_semibold
-                    , Tw.tracking_tight
-                    , Tw.mt_10
-                    , Tw.pb_1
-                    , Tw.border_b
-                    ]
-                ]
-                [ Html.a
-                    [ Attr.href <| "#" ++ rawTextToId rawText
-                    , css
-                        [ Tw.no_underline |> Css.important
-                        ]
-                    ]
-                    (children
-                        ++ [ Html.span
-                                [ Attr.class "anchor-icon"
-                                , css
-                                    [ Tw.ml_2
-                                    , Tw.text_gray_500
-                                    , Tw.select_none
-                                    ]
-                                ]
-                                [ Html.text "#" ]
-                           ]
+                    ([ Tw.text_3xl
+                     , Tw.mt_6
+                     ]
+                        ++ commonCss
                     )
                 ]
+                (renderAll model children)
 
         _ ->
             (case level of
                 Block.H1 ->
-                    Html.h1
+                    h1
 
                 Block.H2 ->
-                    Html.h2
+                    h2
 
                 Block.H3 ->
-                    Html.h3
+                    h3
 
                 Block.H4 ->
-                    Html.h4
+                    h4
 
                 Block.H5 ->
-                    Html.h5
+                    h5
 
                 Block.H6 ->
-                    Html.h6
+                    h6
             )
                 [ css
-                    [ Tw.font_bold
-                    , Tw.text_lg
-                    , Tw.mt_8
-                    , Tw.mb_4
-                    ]
+                    ([ Tw.text_lg
+                     , Tw.mt_4
+                     ]
+                        ++ commonCss
+                    )
                 ]
-                children
+                (renderAll model children)
 
 
-
---code : String -> Element msg
---code snippet =
---    Element.el
---        [ Element.Background.color
---            (Element.rgba255 50 50 50 0.07)
---        , Element.Border.rounded 2
---        , Element.paddingXY 5 3
---        , Font.family [ Font.typeface "Roboto Mono", Font.monospace ]
---        ]
---        (Element.text snippet)
---
---
+renderAll : model -> List (model -> view) -> List view
+renderAll model =
+    List.map ((|>) model)
 
 
-codeBlock : { body : String, language : Maybe String } -> Html.Html msg
-codeBlock details =
+codeBlock : { body : String, language : Maybe String } -> Shared.Model -> Html.Html msg
+codeBlock details model =
     SyntaxHighlight.elm details.body
         |> Result.map (SyntaxHighlight.toBlockHtml (Just 1))
         |> Result.map Html.fromUnstyled

@@ -6,11 +6,11 @@ import DataSource.Glob as Glob exposing (Glob)
 import Head
 import Head.Seo as Seo
 import Html.Styled as Html exposing (Html)
-import Markdown.Block as Block exposing (Block)
+import Markdown.Block exposing (Block)
 import Markdown.Parser
 import Markdown.Renderer
 import OptimizedDecoder exposing (Decoder)
-import Page exposing (Page, PageWithState, StaticPayload)
+import Page exposing (Page, StaticPayload)
 import Pages.PageUrl exposing (PageUrl)
 import Pages.Url
 import Shared
@@ -32,7 +32,7 @@ type alias RouteParams =
 
 type alias Data =
     { metadata : PageMetadata
-    , body : List (Html Msg)
+    , body : Shared.Model -> List (Html Msg)
     }
 
 
@@ -70,7 +70,7 @@ data routeParams =
 head :
     StaticPayload Data RouteParams
     -> List Head.Tag
-head static =
+head _ =
     Seo.summary
         { canonicalUrlOverride = Nothing
         , siteName = "elm-pages"
@@ -98,9 +98,9 @@ view :
     -> Shared.Model
     -> StaticPayload Data RouteParams
     -> View Msg
-view maybeUrl sharedModel static =
+view _ sharedModel static =
     { title = "test title"
-    , body = static.data.body
+    , body = static.data.body sharedModel
     }
 
 
@@ -122,14 +122,14 @@ pageBody routeParams =
             (withFrontmatter
                 Data
                 frontmatterDecoder
-                TailwindMarkdownRenderer.renderer
+                renderer2
             )
 
 
 withFrontmatter :
-    (frontmatter -> List view -> value)
+    (frontmatter -> (Shared.Model -> List (Html msg)) -> value)
     -> Decoder frontmatter
-    -> Markdown.Renderer.Renderer view
+    -> (List Block -> DataSource (Shared.Model -> List (Html msg)))
     -> String
     -> DataSource value
 withFrontmatter constructor frontmatterDecoder2 renderer filePath =
@@ -149,11 +149,7 @@ withFrontmatter constructor frontmatterDecoder2 renderer filePath =
                 )
          )
             |> DataSource.andThen
-                (\blocks ->
-                    blocks
-                        |> Markdown.Renderer.render renderer
-                        |> DataSource.fromResult
-                )
+                renderer
         )
 
 
@@ -169,3 +165,20 @@ findBySlug slug =
         |> Glob.match (Glob.literal "content/")
         |> Glob.match (Glob.literal slug)
         |> Glob.match (Glob.literal ".md")
+
+
+renderer2 : List Block -> DataSource (Shared.Model -> List (Html msg))
+renderer2 blocks =
+    blocks
+        |> Markdown.Renderer.render TailwindMarkdownRenderer.renderer
+        |> Result.map
+            (\blockViews model ->
+                blockViews
+                    |> renderAll model
+            )
+        |> DataSource.fromResult
+
+
+renderAll : model -> List (model -> view) -> List view
+renderAll model =
+    List.map ((|>) model)
