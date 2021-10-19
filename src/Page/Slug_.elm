@@ -2,7 +2,7 @@ module Page.Slug_ exposing (Data, Model, Msg, page)
 
 import DataSource exposing (DataSource)
 import DataSource.File as StaticFile
-import DataSource.Glob as Glob
+import DataSource.Glob as Glob exposing (Glob)
 import Head
 import Head.Seo as Seo
 import Html.Styled as Html exposing (Html)
@@ -133,4 +133,13 @@ withoutFrontmatter renderer filePath =
 
 filePathDataSource : RouteParams -> DataSource String
 filePathDataSource routeParams =
-    DataSource.succeed ("content/" ++ routeParams.slug ++ ".md")
+    Glob.expectUniqueMatch (findBySlug routeParams.slug)
+
+
+findBySlug : String -> Glob String
+findBySlug slug =
+    Glob.succeed identity
+        |> Glob.captureFilePath
+        |> Glob.match (Glob.literal "content/")
+        |> Glob.match (Glob.literal slug)
+        |> Glob.match (Glob.literal ".md")
