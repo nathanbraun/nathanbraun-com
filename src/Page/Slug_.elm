@@ -1,13 +1,19 @@
 module Page.Slug_ exposing (Data, Model, Msg, page)
 
 import DataSource exposing (DataSource)
+import DataSource.File as StaticFile
 import DataSource.Glob as Glob
 import Head
 import Head.Seo as Seo
+import Html.Styled as Html exposing (Html)
+import Markdown.Block as Block exposing (Block)
+import Markdown.Parser
+import Markdown.Renderer
 import Page exposing (Page, PageWithState, StaticPayload)
 import Pages.PageUrl exposing (PageUrl)
 import Pages.Url
 import Shared
+import TailwindMarkdownRenderer
 import View exposing (View)
 
 
@@ -40,7 +46,7 @@ routes =
 
 data : RouteParams -> DataSource Data
 data routeParams =
-    DataSource.succeed ()
+    DataSource.map Data (pageBody routeParams)
 
 
 head :
@@ -64,7 +70,7 @@ head static =
 
 
 type alias Data =
-    ()
+    { body : List (Html Msg) }
 
 
 view :
@@ -73,7 +79,9 @@ view :
     -> StaticPayload Data RouteParams
     -> View Msg
 view maybeUrl sharedModel static =
-    View.placeholder static.routeParams.slug
+    { title = "test title"
+    , body = static.data.body
+    }
 
 
 type alias Section =
@@ -90,3 +98,39 @@ content =
         |> Glob.capture Glob.wildcard
         |> Glob.match (Glob.literal ".md")
         |> Glob.toDataSource
+
+
+pageBody : RouteParams -> DataSource (List (Html msg))
+pageBody routeParams =
+    routeParams
+        |> filePathDataSource
+        |> DataSource.andThen
+            (withoutFrontmatter TailwindMarkdownRenderer.renderer)
+
+
+withoutFrontmatter :
+    Markdown.Renderer.Renderer view
+    -> String
+    -> DataSource (List view)
+withoutFrontmatter renderer filePath =
+    (filePath
+        |> StaticFile.bodyWithoutFrontmatter
+        |> DataSource.andThen
+            (\rawBody ->
+                rawBody
+                    |> Markdown.Parser.parse
+                    |> Result.mapError (\_ -> "Couldn't parse markdown.")
+                    |> DataSource.fromResult
+            )
+    )
+        |> DataSource.andThen
+            (\blocks ->
+                blocks
+                    |> Markdown.Renderer.render renderer
+                    |> DataSource.fromResult
+            )
+
+
+filePathDataSource : RouteParams -> DataSource String
+filePathDataSource routeParams =
+    DataSource.succeed ("content/" ++ routeParams.slug ++ ".md")

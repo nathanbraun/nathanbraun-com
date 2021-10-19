@@ -3,7 +3,7 @@ module Shared exposing (Data, Model, Msg(..), SharedMsg(..), template)
 import Browser.Navigation
 import Css.Global exposing (global)
 import DataSource
-import Html exposing (Html)
+import Html
 import Html.Styled exposing (div, toUnstyled)
 import Html.Styled.Attributes as Attr exposing (css)
 import Pages.Flags
@@ -88,6 +88,11 @@ data =
     DataSource.succeed ()
 
 
+header : Html.Styled.Html msg
+header =
+    div [] [ Html.Styled.text "this is the header" ]
+
+
 view :
     Data
     ->
@@ -97,13 +102,13 @@ view :
     -> Model
     -> (Msg -> msg)
     -> View msg
-    -> { body : Html msg, title : String }
+    -> { body : Html.Html msg, title : String }
 view sharedData page model toMsg pageView =
     { body =
         toUnstyled <|
             div []
                 [ global Tw.globalStyles
-                , div [ css [ Tw.text_lg, Tw.text_gray_700 ] ] pageView.body
+                , div [ css [ Tw.text_lg, Tw.text_gray_700 ] ] (header :: pageView.body)
                 ]
     , title = pageView.title
     }

@@ -3,7 +3,7 @@ module Page.Index exposing (Data, Model, Msg, page)
 import DataSource exposing (DataSource)
 import Head
 import Head.Seo as Seo
-import Html.Styled as Html
+import Html.Styled
 import Page exposing (Page, StaticPayload)
 import Pages.PageUrl exposing (PageUrl)
 import Pages.Url
@@ -34,7 +34,7 @@ page =
 
 data : DataSource Data
 data =
-    DataSource.succeed ()
+    DataSource.succeed (Data 1)
 
 
 head :
@@ -58,7 +58,7 @@ head static =
 
 
 type alias Data =
-    ()
+    { field1 : Int }
 
 
 view :
@@ -68,5 +68,5 @@ view :
     -> View Msg
 view maybeUrl sharedModel static =
     { title = "my page"
-    , body = [ Html.text "my page html text" ]
+    , body = [ Html.Styled.text "my page html text 2" ]
     }
