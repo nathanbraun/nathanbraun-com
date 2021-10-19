@@ -116,37 +116,39 @@ renderer =
                         []
     , unorderedList =
         \items model ->
-            ul [ css [ Tw.mr_2, Bp.md [ Tw.mr_0 ] ] ]
-                (items
-                    |> List.map
-                        (\item ->
-                            case item of
-                                Block.ListItem task children ->
-                                    let
-                                        checkbox =
-                                            case task of
-                                                Block.NoTask ->
-                                                    text ""
+            Html.div [ css [ Tw.m_6 ] ]
+                [ ul [ css [ Tw.list_disc, Tw.mr_2, Bp.md [ Tw.mr_0 ] ] ]
+                    (items
+                        |> List.map
+                            (\item ->
+                                case item of
+                                    Block.ListItem task children ->
+                                        let
+                                            checkbox =
+                                                case task of
+                                                    Block.NoTask ->
+                                                        text ""
 
-                                                Block.IncompleteTask ->
-                                                    input
-                                                        [ Attr.disabled True
-                                                        , Attr.checked False
-                                                        , Attr.type_ "checkbox"
-                                                        ]
-                                                        []
+                                                    Block.IncompleteTask ->
+                                                        input
+                                                            [ Attr.disabled True
+                                                            , Attr.checked False
+                                                            , Attr.type_ "checkbox"
+                                                            ]
+                                                            []
 
-                                                Block.CompletedTask ->
-                                                    input
-                                                        [ Attr.disabled True
-                                                        , Attr.checked True
-                                                        , Attr.type_ "checkbox"
-                                                        ]
-                                                        []
-                                    in
-                                    li [] (checkbox :: renderAll model children)
-                        )
-                )
+                                                    Block.CompletedTask ->
+                                                        input
+                                                            [ Attr.disabled True
+                                                            , Attr.checked True
+                                                            , Attr.type_ "checkbox"
+                                                            ]
+                                                            []
+                                        in
+                                        li [] (checkbox :: renderAll model children)
+                            )
+                    )
+                ]
     , orderedList =
         \startingIndex items model ->
             ol

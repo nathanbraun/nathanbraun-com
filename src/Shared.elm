@@ -11,6 +11,7 @@ import Pages.PageUrl exposing (PageUrl)
 import Path exposing (Path)
 import Route exposing (Route)
 import SharedTemplate exposing (SharedTemplate)
+import Tailwind.Breakpoints as Bp
 import Tailwind.Utilities as Tw
 import View exposing (View)
 
@@ -88,9 +89,14 @@ data =
     DataSource.succeed ()
 
 
-header : Html.Styled.Html msg
-header =
-    div [] [ Html.Styled.text "this is the header" ]
+header : Path -> Html.Styled.Html msg
+header path =
+    case Path.toRelative path of
+        "" ->
+            div [] []
+
+        _ ->
+            div [] [ Html.Styled.text "← Back" ]
 
 
 view :
@@ -108,7 +114,22 @@ view sharedData page model toMsg pageView =
         toUnstyled <|
             div []
                 [ global Tw.globalStyles
-                , div [ css [ Tw.text_lg, Tw.text_gray_700 ] ] (header :: pageView.body)
+                , div
+                    [ css
+                        [ Tw.bg_gray_100
+                        , Tw.font_sans
+                        , Tw.text_lg
+                        , Tw.flex
+                        , Tw.justify_center
+                        , Tw.h_full
+                        , Tw.min_h_screen
+                        , Tw.text_gray_700
+                        ]
+                    ]
+                    [ div
+                        [ css [ Bp.md [ Tw.mt_8 ], Tw.max_w_3xl, Tw.flex_col ] ]
+                        (header page.path :: pageView.body)
+                    ]
                 ]
     , title = pageView.title
     }
