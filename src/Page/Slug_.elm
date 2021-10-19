@@ -9,6 +9,7 @@ import Html.Styled as Html exposing (Html)
 import Markdown.Block as Block exposing (Block)
 import Markdown.Parser
 import Markdown.Renderer
+import OptimizedDecoder exposing (Decoder)
 import Page exposing (Page, PageWithState, StaticPayload)
 import Pages.PageUrl exposing (PageUrl)
 import Pages.Url
@@ -29,6 +30,23 @@ type alias RouteParams =
     { slug : String }
 
 
+type alias Data =
+    { metadata : PageMetadata
+    , body : List (Html Msg)
+    }
+
+
+type alias PageMetadata =
+    { title : String
+    }
+
+
+type alias Route =
+    { filePath : String
+    , slug : String
+    }
+
+
 page : Page RouteParams Data
 page =
     Page.prerender
@@ -46,7 +64,7 @@ routes =
 
 data : RouteParams -> DataSource Data
 data routeParams =
-    DataSource.map Data (pageBody routeParams)
+    pageBody routeParams
 
 
 head :
@@ -69,8 +87,10 @@ head static =
         |> Seo.website
 
 
-type alias Data =
-    { body : List (Html Msg) }
+frontmatterDecoder : OptimizedDecoder.Decoder PageMetadata
+frontmatterDecoder =
+    OptimizedDecoder.map PageMetadata
+        (OptimizedDecoder.field "title" OptimizedDecoder.string)
 
 
 view :
@@ -84,15 +104,9 @@ view maybeUrl sharedModel static =
     }
 
 
-type alias Section =
-    { filePath : String
-    , slug : String
-    }
-
-
-content : DataSource (List Section)
+content : DataSource (List Route)
 content =
-    Glob.succeed Section
+    Glob.succeed Route
         |> Glob.captureFilePath
         |> Glob.match (Glob.literal "content/")
         |> Glob.capture Glob.wildcard
@@ -100,35 +114,47 @@ content =
         |> Glob.toDataSource
 
 
-pageBody : RouteParams -> DataSource (List (Html msg))
+pageBody : RouteParams -> DataSource Data
 pageBody routeParams =
     routeParams
         |> filePathDataSource
         |> DataSource.andThen
-            (withoutFrontmatter TailwindMarkdownRenderer.renderer)
+            (withFrontmatter
+                Data
+                frontmatterDecoder
+                TailwindMarkdownRenderer.renderer
+            )
 
 
-withoutFrontmatter :
-    Markdown.Renderer.Renderer view
+withFrontmatter :
+    (frontmatter -> List view -> value)
+    -> Decoder frontmatter
+    -> Markdown.Renderer.Renderer view
     -> String
-    -> DataSource (List view)
-withoutFrontmatter renderer filePath =
-    (filePath
-        |> StaticFile.bodyWithoutFrontmatter
-        |> DataSource.andThen
-            (\rawBody ->
-                rawBody
-                    |> Markdown.Parser.parse
-                    |> Result.mapError (\_ -> "Couldn't parse markdown.")
-                    |> DataSource.fromResult
-            )
-    )
-        |> DataSource.andThen
-            (\blocks ->
-                blocks
-                    |> Markdown.Renderer.render renderer
-                    |> DataSource.fromResult
-            )
+    -> DataSource value
+withFrontmatter constructor frontmatterDecoder2 renderer filePath =
+    DataSource.map2 constructor
+        (StaticFile.onlyFrontmatter
+            frontmatterDecoder2
+            filePath
+        )
+        ((StaticFile.bodyWithoutFrontmatter
+            filePath
+            |> DataSource.andThen
+                (\rawBody ->
+                    rawBody
+                        |> Markdown.Parser.parse
+                        |> Result.mapError (\_ -> "Couldn't parse markdown.")
+                        |> DataSource.fromResult
+                )
+         )
+            |> DataSource.andThen
+                (\blocks ->
+                    blocks
+                        |> Markdown.Renderer.render renderer
+                        |> DataSource.fromResult
+                )
+        )
 
 
 filePathDataSource : RouteParams -> DataSource String
