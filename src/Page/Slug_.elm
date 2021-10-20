@@ -11,6 +11,7 @@ import Page exposing (Page, StaticPayload)
 import Pages.PageUrl exposing (PageUrl)
 import Pages.Url
 import Shared
+import Tuple
 import View exposing (View)
 
 
@@ -34,6 +35,7 @@ type alias Data =
 
 type alias Route =
     { filePath : String
+    , subPath : List String
     , slug : String
     }
 
@@ -89,11 +91,17 @@ view _ sharedModel static =
     }
 
 
+
+-- constructor -> Glob constructor
+
+
 content : DataSource (List Route)
 content =
     Glob.succeed Route
         |> Glob.captureFilePath
         |> Glob.match (Glob.literal "content/")
+        |> Glob.capture Glob.recursiveWildcard
+        |> Glob.match (Glob.literal "/")
         |> Glob.capture Glob.wildcard
         |> Glob.match (Glob.literal ".md")
         |> Glob.toDataSource
