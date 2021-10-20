@@ -70,6 +70,6 @@ view :
     -> StaticPayload Data RouteParams
     -> View Msg
 view _ sharedModel static =
-    { title = "test title"
+    { title = "Nathan Braun's Homepage"
     , body = static.data.body sharedModel
     }
