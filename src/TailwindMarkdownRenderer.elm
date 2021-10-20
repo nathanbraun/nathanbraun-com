@@ -1,5 +1,6 @@
 module TailwindMarkdownRenderer exposing (render, renderAll)
 
+import Css
 import DataSource exposing (DataSource)
 import Html.Styled as Html exposing (..)
 import Html.Styled.Attributes as Attr exposing (css)
@@ -104,6 +105,8 @@ engine =
                 [ Attr.href destination
                 , css
                     [ Tw.underline
+                    , Tw.text_blue_600
+                    , Css.visited [ Tw.text_purple_800 ]
                     ]
                 ]
                 (renderAll model body)
