@@ -4,7 +4,7 @@ import Browser.Navigation
 import Css.Global exposing (global)
 import DataSource
 import Html
-import Html.Styled exposing (div, toUnstyled)
+import Html.Styled exposing (a, div, text, toUnstyled)
 import Html.Styled.Attributes as Attr exposing (css)
 import Pages.Flags
 import Pages.PageUrl exposing (PageUrl)
@@ -96,7 +96,19 @@ header path =
             div [] []
 
         _ ->
-            div [] [ Html.Styled.text "← Back" ]
+            div [ css [ Tw.mb_6 ] ]
+                [ a
+                    [ Attr.href "/"
+                    , css
+                        [ Tw.mt_10
+                        , Tw.w_auto
+                        , Tw.text_blue_600
+                        ]
+                    ]
+                    [ text
+                        "← Home"
+                    ]
+                ]
 
 
 view :
