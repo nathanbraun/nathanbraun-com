@@ -17,7 +17,7 @@ renderer =
     { heading = heading
     , paragraph =
         \children model ->
-            p [ css [ Tw.mx_3, Bp.md [ Tw.mx_0 ] ] ]
+            p [ css [ Tw.mx_3, Tw.mb_3, Bp.md [ Tw.mx_0 ] ] ]
                 (renderAll model children)
     , blockQuote =
         \children model ->
@@ -31,8 +31,10 @@ renderer =
                         , Tw.bg_white
                         , Tw.shadow_lg
                         , Tw.italic
+                        , Tw.my_6
                         ]
-                    , Tw.px_4
+                    , Tw.px_6
+                    , Tw.py_4
                     ]
                 ]
                 (renderAll model children)
@@ -116,39 +118,47 @@ renderer =
                         []
     , unorderedList =
         \items model ->
-            Html.div [ css [ Tw.m_6 ] ]
-                [ ul [ css [ Tw.list_disc, Tw.mr_2, Bp.md [ Tw.mr_0 ] ] ]
-                    (items
-                        |> List.map
-                            (\item ->
-                                case item of
-                                    Block.ListItem task children ->
-                                        let
-                                            checkbox =
-                                                case task of
-                                                    Block.NoTask ->
-                                                        text ""
-
-                                                    Block.IncompleteTask ->
-                                                        input
-                                                            [ Attr.disabled True
-                                                            , Attr.checked False
-                                                            , Attr.type_ "checkbox"
-                                                            ]
-                                                            []
-
-                                                    Block.CompletedTask ->
-                                                        input
-                                                            [ Attr.disabled True
-                                                            , Attr.checked True
-                                                            , Attr.type_ "checkbox"
-                                                            ]
-                                                            []
-                                        in
-                                        li [] (checkbox :: renderAll model children)
-                            )
-                    )
+            ul
+                [ css
+                    [ Tw.list_disc
+                    , Tw.ml_10
+                    , Tw.mr_2
+                    , Tw.mb_3
+                    , Bp.md
+                        [ Tw.mr_0
+                        ]
+                    ]
                 ]
+                (items
+                    |> List.map
+                        (\item ->
+                            case item of
+                                Block.ListItem task children ->
+                                    let
+                                        checkbox =
+                                            case task of
+                                                Block.NoTask ->
+                                                    text ""
+
+                                                Block.IncompleteTask ->
+                                                    input
+                                                        [ Attr.disabled True
+                                                        , Attr.checked False
+                                                        , Attr.type_ "checkbox"
+                                                        ]
+                                                        []
+
+                                                Block.CompletedTask ->
+                                                    input
+                                                        [ Attr.disabled True
+                                                        , Attr.checked True
+                                                        , Attr.type_ "checkbox"
+                                                        ]
+                                                        []
+                                    in
+                                    li [] (checkbox :: renderAll model children)
+                        )
+                )
     , orderedList =
         \startingIndex items model ->
             ol
@@ -212,8 +222,10 @@ heading { level, rawText, children } model =
             h1
                 [ css
                     ([ Tw.text_4xl
-                     , Tw.mt_4
+                     , Tw.mt_6
                      , Tw.mb_4
+                     , Tw.font_sans
+                     , Tw.font_bold
                      ]
                         ++ commonCss
                     )
@@ -227,6 +239,25 @@ heading { level, rawText, children } model =
                 , css
                     ([ Tw.text_3xl
                      , Tw.mt_6
+                     , Tw.mb_2
+                     , Tw.font_sans
+                     , Tw.font_bold
+                     ]
+                        ++ commonCss
+                    )
+                ]
+                (renderAll model children)
+
+        Block.H3 ->
+            h3
+                [ Attr.id (rawTextToId rawText)
+                , Attr.attribute "name" (rawTextToId rawText)
+                , css
+                    ([ Tw.text_2xl
+                     , Tw.mt_6
+                     , Tw.mb_3
+                     , Tw.font_sans
+                     , Tw.font_bold
                      ]
                         ++ commonCss
                     )

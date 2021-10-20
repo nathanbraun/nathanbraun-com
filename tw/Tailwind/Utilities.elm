@@ -120,7 +120,7 @@ globalStyles =
         , Css.property "padding" "0"
         ]
     , Css.Global.selector "html"
-        [ Css.property "font-family" "Lato"
+        [ Css.property "font-family" "IBM Plex Sans"
         , Css.property "line-height" "1.5"
         ]
     , Css.Global.selector "body"
@@ -5533,7 +5533,7 @@ font_extralight =
 
 font_header : Css.Style
 font_header =
-    Css.property "font-family" "Lato"
+    Css.property "font-family" "Roboto"
 
 
 font_light : Css.Style
@@ -5553,7 +5553,7 @@ font_normal =
 
 font_sans : Css.Style
 font_sans =
-    Css.property "font-family" "Lato"
+    Css.property "font-family" "IBM Plex Sans"
 
 
 font_semibold : Css.Style

@@ -1,8 +1,8 @@
 module.exports = {
     theme: {
       fontFamily: {
-        sans: ['Lato'],
-        header: ['Lato']
+        sans: ['IBM Plex Sans'],
+        header: ['Roboto']
       }
     },
     variants: [], // We can do variants in elm code
