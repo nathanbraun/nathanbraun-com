@@ -2,11 +2,13 @@
 title: baz!
 tags: elm
 ---
-# header
-some text
-- nested
-  - bullet
+# Learn to Code with Fantasy Football
 
+I wrote LTCWFF in 2019.
+- nested point
+- bullet
+
+## Writing Process
 <test/>
 Some elm code:
 
