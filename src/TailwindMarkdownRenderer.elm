@@ -1,6 +1,6 @@
-module TailwindMarkdownRenderer exposing (renderer)
+module TailwindMarkdownRenderer exposing (render, renderAll)
 
-import Css
+import DataSource exposing (DataSource)
 import Html.Styled as Html exposing (..)
 import Html.Styled.Attributes as Attr exposing (css)
 import Markdown.Block as Block exposing (Block)
@@ -12,8 +12,20 @@ import Tailwind.Breakpoints as Bp
 import Tailwind.Utilities as Tw
 
 
-renderer : Markdown.Renderer.Renderer (Model -> Html.Html msg)
-renderer =
+render : List Block -> DataSource (Shared.Model -> List (Html msg))
+render blocks =
+    blocks
+        |> Markdown.Renderer.render engine
+        |> Result.map
+            (\blockViews model ->
+                blockViews
+                    |> renderAll model
+            )
+        |> DataSource.fromResult
+
+
+engine : Markdown.Renderer.Renderer (Model -> Html.Html msg)
+engine =
     { heading = heading
     , paragraph =
         \children model ->
@@ -68,12 +80,11 @@ renderer =
                 |> Markdown.Html.withAttribute "desc"
             , Markdown.Html.tag "test"
                 (\_ model ->
-                    case model.showMobileMenu of
-                        True ->
-                            div [] [ text "True" ]
+                    if model.showMobileMenu then
+                        div [] [ text "True" ]
 
-                        False ->
-                            div [] [ text "False" ]
+                    else
+                        div [] [ text "False" ]
                 )
             ]
     , text = \children _ -> text children
@@ -184,7 +195,7 @@ renderer =
     , tableHeader = \children model -> div [] (renderAll model children)
     , tableBody = \children model -> div [] (renderAll model children)
     , tableRow = \children model -> div [] (renderAll model children)
-    , tableCell = \maybeAlignment children model -> div [] (renderAll model children)
+    , tableCell = \_ children model -> div [] (renderAll model children)
     , tableHeaderCell = \_ _ _ -> div [] []
     , strikethrough =
         \children model -> Html.del [] (renderAll model children)
@@ -300,7 +311,7 @@ renderAll model =
 
 
 codeBlock : { body : String, language : Maybe String } -> Shared.Model -> Html.Html msg
-codeBlock details model =
+codeBlock details _ =
     SyntaxHighlight.elm details.body
         |> Result.map (SyntaxHighlight.toBlockHtml (Just 1))
         |> Result.map Html.fromUnstyled
