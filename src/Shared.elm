@@ -1,4 +1,12 @@
-module Shared exposing (Data, Model, Msg(..), SharedMsg(..), template)
+module Shared exposing
+    ( Data
+    , Model
+    , Msg(..)
+    , SharedMsg(..)
+    , TestId
+    , Version(..)
+    , template
+    )
 
 import Analytics
 import Browser.Navigation
@@ -43,12 +51,12 @@ type alias Data =
 
 
 type SharedMsg
-    = RandomInt Int
+    = RandomVersion Version
 
 
 type alias Model =
     { showMobileMenu : Bool
-    , test : String
+    , test : Maybe Version
     }
 
 
@@ -76,8 +84,8 @@ init navigationKey flags maybePagePath =
                 Just pagePath ->
                     pagePath.path.path |> Path.toAbsolute |> Analytics.trackPageNavigation
     in
-    ( { showMobileMenu = False, test = "A" }
-    , Cmd.batch [ command, Random.generate (RandomInt >> SharedMsg) randomInt ]
+    ( { showMobileMenu = False, test = Nothing }
+    , Cmd.batch [ command, Random.generate (RandomVersion >> SharedMsg) randomVersion ]
     )
 
 
@@ -89,16 +97,8 @@ update msg model =
             , newPage.path |> Path.toAbsolute |> Analytics.trackPageNavigation
             )
 
-        SharedMsg (RandomInt int) ->
-            let
-                test =
-                    if int == 1 then
-                        "A"
-
-                    else
-                        "B"
-            in
-            ( { model | test = test }, Cmd.none )
+        SharedMsg (RandomVersion version) ->
+            ( { model | test = Just version }, Cmd.none )
 
 
 subscriptions : Path -> Model -> Sub Msg
@@ -169,6 +169,34 @@ view sharedData page model toMsg pageView =
     }
 
 
-randomInt : Generator Int
-randomInt =
-    Random.int 1 2
+randomVersion : Generator Version
+randomVersion =
+    Random.map
+        (\x ->
+            if x == 1 then
+                A
+
+            else
+                B
+        )
+        (Random.int 1 2)
+
+
+type Version
+    = A
+    | B
+
+
+type TestId
+    = TestId String
+
+
+type VersionId
+    = VersionId String
+
+
+type alias Test =
+    { testId : TestId
+    , aDesc : VersionId
+    , bDesc : VersionId
+    }
