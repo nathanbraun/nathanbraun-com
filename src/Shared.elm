@@ -82,8 +82,10 @@ init navigationKey flags maybePagePath =
 update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model =
     case msg of
-        OnPageChange _ ->
-            ( { model | showMobileMenu = False }, Cmd.none )
+        OnPageChange newPage ->
+            ( { model | showMobileMenu = False }
+            , newPage.path |> Path.toRelative |> Analytics.trackPageNavigation
+            )
 
         SharedMsg globalMsg ->
             ( model, Cmd.none )
