@@ -1,5 +1,6 @@
 module Shared exposing (Data, Model, Msg(..), SharedMsg(..), template)
 
+import Analytics
 import Browser.Navigation
 import Css.Global exposing (global)
 import DataSource
@@ -64,8 +65,17 @@ init :
             }
     -> ( Model, Cmd Msg )
 init navigationKey flags maybePagePath =
+    let
+        command =
+            case maybePagePath of
+                Nothing ->
+                    Cmd.none
+
+                Just pagePath ->
+                    pagePath.path.path |> Path.toRelative |> Analytics.trackPageNavigation
+    in
     ( { showMobileMenu = False }
-    , Cmd.none
+    , command
     )
 
 
