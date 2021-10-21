@@ -178,7 +178,12 @@ engine =
             ol
                 (case startingIndex of
                     1 ->
-                        [ Attr.start startingIndex ]
+                        [ Attr.start startingIndex
+                        , css
+                            [ Tw.list_decimal
+                            , Tw.ml_10
+                            ]
+                        ]
 
                     _ ->
                         []
