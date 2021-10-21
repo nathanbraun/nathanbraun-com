@@ -35,7 +35,7 @@ page =
 
 data : DataSource Data
 data =
-    MarkdownCodec.pageBody Data
+    MarkdownCodec.pageBody [ "index" ] Data
 
 
 head :

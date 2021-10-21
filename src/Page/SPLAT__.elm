@@ -48,7 +48,7 @@ routes =
 
 data : RouteParams -> DataSource Data
 data routeParams =
-    MarkdownCodec.pageBodyBySplat routeParams Data
+    MarkdownCodec.pageBody routeParams.splat Data
 
 
 head :
@@ -103,5 +103,11 @@ content =
         |> Glob.capture Glob.recursiveWildcard
         |> Glob.match (Glob.literal "/")
         |> Glob.capture Glob.wildcard
+        |> Glob.match
+            (Glob.oneOf
+                ( ( "", () )
+                , [ ( "/index", () ) ]
+                )
+            )
         |> Glob.match (Glob.literal ".md")
         |> Glob.toDataSource

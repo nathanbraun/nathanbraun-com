@@ -2,8 +2,6 @@ module MarkdownCodec exposing
     ( PageMetadata
     , frontmatterDecoder
     , pageBody
-    , pageBodyByRoute
-    , pageBodyBySplat
     , withFrontmatter
     )
 
@@ -56,74 +54,25 @@ type alias PageMetadata =
     }
 
 
-pageBodyBySplat :
-    { route | splat : List String }
-    ->
-        (PageMetadata
-         ->
-            (Shared.Model
-             -> List (Html msg)
-            )
-         -> value
-        )
-    -> DataSource value
-pageBodyBySplat routeParams constructor =
-    Glob.expectUniqueMatch (findBySplat routeParams.splat)
-        |> DataSource.andThen
-            (withFrontmatter
-                constructor
-                frontmatterDecoder
-                TailwindMarkdownRenderer.render
-            )
-
-
-pageBodyByRoute :
-    { route | slug : String }
-    ->
-        (PageMetadata
-         ->
-            (Shared.Model
-             -> List (Html msg)
-            )
-         -> value
-        )
-    -> DataSource value
-pageBodyByRoute routeParams constructor =
-    Glob.expectUniqueMatch (findBySlug routeParams.slug)
-        |> DataSource.andThen
-            (withFrontmatter
-                constructor
-                frontmatterDecoder
-                TailwindMarkdownRenderer.render
-            )
-
-
 pageBody :
-    (PageMetadata
-     ->
-        (Shared.Model
-         -> List (Html msg)
+    List String
+    ->
+        (PageMetadata
+         ->
+            (Shared.Model
+             -> List (Html msg)
+            )
+         -> value
         )
-     -> value
-    )
     -> DataSource value
-pageBody constructor =
-    Glob.expectUniqueMatch (findBySlug "index")
+pageBody splat constructor =
+    Glob.expectUniqueMatch (findBySplat splat)
         |> DataSource.andThen
             (withFrontmatter
                 constructor
                 frontmatterDecoder
                 TailwindMarkdownRenderer.render
             )
-
-
-findBySlug : String -> Glob String
-findBySlug slug =
-    Glob.succeed identity
-        |> Glob.captureFilePath
-        |> Glob.match (Glob.literal "content/")
-        |> Glob.match (Glob.literal slug)
-        |> Glob.match (Glob.literal ".md")
 
 
 findBySplat : List String -> Glob String
@@ -132,4 +81,10 @@ findBySplat splat =
         |> Glob.captureFilePath
         |> Glob.match (Glob.literal "content/")
         |> Glob.match (Glob.literal (String.join "/" splat))
+        |> Glob.match
+            (Glob.oneOf
+                ( ( "", () )
+                , [ ( "/index", () ) ]
+                )
+            )
         |> Glob.match (Glob.literal ".md")
