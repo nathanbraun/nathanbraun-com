@@ -80,13 +80,25 @@ engine =
                 |> Markdown.Html.withAttribute "src"
                 |> Markdown.Html.withAttribute "desc"
             , Markdown.Html.tag "test"
-                (\_ model ->
-                    if model.showMobileMenu then
-                        div [] [ text "True" ]
+                (\id version children model ->
+                    case ( version, model.test ) of
+                        ( "A", "A" ) ->
+                            div [ css [ Tw.w_full ] ]
+                                (renderAll model
+                                    children
+                                )
 
-                    else
-                        div [] [ text "False" ]
+                        ( "B", "B" ) ->
+                            div [ css [ Tw.w_full ] ]
+                                (renderAll model
+                                    children
+                                )
+
+                        _ ->
+                            div [ css [ Tw.hidden ] ] []
                 )
+                |> Markdown.Html.withAttribute "id"
+                |> Markdown.Html.withAttribute "version"
             ]
     , text = \children _ -> text children
     , codeSpan = \_ _ -> div [] []

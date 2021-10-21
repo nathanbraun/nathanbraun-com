@@ -10,6 +10,7 @@ import Html.Styled.Attributes as Attr exposing (css)
 import Pages.Flags
 import Pages.PageUrl exposing (PageUrl)
 import Path exposing (Path)
+import Random exposing (Generator)
 import Route exposing (Route)
 import SharedTemplate exposing (SharedTemplate)
 import Tailwind.Breakpoints as Bp
@@ -42,11 +43,12 @@ type alias Data =
 
 
 type SharedMsg
-    = NoOp
+    = RandomInt Int
 
 
 type alias Model =
     { showMobileMenu : Bool
+    , test : String
     }
 
 
@@ -72,10 +74,10 @@ init navigationKey flags maybePagePath =
                     Cmd.none
 
                 Just pagePath ->
-                    pagePath.path.path |> Path.toRelative |> Analytics.trackPageNavigation
+                    pagePath.path.path |> Path.toAbsolute |> Analytics.trackPageNavigation
     in
-    ( { showMobileMenu = False }
-    , command
+    ( { showMobileMenu = False, test = "A" }
+    , Cmd.batch [ command, Random.generate (RandomInt >> SharedMsg) randomInt ]
     )
 
 
@@ -84,11 +86,19 @@ update msg model =
     case msg of
         OnPageChange newPage ->
             ( { model | showMobileMenu = False }
-            , newPage.path |> Path.toRelative |> Analytics.trackPageNavigation
+            , newPage.path |> Path.toAbsolute |> Analytics.trackPageNavigation
             )
 
-        SharedMsg globalMsg ->
-            ( model, Cmd.none )
+        SharedMsg (RandomInt int) ->
+            let
+                test =
+                    if int == 1 then
+                        "A"
+
+                    else
+                        "B"
+            in
+            ( { model | test = test }, Cmd.none )
 
 
 subscriptions : Path -> Model -> Sub Msg
@@ -157,3 +167,8 @@ view sharedData page model toMsg pageView =
                 ]
     , title = pageView.title
     }
+
+
+randomInt : Generator Int
+randomInt =
+    Random.int 1 2
