@@ -20,7 +20,7 @@ means it might finally be time to call it a wrap on the list.
 
 Here's what we got:
 
-![Quarantine Backyard Bird List](images/bird-list.jpg)
+![Quarantine Backyard Bird List](/images/bird-list.jpg)
 
 Of all of these, I think most interesting might be the Nashville Warbler, which
 I never would have been able to identify had it not unfortunately hit one of

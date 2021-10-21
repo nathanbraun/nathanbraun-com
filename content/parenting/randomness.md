@@ -37,7 +37,7 @@ We've done it just the one time so far, but we'll keep track of the results if
 we do it again. Enough times and she might have a good grasp of the central
 limit theorem before she's 5. 
 
-![Coinflip Results](images/coinflip.jpg)
+![Coinflip Results](/images/coinflip.jpg)
 
 Our results. (P)enelope is my 4 year old, (D)ad is me. (G)randpa and (A)rlo
 (her two year old brother, who sort of guessed but definitely did not get what
