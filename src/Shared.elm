@@ -56,7 +56,7 @@ type SharedMsg
 
 type alias Model =
     { showMobileMenu : Bool
-    , test : Maybe Version
+    , test : Test
     }
 
 
@@ -84,8 +84,14 @@ init navigationKey flags maybePagePath =
                 Just pagePath ->
                     pagePath.path.path |> Path.toAbsolute |> Analytics.trackPageNavigation
     in
-    ( { showMobileMenu = False, test = Nothing }
-    , Cmd.batch [ command, Random.generate (RandomVersion >> SharedMsg) randomVersion ]
+    ( { showMobileMenu = False, test = Test (TestId "header-test") Nothing }
+    , Cmd.batch
+        [ command
+
+        -- TODO: get from localhost/write here
+        , Random.generate (RandomVersion >> SharedMsg)
+            randomVersion
+        ]
     )
 
 
@@ -98,7 +104,14 @@ update msg model =
             )
 
         SharedMsg (RandomVersion version) ->
-            ( { model | test = Just version }, Cmd.none )
+            let
+                oldTest =
+                    model.test
+
+                newTest =
+                    { oldTest | version = Just version }
+            in
+            ( { model | test = newTest }, Cmd.none )
 
 
 subscriptions : Path -> Model -> Sub Msg
@@ -191,12 +204,7 @@ type TestId
     = TestId String
 
 
-type VersionId
-    = VersionId String
-
-
 type alias Test =
     { testId : TestId
-    , aDesc : VersionId
-    , bDesc : VersionId
+    , version : Maybe Version
     }

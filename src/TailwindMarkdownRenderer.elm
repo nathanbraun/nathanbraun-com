@@ -7,7 +7,7 @@ import Html.Styled.Attributes as Attr exposing (css)
 import Markdown.Block as Block exposing (Block)
 import Markdown.Html
 import Markdown.Renderer
-import Shared exposing (Model)
+import Shared exposing (Model, Version(..))
 import SyntaxHighlight
 import Tailwind.Breakpoints as Bp
 import Tailwind.Utilities as Tw
@@ -81,14 +81,14 @@ engine =
                 |> Markdown.Html.withAttribute "desc"
             , Markdown.Html.tag "test"
                 (\id version children model ->
-                    case ( version, model.test ) of
-                        ( "A", "A" ) ->
+                    case ( version, model.test.version ) of
+                        ( "A", Just A ) ->
                             div [ css [ Tw.w_full ] ]
                                 (renderAll model
                                     children
                                 )
 
-                        ( "B", "B" ) ->
+                        ( "B", Just B ) ->
                             div [ css [ Tw.w_full ] ]
                                 (renderAll model
                                     children
