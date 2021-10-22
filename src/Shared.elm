@@ -1,9 +1,10 @@
 module Shared exposing
     ( Data
+    , LiveTest
     , Model
     , Msg(..)
     , SharedMsg(..)
-    , TestId
+    , TestId(..)
     , Version(..)
     , template
     )
@@ -15,6 +16,8 @@ import DataSource
 import Html
 import Html.Styled exposing (a, div, text, toUnstyled)
 import Html.Styled.Attributes as Attr exposing (css)
+import Json.Decode as Decode exposing (Decoder, field, string)
+import Json.Encode as Encode
 import Pages.Flags
 import Pages.PageUrl exposing (PageUrl)
 import Path exposing (Path)
@@ -51,12 +54,12 @@ type alias Data =
 
 
 type SharedMsg
-    = RandomVersion Version
+    = RandomVersions (List Version)
 
 
 type alias Model =
     { showMobileMenu : Bool
-    , test : Test
+    , tests : List LiveTest
     }
 
 
@@ -84,13 +87,15 @@ init navigationKey flags maybePagePath =
                 Just pagePath ->
                     pagePath.path.path |> Path.toAbsolute |> Analytics.trackPageNavigation
     in
-    ( { showMobileMenu = False, test = Test (TestId "header-test") Nothing }
+    ( { showMobileMenu = False, tests = [] }
     , Cmd.batch
         [ command
 
         -- TODO: get from localhost/write here
-        , Random.generate (RandomVersion >> SharedMsg)
-            randomVersion
+        , Random.generate (RandomVersions >> SharedMsg)
+            (randomVersions
+                (List.length tests)
+            )
         ]
     )
 
@@ -103,15 +108,12 @@ update msg model =
             , newPage.path |> Path.toAbsolute |> Analytics.trackPageNavigation
             )
 
-        SharedMsg (RandomVersion version) ->
+        SharedMsg (RandomVersions versions) ->
             let
-                oldTest =
-                    model.test
-
-                newTest =
-                    { oldTest | version = Just version }
+                _ =
+                    Debug.log "versions" (List.map2 LiveTest tests versions)
             in
-            ( { model | test = newTest }, Cmd.none )
+            ( { model | tests = List.map2 LiveTest tests versions }, Cmd.none )
 
 
 subscriptions : Path -> Model -> Sub Msg
@@ -208,3 +210,73 @@ type alias Test =
     { testId : TestId
     , version : Maybe Version
     }
+
+
+tests : List TestId
+tests =
+    [ TestId "header-test"
+    , TestId "test2"
+    ]
+
+
+type alias LiveTest =
+    { testId : TestId
+    , version : Version
+    }
+
+
+randomVersions : Int -> Generator (List Version)
+randomVersions size =
+    Random.list size randomVersion
+
+
+testsEncoder : List LiveTest -> Decode.Value
+testsEncoder ts =
+    Encode.list testEncoder ts
+
+
+testEncoder : LiveTest -> Decode.Value
+testEncoder { testId, version } =
+    Encode.object
+        [ ( "testId", Encode.string (testId |> (\(TestId x) -> x)) )
+        , ( "version", Encode.string (versionToString version) )
+        ]
+
+
+versionToString : Version -> String
+versionToString version =
+    case version of
+        A ->
+            "A"
+
+        B ->
+            "B"
+
+
+versionDecoder : Decoder Version
+versionDecoder =
+    Decode.string
+        |> Decode.andThen
+            (\str ->
+                case str of
+                    "A" ->
+                        Decode.succeed A
+
+                    "B" ->
+                        Decode.succeed B
+
+                    _ ->
+                        Decode.fail "Unknown version."
+            )
+
+
+testsDecoder : Decoder (List LiveTest)
+testsDecoder =
+    Decode.list testDecoder
+
+
+testDecoder : Decoder LiveTest
+testDecoder =
+    Decode.map2 LiveTest
+        (field "testId" string |> Decode.map TestId)
+        (field "version" versionDecoder)

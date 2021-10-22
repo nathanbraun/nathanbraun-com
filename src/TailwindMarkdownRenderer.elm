@@ -4,10 +4,11 @@ import Css
 import DataSource exposing (DataSource)
 import Html.Styled as Html exposing (..)
 import Html.Styled.Attributes as Attr exposing (css)
+import List.Extra as Extra
 import Markdown.Block as Block exposing (Block)
 import Markdown.Html
 import Markdown.Renderer
-import Shared exposing (Model, Version(..))
+import Shared exposing (LiveTest, Model, TestId(..), Version(..))
 import SyntaxHighlight
 import Tailwind.Breakpoints as Bp
 import Tailwind.Utilities as Tw
@@ -81,7 +82,14 @@ engine =
                 |> Markdown.Html.withAttribute "desc"
             , Markdown.Html.tag "test"
                 (\id version children model ->
-                    case ( version, model.test.version ) of
+                    let
+                        test =
+                            Extra.find
+                                (\x -> (x.testId |> (\(TestId y) -> y)) == id)
+                                model.tests
+                                |> Maybe.map .version
+                    in
+                    case ( version, test ) of
                         ( "A", Just A ) ->
                             div [ css [ Tw.w_full ] ]
                                 (renderAll model
