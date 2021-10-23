@@ -1,9 +1,9 @@
 port module Shared exposing
     ( Data
-    , LiveTest
     , Model
     , Msg(..)
     , SharedMsg(..)
+    , Test
     , TestId(..)
     , Version(..)
     , template
@@ -54,13 +54,13 @@ type alias Data =
 
 
 type SharedMsg
-    = RandomVersions (List LiveTest) (List Version)
+    = RandomVersions (List Test) (List Version)
     | GotTests Decode.Value
 
 
 type alias Model =
     { showMobileMenu : Bool
-    , tests : List LiveTest
+    , tests : List Test
     }
 
 
@@ -134,7 +134,7 @@ update msg model =
         SharedMsg (RandomVersions stored versions) ->
             let
                 randomTests =
-                    List.map2 LiveTest tests versions
+                    List.map2 Test tests versions
 
                 newTests =
                     List.filter
@@ -251,20 +251,13 @@ type TestId
     = TestId String
 
 
-type alias Test =
-    { testId : TestId
-    , version : Maybe Version
-    }
-
-
 tests : List TestId
 tests =
     [ TestId "header-test"
-    , TestId "test2"
     ]
 
 
-type alias LiveTest =
+type alias Test =
     { testId : TestId
     , version : Version
     }
@@ -275,12 +268,12 @@ randomVersions size =
     Random.list size randomVersion
 
 
-testsEncoder : List LiveTest -> Decode.Value
+testsEncoder : List Test -> Decode.Value
 testsEncoder ts =
     Encode.list testEncoder ts
 
 
-testEncoder : LiveTest -> Decode.Value
+testEncoder : Test -> Decode.Value
 testEncoder { testId, version } =
     Encode.object
         [ ( "testId", Encode.string (testId |> (\(TestId x) -> x)) )
@@ -315,19 +308,19 @@ versionDecoder =
             )
 
 
-testsDecoder : Decoder (List LiveTest)
+testsDecoder : Decoder (List Test)
 testsDecoder =
     Decode.list testDecoder
 
 
-testDecoder : Decoder LiveTest
+testDecoder : Decoder Test
 testDecoder =
-    Decode.map2 LiveTest
+    Decode.map2 Test
         (field "testId" string |> Decode.map TestId)
         (field "version" versionDecoder)
 
 
-saveTests : List LiveTest -> Cmd a
+saveTests : List Test -> Cmd a
 saveTests =
     storeTests << testsEncoder
 

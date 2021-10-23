@@ -8,7 +8,7 @@ import List.Extra as Extra
 import Markdown.Block as Block exposing (Block)
 import Markdown.Html
 import Markdown.Renderer
-import Shared exposing (LiveTest, Model, TestId(..), Version(..))
+import Shared exposing (Model, TestId(..), Version(..))
 import SyntaxHighlight
 import Tailwind.Breakpoints as Bp
 import Tailwind.Utilities as Tw
