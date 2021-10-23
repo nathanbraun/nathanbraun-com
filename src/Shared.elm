@@ -54,7 +54,8 @@ type alias Data =
 
 
 type SharedMsg
-    = RandomVersions (List Version)
+    = RandomVersions (List LiveTest) (List Version)
+    | GotTests Decode.Value
 
 
 type alias Model =
@@ -92,10 +93,6 @@ init navigationKey flags maybePagePath =
         [ command
 
         -- TODO: get from localhost/write here
-        , Random.generate (RandomVersions >> SharedMsg)
-            (randomVersions
-                (List.length tests)
-            )
         ]
     )
 
@@ -108,17 +105,65 @@ update msg model =
             , newPage.path |> Path.toAbsolute |> Analytics.trackPageNavigation
             )
 
-        SharedMsg (RandomVersions versions) ->
+        SharedMsg (GotTests value) ->
             let
-                liveTests =
-                    List.map2 LiveTest tests versions
+                n =
+                    List.length tests
             in
-            ( { model | tests = liveTests }, saveTests liveTests )
+            case Decode.decodeValue testsDecoder value of
+                Ok stored ->
+                    let
+                        _ =
+                            Debug.log "tests" stored
+                    in
+                    ( model
+                    , Random.generate (RandomVersions stored >> SharedMsg)
+                        (randomVersions
+                            (List.length tests)
+                        )
+                    )
+
+                Err error ->
+                    ( model
+                    , Random.generate (RandomVersions [] >> SharedMsg)
+                        (randomVersions
+                            (List.length tests)
+                        )
+                    )
+
+        SharedMsg (RandomVersions stored versions) ->
+            let
+                randomTests =
+                    List.map2 LiveTest tests versions
+
+                newTests =
+                    List.filter
+                        (\x ->
+                            List.member x.testId
+                                (stored
+                                    |> List.map
+                                        .testId
+                                )
+                                |> not
+                        )
+                        randomTests
+
+                seenTests =
+                    List.filter
+                        (\x ->
+                            List.member x.testId tests
+                        )
+                        stored
+
+                updatedTests =
+                    seenTests ++ newTests
+            in
+            ( { model | tests = updatedTests }, saveTests updatedTests )
 
 
 subscriptions : Path -> Model -> Sub Msg
 subscriptions _ _ =
-    Sub.none
+    loadTests (GotTests >> SharedMsg)
 
 
 data : DataSource.DataSource Data
@@ -288,3 +333,6 @@ saveTests =
 
 
 port storeTests : Decode.Value -> Cmd a
+
+
+port loadTests : (Decode.Value -> msg) -> Sub msg
