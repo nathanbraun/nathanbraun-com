@@ -3,12 +3,7 @@ title: Nathan Braun
 type: page
 ---
 
-<test id="header-test" version="A">
-# Nathan Braun - A
-</test>
-<test id="header-test" version="B">
-# Nathan Braun - B
-</test>
+# Nathan Braun
 
 I am a programmer, data scientist and author. My book, [Learn to Code with
 Fantasy Football](https://fantasycoding.com?utm_source=nathanbraun&utm_content=home&utm_medium=organic&utm_campaign=writeup) is out now. I also recently
@@ -22,12 +17,7 @@ An RSS feed of this site is available
 - Github: [@nathanbraun](https://github.com/nathanbraun)
 - Goodreads: [@nathanbraun](https://www.goodreads.com/review/list/150191?order=d&sort=date_added)
 
-<test id="test2" version="A">
-## Projects - A
-</test>
-<test id="test2" version="B">
-## Projects - B
-</test>
+## Projects
 - [Vim For Everyone](vim), a site extolling the virtues of Vim for non-coders (2021).
 - [Vote Squared](voting), a quadratic polling app (2020-present).
 - [Scramble Tracker](scramble), track whose shots you used during a golf scramble (2020-present)

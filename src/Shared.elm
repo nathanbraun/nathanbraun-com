@@ -18,7 +18,7 @@ import Html.Styled exposing (a, div, text, toUnstyled)
 import Html.Styled.Attributes as Attr exposing (css)
 import Json.Decode as Decode exposing (Decoder, field, string)
 import Json.Encode as Encode
-import Pages.Flags
+import Pages.Flags exposing (Flags(..))
 import Pages.PageUrl exposing (PageUrl)
 import Path exposing (Path)
 import Random exposing (Generator)
@@ -55,7 +55,6 @@ type alias Data =
 
 type SharedMsg
     = RandomVersions (List Test) (List Version)
-    | GotTests Decode.Value
 
 
 type alias Model =
@@ -80,17 +79,41 @@ init :
     -> ( Model, Cmd Msg )
 init navigationKey flags maybePagePath =
     let
-        command =
+        trackPage =
             case maybePagePath of
                 Nothing ->
                     Cmd.none
 
                 Just pagePath ->
                     pagePath.path.path |> Path.toAbsolute |> Analytics.trackPageNavigation
+
+        loadTests =
+            case flags of
+                BrowserFlags value ->
+                    case Decode.decodeValue testsDecoder value of
+                        Ok stored ->
+                            let
+                                _ =
+                                    Debug.log "flags" stored
+                            in
+                            Random.generate (RandomVersions stored >> SharedMsg)
+                                (randomVersions
+                                    (List.length tests)
+                                )
+
+                        Err error ->
+                            Random.generate (RandomVersions [] >> SharedMsg)
+                                (randomVersions
+                                    (List.length tests)
+                                )
+
+                PreRenderFlags ->
+                    Cmd.none
     in
     ( { showMobileMenu = False, tests = [] }
     , Cmd.batch
-        [ command
+        [ trackPage
+        , loadTests
 
         -- TODO: get from localhost/write here
         ]
@@ -104,32 +127,6 @@ update msg model =
             ( { model | showMobileMenu = False }
             , newPage.path |> Path.toAbsolute |> Analytics.trackPageNavigation
             )
-
-        SharedMsg (GotTests value) ->
-            let
-                n =
-                    List.length tests
-            in
-            case Decode.decodeValue testsDecoder value of
-                Ok stored ->
-                    let
-                        _ =
-                            Debug.log "tests" stored
-                    in
-                    ( model
-                    , Random.generate (RandomVersions stored >> SharedMsg)
-                        (randomVersions
-                            (List.length tests)
-                        )
-                    )
-
-                Err error ->
-                    ( model
-                    , Random.generate (RandomVersions [] >> SharedMsg)
-                        (randomVersions
-                            (List.length tests)
-                        )
-                    )
 
         SharedMsg (RandomVersions stored versions) ->
             let
@@ -163,7 +160,7 @@ update msg model =
 
 subscriptions : Path -> Model -> Sub Msg
 subscriptions _ _ =
-    loadTests (GotTests >> SharedMsg)
+    Sub.none
 
 
 data : DataSource.DataSource Data
@@ -326,6 +323,3 @@ saveTests =
 
 
 port storeTests : Decode.Value -> Cmd a
-
-
-port loadTests : (Decode.Value -> msg) -> Sub msg
