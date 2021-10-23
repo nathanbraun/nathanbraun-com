@@ -1,4 +1,4 @@
-module Shared exposing
+port module Shared exposing
     ( Data
     , LiveTest
     , Model
@@ -110,10 +110,10 @@ update msg model =
 
         SharedMsg (RandomVersions versions) ->
             let
-                _ =
-                    Debug.log "versions" (List.map2 LiveTest tests versions)
+                liveTests =
+                    List.map2 LiveTest tests versions
             in
-            ( { model | tests = List.map2 LiveTest tests versions }, Cmd.none )
+            ( { model | tests = liveTests }, saveTests liveTests )
 
 
 subscriptions : Path -> Model -> Sub Msg
@@ -280,3 +280,11 @@ testDecoder =
     Decode.map2 LiveTest
         (field "testId" string |> Decode.map TestId)
         (field "version" versionDecoder)
+
+
+saveTests : List LiveTest -> Cmd a
+saveTests =
+    storeTests << testsEncoder
+
+
+port storeTests : Decode.Value -> Cmd a

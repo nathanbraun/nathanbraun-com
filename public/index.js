@@ -7,6 +7,9 @@ export default {
     console.log("App loaded", app);
     app.ports.trackAnalytics.subscribe(payload => {
       console.log(payload);
+  const tests = JSON.parse(localStorage.getItem('ab-tests'));
+    app.ports.storeTests.subscribe(payload => {
+      localStorage.setItem('ab-tests', JSON.stringify(payload));
     });
   },
   flags: function () {
