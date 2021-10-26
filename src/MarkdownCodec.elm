@@ -8,6 +8,7 @@ module MarkdownCodec exposing
 import DataSource exposing (DataSource)
 import DataSource.File as StaticFile
 import DataSource.Glob as Glob exposing (Glob)
+import Date exposing (Date)
 import Html.Styled as Html exposing (Html)
 import Markdown.Block exposing (Block)
 import Markdown.Parser
@@ -45,12 +46,33 @@ withFrontmatter constructor frontmatterDecoder2 renderer filePath =
 
 frontmatterDecoder : OptimizedDecoder.Decoder PageMetadata
 frontmatterDecoder =
-    OptimizedDecoder.map PageMetadata
+    OptimizedDecoder.map4 PageMetadata
         (OptimizedDecoder.field "title" OptimizedDecoder.string)
+        (OptimizedDecoder.field "description" OptimizedDecoder.string)
+        (OptimizedDecoder.field "published"
+            (OptimizedDecoder.string
+                |> OptimizedDecoder.andThen
+                    (\isoString ->
+                        case Date.fromIsoString isoString of
+                            Ok date ->
+                                OptimizedDecoder.succeed date
+
+                            Err error ->
+                                OptimizedDecoder.fail error
+                    )
+            )
+        )
+        (OptimizedDecoder.field "draft" OptimizedDecoder.bool
+            |> OptimizedDecoder.maybe
+            |> OptimizedDecoder.map (Maybe.withDefault False)
+        )
 
 
 type alias PageMetadata =
     { title : String
+    , description : String
+    , published : Date
+    , draft : Bool
     }
 
 
