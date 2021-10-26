@@ -1,6 +1,8 @@
 ---
 title: Nathan Braun
+description: homepage
 type: page
+published: "2021-10-26"
 ---
 
 # Nathan Braun

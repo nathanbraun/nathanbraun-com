@@ -1,5 +1,6 @@
 ---
 title: Quotes I Like — Nathan Braun
+description: some quotes i like
 type: page
 ---
 

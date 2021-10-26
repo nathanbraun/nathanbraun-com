@@ -1,5 +1,6 @@
 ---
 title: Draft Pick Trade Calculator Writeup — Nathan Braun 
+description: draft pick trade calculator
 type: page
 ---
 

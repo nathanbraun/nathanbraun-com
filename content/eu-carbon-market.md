@@ -1,5 +1,6 @@
 ---
 title: EU Carbon Market Thesis Writeup — Nathan Braun
+description: thesis
 type: page
 ---
 

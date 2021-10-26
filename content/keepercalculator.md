@@ -1,5 +1,6 @@
 ---
 title: Keeper + Draft Pick Trade Calculator Writeup — Nathan Braun 
+description: writeup of keepertradecalculator.com
 type: page
 ---
 

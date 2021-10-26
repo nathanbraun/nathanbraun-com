@@ -1,5 +1,6 @@
 ---
 title: Bayesian Fantasy Football Writeup — Nathan Braun
+description: writeup of Bayesian Fantasy Football
 type: page
 ---
 

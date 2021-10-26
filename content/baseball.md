@@ -1,5 +1,6 @@
 ---
 title: Learn to Code with Baseball Writeup — Nathan Braun
+description: Writeup of LTCWBB
 type: page
 ---
 
