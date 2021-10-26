@@ -92,10 +92,6 @@ init navigationKey flags maybePagePath =
                 BrowserFlags value ->
                     case Decode.decodeValue testsDecoder value of
                         Ok stored ->
-                            let
-                                _ =
-                                    Debug.log "flags" stored
-                            in
                             Random.generate (RandomVersions stored >> SharedMsg)
                                 (randomVersions
                                     (List.length tests)
