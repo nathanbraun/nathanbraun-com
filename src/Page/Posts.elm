@@ -74,7 +74,7 @@ view :
     -> StaticPayload Data RouteParams
     -> View Msg
 view maybeUrl sharedModel static =
-    { title = "all posts"
+    { title = "Nathan Braun's Posts"
     , body =
         [ div [ css [] ]
             [ h1
