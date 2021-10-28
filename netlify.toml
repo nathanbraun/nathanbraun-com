@@ -5,6 +5,7 @@
 
 [build.environment]
   ELM_HOME = "$NETLIFY_BUILD_BASE/cache/elm"
+  NODE_VERSION = "17.0.1"
   NO_ELM_TOOLING_INSTALL = "1"
 
 [dev]
