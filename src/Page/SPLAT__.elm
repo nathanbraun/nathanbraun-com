@@ -1,7 +1,6 @@
 module Page.SPLAT__ exposing (Data, Model, Msg, page)
 
 import DataSource exposing (DataSource)
-import DataSource.Glob as Glob
 import Head
 import Head.Seo as Seo
 import Html.Styled as Html exposing (Html)
@@ -37,7 +36,7 @@ page =
 
 routes : DataSource (List RouteParams)
 routes =
-    content
+    Post.contentGlob
         |> DataSource.map
             (List.map
                 (\{ subPath, slug } ->
@@ -86,28 +85,3 @@ view _ sharedModel static =
     { title = static.data.metadata.title
     , body = static.data.body sharedModel
     }
-
-
-type alias Route =
-    { filePath : String
-    , subPath : List String
-    , slug : String
-    }
-
-
-content : DataSource (List Route)
-content =
-    Glob.succeed Route
-        |> Glob.captureFilePath
-        |> Glob.match (Glob.literal "content/")
-        |> Glob.capture Glob.recursiveWildcard
-        |> Glob.match (Glob.literal "/")
-        |> Glob.capture Glob.wildcard
-        |> Glob.match
-            (Glob.oneOf
-                ( ( "", () )
-                , [ ( "/index", () ) ]
-                )
-            )
-        |> Glob.match (Glob.literal ".md")
-        |> Glob.toDataSource

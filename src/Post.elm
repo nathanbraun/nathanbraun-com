@@ -1,5 +1,7 @@
 module Post exposing
-    ( PostMetadata
+    ( Post
+    , PostMetadata
+    , contentGlob
     , frontmatterDecoder
     , pageBody
     , withFrontmatter
@@ -15,6 +17,31 @@ import Markdown.Parser
 import OptimizedDecoder exposing (Decoder)
 import Shared
 import TailwindMarkdownRenderer
+
+
+type alias Post =
+    { filePath : String
+    , subPath : List String
+    , slug : String
+    }
+
+
+contentGlob : DataSource (List Post)
+contentGlob =
+    Glob.succeed Post
+        |> Glob.captureFilePath
+        |> Glob.match (Glob.literal "content/")
+        |> Glob.capture Glob.recursiveWildcard
+        |> Glob.match (Glob.literal "/")
+        |> Glob.capture Glob.wildcard
+        |> Glob.match
+            (Glob.oneOf
+                ( ( "", () )
+                , [ ( "/index", () ) ]
+                )
+            )
+        |> Glob.match (Glob.literal ".md")
+        |> Glob.toDataSource
 
 
 withFrontmatter :
