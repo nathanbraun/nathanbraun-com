@@ -2,6 +2,7 @@ module Post exposing
     ( Post
     , PostMetadata
     , allMetadata
+    , allPosts
     , contentGlob
     , frontmatterDecoder
     , pageBody
@@ -13,6 +14,7 @@ import DataSource.File as File
 import DataSource.Glob as Glob exposing (Glob)
 import Date exposing (Date)
 import Html.Styled as Html exposing (Html)
+import HtmlStringMarkdownRenderer
 import Markdown.Block exposing (Block)
 import Markdown.Parser
 import OptimizedDecoder exposing (Decoder)
@@ -26,6 +28,51 @@ type alias Post =
     , subPath : List String
     , slug : String
     }
+
+
+type alias FullPost =
+    { route : Route.Route
+    , metadata : PostMetadata
+    , content : String
+    }
+
+
+allPosts : DataSource.DataSource (List FullPost)
+allPosts =
+    contentGlob
+        |> DataSource.map
+            (\paths ->
+                paths
+                    |> List.map
+                        (\{ filePath, subPath, slug } ->
+                            DataSource.map3 FullPost
+                                (DataSource.succeed <|
+                                    Route.SPLAT__
+                                        { splat =
+                                            subPath ++ [ slug ]
+                                        }
+                                )
+                                (File.onlyFrontmatter frontmatterDecoder filePath)
+                                (File.bodyWithoutFrontmatter filePath)
+                        )
+            )
+        |> DataSource.resolve
+        |> DataSource.map
+            (\articles ->
+                articles
+                    |> List.filterMap
+                        (\{ route, metadata, content } ->
+                            if metadata.rss then
+                                Just (FullPost route metadata content)
+
+                            else
+                                Nothing
+                        )
+            )
+        |> DataSource.map
+            (List.sortBy
+                (\{ metadata } -> -(Date.toRataDie metadata.published))
+            )
 
 
 allMetadata : DataSource.DataSource (List ( Route.Route, PostMetadata ))
@@ -52,11 +99,11 @@ allMetadata =
                 articles
                     |> List.filterMap
                         (\( route, metadata ) ->
-                            if metadata.draft then
-                                Nothing
+                            if metadata.rss then
+                                Just ( route, metadata )
 
                             else
-                                Just ( route, metadata )
+                                Nothing
                         )
             )
         |> DataSource.map
@@ -112,7 +159,7 @@ withFrontmatter constructor frontmatterDecoder2 renderer filePath =
 
 frontmatterDecoder : OptimizedDecoder.Decoder PostMetadata
 frontmatterDecoder =
-    OptimizedDecoder.map4 PostMetadata
+    OptimizedDecoder.map5 PostMetadata
         (OptimizedDecoder.field "title" OptimizedDecoder.string)
         (OptimizedDecoder.field "description" OptimizedDecoder.string)
         (OptimizedDecoder.field "published"
@@ -132,6 +179,10 @@ frontmatterDecoder =
             |> OptimizedDecoder.maybe
             |> OptimizedDecoder.map (Maybe.withDefault False)
         )
+        (OptimizedDecoder.field "rss" OptimizedDecoder.bool
+            |> OptimizedDecoder.maybe
+            |> OptimizedDecoder.map (Maybe.withDefault False)
+        )
 
 
 type alias PostMetadata =
@@ -139,6 +190,7 @@ type alias PostMetadata =
     , description : String
     , published : Date
     , draft : Bool
+    , rss : Bool
     }
 
 

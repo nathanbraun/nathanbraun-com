@@ -4,6 +4,7 @@ type: blog
 author: Nathan Braun
 description: Book review of Three Languages of Politics by Arnold Kling
 published: "2021-01-13"
+rss: true
 ---
 
 # The Three Languages of Politics

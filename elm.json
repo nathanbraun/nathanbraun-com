@@ -22,10 +22,12 @@
             "justinmimbs/date": "3.2.1",
             "matheus23/elm-markdown-transforms": "4.0.0",
             "pablohirafuji/elm-syntax-highlight": "3.4.1",
-            "rtfeldman/elm-css": "17.0.1"
+            "rtfeldman/elm-css": "17.0.1",
+            "zwilias/elm-html-string": "2.0.2"
         },
         "indirect": {
             "MartinSStewart/elm-serialize": "1.2.6",
+            "NoRedInk/elm-string-conversions": "1.0.1",
             "avh4/elm-color": "1.0.0",
             "bburdette/toop": "1.0.1",
             "billstclair/elm-xml-eeue56": "2.0.0",

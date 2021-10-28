@@ -3,6 +3,7 @@ module Api exposing (routes)
 import ApiRoute
 import DataSource exposing (DataSource)
 import Html exposing (Html)
+import HtmlStringMarkdownRenderer
 import Pages
 import Post
 import Route exposing (Route)
@@ -59,21 +60,24 @@ rss options itemsRequest =
 
 postsDataSource : DataSource.DataSource (List Rss.Item)
 postsDataSource =
-    Post.allMetadata
+    Post.allPosts
         |> DataSource.map
             (List.map
-                (\( route, article ) ->
-                    { title = article.title
-                    , description = article.description
+                (\{ route, metadata, content } ->
+                    { title = metadata.title
+                    , description = metadata.description
                     , url =
                         route
                             |> Route.routeToPath
                             |> String.join "/"
                     , categories = []
                     , author = "Nathan Braun"
-                    , pubDate = Rss.Date article.published
+                    , pubDate = Rss.Date metadata.published
                     , content = Nothing
-                    , contentEncoded = Nothing
+                    , contentEncoded =
+                        content
+                            |> HtmlStringMarkdownRenderer.renderMarkdown
+                            |> Result.toMaybe
                     , enclosure = Nothing
                     }
                 )
