@@ -170,6 +170,21 @@ header path =
         "" ->
             div [] []
 
+        "posts" ->
+            div [ css [ Tw.mb_6 ] ]
+                [ a
+                    [ Attr.href "/"
+                    , css
+                        [ Tw.mt_10
+                        , Tw.w_auto
+                        , Tw.text_blue_600
+                        ]
+                    ]
+                    [ text
+                        "← Home"
+                    ]
+                ]
+
         _ ->
             div [ css [ Tw.mb_6 ] ]
                 [ a
@@ -182,6 +197,18 @@ header path =
                     ]
                     [ text
                         "← Home"
+                    ]
+                , text " | "
+                , a
+                    [ Attr.href "/posts"
+                    , css
+                        [ Tw.mt_10
+                        , Tw.w_auto
+                        , Tw.text_blue_600
+                        ]
+                    ]
+                    [ text
+                        "Posts"
                     ]
                 ]
 

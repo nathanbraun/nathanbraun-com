@@ -85,7 +85,7 @@ view maybeUrl sharedModel static =
 
 viewPost : ( Route, Post.PostMetadata ) -> Html msg
 viewPost ( route, info ) =
-    link route [] [ div [] [ text info.title, text (info.published |> Date.format "MMMM ddd, yyyy") ] ]
+    link route [] [ div [] [ text (info.published |> Date.format "yyyy-MM-dd"), text " - ", text info.title ] ]
 
 
 link : Route.Route -> List (Attribute msg) -> List (Html msg) -> Html msg
