@@ -2,6 +2,7 @@
 title: Notes on Principles by Ray Dalio
 type: blog
 description: Notes on Principles by Ray Dalio
+rss: true
 published: "2020-08-18"
 ---
 

@@ -2,6 +2,7 @@
 title: Scramble Tracker
 type: blog
 description: Writeup of scramble tracker project.
+rss: true
 published: "2020-08-24"
 ---
 

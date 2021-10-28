@@ -2,6 +2,7 @@
 title: Fantasy Math 
 type: blog
 description: Writeup on fantasymath.com
+rss: true
 published: "2020-07-20"
 ---
 

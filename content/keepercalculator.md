@@ -3,6 +3,7 @@ title: Keeper + Draft Pick Trade Calculator Writeup — Nathan Braun
 description: writeup of keepertradecalculator.com
 type: page
 published: "2020-01-01"
+rss: true
 ---
 
 # Keeper Trade Calculator

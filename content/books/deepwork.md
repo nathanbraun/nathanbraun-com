@@ -3,6 +3,7 @@ title: Notes on Deep Work by Cal Newport
 type: blog
 description: Notes on Deep Work by Cal Newport
 published: "2020-09-09"
+rss: true
 ---
 
 # Notes on Deep Work

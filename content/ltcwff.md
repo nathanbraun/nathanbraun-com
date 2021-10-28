@@ -2,6 +2,7 @@
 title: Learn to Code with Fantasy Football
 type: blog
 description: Writeup of Learn to Code with Fantasy Football
+rss: true
 published: "2020-08-01"
 ---
 

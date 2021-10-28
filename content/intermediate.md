@@ -2,6 +2,7 @@
 title: Intermediate Coding with Fantasy Football Writeup — Nathan Braun
 type: page
 description: writeup
+rss: true
 published: "2020-01-01"
 ---
 
