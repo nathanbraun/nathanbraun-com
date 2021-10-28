@@ -17,11 +17,11 @@ routes :
     -> List (ApiRoute.ApiRoute ApiRoute.Response)
 routes getStaticRoutes htmlToString =
     [ rss
-        { siteTagline = "tagline"
+        { siteTagline = ""
         , siteUrl = "https://nathanbraun.com"
-        , title = "elm-pages Blog"
+        , title = "Nathan Braun"
         , builtAt = Pages.builtAt
-        , indexPage = [ "blog" ]
+        , indexPage = [ "/" ]
         }
         postsDataSource
     ]
@@ -47,7 +47,7 @@ rss options itemsRequest =
                             , description = options.siteTagline
                             , url = options.siteUrl ++ "/" ++ String.join "/" options.indexPage
                             , lastBuildTime = options.builtAt
-                            , generator = Just "elm-pages"
+                            , generator = Just "Nathan Braun"
                             , items = items
                             , siteUrl = options.siteUrl
                             }
