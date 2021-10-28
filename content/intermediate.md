@@ -1,5 +1,5 @@
 ---
-title: Intermediate Coding with Fantasy Football Writeup — Nathan Braun
+title: Intermediate Coding with Fantasy Football Writeup
 type: page
 description: writeup
 rss: true

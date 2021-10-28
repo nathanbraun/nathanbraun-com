@@ -11,8 +11,8 @@ I am a programmer, data scientist and author. My book, [Learn to Code with
 Fantasy Football](https://fantasycoding.com?utm_source=nathanbraun&utm_content=home&utm_medium=organic&utm_campaign=writeup) is out now. I also recently
 published a [baseball](https://codebaseball.com?utm_source=nathanbraun&utm_content=home&utm_medium=organic&utm_campaign=writeup) version.
 
-Here's a chronological [list of posts is here](posts).  An RSS feed is
-available [here](https://nathanbraun.com/feed.xml). Other places to find me:
+Here's a [chronological list of all posts](posts).  An RSS feed is available
+[here](https://nathanbraun.com/feed.xml). Other places to find me:
 
 - Email: [nate@nathanbraun.com](mailto:nate@nathanbraun.com)
 - Twitter: [@nathanbraun](https://twitter.com/nathanbraun)
