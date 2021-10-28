@@ -23,3 +23,7 @@ export default {
     return tests;
   },
 };
+
+window.addEventListener('beforeinstallprompt', (e) => {
+  e.preventDefault();
+});
