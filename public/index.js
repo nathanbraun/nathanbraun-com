@@ -1,15 +1,25 @@
 /** @typedef {{load: (Promise<unknown>); flags: (unknown)}} ElmPagesInit */
 
+const trackPage = function(gtag, url) {
+  gtag("event", 'page_view', {'page_path': url});
+};
+
 /** @type ElmPagesInit */
 export default {
   load: async function (elmLoaded) {
     const app = await elmLoaded;
-    console.log("App loaded", app);
+
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('config', "UA-158299232-1", {
+      'send_page_view': false,
+    });
+    gtag('js', new Date());
+
     app.ports.trackAnalytics.subscribe(payload => {
       switch (payload.action) {
         case "navigateToPage":
-          console.log(payload.data);
-          // trackPage(gtag, payload.data);
+          trackPage(gtag, payload.data);
       }
     });
 
@@ -24,6 +34,10 @@ export default {
   },
 };
 
+var gt = document.createElement('script');
+gt.setAttribute('src',"https://www.googletagmanager.com/gtag/js?id=UA-158299232-1");
+
 window.addEventListener('beforeinstallprompt', (e) => {
   e.preventDefault();
 });
+
