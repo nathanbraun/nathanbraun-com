@@ -1,6 +1,8 @@
 ---
 title: Highlights from Harry Potter and the Methods of Rationality
 type: page
+description: book highlights
+published: "2020-01-01"
 ---
 
 # HPMOR Highlights

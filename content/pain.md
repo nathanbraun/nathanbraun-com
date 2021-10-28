@@ -1,6 +1,8 @@
 ---
 title: Nathan Braun - Current Pain Points
 type: page
+published: "2020-01-01"
+description: some pain points
 ---
 
 # Current Pain Points

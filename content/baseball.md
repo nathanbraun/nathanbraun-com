@@ -2,6 +2,7 @@
 title: Learn to Code with Baseball Writeup — Nathan Braun
 description: Writeup of LTCWBB
 type: page
+published: "2020-01-01"
 ---
 
 # Learn to Code with Baseball

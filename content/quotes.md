@@ -2,6 +2,7 @@
 title: Quotes I Like — Nathan Braun
 description: some quotes i like
 type: page
+published: "2020-01-01"
 ---
 
 # Quotes I Like

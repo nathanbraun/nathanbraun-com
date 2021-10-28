@@ -2,6 +2,7 @@
 title: EU Carbon Market Thesis Writeup — Nathan Braun
 description: thesis
 type: page
+published: "2020-01-01"
 ---
 
 # Permit Prices in the EU Carbon Market

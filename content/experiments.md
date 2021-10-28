@@ -1,6 +1,8 @@
 ---
 title: Experiment
 type: page
+description: list of experiments
+published: "2020-01-01"
 ---
 
 # Experiments
