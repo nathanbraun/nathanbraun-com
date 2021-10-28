@@ -171,22 +171,32 @@ header path =
             div [] []
 
         "posts" ->
-            div [ css [ Tw.mb_6 ] ]
+            div [ css [ Bp.md [ Tw.ml_0 ], Tw.ml_3, Tw.mt_4, Tw.mb_6 ] ]
                 [ a
                     [ Attr.href "/"
                     , css
-                        [ Tw.mt_10
-                        , Tw.w_auto
+                        [ Tw.w_auto
                         , Tw.text_blue_600
                         ]
                     ]
                     [ text
                         "← Home"
                     ]
+                , text " | "
+                , a
+                    [ Attr.href "/feed.xml"
+                    , css
+                        [ Tw.w_auto
+                        , Tw.text_blue_600
+                        ]
+                    ]
+                    [ text
+                        "RSS"
+                    ]
                 ]
 
         _ ->
-            div [ css [ Tw.mb_6 ] ]
+            div [ css [ Bp.md [ Tw.ml_0 ], Tw.ml_3, Tw.mt_4, Tw.mb_6 ] ]
                 [ a
                     [ Attr.href "/"
                     , css
