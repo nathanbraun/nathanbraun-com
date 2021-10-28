@@ -74,10 +74,6 @@ view :
     -> StaticPayload Data RouteParams
     -> View Msg
 view maybeUrl sharedModel static =
-    let
-        _ =
-            Debug.log "data" static.data
-    in
     { title = "all posts"
     , body =
         [ div [ css [] ]
