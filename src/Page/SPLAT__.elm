@@ -1,14 +1,14 @@
 module Page.SPLAT__ exposing (Data, Model, Msg, page)
 
 import DataSource exposing (DataSource)
-import DataSource.Glob as Glob exposing (Glob)
+import DataSource.Glob as Glob
 import Head
 import Head.Seo as Seo
 import Html.Styled as Html exposing (Html)
-import MarkdownCodec exposing (PageMetadata)
 import Page exposing (Page, PageWithState, StaticPayload)
 import Pages.PageUrl exposing (PageUrl)
 import Pages.Url
+import Post exposing (PostMetadata)
 import Shared
 import View exposing (View)
 
@@ -48,7 +48,7 @@ routes =
 
 data : RouteParams -> DataSource Data
 data routeParams =
-    MarkdownCodec.pageBody routeParams.splat Data
+    Post.pageBody routeParams.splat Data
 
 
 head :
@@ -72,7 +72,7 @@ head static =
 
 
 type alias Data =
-    { metadata : PageMetadata
+    { metadata : PostMetadata
     , body : Shared.Model -> List (Html Msg)
     }
 

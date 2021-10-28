@@ -1,5 +1,5 @@
-module MarkdownCodec exposing
-    ( PageMetadata
+module Post exposing
+    ( PostMetadata
     , frontmatterDecoder
     , pageBody
     , withFrontmatter
@@ -44,9 +44,9 @@ withFrontmatter constructor frontmatterDecoder2 renderer filePath =
         )
 
 
-frontmatterDecoder : OptimizedDecoder.Decoder PageMetadata
+frontmatterDecoder : OptimizedDecoder.Decoder PostMetadata
 frontmatterDecoder =
-    OptimizedDecoder.map4 PageMetadata
+    OptimizedDecoder.map4 PostMetadata
         (OptimizedDecoder.field "title" OptimizedDecoder.string)
         (OptimizedDecoder.field "description" OptimizedDecoder.string)
         (OptimizedDecoder.field "published"
@@ -68,7 +68,7 @@ frontmatterDecoder =
         )
 
 
-type alias PageMetadata =
+type alias PostMetadata =
     { title : String
     , description : String
     , published : Date
@@ -79,7 +79,7 @@ type alias PageMetadata =
 pageBody :
     List String
     ->
-        (PageMetadata
+        (PostMetadata
          ->
             (Shared.Model
              -> List (Html msg)

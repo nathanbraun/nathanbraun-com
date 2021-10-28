@@ -4,10 +4,10 @@ import DataSource exposing (DataSource)
 import Head
 import Head.Seo as Seo
 import Html.Styled as Html exposing (Html)
-import MarkdownCodec exposing (PageMetadata)
 import Page exposing (Page, StaticPayload)
 import Pages.PageUrl exposing (PageUrl)
 import Pages.Url
+import Post exposing (PostMetadata)
 import Shared
 import View exposing (View)
 
@@ -35,7 +35,7 @@ page =
 
 data : DataSource Data
 data =
-    MarkdownCodec.pageBody [ "index" ] Data
+    Post.pageBody [ "index" ] Data
 
 
 head :
@@ -59,7 +59,7 @@ head _ =
 
 
 type alias Data =
-    { metadata : PageMetadata
+    { metadata : PostMetadata
     , body : Shared.Model -> List (Html Msg)
     }
 
