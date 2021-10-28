@@ -1,6 +1,7 @@
 module Post exposing
     ( Post
     , PostMetadata
+    , allMetadata
     , contentGlob
     , frontmatterDecoder
     , pageBody
@@ -8,13 +9,14 @@ module Post exposing
     )
 
 import DataSource exposing (DataSource)
-import DataSource.File as StaticFile
+import DataSource.File as File
 import DataSource.Glob as Glob exposing (Glob)
 import Date exposing (Date)
 import Html.Styled as Html exposing (Html)
 import Markdown.Block exposing (Block)
 import Markdown.Parser
 import OptimizedDecoder exposing (Decoder)
+import Route
 import Shared
 import TailwindMarkdownRenderer
 
@@ -24,6 +26,43 @@ type alias Post =
     , subPath : List String
     , slug : String
     }
+
+
+allMetadata : DataSource.DataSource (List ( Route.Route, PostMetadata ))
+allMetadata =
+    contentGlob
+        |> DataSource.map
+            (\paths ->
+                paths
+                    |> List.map
+                        (\{ filePath, subPath, slug } ->
+                            DataSource.map2 Tuple.pair
+                                (DataSource.succeed <|
+                                    Route.SPLAT__
+                                        { splat =
+                                            subPath ++ [ slug ]
+                                        }
+                                )
+                                (File.onlyFrontmatter frontmatterDecoder filePath)
+                        )
+            )
+        |> DataSource.resolve
+        |> DataSource.map
+            (\articles ->
+                articles
+                    |> List.filterMap
+                        (\( route, metadata ) ->
+                            if metadata.draft then
+                                Nothing
+
+                            else
+                                Just ( route, metadata )
+                        )
+            )
+        |> DataSource.map
+            (List.sortBy
+                (\( route, metadata ) -> -(Date.toRataDie metadata.published))
+            )
 
 
 contentGlob : DataSource (List Post)
@@ -52,11 +91,11 @@ withFrontmatter :
     -> DataSource value
 withFrontmatter constructor frontmatterDecoder2 renderer filePath =
     DataSource.map2 constructor
-        (StaticFile.onlyFrontmatter
+        (File.onlyFrontmatter
             frontmatterDecoder2
             filePath
         )
-        ((StaticFile.bodyWithoutFrontmatter
+        ((File.bodyWithoutFrontmatter
             filePath
             |> DataSource.andThen
                 (\rawBody ->

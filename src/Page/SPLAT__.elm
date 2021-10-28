@@ -4,7 +4,7 @@ import DataSource exposing (DataSource)
 import Head
 import Head.Seo as Seo
 import Html.Styled as Html exposing (Html)
-import Page exposing (Page, PageWithState, StaticPayload)
+import Page exposing (Page, StaticPayload)
 import Pages.PageUrl exposing (PageUrl)
 import Pages.Url
 import Post exposing (PostMetadata)
@@ -18,6 +18,11 @@ type alias Model =
 
 type alias Msg =
     Never
+
+
+data : RouteParams -> DataSource Data
+data routeParams =
+    Post.pageBody routeParams.splat Data
 
 
 type alias RouteParams =
@@ -43,11 +48,6 @@ routes =
                     RouteParams (subPath ++ [ slug ])
                 )
             )
-
-
-data : RouteParams -> DataSource Data
-data routeParams =
-    Post.pageBody routeParams.splat Data
 
 
 head :
