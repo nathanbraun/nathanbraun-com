@@ -3,7 +3,7 @@ title: EU Carbon Market Thesis Writeup
 description: thesis
 type: page
 rss: true
-published: "2020-01-01"
+published: "2020-07-08"
 ---
 
 # Permit Prices in the EU Carbon Market

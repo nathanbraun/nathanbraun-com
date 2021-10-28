@@ -1,8 +1,8 @@
 ---
-title: Notes on Learn to Code with Baseball
+title: Learn to Code with Baseball Writeup
 description: Writeup of LTCWBB
 type: page
-published: "2020-01-01"
+published: "2020-11-22"
 rss: true
 ---
 

@@ -2,7 +2,7 @@
 title: Bayesian Fantasy Football Writeup
 description: writeup of Bayesian Fantasy Football
 type: page
-published: "2020-01-01"
+published: "2020-07-15"
 rss: true
 ---
 
