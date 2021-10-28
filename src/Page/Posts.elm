@@ -1,5 +1,6 @@
 module Page.Posts exposing (Data, Model, Msg, page)
 
+import Css
 import DataSource exposing (DataSource)
 import Date
 import Head
@@ -12,6 +13,8 @@ import Pages.Url
 import Post
 import Route exposing (Route)
 import Shared
+import Tailwind.Breakpoints as Bp
+import Tailwind.Utilities as Tw
 import View exposing (View)
 
 
@@ -78,14 +81,50 @@ view maybeUrl sharedModel static =
     { title = "all posts"
     , body =
         [ div [ css [] ]
-            (List.map viewPost static.data)
+            [ h1
+                [ css
+                    [ Bp.md [ Tw.text_left, Tw.mx_0, Tw.text_4xl ]
+                    , Tw.text_4xl
+                    , Tw.mt_6
+                    , Tw.mb_6
+                    , Tw.font_sans
+                    , Tw.font_bold
+                    , Tw.font_header
+                    , Tw.text_gray_800
+                    , Tw.tracking_tight
+                    , Tw.text_center
+                    ]
+                ]
+                [ text ("All Posts" ++ " (")
+                , a [ Attr.href "/feed.xml", css [ Tw.underline, Tw.text_blue_600 ] ] [ text "RSS Here" ]
+                , text ")"
+                ]
+            , div [ css [ Bp.md [ Tw.mx_0, Tw.space_y_1 ], Tw.mx_3, Tw.space_y_3 ] ]
+                (List.map viewPost static.data)
+            ]
         ]
     }
 
 
 viewPost : ( Route, Post.PostMetadata ) -> Html msg
 viewPost ( route, info ) =
-    link route [] [ div [] [ text (info.published |> Date.format "yyyy-MM-dd"), text " - ", text info.title ] ]
+    div [ css [ Tw.flex ] ]
+        [ span [ css [ Tw.hidden, Bp.md [ Tw.inline ] ] ]
+            [ text
+                (info.published |> Date.format "yyyy-MM-dd")
+            ]
+        , div [ css [ Tw.flex ] ]
+            [ span [ css [ Tw.mx_2 ] ] [ text " - " ]
+            , link route
+                [ css
+                    [ Tw.underline
+                    , Tw.text_blue_600
+                    , Css.visited [ Tw.text_purple_800 ]
+                    ]
+                ]
+                [ text info.title ]
+            ]
+        ]
 
 
 link : Route.Route -> List (Attribute msg) -> List (Html msg) -> Html msg
