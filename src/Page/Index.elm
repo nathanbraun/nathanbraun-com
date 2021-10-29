@@ -44,7 +44,7 @@ head :
 head _ =
     Seo.summary
         { canonicalUrlOverride = Nothing
-        , siteName = "Nathan Braun's Homepage"
+        , siteName = "Nathan Braun"
         , image =
             { url = Pages.Url.external "TODO"
             , alt = ""
@@ -53,7 +53,7 @@ head _ =
             }
         , description = ""
         , locale = Nothing
-        , title = "Nathan Braun's Homepage" -- metadata.title -- TODO
+        , title = "Nathan Braun" -- metadata.title -- TODO
         }
         |> Seo.website
 
@@ -70,6 +70,6 @@ view :
     -> StaticPayload Data RouteParams
     -> View Msg
 view _ sharedModel static =
-    { title = "Nathan Braun's Homepage"
+    { title = "Nathan Braun"
     , body = static.data.body sharedModel
     }
