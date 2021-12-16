@@ -110,8 +110,6 @@ init navigationKey flags maybePagePath =
     , Cmd.batch
         [ trackPage
         , loadTests
-
-        -- TODO: get from localhost/write here
         ]
     )
 

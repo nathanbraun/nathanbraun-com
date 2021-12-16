@@ -35,7 +35,7 @@ engine =
                 (renderAll model children)
     , blockQuote =
         \children model ->
-            p
+            blockquote
                 [ css
                     [ Bp.md
                         [ Tw.border

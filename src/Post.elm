@@ -14,7 +14,6 @@ import DataSource.File as File
 import DataSource.Glob as Glob exposing (Glob)
 import Date exposing (Date)
 import Html.Styled as Html exposing (Html)
-import HtmlStringMarkdownRenderer
 import Markdown.Block exposing (Block)
 import Markdown.Parser
 import OptimizedDecoder exposing (Decoder)
