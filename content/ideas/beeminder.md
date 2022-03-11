@@ -70,8 +70,8 @@ donate half your goal related losses to charity).
 
 While I'm familiar with [Patio11's law of SAAS
 pricing](https://secondbreakfast.co/patio11-s-law), and BM is free to charge
-what they can, this seems like too much money for a product whose use case is
-you paying them more money, well beyond the market price.
+what they can, this seems like too much money for a consumer product whose use
+case is you paying them more money, well beyond the market price.
 
 ## Idea
 Hence this idea, a BM type like service that:

@@ -29,7 +29,7 @@ useful. If these seem intriguing, might want to check out the rest of my notes
 (further below) or read the book.
 
 ## Navigating Levels
-One idea that was useful to me when writing [LTCWFF](ltcwff) was the idea of
+One idea that was useful to me when writing [LTCWFF](/ltcwff) was the idea of
 "levels".
 
 > *Reality exists at different levels and each of them gives you different
