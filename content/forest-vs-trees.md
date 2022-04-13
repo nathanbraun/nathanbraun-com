@@ -50,7 +50,8 @@ I thought about that *constantly* when writing my books.
 
 At the highest level, data analysis is:
 
-  > \> Getting interesting or useful insights from data.
+#### **> Getting interesting or useful insights from data.**
+####
 
 But that's pretty broad, so let's jump down a level. More specifically, data
 analysis is:
@@ -58,15 +59,15 @@ analysis is:
 #### **>> 1. Collecting Data**
 Examples: scraping data, connecting to a public API, downloading some ready made datasets.
 
-#### **2. Storing Data**
+#### **>> 2. Storing Data**
 Once you have data, you have to put it somewhere. Maybe this is in spreadsheet files in a folder on your desktop, as tabs in an Excel file, or a database.
 
-#### **3. Loading Data**
+#### **>> 3. Loading Data**
 Once it's stored, you need to be able to retrieve the parts you want. This is
 easy for spreadsheets, but if it's in a database then you need to know some SQL
 — pronounced "sequel" and short for Structured Query Language — to get it out.  
 
-#### **4. Manipulating Data**
+#### **>> 4. Manipulating Data**
 This step is getting your raw data in the right format for analysis. This is
 usually the biggest/most time consuming step by far, and is what most of the
 book is on.
@@ -74,7 +75,7 @@ book is on.
 Common tools for this step: Excel, R, Python, Stata, SPSS, Tableau, SQL, and
 Hadoop.
 
-#### **5. Analyzing Data for Insights**
+#### **>> 5. Analyzing Data for Insights**
 The final model, summary stat or plot that takes you from formatted data to
 insight. 
 
