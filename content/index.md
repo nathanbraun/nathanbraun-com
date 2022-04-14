@@ -42,6 +42,7 @@ Here's a [chronological list of all posts](posts).  An RSS feed is available
 - [Principles](books/principles), notes on Principles by Ray Dalio
 - [Deep Work](books/deepwork), notes on Deep Work by Cal Newport
 - [Three Languages of Politics](books/politics), notes on the book by Arnold Kling
+- [Utopia's Infinite Todo List](books/infinite-todo-list), from Ada Palmer's Terra Incognita series
 
 ## Parenting Notes
 - [Teaching Little Kids About Randomness](parenting/randomness), notes on a game my 4 year old and I liked 
