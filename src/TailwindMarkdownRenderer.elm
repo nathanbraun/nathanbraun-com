@@ -44,11 +44,13 @@ engine =
                         , Tw.rounded
                         , Tw.bg_white
                         , Tw.shadow_lg
-                        , Tw.italic
-                        , Tw.my_6
+
+                        -- , Tw.italic
+                        , Tw.my_4
                         ]
                     , Tw.px_6
-                    , Tw.py_4
+                    , Tw.pt_4
+                    , Tw.pb_2
                     ]
                 ]
                 (renderAll model children)
