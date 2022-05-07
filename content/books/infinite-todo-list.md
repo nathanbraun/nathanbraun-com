@@ -12,7 +12,7 @@ Incognita](https://www.amazon.com/dp/B074CGL8QR), the Utopians all wear dark
 vizors for a futeristic, space helmet vibe.
 
 I enjoyed this passage, where one of the non-Utopian characters, Madame, is
-trying on a Utopian Mushi's vizor:
+trying on Utopian Mushi's vizor:
 
 > Madame blew on the inside of the vizor before trying it... “It’s normal!” She
 exclaimed as the vizor settled in place. ... “The world’s unchanged!” She gazed

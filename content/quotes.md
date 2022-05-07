@@ -23,10 +23,9 @@ published: "2020-01-01"
 
 ---
 
-> "Being around optimistic, motivated, intelligent peers is like intellectual
-rocket fuel."
+> "It seems to almost physically pain him to see something not taught well."
 >
-> \- *Laura Deming, [Advice for Ambitious Teenagers](https://ldeming.posthaven.com/advice-for-ambitious-teenagers)*
+> \- *Tristan Hume, on  one of his [college professors (Prabhakar Ragde) at Waterloo](https://thume.ca/2015/11/19/amazing-profs-of-waterloo-2015/)*
 
 ---
 
@@ -60,6 +59,15 @@ play a much larger role in our lives ...  we have a problem for which no known
 institutions provide a reasonably good solution."
 > 
 > \- *David Friedman, Future Imperfect*
+
+---
+> "Being around optimistic, motivated, intelligent peers is like intellectual
+rocket fuel."
+>
+> \- *Laura Deming, [Advice for Ambitious Teenagers](https://ldeming.posthaven.com/advice-for-ambitious-teenagers)*
+
+---
+
 
 > "Life colonized the energy gradients: plants put themselves between sun and
 stone; animals put themselves between plants and decay. Criminals infiltrated
