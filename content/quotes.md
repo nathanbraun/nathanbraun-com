@@ -29,6 +29,12 @@ published: "2020-01-01"
 
 ---
 
+> "It's amazing how someone's IQ seems to double as soon as you give them responsibility and indicate that you trust them."
+>
+> \- *Tim Ferriss*
+
+---
+
 > "My financial advisor told me about a client who became very wealthy in tech.
 They owned several homes, married and had children, traveled all over the
 world, and bought expensive things. When asked what made them happiest, they
