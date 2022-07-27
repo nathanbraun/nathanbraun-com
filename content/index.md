@@ -7,9 +7,8 @@ published: "2021-10-26"
 
 # Nathan Braun
 
-I am a programmer, data scientist and author. My book, [Learn to Code with
-Fantasy Football](https://fantasycoding.com?utm_source=nathanbraun&utm_content=home&utm_medium=organic&utm_campaign=writeup) is out now. I also recently
-published a [baseball](https://codebaseball.com?utm_source=nathanbraun&utm_content=home&utm_medium=organic&utm_campaign=writeup) version.
+I am a programmer, data scientist and author. My current niche is "learn to
+code with sports", and I've published books on [football](https://fantasycoding.com?utm_source=nathanbraun&utm_content=home&utm_medium=organic&utm_campaign=homepage), [baseball](https://codebaseball.com?utm_source=nathanbraun&utm_content=home&utm_medium=organic&utm_campaign=homepage), [basketball](https://codebasketball.com?utm_source=nathanbraun&utm_content=home&utm_medium=organic&utm_campaign=homepage), [hockey](https://codewithhockey.com?utm_source=nathanbraun&utm_content=home&utm_medium=organic&utm_campaign=homepage) and [soccer](https://codewithsoccer.com?utm_source=nathanbraun&utm_content=home&utm_medium=organic&utm_campaign=homepage).
 
 Here's a [chronological list of all posts](posts).  An RSS feed is available
 [here](https://nathanbraun.com/feed.xml). Other places to find me:
@@ -20,11 +19,15 @@ Here's a [chronological list of all posts](posts).  An RSS feed is available
 - Goodreads: [@nathanbraun](https://www.goodreads.com/review/list/150191?order=d&sort=date_added)
 
 ## Projects
+- [Voice Book Notes](voice-book-notes), a webapp to take and export audio notes while reading (2021).
 - [Vim For Everyone](vim), a site extolling the virtues of Vim for non-coders (2021).
 - [Vote Squared](voting), a quadratic polling app (2020-present).
 - [Scramble Tracker](scramble), track whose shots you used during a golf scramble (2020-present)
 
 ## Fantasy & Sports Analytics Projects
+- [Learn to Code with Soccer](soccer), soccer version of book (2022)
+- [Learn to Code with Hockey](hockey), NHL version of book (2022)
+- [Learn to Code with Basketball](basketball), NBA version of book (2022)
 - [Learn to Code with Baseball](baseball), baseball version of [LTCWFF](ltcwff) (2020-present)
 - [Intermediate Coding with Fantasy Football](intermediate), project-based follow up [LTCWFF](ltcwff) (2020)
 - [Fantasy Math](fantasymath), model for weekly fantasy start-sit advice (2017-present)
