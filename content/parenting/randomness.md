@@ -12,7 +12,7 @@ the subject of flipping coins. I thought it could be a good opportunity to
 learn about randomness, so we invented the following "game".
 
 ## How You Play
-1. Find a quarter (this was probably the hardest part of the game).
+1. Find a quarter (this is the hardest part of the game).
 2. Everybody writes down their guess, heads or tails.
 3. The kid flips the quarter. Initially Penelope's flip was more of a drop and it was debatable whether we were getting suficient entropy, but eventually she developed her own technique of bouncing the coin off the wall, which worked.
 4. Record the results.
