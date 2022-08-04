@@ -33,6 +33,7 @@ that this is too good to be true, but the bottom line is everyone has habits,
 good and bad and having good habits is a good thing. Don't need to overthink
 it.
 
+## Building habits
 Building habits is hard and takes willpower. But it's short-term hard. Tynan
 talks about how he wasn't happy with his work habits and went about improving
 them (emphasis added):
@@ -55,18 +56,17 @@ them (emphasis added):
 > For me it was unequivocally worth it, but of course as you build your own
 > habits, you'll need to weigh the costs and benefits.
 
-## How to build habits
-Building habits is mostly a matter of consistently doing them. Tynan says you
-need to do this for 1-12 months.
+The key to successfully building habits is mostly a matter of consistently
+doing them. Tynan says you need to do this for 1-12 months.
 
 This sounds simple, and it is. But there are important implications:
 - trying and failing with new habits is bad, and makes it harder to create future habits, so —
 - make your habits really easy to start, then build up
 - skipping should *not be treated lightly*
 
-> "In most areas of life, it's better to try and to fail than to not try at all.
+> In most areas of life, it's better to try and to fail than to not try at all.
 > In establishing habits, it's far better to succeed at an easier habit and
-> then build up from there."
+> then build up from there.
 
 Building new habits isn't easy. It takes willpower. That's fine, but willpower
 isn't an unlimited resource. This means you can only add a certain number of
@@ -74,21 +74,20 @@ new habits at a time. Tynan doesn't provide much guidance on how many this is,
 but it's something I plan on experimenting with.
 
 ### Start small
-If you're trying to, say, improve your work habits, don't start out with, "I'm
-going to work 10 straight hours before checking social media or email." You're
-setting yourself up for failure.
+Say you're trying to improve your work habits. Don't start out with, "I'm going
+to work 10 straight hours every day before checking social media or email."
+You're setting yourself up for failure.
 
 Instead you can say, "I'm going to work for an hour first thing in the morning
 before frying my brain with news, email or social media. Then I'll take a
 break."
 
-Start with that, make absolutely sure you do it every day. Then add more time
-once it gets easier. Building up habits is a process that takes months or
-years, but again, that's fine because the long-term perspective is what's
-important.
+Make absolutely sure you do it every day. Then add more time once it gets
+easier. Building up habits is a process that takes months or years, but again,
+that's fine because the long-term perspective is what's important.
 
 He went through an example I thought was illustrative. If you're trying to eat
-healthy:
+healthy...
 
 > ...you might start by cutting out sugar on weekdays, then on weekends, then
 > cut out white flour on the same schedule, then low-quality meat, then
@@ -98,16 +97,16 @@ healthy:
 > truly prefer that way of eating*. At that point you switch... [still eating]
 > mostly healthy meals, but allow... exceptions for special occasions.
 
-The point: some habits might take *years* to build.
+That is, some habits might take *years* to build.
 
-I found this refreshing, not discouraging. It's not a quick fix, but a realistic
-path to lasting change.
+I found this refreshing. It's not a quick fix, but it's a realistic path to
+lasting change.
 
-And because habits are cumulative this can be a *lot* of change. This is where
-I think the "superhuman" portion of the title comes in. You want to eat
-healthy, work out regularly, be very productive and make regular time for
-hobbies, family and friends? You can, it might just take years of building the
-right habits.
+And because habits are cumulative, eventually this can add up to a *lot* of
+change. This is where I think the "superhuman" part of the title comes in. You
+want to eat healthy, work out regularly, be very productive and make regular
+time for hobbies, family and friends? It's doable, it might just take years of
+building the right habits.
 
 > With this schedule of a small start with regular increases, you won't be
   reaching your full goal for a long time, maybe several months or even a year.
@@ -118,7 +117,7 @@ right habits.
   lasts only a couple weeks.
 
 ### Loading vs maintaining
-The diet example above gets at another aspect of habits — loading vs
+The healthy eating quote above gets at another aspect of habits — loading vs
 maintaining.
 
 When building a new habit or significantly changing your routine or behaviors
@@ -149,13 +148,3 @@ habits:
 > friends. This is my maintenance habit, and it's sustainable forever as far as
 > I'm concerned.
 
-If you're in a real crunch where you really don't have time to do everything,
-it's more important to keep your loading habits up. Vs maintenance habits that
-can more easily slip back into place.
-
-> How do you know when to switch from your loading habit to your maintenance
-  habit? The key is to be able to honestly evaluate what would happen if you
-  dropped the habit entirely. If you think that you would immediately go back
-  to your old ways, keep loading. If you think that you would either slowly
-  slide back to your old ways over a period of months or years, or if you think
-  you'd remain in stasis, switch to a maintenance habit.
