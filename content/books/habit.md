@@ -10,7 +10,7 @@ published: "2022-08-03"
 
 Superhuman by Habit by [Tynan](https://tynan.com) was an excellent book. You
 should read it — it's not expensive and not that long and does not have any
-fluff — but here's my summary anyway.
+fluff — but even so here's my summary. Seriously, read it though.
 
 ## Why habits (and this book) are important
 In the long run, habits are "free" behaviors. You can do them automatically or
@@ -30,7 +30,7 @@ This pretty much sums up the idea of the book.
 
 There's also a section for neurotic people worried about turning into robots or
 that this is too good to be true, but the bottom line is everyone has habits,
-good and bad and having good habits is a good thing. Don't need to overthink
+good and bad, and having good habits is a good thing. Don't need to overthink
 it.
 
 ## Building habits
@@ -86,8 +86,8 @@ Make absolutely sure you do it every day. Then add more time once it gets
 easier. Building up habits is a process that takes months or years, but again,
 that's fine because the long-term perspective is what's important.
 
-He went through an example I thought was illustrative. If you're trying to eat
-healthy...
+He went through an example I thought illustrated some of the scale and scope
+well. If you're trying to eat healthy...
 
 > ...you might start by cutting out sugar on weekdays, then on weekends, then
 > cut out white flour on the same schedule, then low-quality meat, then
@@ -148,3 +148,41 @@ habits:
 > friends. This is my maintenance habit, and it's sustainable forever as far as
 > I'm concerned.
 
+## What to pick
+To decide what habit to implement, it's best to be brutally honest and
+clear-headed with yourself and your problems. Spend some time thinking about
+what bad habit is holding you back (or which good habit would make the most
+difference) then attack it.
+
+It's easier to build habits when they can be done daily and/or you can start
+with low intensity and work your way up. It's also easier to work with
+*triggers* (e.g. every day after I make coffee I'll do X).
+
+Whatever you do, pick it carefully and start small, because quitting is not
+good — not only does it thwart whatever habit you're trying to build, but it
+makes building habits harder in the future too.
+
+Tynan recommends starting with a health type related goal (e.g. eating better
+or working out) then when you're happy with that moving onto something more fun
+(writing every day or learning an instrument or something).
+
+## When to quit
+If a habit is no longer serving you well and you want to stop it, you can, but
+only *after* you no longer feel like quitting.
+
+> A week into my habit of lifting weights three times a week, I wanted to quit.
+  My morale was low, I'd seen no results (as expected, of course), and I was
+  cognizant of how much time I was devoting to the workouts and accompanying
+  preparations.
+> 
+> The only reason I didn't quit was that I realized I was in the worst possible
+  position to make the decision. *The greatest benefits of quitting were
+  short-term, which is a sure sign of a mistake*. I had emotional firsthand
+  experience with the downsides of working out, but hadn't waited long enough
+  to enjoy the benefits. I was also in the very beginning of the habit where it
+  takes the most willpower, and is therefore the most mentally challenging.
+
+## Pausing habits
+If you need to pause a habit — e.g. because you're on vacation or something —
+make a plan for exactly when you'll pause it, resume it, and what if anything
+you'll do instead.
