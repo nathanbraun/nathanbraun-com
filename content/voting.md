@@ -25,7 +25,7 @@ people will prefer the winning option.
 
 One option to deal with this is [ranked-choice](https://en.wikipedia.org/wiki/Ranked_voting) 
 voting, where voters rank options by order of preference and an algorithm uses
-that data to pick a winner. It's becoming [popular in the US](https://en.wikipedia.org/wiki/Ranked_voting) (definitely a good thing!),
+that data to pick a winner. It's becoming [popular in the US](https://en.wikipedia.org/wiki/Ranked_voting) (which is good),
 and NYC is set to adopt it in 2021.
 
 While ranked-choice voting is a big improvement over first past the post,
