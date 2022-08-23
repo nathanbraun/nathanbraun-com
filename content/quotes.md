@@ -29,6 +29,15 @@ published: "2020-01-01"
 
 ---
 
+> "When you understand the power of honest praise (as opposed to bullshitting,
+> flattery, and sucking up), you realize that withholding it borders on
+> immoral. If you see something that impresses you, a decent respect to
+> humanity insists you voice your praise."
+>
+> \- Scott Adams
+
+---
+
 > "It's amazing how someone's IQ seems to double as soon as you give them responsibility and indicate that you trust them."
 >
 > \- *Tim Ferriss*
