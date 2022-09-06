@@ -42,6 +42,7 @@ Here's a [chronological list of all posts](posts).  An RSS feed is available
 - [BP Oil Spill](oil-spill), on which I worked quantifying economic impacts (2011-2015)
 
 ## Book Notes
+- [Superhuman by Habit](books/habit), notes on the book by Tynan
 - [Principles](books/principles), notes on Principles by Ray Dalio
 - [Deep Work](books/deepwork), notes on Deep Work by Cal Newport
 - [Three Languages of Politics](books/politics), notes on the book by Arnold Kling
