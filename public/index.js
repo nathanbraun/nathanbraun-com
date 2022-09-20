@@ -39,7 +39,7 @@ gt.setAttribute('src',"https://www.googletagmanager.com/gtag/js?id=UA-158299232-
 document.head.appendChild(gt);
 
 var pl = document.createElement('script');
-pl.setAttribute('src',"https://plausible.io/js/plausible.js");
+pl.setAttribute('src',"/js/script.js");
 pl.setAttribute('data-domain',"nathanbraun.com");
 document.head.appendChild(pl);
 
