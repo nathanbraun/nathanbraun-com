@@ -37,17 +37,12 @@ engine =
         \children model ->
             blockquote
                 [ css
-                    [ Bp.md
-                        [ Tw.border
-                        , Tw.border_solid
-                        , Tw.border
-                        , Tw.rounded
-                        , Tw.bg_white
-                        , Tw.shadow_lg
-
-                        -- , Tw.italic
-                        , Tw.my_4
-                        ]
+                    [ Tw.rounded
+                    , Tw.border_solid
+                    , Tw.my_4
+                    , Tw.shadow_lg
+                    , Tw.border
+                    , Tw.bg_white
                     , Tw.px_6
                     , Tw.pt_4
                     , Tw.pb_2
