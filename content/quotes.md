@@ -29,12 +29,24 @@ published: "2020-01-01"
 
 ---
 
+> "Out of [this 24 hours] you have to spin health, satisfaction, cash, content
+> material, appreciate, and the evolution of your immortal soul. Its proper
+> use, its handiest use, is a matter of the very best urgency and of the most
+> exciting actuality. All depends on that.
+> 
+> "Your happiness — the elusive prize which you are all clutching for, my pals!
+> — depends on that."
+> 
+> \- *Arnold Bennett*, [How to Live on 24 Hours a Day](https://www.goodreads.com/book/show/4855.How_to_Live_on_24_Hours_a_Day) (1908)
+
+---
+
 > "When you understand the power of honest praise (as opposed to bullshitting,
 > flattery, and sucking up), you realize that withholding it borders on
 > immoral. If you see something that impresses you, a decent respect to
 > humanity insists you voice your praise."
 >
-> \- Scott Adams
+> \- *Scott Adams*
 
 ---
 
