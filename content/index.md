@@ -19,6 +19,7 @@ Here's a [chronological list of all posts](posts).  An RSS feed is available
 - Goodreads: [@nathanbraun](https://www.goodreads.com/review/list/150191?order=d&sort=date_added)
 
 ## Projects
+- [Percentile Feedback](pf), a webapp to automatically calculate PF graphs (2022).
 - [Voice Book Notes](voice-book-notes), a webapp to take and export audio notes while reading (2021).
 - [Vim For Everyone](vim), a site extolling the virtues of Vim for non-coders (2021).
 - [Vote Squared](voting), a quadratic polling app (2020-present).
