@@ -44,10 +44,10 @@ and you continue drawing from them — you're likely to see results closer to th
 mean.
 
 This example is easier because we have a coin we know is fair and a bunch of
-events where we know some are bound to be extreme. In real life, it's harder
-because you don't necessarily know if you got an extreme draw from your
-distribution, or whether the underlying probability is different from what you
-thought.
+events where we know some are bound to be extreme. In real life, with smaller
+samples and unknown distributions it's harder because you don't necessarily
+know if you got an extreme draw from your distribution, or whether the
+underlying probability is different from what you thought.
 
 For example: in 2016 the US elected Donald Trump, who was an "extreme"
 candidate (probability-wise). Was that a fluke draw and should we expect a
