@@ -95,6 +95,17 @@ rocket fuel."
 
 ---
 
+> "In economic terms, inputs and labor “want” to be more productive, to find
+> higher-valued uses. But in terms of actual agency that’s no more true than
+> saying that giraffes “want” to have long necks. The active agent in
+> biological evolution is natural selection; the active agent in economics is
+> entrepreneurship. Entrepreneurs relentlessly seeking profits search for
+> resources that can be moved, transformed, or combined in ways that can be
+> sold at a profit."
+> 
+> \- Michael Munger
+
+---
 
 > "Life colonized the energy gradients: plants put themselves between sun and
 stone; animals put themselves between plants and decay. Criminals infiltrated
