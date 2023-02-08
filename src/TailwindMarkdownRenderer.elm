@@ -65,6 +65,12 @@ engine =
                             children
                         )
                 )
+            , Markdown.Html.tag "isso"
+                (\_ _ ->
+                    div [ ]
+                        [section [ Attr.id "isso-thread"] []
+                        ]
+                )
             , Markdown.Html.tag "image"
                 (\src desc _ _ ->
                     img
