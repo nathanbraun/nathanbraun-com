@@ -60,5 +60,3 @@ Here's a [chronological list of all posts](posts).  An RSS feed is available
 - Notes on Patri Friedman's [Advice Experience Hierchy](advice)
 - Notes on Ray Dalio's [Designer vs Worker Level You](designer-vs-worker)
 - A simple explanation of the [Monty Hall Problem](monty-hall). And [regression to the mean](regression-to-mean).
-
-<isso/>
