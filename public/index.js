@@ -44,8 +44,8 @@ pl.setAttribute('data-domain',"nathanbraun.com");
 document.head.appendChild(pl);
 
 var isso = document.createElement('script');
-isso.setAttribute('src',"http://localhost:8001/js/embed.min.js");
-isso.setAttribute('data-isso',"http://localhost:8001");
+isso.setAttribute('src',"http://isso.nathanbraun.com/js/embed.min.js");
+isso.setAttribute('data-isso',"http://isso.nathanbraun.com");
 document.head.appendChild(isso);
 
 // <script defer data-domain="nathanbraun.com" src="https://plausible.io/js/plausible.js"></script>
