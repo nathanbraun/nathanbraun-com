@@ -20,6 +20,16 @@ export default {
       switch (payload.action) {
         case "navigateToPage":
           trackPage(gtag, payload.data);
+
+          var isso = document.createElement('script');
+          isso.setAttribute('src',"https://isso.nathanbraun.com/js/embed.min.js");
+          isso.setAttribute('data-isso',"https://isso.nathanbraun.com");
+          // isso.setAttribute('src',"http://localhost:8001/js/embed.min.js");
+          // isso.setAttribute('data-isso',"http://localhost:8001");
+          isso.setAttribute('data-isso-avatar',"false");
+          document.head.appendChild(isso);
+
+
       }
     });
 
