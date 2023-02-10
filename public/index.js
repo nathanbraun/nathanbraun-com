@@ -46,6 +46,9 @@ document.head.appendChild(pl);
 var isso = document.createElement('script');
 isso.setAttribute('src',"https://isso.nathanbraun.com/js/embed.min.js");
 isso.setAttribute('data-isso',"https://isso.nathanbraun.com");
+// isso.setAttribute('src',"http://localhost:8001/js/embed.min.js");
+// isso.setAttribute('data-isso',"http://localhost:8001");
+isso.setAttribute('data-isso-avatar',"false");
 document.head.appendChild(isso);
 
 // <script defer data-domain="nathanbraun.com" src="https://plausible.io/js/plausible.js"></script>
@@ -53,4 +56,5 @@ document.head.appendChild(isso);
 window.addEventListener('beforeinstallprompt', (e) => {
   e.preventDefault();
 });
+
 

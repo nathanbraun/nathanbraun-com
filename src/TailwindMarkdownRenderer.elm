@@ -65,9 +65,9 @@ engine =
                             children
                         )
                 )
-            , Markdown.Html.tag "isso"
+            , Markdown.Html.tag "comments"
                 (\_ _ ->
-                    div [ ]
+                    div [ css [Tw.mt_8]]
                         [section [ Attr.id "isso-thread"] []
                         ]
                 )

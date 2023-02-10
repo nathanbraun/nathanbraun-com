@@ -63,4 +63,4 @@ if [Vim For Everyone](https://vimforeveryone) gets a few new people to try
 Vim, and a handful of them get as much out of it as I do, it'd probably be the
 most valuable thing I've built to date.
 
-<isso/>
+<comments/>
