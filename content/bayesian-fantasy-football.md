@@ -111,3 +111,5 @@ current Fantasy Math model), it made sense to scrap it.
 and I'd still generally advocate drafting this way.
 
 
+<comments/>
+

@@ -65,3 +65,5 @@ Naturally, given what a cluster this seemed, some grad school friends and I
 decided the market was ripe for our advice and spent a few weeks calling
 companies that hadn't yet used offsets to try to pitch them on it. I might save
 that story for another write up, but it largely proved unsuccessful.
+
+<comments/>

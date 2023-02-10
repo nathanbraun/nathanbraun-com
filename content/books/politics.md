@@ -250,3 +250,5 @@ necessarily exactly the way the world works in granular detail.
 ### 9. Do people's cobbled-together, irrational, self-justifying minds make thinking about axes less useful?
 
 E.g. see the GOP House Freedom Caucus, which starting in 2016 did a massive shift away from Freedom/towards Trumpism. To the extent this sort of thing happens (both at the individual and group level), the model seems less useful.
+
+<comments/>

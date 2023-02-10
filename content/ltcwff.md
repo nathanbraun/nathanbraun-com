@@ -132,3 +132,5 @@ I've had a few readers who didn't know anything about football (much less
 fantasy football) read this book and get a lot out of it, which makes me think
 that may be a promising avenue.  If I did that, I may explore working with a
 traditional publisher as well.
+
+<comments/>

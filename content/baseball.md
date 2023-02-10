@@ -32,3 +32,5 @@ favorite, also really liked The Only Rule is It Has to Work).
 One difference is that baseball is much more focused on good composite stats
 and measuring individual vs (fantasy) football, and the analysis portion of
 the book reflects that.
+
+<comments/>
