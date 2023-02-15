@@ -39,9 +39,9 @@ way people say "age is just a number" or that if he logs into his Chase
 checking account and sees a $142B balance that that number is in some database
 on Chase's servers (though it is).
 
-Instead, what I think means is that anytime you buy or sell something (steal or
-give), what you're really trading is *resources* (including your own labor).
-Money (really prices) is information on these resources relative worth.
+Instead, what I think means is that anytime you buy or sell something (or
+steal, or give), what you're really trading is *resources*. Money (really
+prices) is information on these resources relative worth.
 
 So right now in February 2023, the idea of money as information allows me to
 say one bushel of wheat ($8.61) is worth 2.7 gallons of gas (at $3.15 per
