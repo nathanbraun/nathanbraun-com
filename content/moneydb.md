@@ -58,17 +58,19 @@ If I grow some tomatoes, those are ripe, juicy resources, ready to consume now.
 They're not going to last forever. But I can "sell" them to you, i.e. trade for
 money. 
 
-How does the money paid for tomatoes relate to value? The value of money >=
-tomatoes for me, since I sold them; likewise the money <= tomatoes for whoever
-bought them.
+How does the money paid for tomatoes relate to value?
 
-But again, money doesn't have any value in and of itself. It's just useful to
-get more resources (now or in future)
+One answer is the value of money >= tomatoes for me (since I sold them) and
+money <= tomatoes for you (since you bought them).
+
+But again, because money doesn't have any value in and of itself, we're really
+comparing the resources we can buy with $5 to to the tomatoes.
 
 ### Space
-Unless I'm literally standing in one spot (maybe I sell my tomatoes then wait
-wait for an ice cream truck to come by?), any shift in value across time is
-also a shift across space too.
+Moving value across space is a pretty easy extension of value across time.
+
+Unless I sell my tomatoes then literally standing in one spot (maybe waiting
+for an ice cream?), any shift in value across time is also a shift across space.
 
 ### Database?
 Although I think it's catchy, calling it a "database" is a bit misleading. It's
