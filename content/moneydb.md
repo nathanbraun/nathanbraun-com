@@ -70,7 +70,8 @@ comparing the resources we can buy with $5 to to the tomatoes.
 Moving value across space is a pretty easy extension of value across time.
 
 Unless I sell my tomatoes then literally standing in one spot (maybe waiting
-for an ice cream?), any shift in value across time is also a shift across space.
+for an ice cream truck?), any shift in value across time is also a shift across
+space.
 
 ### Database?
 Although I think it's catchy, calling it a "database" is a bit misleading. It's
