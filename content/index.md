@@ -54,6 +54,7 @@ Here's a [chronological list of all posts](posts).  An RSS feed is available
 - [Quarantine Backyard Bird List](parenting/quarantine-bird-list), every bird we saw during COVID, 3/20-3/21
 
 ## Other
+- What Elon Musk means when he says [money is a database for resource allocation](moneydb)
 - A list of [open ideas](ideas) to work on.
 - A backlog of productivity/self improvement [experiments](experiments) to try.
 - Some [quotes](quotes) I like.
