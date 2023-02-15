@@ -51,15 +51,35 @@ hour).
 These are the ratios of exchange between goods and services that Elon is talking
 about.
 
-Note one inherent feature of the money DB is that these prices for resources
-are all at the *margin*.
+And like Musk says, that's necessary to move value across time and space.
 
+### Time
+If I grow some tomatoes, those are ripe, juicy resources, ready to consume now.
+They're not going to last forever. But I can "sell" them to you, i.e. trade for
+money. 
+
+How does the money paid for tomatoes relate to value? The value of money >=
+tomatoes for me, since I sold them; likewise the money <= tomatoes for whoever
+bought them.
+
+But again, money doesn't have any value in and of itself. It's just useful to
+get more resources (now or in future)
+
+### Space
+Unless I'm literally standing in one spot (maybe I sell my tomatoes then wait
+wait for an ice cream truck to come by?), any shift in value across time is
+also a shift across space too.
+
+### Database?
 Although I think it's catchy, calling it a "database" is a bit misleading. It's
-not a database in the sense that it's persistent. If you hire me to mow your
-lawn and pay me $20 cash, there's no record of that somewhere.
+not a database in the sense that it's persistent. If you pay me $5 cash for a
+carton of tomatoes cash there's no record of that anywhere. Musk's alternative
+framing, that "money is information" is probably technically more accurate.
 
-Rather, Musk's alternative framing, that "money is information" is technically
-more accurate.
+Also, the information we get is one particular facet of value, namely the
+*marginal* value of the resource. They money DB doesn't let us compute e.g. the
+total value of all the water on earth and compare that to the total value of
+diamonds.
 
 ## The software behind the money database
 Musk thinks of different monetary systems as sort of the "software" this
