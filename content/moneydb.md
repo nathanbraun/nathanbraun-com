@@ -41,7 +41,7 @@ on Chase's servers (though it is).
 
 Instead, what I think means is that anytime you buy or sell something (or
 steal, or give), what you're really trading is *resources*. Money (really
-prices) is information on these resources relative worth.
+prices) is information about these resources relative worth.
 
 So right now in February 2023, the idea of money as information allows me to
 say one bushel of wheat ($8.61) is worth 2.7 gallons of gas (at $3.15 per
@@ -69,8 +69,8 @@ comparing the resources we can buy with $5 to to the tomatoes.
 ### Space
 Moving value across space is a pretty easy extension of value across time.
 
-Unless I sell my tomatoes then literally standing in one spot (maybe waiting
-for an ice cream truck?), any shift in value across time is also a shift across
+Unless I sell my tomatoes then literally stand in one spot (maybe waiting for
+an ice cream truck?), any shift in value across time is also a shift across
 space.
 
 ### Database?
@@ -79,9 +79,9 @@ not a database in the sense that it's persistent. If you pay me $5 cash for a
 carton of tomatoes cash there's no record of that anywhere. Musk's alternative
 framing, that "money is information" is probably technically more accurate.
 
-Also, the information we get is one particular facet of value, namely the
-*marginal* value of the resource. They money DB doesn't let us compute e.g. the
-total value of all the water on earth and compare that to the total value of
+Also, the information we get is one particular facet, namely the *marginal*
+value of the resource. They money DB doesn't let us compute e.g. the total
+value of all the water on earth and compare that to the total value of
 diamonds.
 
 ## The software behind the money database
