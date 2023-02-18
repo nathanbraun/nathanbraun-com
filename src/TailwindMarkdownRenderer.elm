@@ -31,7 +31,7 @@ engine =
     { heading = heading
     , paragraph =
         \children model ->
-            p [ css [ Tw.mx_3, Tw.mb_3, Bp.md [ Tw.mx_0 ] ] ]
+            p [ css [ Tw.mx_4, Tw.mb_3, Bp.md [ Tw.mx_0 ] ] ]
                 (renderAll model children)
     , blockQuote =
         \children model ->
@@ -70,7 +70,7 @@ engine =
                     div
                         [ css
                             [ Tw.mt_8
-                            , Tw.mx_3
+                            , Tw.mx_4
                             , Bp.md [ Tw.mx_0 ]
                             ]
                         ]
@@ -260,11 +260,7 @@ heading { level, rawText, children } model =
             [ Tw.font_header
             , Tw.text_gray_800
             , Tw.tracking_tight
-
-            -- , Tw.text_center
-            , Tw.mx_3
-
-            -- , Bp.md [ Tw.text_left, Tw.mx_0 ]
+            , Tw.mx_4
             , Tw.text_left
             , Bp.md [ Tw.mx_0 ]
             ]
