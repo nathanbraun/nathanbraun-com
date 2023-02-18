@@ -110,6 +110,5 @@ current Fantasy Math model), it made sense to scrap it.
 ("made my draft significantly less stressful... went from last place ... to first") —
 and I'd still generally advocate drafting this way.
 
-
 <comments/>
 

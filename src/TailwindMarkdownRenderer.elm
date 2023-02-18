@@ -67,8 +67,14 @@ engine =
                 )
             , Markdown.Html.tag "comments"
                 (\_ _ ->
-                    div [ css [Tw.mt_8]]
-                        [section [ Attr.id "isso-thread"] []
+                    div
+                        [ css
+                            [ Tw.mt_8
+                            , Tw.mx_3
+                            , Bp.md [ Tw.mx_0 ]
+                            ]
+                        ]
+                        [ section [ Attr.id "isso-thread" ] []
                         ]
                 )
             , Markdown.Html.tag "image"
@@ -254,9 +260,13 @@ heading { level, rawText, children } model =
             [ Tw.font_header
             , Tw.text_gray_800
             , Tw.tracking_tight
-            , Tw.text_center
+
+            -- , Tw.text_center
             , Tw.mx_3
-            , Bp.md [ Tw.text_left, Tw.mx_0 ]
+
+            -- , Bp.md [ Tw.text_left, Tw.mx_0 ]
+            , Tw.text_left
+            , Bp.md [ Tw.mx_0 ]
             ]
     in
     case level of
