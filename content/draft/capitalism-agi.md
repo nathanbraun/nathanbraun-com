@@ -17,20 +17,14 @@ published: "2023-02-21"
 >
 > \- Michael Munger
 
-> Capitalism is a prion; it turns basically everything it touches into
-> capitalism. Some people see that as a conspiracy or plot to take over the
-> world; the prion only sees other proteins that would be more effective at
-> reproducing capitalism if they were themselves capitalism.
->
-> \- Patrick McKenzie
-
 One reason I'm skeptical about AI doom because we're already living among
 massively powerful "non-aligned" systems. 
 
 Two examples:
-- evolution, i.e. the system by which genetic material makes copies of itself
-- the system of capitalism/markets/profit and loss, i.e. a ruthlessly efficient
-  engine for transporting resources (and labor) from lower to higher values.
+- *evolution*, i.e. the system by which genetic material makes copies of itself
+- *capitalism*, the system of markets and profit and loss, i.e. a ruthlessly
+  efficient engine for transporting resources (and labor) from lower to higher
+  values.
 
 Both, like the super AGI that doomers fear:
 - are impossible to stop and extremely difficult to reliably control.
@@ -39,84 +33,98 @@ Both, like the super AGI that doomers fear:
   spider webs, Dupont, Monsanto).
 - are further advancing (A)I.
 
-Yes, it's likely neither are conscious, but conciousness is overrated. A
-significantly powerful paperclip maximizer, the argument goes, could wipe out
-humanity, conscious or not.
+Importantly, these these systems are doing this in the real world, as opposed
+to worries that AI *might* be able to do this, which have so far have been
+purely hypothetical.
 
-Plus, unlike AI, these systems are actually doing all these things, not just
-hypothetically doing them.
+Yes, it's likely neither are conscious, but conciousness is overrated. A
+significantly powerful paperclip maximizer, AGI doomers point out, could wipe
+out humanity, conscious or not.
 
 ## What about alignment?
-It's hard to argue evolution is humanity (or any species) aligned, given 99%+
-of all species that have ever lived are now extinct (although you [gotta hand
-it](https://twitter.com/dril/status/831805955402776576?lang=en) to evolution
-for having created humans in the first place).
+It's hard to argue evolution is long-term humanity (or any species) aligned,
+given 99%+ of all species that have ever lived are now extinct.
 
 Capitalism is trickier, I'd describe it as pseudo-aligned. When Michael Munger
-say resources move from "lower to higher values" above he's talking about what
-humans value, i.e. in the marketplace. And humans value existing. That said,
-it's not perfect and there are some interesting sub-phenomena.
+says above that resources move from "lower to higher values" he's talking about
+what humans value, i.e. in the marketplace. And humans value existing.
 
-For one, some people desire destruction/crime/fraud etc. And the market
-certainly accommodates that. But, as David Friedman points out, resources are
-usually more valuable to original owners than thieves, which is means there are
-markets in security too.
+That said, it's not perfect and there are some interesting sub-phenomena. For
+one, some people desire destruction/crime/fraud etc. And the market
+accommodates that. But, as David Friedman points out, resources are usually
+more valuable to original owners than thieves, which is means there are markets
+in security too.
 
 More interesting is the idea humans don't always value what's good for them.
-Capitalism is pretty good at accommodating that too. For example, capturing
-attention and wrecking teenagers mental health via dopamine hits + [variable
-reward schedules](https://www.benkuhn.net/skinner/) in order to sell ads. Or
-selling outrage and partisanship (Fox News, CNN) ... also in order to sell ads.
+And capitalism is good at accommodating that too. For example, the race to
+capture attention and how it's wrecking the mental health of teenagers via
+dopamine hits + [variable reward schedules](https://www.benkuhn.net/skinner/)
+in order to sell ads. Or selling outrage and partisanship (Fox News, CNN) ...
+also in order to sell ads.
 
 ## Why this hurts the doomer argument
-Powerful forces beyond humans capabilities and control are clearly not
-unprecedented; we're living among several. This doesn't mean a powerful AI
-couldn't be dangerous, of course, but sometimes I'll see someone say, "An AI
-will be 1000x smarter and faster thinking than the smartest human. It doesn't
-matter what it's goals are. If they're not aligned with ours we're toast."
+### Powerful, unaligned forces != unprecedented
+Powerful, superhuman forces beyond control are clearly not unprecedented; we're
+living among several. This doesn't mean a powerful AI couldn't be dangerous, of
+course, but sometimes I'll see someone say, "An AI will be 1000x smarter and
+faster thinking than the smartest human. It doesn't matter what it's goals are.
+If they're not aligned with ours we're toast."I think the fact we're already
+living among an incomprehensible resource moving engine that's more powerful
+than the smartest human shows that's not true. 
 
-The fact we're living among a resource moving engine incomprehensible + orders
-of magnitude more powerful than smartest human shows that's not true. 
+### Foom is less likely
+Robin Hanson [defines](https://www.overcomingbias.com/p/why-not-wait-on-ai-riskhtml) "foom" as the "idea a single super-smart un-controlled AGI
+with very powerful general abilities [suddenly] appears and is able to
+decisively overwhelm all other powers on Earth". By definition, if AGI-doomers
+are overlooking the power of capitalism (i.e. by narrowly focusing on how AGI
+will compare to human brains and abilities) it seems like the probability of
+foom is less likely than they think.
 
-It also makes me skeptical that this might be the "[most important
-century](https://www.cold-takes.com/most-important-century/)". I'd be more
-inclined to give that to the Industrial Revolution.
+### Is this the most important century?
+[Holden Karnofsky argues](https://www.cold-takes.com/most-important-century/)
+that AI will make this humanity's "most important century so far."
+
+I think it's harder to make this argument once you appreciate how powerful this
+other market-oriented resource moving engine and how quickly it took off —
+coincidentally also within a 100 year period between 1750 and 1850 — during the
+Industrial Revolution.
 
 ![Plot](/images/industrial_revolution.jpg)
 
-Overall, I also think it lowers the probability of "foom", which is the idea
-that one AI can/will quickly become more powerful than all humans and
-everything else on the planet combined. This result follows if AGI doomers are
-overlooking existing powerful systems.
+Plot from [Luke Muehlhauser](https://lukemuehlhauser.com/industrial-revolution/) via [Kelsey Piper and Vox](https://www.vox.com/future-perfect/2018/11/8/18052076/human-history-in-one-chart-industrial-revolution).
 
-More generally, I think this demonstrates a blind spot. People such as Elizer
-Yudkowsy are generally smart individuals. This good, but also gives them a
-tendancy to overrate concious intelligence. As a result they imagine something
-1000x as smart as they are now as being literally most powerful thing in the
-universe. But the point here is capitalism/evolution/other emergent phenomena
-are very powerful (if not "smart") in ways much different from just cranking an
-IQ dial up.
+### Battle of the superforces - unaligned AGI vs capitalism?
+Another interesting angle: because capitalism is "pseudo-aligned", any
+potential malevolent AI will have to go through it to hurt humans.
 
-Another interesting angle: because capitalism is at least pseudo-aligned, any
-potential malevolent AI will have to go through it to hurt humans. The means
-the hypothetical future AI vs human battle isn't like chess, where stockfish
+The hypothetical future AI vs human battle isn't like chess, where stockfish
 can just annihilate any human. Instead it's AI vs this super powerful resource
 engine working roughly on behalf of humans.
 
 (Counterpoint: admittedly, if we *do* get a dangerous AI, it'll be because by
 this engine.)
 
-(Counter-counterpoint: it's also only reason we're here -- there's no way earth
+(Counter-counterpoint: it's also only reason we're here — there's no way earth
 could support 8B humans without functioning markets and the technology they
 incentivized.)
 
-I think these are good examples of powerful, not purely aligned systems with
-goals (spend as much time as possible on our website, keep tuning into our TV
-show) that have mostly worked. Just walk into any type of waiting room anywhere
-and see how many people are on their phones. That said, it's technically want
-people want.
+## Conclusion
 
-(e.g. as a by product of energy needs, which it satisfies — not just from the
-sun or other organisms — but from tapping the energy 100M year old fossils
-collected from the sun. This might be the biggest breakthrough in energy since
-phagocytosis)
+People who are extremely worried about AI — like [Eliezer
+Yudkowsy](https://twitter.com/ESYudkowsky) or [Zvi
+Mowshowitz](https://thezvi.substack.com/) — are generally very intelligent
+individuals.
+
+This is good, but also gives them a tendency to overrate concious intelligence.
+As a result they imagine something 1,000x as smart as themselves being
+literally most powerful thing in the universe. But the point here is
+capitalism/evolution/other emergent phenomena are very powerful (if not
+consciously "smart") in ways much different from just cranking
+an IQ dial up.
+
+> Capitalism is a prion; it turns basically everything it touches into
+> capitalism. Some people see that as a conspiracy or plot to take over the
+> world; the prion only sees other proteins that would be more effective at
+> reproducing capitalism if they were themselves capitalism.
+>
+> \- Patrick McKenzie
