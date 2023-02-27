@@ -34,12 +34,11 @@ Both, like the super AGI that doomers fear:
 - are further advancing (A)I.
 
 Importantly, these these systems are doing this in the real world, as opposed
-to worries that AI *might* be able to do this, which have so far have been
-purely hypothetical.
+to worries for AI, which have so far have been purely hypothetical.
 
-Yes, it's likely neither are conscious, but conciousness is overrated. A
-significantly powerful paperclip maximizer, AGI doomers point out, could wipe
-out humanity, conscious or not.
+Yes, it's unlikely either capitalism or evolution are conscious, but
+conciousness is overrated. A significantly powerful paperclip maximizer, AGI
+doomers point out, could wipe out humanity, conscious or not.
 
 ## What about alignment?
 It's hard to argue evolution is long-term humanity (or any species) aligned,
@@ -78,27 +77,27 @@ with very powerful general abilities [suddenly] appears and is able to
 decisively overwhelm all other powers on Earth". By definition, if AGI-doomers
 are overlooking the power of capitalism (i.e. by narrowly focusing on how AGI
 will compare to human brains and abilities) it seems like the probability of
-foom is less likely than they think.
+foom has to be less likely than they think.
 
 ### Is this the most important century?
 [Holden Karnofsky argues](https://www.cold-takes.com/most-important-century/)
 that AI will make this humanity's "most important century so far."
 
-I think it's harder to make this argument once you appreciate how powerful this
-other market-oriented resource moving engine and how quickly it took off —
-coincidentally also within a 100 year period between 1750 and 1850 — during the
-Industrial Revolution.
+I think it's harder to make this argument once you appreciate how powerful
+capitalism is and how quickly it really took off — coincidentally also within a
+100 year period between 1750 and 1850 — during the Industrial Revolution.
 
 ![Plot](/images/industrial_revolution.jpg)
 
 Plot from [Luke Muehlhauser](https://lukemuehlhauser.com/industrial-revolution/) via [Kelsey Piper and Vox](https://www.vox.com/future-perfect/2018/11/8/18052076/human-history-in-one-chart-industrial-revolution).
 
 ### Battle of the superforces - unaligned AGI vs capitalism?
-Another interesting angle: because capitalism is "pseudo-aligned", any
-potential malevolent AI will have to go through it to hurt humans.
+Another interesting angle: because capitalism is "pseudo-aligned", if any
+potential malevolent super AI *were* to come about, it'd have to go through it
+to hurt humans.
 
 The hypothetical future AI vs human battle isn't like chess, where stockfish
-can just annihilate any human. Instead it's AI vs this super powerful resource
+can annihilate any human. Instead it's AI vs this super powerful resource
 engine working roughly on behalf of humans.
 
 (Counterpoint: admittedly, if we *do* get a dangerous AI, it'll be because by
@@ -115,16 +114,25 @@ Yudkowsy](https://twitter.com/ESYudkowsky) or [Zvi
 Mowshowitz](https://thezvi.substack.com/) — are generally very intelligent
 individuals.
 
-This is good, but also gives them a tendency to overrate concious intelligence.
-As a result they imagine something 1,000x as smart as themselves being
-literally most powerful thing in the universe. But the point here is
+This is good, but I think it also gives them a tendency to overrate concious
+intelligence. As a result they imagine something 1,000x as smart as themselves
+being literally most powerful thing in the universe. But the point here is
 capitalism/evolution/other emergent phenomena are very powerful (if not
-consciously "smart") in ways much different from just cranking
-an IQ dial up.
+consciously "smart") in ways much different from just cranking an IQ dial up.
 
 > Capitalism is a prion; it turns basically everything it touches into
 > capitalism. Some people see that as a conspiracy or plot to take over the
 > world; the prion only sees other proteins that would be more effective at
 > reproducing capitalism if they were themselves capitalism.
 >
-> \- Patrick McKenzie
+> \- [Patrick McKenzie](https://mobile.twitter.com/patio11/status/1324792847430643712)
+
+And — in a follow up that that tweet which I swear I didn't see till after
+writing this:
+
+> Probably not new observation: fanfic about AIs inscrutable to humans with
+> seemingly implausible ability to reshape the world around their preferences,
+> with worries about them leading to heaven or hell, is made in epicenters of
+> capitalism because *of course it is.*
+>
+> \- [Patrick McKenzie](https://mobile.twitter.com/patio11/status/1324797252838318093)
