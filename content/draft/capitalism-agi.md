@@ -127,8 +127,8 @@ consciously "smart") in ways much different from just cranking an IQ dial up.
 >
 > \- [Patrick McKenzie](https://mobile.twitter.com/patio11/status/1324792847430643712)
 
-And — in a follow up that that tweet which I swear I didn't see till after
-writing this:
+And — in a follow up that that tweet which I didn't see till after writing
+this essay:
 
 > Probably not new observation: fanfic about AIs inscrutable to humans with
 > seemingly implausible ability to reshape the world around their preferences,
