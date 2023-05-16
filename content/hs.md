@@ -75,6 +75,7 @@ Essays and articles
     - [tips for emailing busy people](https://www.kalzumeus.com/standing-invitation/)
   - [Always be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2) is an inspirational/good essay for people really into coding
   - [You don't need to work on hard problems](https://www.benkuhn.net/hard/) by Ben Kuhn
+  - [Paul Graham](http://paulgraham.com/articles.html) has a bunch on programming
 
 Books
 - **general**
@@ -82,7 +83,10 @@ Books
   - [Deep Work](books/deepwork) - Cal Newport
   - [Superhuman by Habit](books/habit) - Tynan
   - How to Fail at Everything and Still Win Big - Scott Adams
-  - Rich Dad Poor Dad
 
 - **entrepreneurship:**
   - Start Small, Stay Small - Rob Walling (new book coming out too)
+
+- **coding**:
+  - [Structure and Interpretation of Computer Programmers](http://sarabander.github.io/sicp/) - famous coding book, also available in [javascript](https://www.amazon.com/Structure-Interpretation-Computer-Programs-Engineering-ebook/dp/B094X8316F/ref=sr_1_1?keywords=structure+and+interpretation+of+computer+programs&qid=1684266812&s=digital-text&sprefix=structure+an%2Cdigital-text%2C106&sr=1-1) version
+  - [Crafting Interpeters](https://www.amazon.com/gp/product/B09BCCVLCL/ref=x_gr_bb_kindle?caller=Goodreads&tag=x_gr_bb_kindle-20) - I haven't read this but it gets good reviews and if I was planning on majoring in CS I would (might do it anyway)
