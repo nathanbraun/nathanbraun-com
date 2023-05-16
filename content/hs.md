@@ -15,7 +15,7 @@ rss : true
   mostly well known 
 
 So I can talk about my experience, what's worked for me and what I wish I'd
-differently or known when I was in HS, but your mileage may vary.
+done differently or known when I was in HS, but your mileage may vary.
 
 Will start with quick overview on my background then we can branch out to
 whatever you guys think would be most helpful.
