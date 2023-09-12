@@ -67,8 +67,8 @@ comparing the resources we can buy with $5 to to the tomatoes.
 
 Moving value across space is a pretty easy extension of value across time.
 Unless I sell my tomatoes then literally stand in one spot (maybe waiting for
-an ice cream truck?), any shift in value across time is also a shift across
-space.
+a food truck drive by or something?), any shift in value across time is also a
+shift across space.
 
 ### Is it really a database?
 Although I think it's catchy, calling it a "database" is a bit misleading. It's
@@ -77,8 +77,24 @@ carton of tomatoes there's no record of that anywhere. Musk's alternative
 framing, that "money is information" is probably more accurate.
 
 Also, the information we get is one particular facet, namely the *marginal*
-value of the resource. They money DB doesn't tell us e.g. the total value of
-all the water on earth and compare that to the total value of diamonds.
+value of the resource. Marginal basically means "the next". Right now I have a
+house, with running water + a bunch of seltzers in the fridge. That's all very
+relevant for how I value a marginal bottle of water (not that highly).
+
+Marginal value (or cost) exists on the producer side too. Each bottle of water
+costs something to make. If I need to build a giant water purifying plant,
+maybe the first one costs a lot, then they get cheaper after that. Maybe
+eventually (depending on how many I'm selling and where "the next" is) they get
+more expensive as water becomes harder to find.
+
+The point is, a price as an entry in the money DB is at a very specific and
+context dependent point (the margin). It doesn't tell us e.g. the total value
+of all the water on earth and let us compare that to the total value of
+diamonds.
+
+If you think about it, this makes sense. The value of something (even in terms
+of other resources) very much depends on how many you already have + what else
+is going on.
 
 ## The software behind the money database
 Musk thinks of different monetary systems as sort of the "software" this
