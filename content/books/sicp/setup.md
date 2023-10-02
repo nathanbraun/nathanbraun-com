@@ -6,7 +6,10 @@ description: books
 ---
 
 # SICP Setup
-Before getting started I wanted a lisp REPL. Here's what I did.
+Before getting started I wanted a lisp REPL that would work with SICP with vi
+style keybindings.
+
+Here's what I did to get it:
 
 ### 1. Installed Racket
 The language the authors use in the book
