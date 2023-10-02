@@ -118,7 +118,7 @@ engine =
                 |> Markdown.Html.withAttribute "version"
             ]
     , text = \children _ -> text children
-    , codeSpan = \_ _ -> div [] []
+    , codeSpan = \children _ -> code [css []] [text children]
     , strong =
         \children model ->
             strong [ css [ Tw.font_bold ] ]
@@ -349,7 +349,8 @@ renderAll model =
 
 codeBlock : { body : String, language : Maybe String } -> Shared.Model -> Html.Html msg
 codeBlock details _ =
-    SyntaxHighlight.elm details.body
+  div [css [Tw.mb_4]] 
+    [SyntaxHighlight.elm details.body
         |> Result.map (SyntaxHighlight.toBlockHtml (Just 1))
         |> Result.map Html.fromUnstyled
-        |> Result.withDefault (Html.pre [] [ Html.code [] [ Html.text details.body ] ])
+        |> Result.withDefault (Html.pre [] [ Html.code [] [ Html.text details.body ] ])]

@@ -79,7 +79,8 @@ framing, that "money is information" is probably more accurate.
 Also, the information we get is one particular facet, namely the *marginal*
 value of the resource. Marginal basically means "the next". Right now I have a
 house, with running water + a bunch of seltzers in the fridge. That's all very
-relevant for how I value a marginal bottle of water (not that highly).
+relevant for how I value a marginal bottle of water I might buy from the store
+(not that highly).
 
 Marginal value (or cost) exists on the producer side too. Each bottle of water
 costs something to make. If I need to build a giant water purifying plant,
