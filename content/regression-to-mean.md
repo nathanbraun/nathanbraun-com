@@ -27,21 +27,21 @@ Now get 1000 different people to do that same set of 10 flips with their own
 unbiased coins. Just because of how probabilities work, about 40 of the people
 will flip two heads, about 120 three, etc.
 
-Regression to the mean just means that — if if these "extreme" (2 or 3 head
-people) continue flipping their coins, the low probability of heads is unlikely
-to continue. There's much more room on the distribution for less extreme
-results.
+Regression to the mean just means that — if these "extreme" 2 heads people
+continue flipping their coins, the low probability of heads is unlikely to
+continue.
 
-I.e, if you flip it another 10 times, there's a 95% you'll get more than 2
-heads, and a 90% you get a "less extreme" (between 3-7 heads) result.
+If you flip a coin 10 times — regardless of what happened before — there's a
+95% chance you'll get more than 2 heads, and a 90% chance you get between 3-7
+heads.
 
-So if these 40 2 head flippers all flip another 10 coins, 90% of them will flip
-something closer to the mean.
+So if these forty 2-head flippers all flip another 10 coins, 90% of them will
+flip something closer to the mean.
 
-That's the key I think, recognizing "extreme" events as low probability events
-to begin with, and realizing that — if they really are low probability events
-and you continue drawing from them — you're likely to see results closer to the
-mean.
+That's the key I think, **recognizing "extreme" events as low probability
+events to begin with, and realizing that — if they really are low probability
+events and you continue drawing from them — you're likely to see results closer
+to the mean.**
 
 This example is easier because we have a coin we know is fair and a bunch of
 events where we know some are bound to be extreme. In real life, with smaller
