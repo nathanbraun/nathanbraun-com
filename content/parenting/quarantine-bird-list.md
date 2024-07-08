@@ -3,7 +3,7 @@ title: Quarantine Backyard Bird List
 type: blog
 description: Our backyard bird list one year into quarantine
 draft: True
-published: "2021-03-08"
+date: "2021-03-08"
 rss: true
 ---
 

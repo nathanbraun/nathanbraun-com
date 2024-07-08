@@ -1,7 +1,7 @@
 ---
 title: Parenting Notes
 type: page
-published: "2020-01-01"
+date: "2020-01-01"
 description: parenting
 ---
 
