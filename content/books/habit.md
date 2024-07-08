@@ -3,7 +3,7 @@ title: Notes on Superhuman by Habit by Tynan
 type: blog
 description: Notes on Superhuman by Habit by Tynan
 rss: false
-published: "2022-08-03"
+date: "2022-08-03"
 ---
 
 # Notes on Superhuman by Habit
@@ -187,4 +187,3 @@ If you need to pause a habit â€” e.g. because you're on vacation or something â€
 make a plan for exactly when you'll pause it, resume it, and what if anything
 you'll do instead.
 
-<comments/>

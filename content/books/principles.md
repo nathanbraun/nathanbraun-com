@@ -3,7 +3,7 @@ title: Notes on Principles by Ray Dalio
 type: blog
 description: Notes on Principles by Ray Dalio
 rss: true
-published: "2020-08-18"
+date: "2020-08-18"
 ---
 
 # Notes on Principles by Ray Dalio
@@ -833,4 +833,3 @@ simulations.
 Not super practical, prob more relevant for investment (and maybe fantasy
 football if you have a [sweet model](fantasymath)) decisions.
 
-<comments/>

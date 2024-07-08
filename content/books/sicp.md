@@ -1,7 +1,7 @@
 ---
 title: Nathan Braun's Notes on SICP
 type: page
-published: "2020-01-01"
+date: "2020-01-01"
 description: books
 ---
 
