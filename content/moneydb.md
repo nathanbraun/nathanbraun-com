@@ -121,4 +121,3 @@ says:
 > wealth or an accounting of relative obligations, but it is not useful as a
 > currency.
 
-<comments/>
