@@ -1,15 +1,13 @@
 [build]
   functions = "functions/"
   publish = "dist/"
-  command = "npm install -g elm && npm install && npx --no-install elm-tooling install && npx elm-tailwind-modules --dir ./tw --tailwind-config tailwind.config.js && mkdir .elm-pages && npx elm-pages build"
-
-[build.environment]
-  ELM_HOME = "$NETLIFY_BUILD_BASE/cache/elm"
-  NODE_VERSION = "17.0.1"
-  NO_ELM_TOOLING_INSTALL = "1"
+  command = "export ELM_HOME=\"$NETLIFY_BUILD_BASE/cache/elm\" && npm install && npm run build"
 
 [dev]
   command = "npm start"
   targetPort = 1234
   autoLaunch = true
   framework = "#custom"
+
+[functions]
+  node_bundler = "esbuild"

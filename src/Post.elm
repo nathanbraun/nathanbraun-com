@@ -227,3 +227,4 @@ findBySplat splat =
                 )
             )
         |> Glob.match (Glob.literal ".md")
+
