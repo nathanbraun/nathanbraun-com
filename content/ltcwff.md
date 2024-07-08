@@ -3,7 +3,7 @@ title: Learn to Code with Fantasy Football
 type: blog
 description: Writeup of Learn to Code with Fantasy Football
 rss: true
-published: "2020-08-01"
+date: "2020-08-01"
 ---
 
 # Learn to Code with Fantasy Football
@@ -132,5 +132,3 @@ I've had a few readers who didn't know anything about football (much less
 fantasy football) read this book and get a lot out of it, which makes me think
 that may be a promising avenue.  If I did that, I may explore working with a
 traditional publisher as well.
-
-<comments/>

@@ -2,7 +2,7 @@
 title: Learn to Code with Baseball Writeup
 description: Writeup of LTCWBB
 type: page
-published: "2020-11-22"
+date: "2020-11-22"
 rss: true
 ---
 
@@ -32,5 +32,3 @@ favorite, also really liked The Only Rule is It Has to Work).
 One difference is that baseball is much more focused on good composite stats
 and measuring individual vs (fantasy) football, and the analysis portion of
 the book reflects that.
-
-<comments/>
