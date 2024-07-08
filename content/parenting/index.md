@@ -2,6 +2,7 @@
 title: Parenting Notes
 type: page
 date: "2020-01-01"
+rss: false
 description: parenting
 ---
 

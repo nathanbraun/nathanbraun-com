@@ -87,5 +87,3 @@ minimal willpower.
 
 The book [Superhuman by Habit](/books/habit) was influential in my thinking on
 this, but even before reading it I had stopped checking my charts as often.
-
-<comments/>

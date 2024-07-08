@@ -164,4 +164,3 @@ QB, RB, WR, TE, K, DST.
 3 — No matter what the correlations are, Fantasy Math is never going to tell
 you to bench Christian McCaffrey.
 
-<comments/>

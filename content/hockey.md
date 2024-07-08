@@ -2,7 +2,7 @@
 title: Learn to Code with Hockey Writeup
 description: Writeup of LTCWH
 type: page
-published: "2022-07-27"
+date: "2022-07-27"
 rss: false
 ---
 

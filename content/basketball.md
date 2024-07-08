@@ -2,7 +2,7 @@
 title: Learn to Code with Basketball Writeup
 description: Writeup of LTWBB
 type: page
-published: "2022-07-27"
+date: "2022-07-27"
 rss: false
 ---
 

@@ -2,7 +2,8 @@
 title: Nathan Braun
 description: homepage
 type: page
-published: "2021-10-26"
+date: "2024-07-02"
+rss: false
 ---
 
 # Nathan Braun
