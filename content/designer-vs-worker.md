@@ -3,7 +3,7 @@ title: Ray Dalio's Designer vs Worker Level You
 type: blog
 draft: True
 description: Notes on Principles by Ray Dalio
-published: "2020-08-18"
+date: "2020-08-18"
 ---
 
 # Ray Dalio on Roles as Designer vs Worker in Your Life

@@ -2,7 +2,7 @@
 title: Voice Book Notes
 description: Writeup of Voice Book Notes App
 type: page
-published: "2022-07-27"
+date: "2022-07-27"
 rss: false
 ---
 

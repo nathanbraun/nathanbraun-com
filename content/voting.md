@@ -3,7 +3,7 @@ title: Quadratic Voting App
 type: blog
 description: Writeup of Quadratic Voting App project.
 rss: true
-published: "2020-08-05"
+date: "2020-08-05"
 ---
 
 # Vote Squared - Quadratic Voting App

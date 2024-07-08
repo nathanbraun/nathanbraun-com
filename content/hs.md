@@ -3,7 +3,7 @@ title: Notes for HS Talk
 type: blog
 draft: true
 description: Notes for HS Talk
-published: "2023-05-16"
+date: "2023-05-16"
 rss : true
 ---
 

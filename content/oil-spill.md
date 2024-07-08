@@ -2,7 +2,7 @@
 title: BP Oil Spill 
 type: blog
 description: My role calculating damages due to the BP oil spill
-published: "2020-08-12"
+date: "2020-08-12"
 rss: true
 ---
 

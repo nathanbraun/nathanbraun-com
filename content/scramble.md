@@ -3,7 +3,7 @@ title: Scramble Tracker
 type: blog
 description: Writeup of scramble tracker project.
 rss: true
-published: "2020-08-24"
+date: "2020-08-24"
 ---
 
 # Scramble Tracker — Keep Track of Shots You Used During a Golf Scramble

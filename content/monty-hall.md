@@ -3,7 +3,7 @@ title: A Simple Explanation of the Monty Hall Problem
 type: blog
 description: A Simple Explanation of the Monty Hall Problem
 rss: true
-published: "2021-02-01"
+date: "2021-02-01"
 ---
 
 # A Simple Explanation of the Monty Hall Problem

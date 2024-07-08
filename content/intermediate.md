@@ -3,7 +3,7 @@ title: Intermediate Coding with Fantasy Football Writeup
 type: page
 description: writeup
 rss: true
-published: "2020-11-12"
+date: "2020-11-12"
 ---
 
 # Intermediate Coding with Fantasy Football: A Project Based Guide

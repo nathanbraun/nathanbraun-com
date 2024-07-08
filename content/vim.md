@@ -3,7 +3,7 @@ title: Vim For Everyone
 type: blog
 draft: true
 description: Writeup of Vim For Everyone
-published: "2021-01-15"
+date: "2021-01-15"
 rss : true
 ---
 

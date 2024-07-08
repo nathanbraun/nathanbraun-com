@@ -2,7 +2,7 @@
 title: Draft Pick Trade Calculator Writeup — Nathan Braun 
 description: draft pick trade calculator
 type: page
-published: "2020-01-01"
+date: "2020-01-01"
 ---
 
 # Draft Pick Trade Calculator

@@ -2,7 +2,7 @@
 title: Notes on Patri Friedman's Advice Experience Hierarchy
 type: blog
 description: "Notes on Patri Friedman's Advice Experience Hierarchy"
-published: "2021-01-25"
+date: "2021-01-25"
 draft: true
 ---
 

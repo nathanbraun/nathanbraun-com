@@ -3,7 +3,7 @@ title: Percentile Feedback
 type: page
 description: pf
 rss: true
-published: "2022-12-08"
+date: "2022-12-08"
 ---
 
 # Percentile Feedback
