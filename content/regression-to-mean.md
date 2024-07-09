@@ -3,7 +3,7 @@ title: A Simple Explanation of Regression to the Mean
 type: blog
 description: A Simple Explanation of the Regression to the Mean
 rss: true
-published: "2022-12-09"
+date: "2022-12-09"
 ---
 
 # A Simple Explanation of Regression to the Mean

@@ -3,7 +3,7 @@ title: Money as a Database for Resource Allocation
 type: page
 description: pf
 rss: true
-published: "2023-02-15"
+date: "2023-02-15"
 ---
 
 # "Money is a database for resource allocation"

@@ -4,6 +4,7 @@ type: blog
 draft: True
 description: Notes on Principles by Ray Dalio
 date: "2020-08-18"
+rss: false
 ---
 
 # Ray Dalio on Roles as Designer vs Worker in Your Life

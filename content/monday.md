@@ -3,7 +3,7 @@ title: Fantasy Monday
 type: blog
 description: Writeup of Fantasy Monday
 rss: true
-published: "2021-03-30"
+date: "2021-03-30"
 ---
 
 # Fantasy Monday

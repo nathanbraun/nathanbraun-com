@@ -3,7 +3,8 @@ title: Beeminder
 type: blog
 draft: true
 description: Beeminder
-published: "2021-02-07"
+date: "2021-02-07"
+rss: False
 ---
 
 # Idea: Beeminder for digital distraction 

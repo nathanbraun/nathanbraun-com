@@ -3,7 +3,7 @@ title: Forest vs Trees and Coding
 type: blog
 description: Writeup of Learn to Code with Fantasy Football
 rss: true
-published: "2020-08-01"
+date: "2020-08-01"
 ---
 
 # Forest vs Trees and Learning to Code

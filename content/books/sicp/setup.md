@@ -3,6 +3,7 @@ title: SICP Setup
 type: page
 date: "2020-01-01"
 description: books
+rss: False
 ---
 
 # SICP Setup

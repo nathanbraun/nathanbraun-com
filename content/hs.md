@@ -4,7 +4,7 @@ type: blog
 draft: true
 description: Notes for HS Talk
 date: "2023-05-16"
-rss : true
+rss: true
 ---
 
 # Notes for HS Talk

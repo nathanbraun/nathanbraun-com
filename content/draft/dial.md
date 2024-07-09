@@ -3,7 +3,7 @@ title: Capitalism - A pseudo-aligned super AI?
 type: page
 description: "agi"
 rss: false
-published: "2023-02-22"
+date: "2023-02-22"
 ---
 
 # There is no giant society dial

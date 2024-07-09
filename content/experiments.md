@@ -3,6 +3,7 @@ title: Experiment
 type: page
 description: list of experiments
 date: "2020-01-01"
+rss: false
 ---
 
 # Experiments

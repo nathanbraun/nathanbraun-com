@@ -3,7 +3,7 @@ title: Quotes I Like — Nathan Braun
 description: some quotes i like
 type: page
 rss: false
-published: "2020-01-01"
+date: "2020-01-01"
 ---
 
 # Quotes I Like

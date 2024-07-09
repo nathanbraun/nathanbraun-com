@@ -2,6 +2,7 @@
 title: Nathan Braun - Current Pain Points
 type: page
 date: "2020-01-01"
+rss: false
 description: some pain points
 ---
 

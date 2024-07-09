@@ -3,7 +3,8 @@ title: Voice Book Notes Idea
 type: blog
 draft: true
 description: Voice Book Notes Idea
-published: "2021-02-07"
+date: "2021-02-07"
+rss: False
 ---
 
 # Speech to Text Book Notes

@@ -2,7 +2,8 @@
 title: Install Python
 type: page
 description: how to install python
-published: "2020-01-11"
+date: "2020-01-11"
+rss: false
 ---
 
 # Installing Python

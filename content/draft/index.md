@@ -1,8 +1,9 @@
 ---
 title: Drafts
 type: page
-published: "2023-02-22"
+date: "2023-02-22"
 description: drafts
+rss: False
 ---
 
 # Drafts in Progress

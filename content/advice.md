@@ -4,6 +4,7 @@ type: blog
 description: "Notes on Patri Friedman's Advice Experience Hierarchy"
 date: "2021-01-25"
 draft: true
+rss: false
 ---
 
 # Patri Friedman's Advice Experience Hierarchy

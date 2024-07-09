@@ -4,7 +4,7 @@ type: blog
 draft: true
 description: Writeup of Vim For Everyone
 date: "2021-01-15"
-rss : true
+rss: true
 ---
 
 

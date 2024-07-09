@@ -3,7 +3,8 @@ title: Ideas
 type: blog
 draft: true
 description: Ideas
-published: "2021-02-07"
+date: "2021-02-07"
+rss: False
 ---
 
 # Ideas

@@ -3,6 +3,7 @@ title: Nathan Braun's Notes on SICP
 type: page
 date: "2020-01-01"
 description: books
+rss: False
 ---
 
 # Notes on the Structure and Interpretation of Computer Programs
