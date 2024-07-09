@@ -1,3 +1,8 @@
 [build]
   publish = "dist"
   command = "./build.sh"
+
+[[plugins]]
+package = "netlify-plugin-cache"
+  [plugins.inputs]
+  paths = ["elm-stuff"]
