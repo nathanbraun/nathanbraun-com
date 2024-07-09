@@ -36,7 +36,7 @@ of his past days.
 The dots are the previous days. If you want, you could plot these as lines too.
 That's what another [implementation by github user matkoniecz](https://github.com/matkoniecz/beeminder-percentile-feedback) does:
 
-![Percentile Feedback with Lines](/images/percentile_feedback_lines.png)
+![Percentile Feedback with Lines](https://nathanbraun.com/images/percentile_feedback_lines.png)
 
 But Vermeer (following Nick Winter) takes a subset of random points from all of
 the past days lines, which gives a cloud that conveys where you're generally at
