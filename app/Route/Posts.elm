@@ -10,6 +10,7 @@ import DataSource.MarkdownTailwind
         , routeAsLoadedPageAndThen
         )
 import DataSource.Meta as Meta exposing (Meta)
+import Date
 import FatalError
 import Head
 import Head.Seo as Seo
@@ -127,7 +128,7 @@ view app shared =
             (app.data
                 -- sort descending by date
                 |> List.filter (\meta -> meta.rss)
-                |> List.sortBy (\meta -> meta.date)
+                |> List.sortBy (\meta -> meta.date |> Date.toIsoString)
                 |> List.reverse
                 |> List.map postView
             )
@@ -139,7 +140,7 @@ postView : Meta -> Html msg
 postView meta =
     div [ css [ Tw.flex ] ]
         [ span [ css [ Tw.hidden, Bp.md [ Tw.inline ] ] ]
-            [ text meta.date
+            [ text (meta.date |> Date.toIsoString)
             ]
         , div [ css [ Tw.flex ] ]
             [ span [ css [ Tw.mx_2 ] ] [ text " - " ]

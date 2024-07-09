@@ -6,8 +6,10 @@ module Route.SPLAT__ exposing (Model, Msg, RouteParams, route, Data, ActionData)
 
 -}
 
+-- import RouteCommon
+
 import BackendTask
-import BackendTask.Helpers exposing (BTask, routes)
+import BackendTask.Helpers exposing (BTask, Post, routes)
 import DataSource.MarkdownTailwind
 import Effect
 import ErrorPage
@@ -16,7 +18,6 @@ import Head
 import Html.Styled as Html
 import PagesMsg
 import RouteBuilder exposing (App, StatefulRoute)
-import RouteCommon
 import Server.Request
 import Server.Response
 import Shared
@@ -68,7 +69,7 @@ subscriptions routeParams path shared model =
 
 
 type alias Data =
-    RouteCommon.Data
+    Post
 
 
 type alias ActionData =

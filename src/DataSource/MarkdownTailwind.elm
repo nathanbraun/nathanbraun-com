@@ -5,6 +5,7 @@ import BackendTask.File
 import BackendTask.Glob as Glob
 import BackendTask.Helpers exposing (BTask)
 import DataSource.Meta exposing (Meta)
+import Date exposing (Date)
 import Html.Styled as Html exposing (Html, text)
 import Json.Decode as D
 import Json.Decode.Pipeline exposing (hardcoded, required)
@@ -16,6 +17,7 @@ import Markdown.Renderer
 import Parser
 import Route
 import Theme.Markdown
+import Time exposing (Month(..))
 import Types
 
 
@@ -25,8 +27,18 @@ decodeMeta splat =
         |> required "title" D.string
         |> required "description" D.string
         |> required "rss" D.bool
-        |> required "date" D.string
+        |> required "date" (D.string |> D.andThen decodeDate)
         |> hardcoded (Route.SPLAT__ { splat = splat })
+
+
+decodeDate : String -> D.Decoder Date
+decodeDate dateString =
+    case Date.fromIsoString dateString of
+        Ok date ->
+            D.succeed date
+
+        Err _ ->
+            D.fail "Invalid date format. Expected ISO-8601"
 
 
 routeAsLoadedPageAndThen :
@@ -55,7 +67,7 @@ routeAsLoadedPageAndThen routeParams fn =
                                         |> D.andThen
                                             (\_ ->
                                                 decodeMeta routeParams.splat
-                                                    -- |> Debug.log("❌ Failed to decode metadata for " ++ path)
+                                             -- |> Debug.log("❌ Failed to decode metadata for " ++ path)
                                             )
                                         |> D.andThen
                                             (\meta ->
