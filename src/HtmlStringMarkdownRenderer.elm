@@ -2,6 +2,7 @@ module HtmlStringMarkdownRenderer exposing (renderMarkdown)
 
 import Html.String as Html
 import Html.String.Attributes as Attr
+import LanguageTag.Language exposing (el)
 import Markdown.Block as Block exposing (Block)
 import Markdown.Html
 import Markdown.Parser as Markdown
@@ -63,7 +64,16 @@ renderMarkdown markdown =
                     case link.title of
                         Just title ->
                             Html.a
-                                [ Attr.href link.destination
+                                -- if link is internal, append https://nathanbraun.com to the link
+                                [ if link.destination |> String.startsWith "/" then
+                                    Attr.href ("https://nathanbraun.com" ++ link.destination)
+
+                                  else if link.destination |> String.startsWith "http" then
+                                    Attr.href link.destination
+
+                                  else
+                                    -- internal, no /
+                                    Attr.href ("https://nathanbraun.com/" ++ link.destination)
                                 , Attr.title title
                                 ]
                                 content
@@ -75,7 +85,21 @@ renderMarkdown markdown =
                     case imageInfo.title of
                         Just title ->
                             Html.img
-                                [ Attr.src imageInfo.src
+                                [ if imageInfo.src |> String.startsWith "/" then
+                                    Attr.src
+                                        ("https://nathanbraun.com/public/images"
+                                            ++ imageInfo.src
+                                        )
+
+                                  else if imageInfo.src |> String.startsWith "http" then
+                                    Attr.src imageInfo.src
+
+                                  else
+                                    -- internal, no /
+                                    Attr.src
+                                        ("https://nathanbraun.com/public/images/"
+                                            ++ imageInfo.src
+                                        )
                                 , Attr.alt imageInfo.alt
                                 , Attr.title title
                                 ]
