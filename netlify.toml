@@ -1,8 +1,13 @@
 [build]
-  publish = "dist"
+  functions = "functions/"
+  publish = "dist/"
   command = "./build.sh"
 
-[[plugins]]
-package = "netlify-plugin-cache"
-  [plugins.inputs]
-  paths = ["elm-stuff"]
+[dev]
+  command = "npm start"
+  targetPort = 1234
+  autoLaunch = true
+  framework = "#custom"
+
+[functions]
+  node_bundler = "esbuild"
