@@ -1,3 +1,5 @@
+const DOMAIN: string = "nathanbraun.com";
+
 type ElmPagesInit = {
   load: (elmLoaded: Promise<unknown>) => Promise<void>;
   flags: unknown;
@@ -13,3 +15,9 @@ const config: ElmPagesInit = {
 };
 
 export default config;
+
+const pl: HTMLScriptElement = document.createElement('script');
+pl.setAttribute('src', "/glib/js/script.js");
+pl.setAttribute('data-domain', DOMAIN);
+pl.setAttribute('data-api', "/glib/api/event");
+document.head.appendChild(pl);
