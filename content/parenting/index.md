@@ -1,5 +1,6 @@
 ---
 title: Parenting Notes
+internal: Parenting Notes
 type: page
 date: "2020-01-01"
 rss: false

@@ -169,4 +169,10 @@ linkToPost meta =
             , Css.visited [ Tw.text_color Theme.purple_800 ]
             ]
         ]
-        [ text meta.title ]
+        (case meta.internal of
+            Just internal ->
+                [ text internal ]
+
+            Nothing ->
+                [ text meta.title ]
+        )

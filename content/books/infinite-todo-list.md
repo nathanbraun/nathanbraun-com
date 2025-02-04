@@ -1,5 +1,6 @@
 ---
 title: Utopia's Infinite Todo List - Terra Incognita
+internal: Utopia's Infinite Todo List - Terra Incognita
 type: blog
 description: A note on Utopia's infinite todo list
 rss: true

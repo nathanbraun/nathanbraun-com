@@ -1,5 +1,6 @@
 ---
 title: Notes on Arnold Kling's Three Languages of Politics
+internal: Notes on Arnold Kling's Three Languages of Politics
 type: blog
 author: Nathan Braun
 description: Book review of Three Languages of Politics by Arnold Kling

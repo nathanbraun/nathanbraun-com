@@ -1,5 +1,6 @@
 ---
 title: nathanbraun.com - Tech Tools
+internal: Tech Tools
 description: Writeup of Tech Tools
 type: page
 date: "2025-01-16"

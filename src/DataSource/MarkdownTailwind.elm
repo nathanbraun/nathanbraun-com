@@ -8,7 +8,7 @@ import DataSource.Meta exposing (Meta)
 import Date exposing (Date)
 import Html.Styled as Html exposing (Html, text)
 import Json.Decode as D
-import Json.Decode.Pipeline exposing (hardcoded, required)
+import Json.Decode.Pipeline exposing (hardcoded, required, optional)
 import List.Extra as List
 import Markdown.Block exposing (Block)
 import Markdown.Footnotes
@@ -25,6 +25,7 @@ decodeMeta : List String -> D.Decoder Meta
 decodeMeta splat =
     D.succeed Meta
         |> required "title" D.string
+        |> optional "internal" (D.map Just D.string) Nothing
         |> required "description" D.string
         |> required "rss" D.bool
         |> required "date" (D.string |> D.andThen decodeDate)

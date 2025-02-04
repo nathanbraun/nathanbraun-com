@@ -1,5 +1,6 @@
 ---
 title: Intermediate Coding with Fantasy Football Writeup
+internal: Intermediate Coding with Fantasy Football
 type: page
 description: writeup
 rss: true

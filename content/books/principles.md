@@ -1,5 +1,6 @@
 ---
 title: Notes on Principles by Ray Dalio
+internal: Notes on Principles by Ray Dalio
 type: blog
 description: Notes on Principles by Ray Dalio
 rss: true

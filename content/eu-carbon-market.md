@@ -1,5 +1,6 @@
 ---
 title: EU Carbon Market Thesis Writeup
+internal: EU Carbon Market Thesis
 description: thesis
 type: page
 rss: true

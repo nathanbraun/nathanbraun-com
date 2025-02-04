@@ -1,5 +1,6 @@
 ---
 title: Learn to Code with Baseball Writeup
+internal: Learn to Code with Baseball
 description: Writeup of LTCWBB
 type: page
 date: "2020-11-22"

@@ -1,5 +1,6 @@
 ---
 title: Teaching Kids About Randomness
+internal: Teaching Kids About Randomness
 type: blog
 description: A game my 4 year old and I liked.
 date: "2020-10-21"

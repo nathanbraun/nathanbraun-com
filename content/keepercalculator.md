@@ -1,5 +1,6 @@
 ---
 title: Keeper + Draft Pick Trade Calculator Writeup
+internal: Keeper + Draft Pick Trade Calculator
 description: writeup of keepertradecalculator.com
 type: page
 date: "2020-09-22"

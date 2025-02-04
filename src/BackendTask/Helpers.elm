@@ -7,7 +7,7 @@ import DataSource.Meta exposing (..)
 import Date exposing (Date)
 import FatalError
 import Json.Decode as D
-import Json.Decode.Pipeline exposing (hardcoded, required)
+import Json.Decode.Pipeline exposing (hardcoded, optional, required)
 import Route
 import Time exposing (Month(..))
 import Types exposing (GlobalData, RouteParams)
@@ -156,6 +156,7 @@ decodeMeta : List String -> D.Decoder Meta
 decodeMeta splat =
     D.succeed Meta
         |> required "title" D.string
+        |> optional "internal" (D.map Just D.string) Nothing
         |> required "description" D.string
         |> required "rss" D.bool
         |> required "date" (D.string |> D.andThen decodeDate)

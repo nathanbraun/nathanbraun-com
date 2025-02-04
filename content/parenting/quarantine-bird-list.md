@@ -1,5 +1,6 @@
 ---
 title: Quarantine Backyard Bird List
+internal: Quarantine Backyard Bird List
 type: blog
 description: Our backyard bird list one year into quarantine
 draft: True

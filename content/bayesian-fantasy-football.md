@@ -1,5 +1,6 @@
 ---
 title: Bayesian Fantasy Football Writeup
+internal: Bayesian Fantasy Football
 description: writeup of Bayesian Fantasy Football
 type: page
 date: "2020-07-15"

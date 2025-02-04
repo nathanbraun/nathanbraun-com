@@ -7,6 +7,7 @@ import Time exposing (Month(..))
 
 type alias Meta =
     { title : String
+    , internal : Maybe String
     , description : String
     , rss : Bool
     , date : Date
@@ -17,6 +18,7 @@ type alias Meta =
 empty : Meta
 empty =
     { title = "empty"
+    , internal = Nothing
     , description = "empty"
     , rss = False
     , route = Route.SPLAT__ { splat = [ "empty" ] }
