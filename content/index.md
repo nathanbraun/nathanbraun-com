@@ -11,6 +11,8 @@ rss: false
 I am a programmer, data scientist and author. My current niche is "learn to
 code with sports", and I've published books on [football](https://fantasycoding.com?utm_source=nathanbraun&utm_content=home&utm_medium=organic&utm_campaign=homepage), [baseball](https://codebaseball.com?utm_source=nathanbraun&utm_content=home&utm_medium=organic&utm_campaign=homepage), [basketball](https://codebasketball.com?utm_source=nathanbraun&utm_content=home&utm_medium=organic&utm_campaign=homepage), [hockey](https://codewithhockey.com?utm_source=nathanbraun&utm_content=home&utm_medium=organic&utm_campaign=homepage) and [soccer](https://codesoccer.com?utm_source=nathanbraun&utm_content=home&utm_medium=organic&utm_campaign=homepage).
 
+I also have a more general book on [computer tooling](https://techtoolsbook.com?utm_source=nathanbraun&utm_content=home&utm_medium=organic&utm_campaign=homepage)
+
 Here's a [chronological list of all posts](posts).  An RSS feed is available
 [here](https://nathanbraun.com/feed.xml). Other places to find me:
 
@@ -20,6 +22,7 @@ Here's a [chronological list of all posts](posts).  An RSS feed is available
 - Goodreads: [@nathanbraun](https://www.goodreads.com/review/list/150191?order=d&sort=date_added)
 
 ## Projects
+- [Tech Tools](tooling), book on computer tooling (2024).
 - [Percentile Feedback](pf), a webapp to automatically calculate PF graphs (2022).
 - [Voice Book Notes](voice-book-notes), a webapp to take and export audio notes while reading (2021).
 - [Vim For Everyone](vim), a site extolling the virtues of Vim for non-coders (2021).
