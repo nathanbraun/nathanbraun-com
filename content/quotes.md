@@ -10,6 +10,10 @@ date: "2020-01-01"
 > "I think a life properly lived is just learn, learn, learn all the time." - *Charlie Munger*
 
 ---
+
+> "Doing things is energizing." - *Nabeel Qureshi*
+
+---
 > \> *What’s Father’s Day like for you? Do you have any Festivus-like traditions?*
 >
 > "I don’t need any special days. I mean they’re all special. ... I’m a
