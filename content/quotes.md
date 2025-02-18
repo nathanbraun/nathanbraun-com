@@ -125,3 +125,29 @@ casinos like vines on a tree."
 > \- *Ted Chiang, Exhalation*
 
 ---
+
+> "I think it important to try to see the present calamity in a true
+> perspective. The war creates no absolutely new situation; it simply
+> aggravates the permanent human situation so that we can no longer ignore it.
+> Human life has always been lived on the edge of a precipice. Human culture
+> has always had to exist under the shadow of something infinitely more
+> important than itself. If men had postponed the search for knowledge and
+> beauty until they were secure, the search would never have begun. We are
+> mistaken when we compare war with 'normal life.' Life has never been normal.
+> Even those periods which we think most tranquil, like the nineteenth century,
+> turn out, on closer inspection, to be full of crises, alarms, difficulties,
+> emergencies. Plausible reasons have never been lacking for putting off all
+> merely cultural activities until some imminent danger has been averted or
+> some crying injustice put right. But humanity long ago chose to neglect those
+> plausible reasons."
+> 
+> "They wanted knowledge and beauty now, and would not wait for the suitable
+> moment that never comes. Periclean Athens leaves us not only the Parthenon
+> but, significantly, the Funeral Oration. The insects have 'chosen' a
+> different line: they have sought first the material welfare and security of
+> the hive, and presumably they have their reward. [People] are different. They
+> propound mathematical theorems in beleaguered cities, conduct metaphysical
+> arguments in condemned cells, make jokes on scaffolds, discuss the last new
+> poem while advancing to the walls of Quebec, and comb their hair at
+> Thermopylae. This is not panache: it is our nature. ..."
+> \- *CS Lewis, Learning in Wartime*
