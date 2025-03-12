@@ -27,7 +27,7 @@ Always happy to talk — [nate@nathanbraun.com](mailto:nate@nathanbraun.com).
 ### Speech to Text Book Notes
 I read a lot and want to remember (and synthesize) what I've read/incorporate
 it into my personal notes. [More on ways I've tried to do
-this](ideas/voice-book-notes).
+this](/ideas/voice-book-notes).
 
 Basically, while reading a book on my Kindle, I want a low friction way to
 take short, speech to text audio notes that are tied back to my book and
@@ -43,7 +43,7 @@ effective for certain types of people, with many calling it life changing,
 etc.
 
 I've used Beeminder and mostly like it, but have a [few
-issues](ideas/beeminder) (some with Beeminder, one with human nature) that
+issues](/ideas/beeminder) (some with Beeminder, one with human nature) that
 make me think the following could be a good idea.
 
 A Beeminder type like service that:

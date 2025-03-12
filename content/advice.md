@@ -42,7 +42,7 @@ post — stop giving/taking short term advice — isn't more than a 5 for me).
 Here are a few of the things I've been doing/using for several years, i.e.
 they'd be at least a 6 on the advice experience hierarchy.
 
-- [Vim](vim) (probably a 7).
+- [Vim](/vim) (probably a 7).
 - Reading every night before I fall asleep.
 - On weekends, chopping up big container of vegetables for each day of the week.
 - Lifting weights, playing pickup basketball for cardiovascular exercise in lieu of jogging.

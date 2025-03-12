@@ -9,7 +9,7 @@ rss: false
 
 # Ray Dalio on Roles as Designer vs Worker in Your Life
 One of the most useful ideas I've come across is [Ray
-Dalio](books/principles)'s idea re: designer vs worker level you.
+Dalio](/books/principles)'s idea re: designer vs worker level you.
 
 He recommends thinking of yourself as a worker operating in a machine that
 you've designed, and says it's important to distinguish between you as the

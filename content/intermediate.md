@@ -35,7 +35,7 @@ In particular LTCWFF didn't go that in depth on the process of developing real
 life programs. I figured this was an opportunity to do that.
 
 All three projects are built around GraphQL API access to the newly rebuilt (in
-PyMC3) [Fantasy Math](fantasymath) model, which I continue to believe is underrated.
+PyMC3) [Fantasy Math](/fantasymath) model, which I continue to believe is underrated.
 
 I figured this was an opportunity to expose LTCWFF readers to the Fantasy Math
 model, possibly even one they'd be willing to purchase annually.

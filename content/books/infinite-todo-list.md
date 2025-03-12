@@ -45,7 +45,7 @@ improvements which, as she describes it, glittered in the air like fireflies
 flashing their quick prayers for attention.
 
 ## Noticing Pain
-This reminded me of the part in [Ray Dalio's Principles](principles) where he
+This reminded me of the part in [Ray Dalio's Principles](/principles) where he
 mentions -- almost as a throwaway line during a broader discussion of habits --
 that his most useful personal habit is reflexively reflecting on any pain he
 experiences.

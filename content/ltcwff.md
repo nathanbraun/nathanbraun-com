@@ -68,7 +68,7 @@ the same way).
 So I bulleted out the whole book, then rewrote it as prose.
 
 ### Ray Dalio and Navigating Levels
-I really like Ray Dalio's book [Principles](books/principles), and I often
+I really like Ray Dalio's book [Principles](/books/principles), and I often
 thought about the part in his book on navigating levels while writing and
 bullet pointing everything out.
 

@@ -10,7 +10,7 @@ rss: true
 # Keeper Trade Calculator
 
 The Keeper Trade Calculator was a tool I built along with the [Draft Pick
-Trade Calculator](pickcalculator) in 2015.
+Trade Calculator](/pickcalculator) in 2015.
 
 See that write up for more on the method.
 

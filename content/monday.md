@@ -13,13 +13,13 @@ and get back the probability you win (with some nice distribution plots).
 
 It's pretty popular, especially during the first week of the season when there
 are two Monday night games and everyone's excited about the season. I've
-written before about [Fantasy Math](fantasymath) and how I'm not positive it
+written before about [Fantasy Math](/fantasymath) and how I'm not positive it
 has product-market fit, but Fantasy Monday definitely does. Unfortunately, the
 price is free.
 
 ## History
 This was actually one of the earliest applications of the model. Way back with
-[Bayesian Fantasy Football](bayesian-fantasy-football), I used to run the
+[Bayesian Fantasy Football](/bayesian-fantasy-football), I used to run the
 matchups for my league every Monday and report back on the league messageboard.
 The rest of my league has an ambivalent attitiude about my model, but they
 liked these Monday night updates, and would ask for the probabilities if I
