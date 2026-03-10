@@ -19,7 +19,7 @@ heads.
 The number of heads in that 10 flips follows a binomial distribution which
 looks something [like this](https://www.wolframalpha.com/input/?i=binomial+distribution%2810%2C+0.5%29):
 
-![Binomial 10 Flips](/images/binomial.png)
+![Binomial 10 Flips](/images/binomial.jpg)
 
 There's about a 4% you get 2 (or 8) heads, 12% you get 3 (7), etc.
 

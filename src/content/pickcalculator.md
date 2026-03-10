@@ -56,7 +56,7 @@ on average at each pick.
 
 Here are the results:
 
-![Pick Value Curves](/images/pick_value.png)
+![Pick Value Curves](/images/pick_value.jpg)
 
 Note the different colored curves denote percentiles. The light blue line
 (P50) indicates the midpoint best-player AAV (normalized to a full 12 team,

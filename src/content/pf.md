@@ -26,7 +26,7 @@ line.)
 The idea is you have it up so you can see it while you're working. It looks
 like this:
 
-![Percentile Feedback Example](/images/percentile-feedback-example.png)
+![Percentile Feedback Example](/images/percentile-feedback-example.jpg)
 
 So in this example (which comes from [Alex Vermeer](https://alexvermeer.com/)),
 it's almost 7 pm (x axis) and Alex has worked about 40% of the day so far (y
@@ -36,7 +36,7 @@ of his past days.
 The dots are the previous days. If you want, you could plot these as lines too.
 That's what another [implementation by github user matkoniecz](https://github.com/matkoniecz/beeminder-percentile-feedback) does:
 
-![Percentile Feedback with Lines](https://nathanbraun.com/images/percentile_feedback_lines.png)
+![Percentile Feedback with Lines](/images/percentile_feedback_lines.jpg)
 
 But Vermeer (following Nick Winter) takes a subset of random points from all of
 the past days lines, which gives a cloud that conveys where you're generally at

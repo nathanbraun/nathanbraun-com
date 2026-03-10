@@ -35,8 +35,8 @@ annual golf scramble.
 The app itself is really simple, with basically two screens:
 
 <row>
-<image src="images/scramble1.png" desc="Scramble #1"/>
-<image src="images/scramble2.png" desc="Scramble #2"/>
+<image src="images/scramble1.jpg" desc="Scramble #1"/>
+<image src="images/scramble2.jpg" desc="Scramble #2"/>
 </row>
 
 I did spend some time thinking about how to get the most information with
