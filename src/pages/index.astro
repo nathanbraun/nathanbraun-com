@@ -1,0 +1,16 @@
+---
+import { getCollection, render } from 'astro:content';
+import MarkdownLayout from '../layouts/MarkdownLayout.astro';
+
+const page = await getCollection('pages').then(pages =>
+  pages.find(p => p.id === 'index')
+);
+
+if (!page) throw new Error('index.md not found');
+
+const { Content } = await render(page);
+---
+
+<MarkdownLayout title={page.data.title} description={page.data.description} isHome={true}>
+  <Content />
+</MarkdownLayout>

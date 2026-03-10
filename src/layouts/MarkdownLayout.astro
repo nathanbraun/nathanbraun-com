@@ -1,0 +1,71 @@
+---
+import BaseLayout from './BaseLayout.astro';
+
+interface Props {
+  title: string;
+  description?: string;
+  isHome?: boolean;
+}
+
+const { title, description = '', isHome = false } = Astro.props;
+---
+
+<BaseLayout title={title} description={description} headerType={isHome ? 'home' : 'page'}>
+  <article class="markdown-content mb-12">
+    <slot />
+  </article>
+</BaseLayout>
+
+<style is:global>
+  .markdown-content h1 {
+    @apply text-3xl font-bold font-header mb-4;
+  }
+  .markdown-content h2 {
+    @apply text-2xl font-bold font-header mt-8 mb-4;
+  }
+  .markdown-content h3 {
+    @apply text-xl font-bold font-header mt-6 mb-3;
+  }
+  .markdown-content p {
+    @apply mb-4 mx-0;
+  }
+  .markdown-content a {
+    @apply underline text-blue-600;
+  }
+  .markdown-content a:visited {
+    @apply text-purple-800;
+  }
+  .markdown-content ul {
+    @apply list-disc ml-10 mb-2 mr-6 md:mr-0;
+  }
+  .markdown-content ol {
+    @apply list-decimal ml-10 mb-2 mr-6 md:mr-0;
+  }
+  .markdown-content li {
+    @apply mb-1;
+  }
+  .markdown-content blockquote {
+    @apply md:border md:border-solid md:rounded md:bg-white md:shadow-lg md:italic md:my-6 px-6 py-4;
+  }
+  .markdown-content img {
+    @apply object-scale-down w-full;
+  }
+  .markdown-content code {
+    @apply bg-gray-200 px-1 rounded text-base;
+  }
+  .markdown-content pre {
+    @apply bg-gray-200 p-4 rounded overflow-x-auto mb-4;
+  }
+  .markdown-content pre code {
+    @apply bg-transparent p-0;
+  }
+  .markdown-content strong {
+    @apply font-bold;
+  }
+  .markdown-content em {
+    @apply italic;
+  }
+  .markdown-content hr {
+    @apply my-8 border-gray-300;
+  }
+</style>

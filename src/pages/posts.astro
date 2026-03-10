@@ -1,0 +1,30 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const allPages = await getCollection('pages');
+const posts = allPages
+  .filter(p => p.data.rss)
+  .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
+---
+
+<BaseLayout title="All Posts" headerType="posts">
+  <h1 class="text-3xl font-bold font-header mb-4">All Posts</h1>
+  <div>
+    {posts.map(post => {
+      const slug = post.id === 'index' ? '/' : `/${post.id}`;
+      const displayTitle = post.data.internal || post.data.title;
+      return (
+        <div class="flex">
+          <span class="hidden md:inline">{post.data.date}</span>
+          <div class="flex">
+            <span class="mx-2"> - </span>
+            <a href={slug} class="underline text-blue-600 visited:text-purple-800">
+              {displayTitle}
+            </a>
+          </div>
+        </div>
+      );
+    })}
+  </div>
+</BaseLayout>
