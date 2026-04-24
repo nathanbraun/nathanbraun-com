@@ -150,4 +150,18 @@ casinos like vines on a tree."
 > arguments in condemned cells, make jokes on scaffolds, discuss the last new
 > poem while advancing to the walls of Quebec, and comb their hair at
 > Thermopylae. This is not panache: it is our nature. ..."
+> 
 > \- *CS Lewis, Learning in Wartime*
+
+---
+
+> "Set up a rack of billiard balls and execute a flawless break. Imagine the
+> table has no pockets and is frictionless, so the balls just keep rebounding,
+> never coming to a stop; how accurately can you predict the path of any given
+> ball as it collides against the others? In 1978, the physicist Michael Berry
+> calculated that you could predict only nine collisions before you would need
+> to account for the gravitational effect of a person standing in the room. If
+> your initial measurement of a ball's position is off by even a nanometer,
+> your prediction becomes useless within a matter of seconds."
+> 
+> \- Ted Chaing, Anxiety is the Dizziness of Freedom
