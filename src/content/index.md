@@ -8,10 +8,17 @@ rss: false
 
 # Nathan Braun
 
-I am a programmer, data scientist and author. My current niche is "learn to
-code with sports", and I've published books on [football](https://fantasycoding.com?utm_source=nathanbraun&utm_content=home&utm_medium=organic&utm_campaign=homepage), [baseball](https://codebaseball.com?utm_source=nathanbraun&utm_content=home&utm_medium=organic&utm_campaign=homepage), [basketball](https://codebasketball.com?utm_source=nathanbraun&utm_content=home&utm_medium=organic&utm_campaign=homepage), [hockey](https://codewithhockey.com?utm_source=nathanbraun&utm_content=home&utm_medium=organic&utm_campaign=homepage) and [soccer](https://codesoccer.com?utm_source=nathanbraun&utm_content=home&utm_medium=organic&utm_campaign=homepage).
+I enjoy building, learning, writing and teaching.
 
-I also have a more general book on [computer tooling](https://techtoolsbook.com?utm_source=nathanbraun&utm_content=home&utm_medium=organic&utm_campaign=homepage)
+My last niche was "learn to code with sports". I wrote books on
+[football](https://fantasycoding.com?utm_source=nathanbraun&utm_content=home&utm_medium=organic&utm_campaign=homepage),
+[baseball](https://codebaseball.com?utm_source=nathanbraun&utm_content=home&utm_medium=organic&utm_campaign=homepage),
+[basketball](https://codebasketball.com?utm_source=nathanbraun&utm_content=home&utm_medium=organic&utm_campaign=homepage),
+[hockey](https://codewithhockey.com?utm_source=nathanbraun&utm_content=home&utm_medium=organic&utm_campaign=homepage)
+and
+[soccer](https://codesoccer.com?utm_source=nathanbraun&utm_content=home&utm_medium=organic&utm_campaign=homepage).
+I also have a more general book on [computer
+tooling](https://techtoolsbook.com?utm_source=nathanbraun&utm_content=home&utm_medium=organic&utm_campaign=homepage)
 
 Here's a [chronological list of all posts](posts).  An RSS feed is available
 [here](https://nathanbraun.com/feed.xml). Other places to find me:
