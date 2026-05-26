@@ -8,7 +8,7 @@ rss: false
 
 # Nathan Braun
 
-I enjoy building, learning, writing and teaching.
+I enjoy building, learning, reading, writing and teaching.
 
 My last niche was "learn to code with sports". I wrote books on
 [football](https://fantasycoding.com?utm_source=nathanbraun&utm_content=home&utm_medium=organic&utm_campaign=homepage),
