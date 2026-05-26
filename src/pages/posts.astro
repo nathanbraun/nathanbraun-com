@@ -5,6 +5,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 const allPages = await getCollection('pages');
 const posts = allPages
   .filter(p => p.data.rss)
+  .filter(p => import.meta.env.DEV || !p.data.draft)
   .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
 ---
 
@@ -22,6 +23,7 @@ const posts = allPages
             <a href={slug} class="underline text-blue-600 visited:text-purple-800">
               {displayTitle}
             </a>
+            {post.data.draft && <span class="ml-2 text-xs text-orange-600 font-semibold">[draft]</span>}
           </div>
         </div>
       );

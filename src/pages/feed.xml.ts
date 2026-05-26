@@ -9,6 +9,7 @@ export async function GET(context: { site: URL }) {
   const allPages = await getCollection('pages');
   const posts = allPages
     .filter(p => p.data.rss)
+    .filter(p => !p.data.draft)
     .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
 
   return rss({

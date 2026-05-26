@@ -6,6 +6,7 @@ export async function getStaticPaths() {
   const pages = await getCollection('pages');
   return pages
     .filter(page => page.id !== 'index')
+    .filter(page => import.meta.env.DEV || !page.data.draft)
     .map(page => ({
       params: { slug: page.id },
       props: { page },
