@@ -46,7 +46,7 @@ something with a consequence (a bet with friends to get down to a certain
 weight, Forfeit) but it'd feel pretty hard, like I was making a big push at the
 deadline vs. something more sustainable.
 
-Then one day I remembered a girl I used to work with saying she lost 50+ lbs
+Then one day I remembered someone I used to work with saying she lost 50+ lbs
 doing Bright Line Eating. As part of my ongoing list of things to try, I bought
 the book and read it.
 
