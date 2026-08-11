@@ -216,8 +216,7 @@ the case, since I keep doing it).
 - healthier generally
 - feel better, with more energy
 - less tension/mental energy re: what I feel like eating vs. what I actually do
-- cosmetic/look better — would be a bigger deal if I were younger, single, or
-  coming from a more overweight baseline, but still nice
+- cosmetic/look better — not super important but still nice
 - more maintainable; feels like something I can do long term vs. a temporary
   push or something hard
 
