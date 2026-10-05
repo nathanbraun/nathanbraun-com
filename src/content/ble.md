@@ -4,6 +4,7 @@ type: blog
 description: "Losing 34 Lbs with Bright Line Eating"
 date: "2026-07-31"
 rss: true
+toc: true
 ---
 
 # Losing 34 lbs with Bright Line Eating

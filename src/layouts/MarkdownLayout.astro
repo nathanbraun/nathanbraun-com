@@ -53,6 +53,21 @@ const { title, description = '', isHome = false } = Astro.props;
   .markdown-content code {
     @apply bg-gray-200 px-1 rounded text-base;
   }
+  .markdown-content .toc {
+    @apply mb-6;
+  }
+  .markdown-content .toc-title {
+    @apply font-bold font-header cursor-pointer select-none;
+  }
+  .markdown-content .toc details[open] .toc-title {
+    @apply mb-2;
+  }
+  .markdown-content .toc ul {
+    @apply mb-0;
+  }
+  .markdown-content .toc li {
+    @apply mb-0;
+  }
   .markdown-content pre {
     @apply bg-gray-200 p-4 rounded overflow-x-auto mb-4;
   }
