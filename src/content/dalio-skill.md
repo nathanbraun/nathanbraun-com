@@ -8,7 +8,7 @@ date: "2026-10-02"
 
 # Ray Dalio's 5 Step Process Skill
 
-I've [other places](designer-vs-worker) I'm a big fan of Ray Dalio and his book [Principles](books/principles).
+I've [other places](/designer-vs-worker) I'm a big fan of Ray Dalio and his book [Principles](/books/principles).
 
 Among other things, I like his **Five Step Process to get what you want out of
 life**:
