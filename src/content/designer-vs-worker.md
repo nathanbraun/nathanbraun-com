@@ -1,7 +1,6 @@
 ---
 title: Ray Dalio's Designer vs Worker Level You
 type: blog
-draft: true
 description: Notes on Principles by Ray Dalio
 date: "2020-08-18"
 rss: false
