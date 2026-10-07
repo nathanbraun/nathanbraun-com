@@ -8,7 +8,7 @@ date: "2026-10-02"
 
 # Ray Dalio's 5 Step Process Skill
 
-I've [other places](/designer-vs-worker) I'm a big fan of Ray Dalio and his book [Principles](/books/principles).
+I've written [other places](/designer-vs-worker) I'm a big fan of Ray Dalio and his book [Principles](/books/principles).
 
 Among other things, I like his **Five Step Process to get what you want out of
 life**:
@@ -52,7 +52,7 @@ One thing I tweaked: in Principles, it seems like Dalio tends to push/dig deeper
 on problems until he ultimately comes to some character flaw ("The root cause of
 this problem is I am forgetful").
 
-That's an option here, I left it open for something more structural too:
+That's an option here, but I left it open for something more structural too:
 
 ```
 Root causes can be traits or structure.
