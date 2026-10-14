@@ -122,9 +122,9 @@ surface area and exposure to other industries. And I'm very grateful for anyone
 taking the time to do that.
 
 If it helps, I do find almost all work (besides maybe a tobacco marketer or
-scammer call center operator) genuinely interesting and valuable. I appreciate
-modernity and ways it's made our lives better, and understand the main driver of
-this is increased specialization of labor.
+scammer call center operator or something) genuinely interesting and valuable. I
+appreciate modernity and ways it's made our lives better, and understand the
+main driver of this is increased specialization of labor.
 
 Note I won't share any specifics or names of what we talk about without asking.
 
