@@ -20,7 +20,8 @@ now that AI has changed the cost-benefit calculation. A lot of problems that
 weren't worth solving even 1-2 years ago now are.
 
 If you're up for it (I'd really appreciate it!) [schedule a
-time](https://cal.com/nathanbraun), or reach out and we'll figure out a time.
+time](https://cal.com/nathanbraun), or reach out and we'll figure out what
+works.
 
 If we've already got something set up: thank you! The [what I'm
 asking](#what-im-asking) section below has some things you could think about
