@@ -5,12 +5,13 @@ interface Props {
   title: string;
   description?: string;
   isHome?: boolean;
+  noindex?: boolean;
 }
 
-const { title, description = '', isHome = false } = Astro.props;
+const { title, description = '', isHome = false, noindex = false } = Astro.props;
 ---
 
-<BaseLayout title={title} description={description} headerType={isHome ? 'home' : 'page'}>
+<BaseLayout title={title} description={description} headerType={isHome ? 'home' : 'page'} noindex={noindex}>
   <article class="markdown-content mb-12">
     <slot />
   </article>

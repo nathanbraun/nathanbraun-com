@@ -17,6 +17,6 @@ const { page } = Astro.props;
 const { Content } = await render(page);
 ---
 
-<MarkdownLayout title={page.data.title} description={page.data.description}>
+<MarkdownLayout title={page.data.title} description={page.data.description} noindex={page.data.noindex}>
   <Content />
 </MarkdownLayout>

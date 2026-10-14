@@ -4,9 +4,10 @@ interface Props {
   description?: string;
   showHeader?: boolean;
   headerType?: 'home' | 'posts' | 'page';
+  noindex?: boolean;
 }
 
-const { title, description = '', showHeader = true, headerType = 'page' } = Astro.props;
+const { title, description = '', showHeader = true, headerType = 'page', noindex = false } = Astro.props;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 ---
 
@@ -16,6 +17,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description} />
+    {noindex && <meta name="robots" content="noindex" />}
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <link rel="canonical" href={canonicalURL} />
     <link rel="alternate" type="application/rss+xml" title="Nathan Braun" href="/feed.xml" />
