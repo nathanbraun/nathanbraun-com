@@ -14,9 +14,9 @@ I'm having casual ~20-30 min conversations with people about their work: what a
 typical week looks like, where time actually goes, what's tedious, how/whether
 AI has changed any of it.
 
-I'm trying to get a better sense of industries and problems and what might be
-worth working on, especially with AI. A lot of problems that weren't worth
-solving even 1-2 years ago now are.
+I'm trying to get a better sense of industries and problems it might be worth
+working on. Especially with AI -- a lot of problems that weren't worth solving
+even 1-2 years ago are now.
 
 If you're up for it (I'd really appreciate it!) [schedule a
 time](https://cal.com/nathanbraun), or reach out and we'll figure out what
