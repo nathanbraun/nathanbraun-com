@@ -23,7 +23,7 @@ time](https://cal.com/nathanbraun), or reach out and we'll figure out what
 works.
 
 If we've already got something set up: thank you! The [what I'm
-asking](#what-im-asking) section below has some things you could think about
+asking](#what-im-asking-for) section below has some things you could think about
 beforehand, but it's optional.
 
 More on the motivation for all this below:
