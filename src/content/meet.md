@@ -129,4 +129,8 @@ this is increased specialization of labor.
 Note I won't share any specifics or names of what we talk about without asking.
 
 Also, if you know someone with an interesting job (or an annoying part of one)
-who might be up for a similar conversation, I'd really appreciate an intro.
+who might be up for a similar conversation, I'd really appreciate an intro too.
+
+Cheers!
+
+Nate
