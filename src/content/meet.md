@@ -14,10 +14,9 @@ I'm having casual ~20-30 min conversations with people about their work: what a
 typical week looks like, where time actually goes, what's tedious, how/whether
 AI has changed any of it.
 
-I'm not pitching or building anything right now -- just trying to get a better
-sense of industries and problems and what might be worth working on, especially
-now that AI has changed the cost-benefit calculation. A lot of problems that
-weren't worth solving even 1-2 years ago now are.
+I'm trying to get a better sense of industries and problems and what might be
+worth working on, especially with AI. A lot of problems that weren't worth
+solving even 1-2 years ago now are.
 
 If you're up for it (I'd really appreciate it!) [schedule a
 time](https://cal.com/nathanbraun), or reach out and we'll figure out what
@@ -33,19 +32,19 @@ More on the motivation for all this below:
 From 2019-2026 I wrote books teaching coding and data science via sports, plus
 one on AI coding tools.
 
-These did really well, and let me work for myself. I think a big reason they
-worked is because I was basically writing to myself, minus ~5 years. The 'problem'
-I was solving:
+These did well, and let me work for myself. I think a big reason they worked is
+because I was basically writing to myself, minus ~5 years. The 'problem' I was
+solving:
 
 > "I didn't major in programming, but by playing with this football/ baseball/
 > basketball data on my own, I've realized it's pretty fun -- where do I go from
 > here?"
 
-It turned out a lot of other people were in that exact situation; my problem was
-a common problem.
+A lot of other people were in that exact situation; my problem was a common
+problem.
 
-Since then, I've continued to solve my own problems -- and I'm pretty good at
-it, but they've gotten less universal and/or more crowded. E.g.
+Since then, I've continued to solve my own problems -- and I'm pretty good at it
+-- but they've gotten less universal and/or more crowded. E.g.
 
 > "Who is the absolute, squeeze out every edge possible, best guy to start in
 > fantasy football this week?" (fantasymath/ [fantasygodmode.com](https://fantasygodmode.com))
@@ -53,9 +52,9 @@ it, but they've gotten less universal and/or more crowded. E.g.
 (And smaller ones: a weather viz app for android, custom productivity /
 accountability software).
 
-The fantasy model is the clearest example. I sincerely believe it's the best
-thing out there, and am proud of that given how many smart people are working on
-similar things for fun. And yet:
+The fantasy model is a good example. I sincerely believe it's the best thing out
+there, and am proud of that given how many smart people are working on similar
+things for fun. And yet:
 
 - it's "best" by a tiny margin
 - fantasy is super noisy; a tiny edge is swamped by randomness
@@ -63,21 +62,21 @@ similar things for fun. And yet:
 - people create fantasy stuff for fun (great for books, bad for selling a
   product), so there's a ton of free content
 
-It's a really good solution to a not-that-valuable problem. I use it myself +
-have a few die hard users, but that's about the ceiling.
+So it's a good solution to a not-that-valuable problem. I use it myself + have a
+few die hard users, but that's about the ceiling.
 
 ### Short on problems
-My books worked because my problem turned out to be a common problem, especially
-among non CS major sport fans in their 20s and 30s. But after 5+ years of
-working for myself, that's no longer the case.
+My books worked because my problem turned out to be a common, especially among
+non CS major sport fans in their 20s and 30s. But after 5+ years of working for
+myself, that's no longer the case.
 
-Note I'm still confident in my ability to *solve* problems (especially now that
-AI has opened up a ton of new frontiers re: what's possible to build). But what
-I'm missing is perspective on good/ valuable problems to solve.
+I'm still confident in my ability to *solve* problems (especially now that AI
+has opened up a ton of new frontiers re: what's possible to build). But what I'm
+missing is perspective on what'd be good/ valuable problems to solve.
 
 That's what I'm trying to get with these conversations.
 
-## What I'm asking
+## What I'm asking for
 A casual conversation about your work:
 
 - not a structured interview (no template)
@@ -111,12 +110,12 @@ lot of stuff in flux, so seems extra relevant now.
 
 ## What happens after we talk
 Most likely, nothing directly. I view these conversations as planting a bunch of
-seeds/getting data. I'm very early in the process and not expecting any one
-conversation to go further. 
+seeds/getting data. I'm very early in the process and not expecting anything to
+go further. 
 
 If something *does* come up where it seems like I could build or set up
-something meaningfully better than what you're doing now, I'll tell you. Could
-be a tool, could be consulting/etc, but no expectation either way.
+something that could be helpful, I'll tell you. Could be a tool, could be
+consulting/etc, but no expectation either way.
 
 Overall, this conversation is best viewed as a favor to me as I try to expand my
 surface area and exposure to other industries. And I'm very grateful for anyone
