@@ -44,7 +44,7 @@ Here's a [chronological list of all posts](posts).  An RSS feed is available
 - [Learn to Code with Baseball](baseball), baseball version of [LTCWFF](ltcwff) (2020-present)
 - [Intermediate Coding with Fantasy Football](intermediate), project-based follow up [LTCWFF](ltcwff) (2020)
 - [Fantasy Math](fantasymath), model for weekly fantasy start-sit advice (2017-2025)
-- [Learn to Code with Fantasy Football](ltcwff), book on Python & data science (2019-present)
+- [Learn to Code with Fantasy Football](ltcwff), book on Python & data science (2019)
 - [Fantasy Monday](monday), a free Monday only version of Fanasy Math (2017-present)
 - [Draft Pick Trade Calculator](pickcalculator), calculator to evaluate draft pick trades (2015-2018)
 - [Keeper Trade Calculator](keepercalculator), calculator to evaluate draft pick keeper trades (2015-2018)
