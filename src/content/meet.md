@@ -12,8 +12,9 @@ noindex: true
 ## Short version
 - **What:** ~20-30 min casual chat about your work -- what a typical week looks
   like, where time goes, what's tedious, whether AI has changed any of it.
-- **Why:** I'm trying to figure out what problems are worth working on -- especially
-  now, when AI makes a lot of them newly solvable.
+- **Why:** AI ended my coding books, and I'm trying to figure out what problems
+  are worth working on next -- especially now, when a lot of them are newly
+  solvable.
 - **Next:** if you're up for it (I'd really appreciate it!) [schedule a
   time](https://cal.com/nathanbraun), or reach out and we'll figure out what
   works.
@@ -30,10 +31,12 @@ solving:
 > basketball data on my own, I've realized it's pretty fun -- where do I go from
 > here?"
 
-My books worked because my problem turned out to be a common one, especially
-among non CS major sport fans in their 20s and 30s. Since then, I've continued
-to [solve my own problems](/fgm) -- and I'm pretty good at it -- but they've
-gotten less universal and/or more crowded.
+It turned out to be a common one, especially among non CS major sport fans in
+their 20s and 30s. This was a good problem to solve, up until ~2025, when AI
+basically ended coding by hand.
+
+Since then, I've continued to [solve my own problems](/fgm) -- and I'm pretty
+good at it -- but they've gotten less universal and/or more crowded.
 
 I'm still confident in my ability to *solve* problems (especially now that AI
 has changed the calculus on what's worth building). But I'm missing perspective
