@@ -37,12 +37,13 @@ Here's a [chronological list of all posts](posts).  An RSS feed is available
 - [Scramble Tracker](scramble), track whose shots you used during a golf scramble (2020-present)
 
 ## Fantasy & Sports Analytics Projects
+- [Fantasy God Mode](fgm), next generation of fantasy model suite (2026)
 - [Learn to Code with Soccer](soccer), soccer version of book (2022)
 - [Learn to Code with Hockey](hockey), NHL version of book (2022)
 - [Learn to Code with Basketball](basketball), NBA version of book (2022)
 - [Learn to Code with Baseball](baseball), baseball version of [LTCWFF](ltcwff) (2020-present)
 - [Intermediate Coding with Fantasy Football](intermediate), project-based follow up [LTCWFF](ltcwff) (2020)
-- [Fantasy Math](fantasymath), model for weekly fantasy start-sit advice (2017-present)
+- [Fantasy Math](fantasymath), model for weekly fantasy start-sit advice (2017-2025)
 - [Learn to Code with Fantasy Football](ltcwff), book on Python & data science (2019-present)
 - [Fantasy Monday](monday), a free Monday only version of Fanasy Math (2017-present)
 - [Draft Pick Trade Calculator](pickcalculator), calculator to evaluate draft pick trades (2015-2018)

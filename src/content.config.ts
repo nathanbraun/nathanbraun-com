@@ -11,6 +11,7 @@ const pages = defineCollection({
     draft: z.boolean().default(false),
     toc: z.boolean().default(false),
     noindex: z.boolean().default(false),
+    math: z.boolean().default(false),
     type: z.string().optional(),
     internal: z.string().optional(),
   }),
