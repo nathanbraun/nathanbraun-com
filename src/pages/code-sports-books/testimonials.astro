@@ -1,0 +1,36 @@
+---
+import MarkdownLayout from '../../layouts/MarkdownLayout.astro';
+import TestimonialCard from '../../components/Testimonial.astro';
+import { testimonials } from '../../data/testimonials';
+
+const featured = testimonials.filter((t) => t.featured);
+const rest = testimonials.filter((t) => !t.featured);
+---
+
+<MarkdownLayout
+  title="Learn to Code with Sports: Reader Feedback"
+  description="Unsolicited feedback from readers of the Learn to Code with Sports books"
+>
+  <h1>Reader Feedback</h1>
+  <p>
+    <!-- TODO: intro copy -->
+    From readers of the <a href="/code-sports-books">Learn to Code with Sports</a>
+    books.
+  </p>
+  <!-- Featured cards alternate left/right so they read in order across rows;
+       CSS columns can't balance only eight cards of uneven length. -->
+  <div class="mt-8 grid items-start gap-x-4 sm:grid-cols-2">
+    {[0, 1].map((col) => (
+      <div>
+        {featured.filter((_, i) => i % 2 === col).map((t) => (
+          <TestimonialCard quote={t.quote} name={t.name} />
+        ))}
+      </div>
+    ))}
+  </div>
+  <div class="mt-4 columns-1 gap-4 sm:columns-2">
+    {rest.map((t) => (
+      <TestimonialCard quote={t.quote} name={t.name} />
+    ))}
+  </div>
+</MarkdownLayout>

@@ -56,10 +56,11 @@ promotion/relegation across all the leagues and a waiting list and lottery to
 get in.
 
 I was looking for a 'Warren Buffett' of fantasy, someone who could outperform
-the lineup/ROS models consistently and by more than chance. Nobody could. Claude
-and I found 40 managers who appeared to beat the model at a significant level,
-against the 41 we'd expect to see by pure chance. Outperforming the model one
-year had no effect a manger's chances of beating it in other years.
+the lineup/ROS models consistently and by more than chance. This turned out not
+to exist. Claude and I found 40 managers who appeared to beat the model at a
+significant level, against the 41 we'd expect to see by pure chance.
+Outperforming the model one year had no effect a manger's chances of beating it
+in other years.
 
 I sincerely believe Fantasy God Mode is the best thing out there, and am proud
 of that given how many smart people are working on similar things for fun.

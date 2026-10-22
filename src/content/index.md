@@ -10,15 +10,13 @@ rss: false
 
 I enjoy building, learning, reading, writing and teaching.
 
-My last niche was "learn to code with sports". I wrote books on
-[football](https://fantasycoding.com?utm_source=nathanbraun&utm_content=home&utm_medium=organic&utm_campaign=homepage),
-[baseball](https://codebaseball.com?utm_source=nathanbraun&utm_content=home&utm_medium=organic&utm_campaign=homepage),
-[basketball](https://codebasketball.com?utm_source=nathanbraun&utm_content=home&utm_medium=organic&utm_campaign=homepage),
-[hockey](https://codewithhockey.com?utm_source=nathanbraun&utm_content=home&utm_medium=organic&utm_campaign=homepage)
-and
-[soccer](https://codesoccer.com?utm_source=nathanbraun&utm_content=home&utm_medium=organic&utm_campaign=homepage).
-I also have a more general book on [computer
+My last niche was "learn to code with sports". I wrote books on learning to code
+with football, baseball, basketball, hockey and soccer.
+
+These are [mostly obsolete now due to AI](/code-sports-books), but I also have a more general book on
+[computer
 tooling](https://techtoolsbook.com?utm_source=nathanbraun&utm_content=home&utm_medium=organic&utm_campaign=homepage)
+that's still relevant.
 
 Here's a [chronological list of all posts](posts).  An RSS feed is available
 [here](https://nathanbraun.com/feed.xml). Other places to find me:

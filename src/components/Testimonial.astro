@@ -1,0 +1,35 @@
+---
+// Ported from code-books/code-*-site-astro/src/components/Testimonial.astro.
+// Uses a div rather than <blockquote> so the global .markdown-content
+// blockquote styles don't apply.
+interface Props {
+  quote: string;
+  name: string;
+  highlight?: boolean;
+}
+
+const { quote, name, highlight = false } = Astro.props;
+
+// Split on `**`; odd-indexed segments are emphasized.
+const parts = quote.split("**");
+---
+
+<figure
+  class:list={[
+    "mb-4 break-inside-avoid rounded-xl border border-slate-200 p-5 shadow-sm",
+    highlight ? "bg-amber-50" : "bg-white",
+  ]}
+>
+  <div class="leading-relaxed text-slate-600">
+    {
+      parts.map((part, i) =>
+        i % 2 === 1 ? (
+          <strong class="font-bold text-slate-900">{part}</strong>
+        ) : (
+          <Fragment>{part}</Fragment>
+        )
+      )
+    }
+  </div>
+  <figcaption class="mt-3 text-sm font-bold text-slate-500">— {name}</figcaption>
+</figure>
