@@ -12,7 +12,7 @@ Learn to Code with Fantasy Football, Baseball, Hockey, Soccer, and Basketball
 are a series of books I wrote between 2019 and 2022. I followed it up with a
 book on AI and tooling in 2024.
 
-At a high level, this is the story:
+High level summary:
 
 - In 2019 I went down to 80% at my day job to work on my own projects.
 - Learn to Code with Fantasy Football was my first project.
@@ -23,8 +23,8 @@ Eventually I:
 
 - Grew through Facebook and Instagram marketing
 - Built a 70k person email list.
-- Sold more than $1M worth.
-- Watched AI make the books obsolete, and ultimately made them free.
+- Ended up selling more than $1M in books.
+- Watched AI make the books mostly obsolete, and released them for free.
 
 ## Contents
 All the books covered basically the same thing: Python, Pandas (Python's main
