@@ -15,9 +15,9 @@ book on AI and tooling in 2024.
 High level summary:
 
 - In 2019 I went down to 80% at my day job to work on my own projects.
-- Learn to Code with Fantasy Football was my first project.
-- I released it in 2019 and made > 20% of my salary.
-- I quit my job and over the next few years wrote four other versions.
+- Learn to Code with Fantasy Football was the first one.
+- I released it that year and made > 20% of my salary.
+- In 2020 I quit my day job and over the next few years wrote four other versions.
 
 Eventually I:
 
@@ -103,7 +103,7 @@ Which was basically me in ~2013 ish.
 
 The books are based on the assumption (and my experience) that data science type
 tasks are pretty universal across domains. Once you learn how to query a
-database or scrape some data or spin up a regression model in one domain, it's
+database or scrape some data or spin up a regression model in one area, it's
 straightforward to apply it to others.
 
 They were definitely more about teaching these concepts than getting into
