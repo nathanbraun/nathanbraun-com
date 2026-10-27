@@ -17,11 +17,12 @@ Timeline:
 - **2019** — went down to 80% at my day job to work on my own projects. *Learn
   to Code with Fantasy Football* was the first project. ~$30k first year, more
   per hour than day job.
-- **2020** — quit day job, wrote *Learn to Code with Baseball*.
-- **2021** — growth mainly from Facebook/Instagram ads; annual Football Developer Kit.
+- **2020** — quit day job, wrote *Learn to Code with Baseball*. Sales mainly via
+  reddit.
+- **2021** — Facebook/Instagram ads up growth; annual Football Developer Kit.
 - **2022** — released basketball, hockey and soccer versions.
 - **2024** — wrote book on computer tooling and AI.
-- **Late 2025** — AI made the books (arguably coding) mostly obsolete.
+- **Late 2025** — AI made the books (arguably coding in general) mostly obsolete.
 - **2026** — made the books free; updated tooling book with chapter on Claude
   Code.
 
