@@ -12,21 +12,23 @@ Learn to Code with Fantasy Football, Baseball, Hockey, Soccer, and Basketball
 are a series of books I wrote between 2019 and 2022. I followed it up with a
 book on AI and tooling in 2024.
 
-High level summary:
+Timeline:
 
-- In 2019 I went down to 80% at my day job to work on my own projects.
-- Learn to Code with Fantasy Football was the first one.
-- I released it that year and made > 20% of my salary.
-- In 2020 I quit my day job and over the next few years wrote four other versions.
+- **2019** — went down to 80% at my day job to work on my own projects. *Learn
+  to Code with Fantasy Football* was the first project. ~$30k first year, more
+  per hour than day job.
+- **2020** — quit day job, wrote *Learn to Code with Baseball*.
+- **2021** — growth mainly from Facebook/Instagram ads; annual Football Developer Kit.
+- **2022** — released basketball, hockey and soccer versions.
+- **2024** — wrote book on computer tooling and AI.
+- **Late 2025** — AI made the books (arguably coding) mostly obsolete.
+- **2026** — made the books free; updated tooling book with chapter on Claude
+  Code.
 
-Eventually I:
+In total, between 2019 and 2026, I released 6 books and an annual software
+subscription, built a ~70k email list, and had $1M+ in sales.
 
-- Grew through Facebook and Instagram marketing
-- Built a 70k person email list.
-- Ended up selling more than $1M in books.
-- Watched AI make the books mostly obsolete, and released them for free.
-
-## Contents
+## Book Contents
 All the books covered basically the same thing: Python, Pandas (Python's main
 data analysis library), SQL, web scraping, public APIs, data visualization,
 summary stats and modeling, all applied to sports and sports data.
@@ -258,10 +260,10 @@ it. Ironically, it's much more relevant now that AI writes most of the code.
 
 ## AI and the fall of the books
 
-I've been using AI coding tools since soon after they were invented (basically
+I've been using AI coding tools since soon after they were invented (initially
 just fancy autocomplete).
 
-I was working on the first edition of tech tools when early AI was out. It was
+I was working on the first edition of Tech Tools when early AI was out. It was
 very helpful in setting up configs etc. But was definitely hit or miss and
 couldn't reliably one shot code yet.
 
