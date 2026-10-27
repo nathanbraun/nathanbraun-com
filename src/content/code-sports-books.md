@@ -70,7 +70,7 @@ root cause was I a) didn't have enough products available for people to buy and
 b) going down a level, I didn't have a ton of time to work on them. Separately,
 I had a tendancy to build vs thinking about distribution or 'just shipping'.
 
-(Note I still find this process valuable, and created a [Claude
+(Note I still find this process valuable, and recently created a [Claude
 skill](/dalio-skill) for it.)
 
 ### Designer vs worker level you
@@ -81,8 +81,8 @@ He recommends thinking of yourself as a worker operating in a machine that
 you’ve designed, and says it’s important to distinguish between you as the
 designer of your machine, and you as a worker within your machine.
 
-> "It’s much more important that you are a good designer/manager of your life
-> than a good worker in it."
+> "It’s much more important that you are a **good designer/manager of your
+> life** than a good worker in it."
 
 So, in what I viewed as a 'designer of my life' move, I decided to go down to
 80% at my day job in order to work on my own stuff/work for myself.
@@ -109,9 +109,10 @@ database or scrape some data or spin up a regression model in one area, it's
 straightforward to apply it to others.
 
 They were definitely more about teaching these concepts than getting into
-advanced analytics or stats. It wasn't like if you read it you'd be able to go
-work for the Brewers or something. Though these coding skills would also prob be
-prerequisites, and did have readers from the industry too.
+advanced sports analytics or stats. It wasn't like if you read it you'd be able
+to go immediately work for the Brewers. Though these coding skills would be
+prerequisites for jobs like that, and I did have readers from inside the
+industry.
 
 ## Writing Process and Experience
 Writing the book wasn't that difficult. That's probably mainly due to the topic
