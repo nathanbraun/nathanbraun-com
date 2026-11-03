@@ -29,7 +29,7 @@ Timeline:
 In total, between 2019 and 2026, I released 6 books and an annual software
 subscription, built a ~70k email list, and had $1M+ in sales.
 
-## Book Contents
+## Contents
 All the books covered basically the same thing: Python, Pandas (Python's main
 data analysis library), SQL, web scraping, public APIs, data visualization,
 summary stats and modeling, all applied to sports and sports data.
@@ -48,9 +48,9 @@ terminal, Vim, Git, servers (and later AI tools like Claude Code).
 
 ## Background
 
-I had been building side projects and playing around with selling products (and
-earlier consulting) on nights and weekends since grad school. Once we had our
-second kid in 2018 night and weekend time got pretty scarce.
+I had been building side projects and playing around with selling them since
+grad school. Once we had our second kid in 2018 night and weekend time got
+pretty scarce.
 
 Around that time I also read Principles by Ray Dalio, which I've talked about
 [elsewhere](/books/principles). It's not magic, or nec anything that different
@@ -260,7 +260,7 @@ have the same, "take my money" appeal as Learn to Code with Sports.
 But it was still valuable, and I did have people go through it and really like
 it. Ironically, it's much more relevant now that AI writes most of the code.
 
-## AI and the fall of the books
+## AI and declining relevance
 
 I've been using AI coding tools since soon after they were invented (initially
 just fancy autocomplete).
@@ -310,7 +310,7 @@ to code, and a lot of resources were confusing or presented in weird order. I
 thought it could be done better, so I did it. Based on reception and market
 reaction, it worked out.
 
-The whole project should also be helpful for future pattern matchin. For
+The whole project should also be helpful for future pattern matching. For
 example, product market fit. There's a quote from Patrick McKenzie:
 
 > "With product market fit, you know it if you have it; if you're not sure, you
@@ -320,8 +320,8 @@ The books definitely had it, and right away -- I didn't have to do a bunch of
 thrashing or pivoting to find it. That won't always be the case, but I think
 it'll make me more effective having experienced it.
 
-### Inside view of AI/trends
-From 2023-2026, I watched AI go from smart autocomplete to good but buggy code
+### Up close view of AI/trends
+From 2023-2026, I watched AI go from smart autocomplete to good-but-buggy code
 to basically superhuman. I used an early "talk to LLM's in Vim"
 [plugin](https://github.com/madox2/vim-ai), used that to build my own, "talk to
 LLM's in *Neo*vim" [plugin](https://github.com/nathanbraun/nvim-ai), used that
@@ -329,16 +329,17 @@ to get AI to write a bunch of code I'd have to test/compile by hand. Eventually
 I moved to Claude Code which did all that and more.
 
 I also feel like hobby/passion projects (e.g. with sports) gave me a good, up
-close view to cutting edge tech. For example, in 2019 when I [posted on
-r/fantasyfootball](https://www.reddit.com/r/fantasyfootball/comments/aizwq8/working_on_a_new_book_learn_to_code_with_fantasy/)
-there was a huge response, right away. Now people build way more polished (and
-free) stuff with AI, and no one blinks.
+close view to cutting edge tech. I got initial interest on my stuff via the
+r/fantasyfootball reddit. Looking at that sub today, there are a *ton* of
+powerful, super-polished, usually-free, obviously-AI built tools that are high
+quality (from the standards of a few years ago) but that barely anyone pays
+attention to, because the bar now is so high.
 
 I think this perspective might be useful in areas where AI is diffusing more
 slowly, e.g. non-consumer/hobby products or messier b2b/physical world stuff.
 Industries where people *aren't* coding up really polished products on their own
 dime on nights and weekends.
 
-That's why I'm trying to learn and get more exposure to these areas now. If
-you'd like to talk, please don't hesitate to [reach out](/meet).
+That's partly why I'm trying to learn and get more exposure to these areas now.
+If you'd like to talk, please don't hesitate to [reach out](/meet).
 
