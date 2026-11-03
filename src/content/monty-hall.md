@@ -50,7 +50,9 @@ He's not alone:
 ## Simple Explanation
 Here's the clearest way I've found to think about it.
 
-Say you always switch. Now there are two outcomes:
+Say you *always* switch. You're going into it switching no matter what.
+
+Now two things can happen:
 
 You originally pick one of the two dud doors (2/3 chance). Then Monty will open
 the *other* dud (he has to, the only other option is the prize door and he
