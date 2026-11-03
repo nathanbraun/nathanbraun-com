@@ -57,7 +57,8 @@ Around that time I also read Principles by Ray Dalio, which I've talked about
 [elsewhere](/books/principles). It's not magic, or nec anything that different
 from common sense, but clicked with me.
 
-Three relevant parts:
+There were three parts that were especially relevant when it came to these
+books:
 
 ### 5 step process to get what you want out of life
 First was Dalio's 5 step process, which is:
@@ -92,7 +93,7 @@ So, in what I viewed as a 'designer of my life' move, I decided to go down to
 My plan was to start with the coding books and move on to something else if that
 didn't work.
 
-(Note for those counting that's two Dalio inspired lessons, the third is the
+(Note for those counting that's two Dalio-inspired takeaways. The third is the
 [navigating levels](#navigating-levels) part below.)
 
 ## Audience
@@ -154,8 +155,8 @@ was the idea of *levels*.
   \>\>\>\> *I need to get good grades in the sciences.* \
   \>\>\>\>\> *I need to stay home tonight and study.* 
 
-When a line of reason has gotten jumbled, it's often because the speaker is
-jumping around different levels without showing how they connect.
+When reasoning is jumbled, it's often because the speaker is jumping around
+different levels without showing how they connect.
 
 That's why, when conveying information, it's important to:
 
@@ -193,7 +194,7 @@ other sports.
 What changed that was facebook/instagram ads. How they work:
 
 - you upload, say 3k email addresses of book customers to Meta
-- Meta (automatically) matches those with Facebook/Instagram profiles
+- Meta (automatically) matches those with the Facebook/Instagram profiles it has
 - Meta then (again, automatically) builds a model: "we used all our internal
   Meta data to build a model and rate everyone on Facebook/Instagram in terms of
   how similar they are to the people who bought your book, 0-100"
@@ -208,7 +209,7 @@ audiences) myself.
 
 ### Email drip
 Part way through also started offering a truncated preview to anyone who entered
-their email. I'm glad I did; have something like ~70k emails now.
+their email. I'm glad I did, and I have something like ~70k emails now.
 
 I followed the free preview request up with a basic drip campaign. My most
 interesting email maybe was an explanation of the [Monty Hall
