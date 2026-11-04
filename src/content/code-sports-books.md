@@ -55,7 +55,7 @@ pretty scarce.
 
 Around that time I also read Principles by Ray Dalio, which I've talked about
 [elsewhere](/books/principles). It's not magic, or nec anything that different
-from common sense, but clicked with me.
+from common sense, but it clicked with me.
 
 There were three parts that were especially relevant when it came to these
 books:
@@ -70,11 +70,12 @@ First was Dalio's 5 step process, which is:
 
 I went through this exercise with the goal "work for myself" and decided the
 root cause was I a) didn't have enough products available for people to buy and
-b) going down a level, I didn't have a ton of time to work on them. Separately,
-I had a tendancy to build vs thinking about distribution or 'just shipping'.
+b) going down a level, I didn't have a ton of time to work on them. Also c) I
+had a tendancy to build new features vs thinking about distribution or 'just
+shipping'.
 
-(Note I still find this process valuable, and recently created a [Claude
-skill](/dalio-skill) for it.)
+(Note I still use and find this 5 step process valuable, and recently created a
+[Claude skill](/dalio-skill) for it.)
 
 ### Designer vs worker level you
 The second part of Principles I really liked was Dalio's idea re: designer vs
@@ -82,7 +83,7 @@ worker level you.
 
 He recommends thinking of yourself as a worker operating in a machine that
 you’ve designed, and says it’s important to distinguish between you as the
-designer of your machine, and you as a worker within your machine.
+*designer* of your machine, and you as a worker *within* your machine.
 
 > "It’s much more important that you are a **good designer/manager of your
 > life** than a good worker in it."
