@@ -19,3 +19,39 @@
   to = "https://umami.natebraun.com/:splat"
   status = 200
   force = true
+
+[[redirects]]
+  from = "/ltcwff"
+  to = "/code-sports-books"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/baseball"
+  to = "/code-sports-books"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/hockey"
+  to = "/code-sports-books"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/soccer"
+  to = "/code-sports-books"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/basketball"
+  to = "/code-sports-books"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/intermediate"
+  to = "/code-sports-books"
+  status = 301
+  force = true

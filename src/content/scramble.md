@@ -25,7 +25,7 @@ To cut through all the noise (and work on my app skills) I decided to code up
 a data entry scramble tracker app, which the nerdiest member of each team can
 use to record the type, distance and who was responsible for each shot.
 
-After a few outings, I can put my [sports](fantasymath) [analytics](ltcwff)
+After a few outings, I can put my [sports](fantasymath) [analytics](code-sports-books)
 skills to good use and we'll all know once at for all how good everyone is.
 Either that or I'll keep the data to myself, and become the Billy Beane of the
 annual golf scramble.

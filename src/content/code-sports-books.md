@@ -261,7 +261,7 @@ or the coding books. Again, I think it mostly worked as an upsell; it doesn't
 have the same, "take my money" appeal as Learn to Code with Sports.
 
 But it was still valuable, and I did have people go through it and really like
-it. Ironically, it's much more relevant now that AI writes most of the code.
+it. Ironically, it's much more relevant now that AI writes most code.
 
 ## AI and declining relevance
 
@@ -299,8 +299,13 @@ But eventually (with Claude Code etc) I basically came to the conclusion that
 coding the old way is "solved". It was pretty clear the books were no longer
 relevant as the most efficient way to learn for most people.
 
-So I made them free. People still are downloading them. It could be a good move
-for some people, depends on how much time you have.
+So I made them free. People still are downloading them. Working through them
+could be a good move for some people, depends on how much time you have.
+
+If you're interested, they're all available at:
+
+[https://learntocodewithsports.com/](https://learntocodewithsports.com/)
+
 
 ## What I took from the books
 I'm proud of these books. They combined my interests (tech, sports) and skills
