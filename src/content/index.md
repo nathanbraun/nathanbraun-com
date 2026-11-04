@@ -31,8 +31,8 @@ Here's a [chronological list of all posts](posts).  An RSS feed is available
 - [Percentile Feedback](pf), a webapp to automatically calculate PF graphs (2022).
 - [Voice Book Notes](voice-book-notes), a webapp to take and export audio notes while reading (2021).
 - [Vim For Everyone](vim), a site extolling the virtues of Vim for non-coders (2021).
-- [Vote Squared](voting), a quadratic polling app (2020-present).
-- [Scramble Tracker](scramble), track whose shots you used during a golf scramble (2020-present)
+- [Vote Squared](voting), a quadratic polling app (2020).
+- [Scramble Tracker](scramble), track whose shots you used during a golf scramble (2020)
 
 ## Fantasy & Sports Analytics Projects
 - [Fantasy God Mode](fgm), next generation of fantasy model suite (2026)
