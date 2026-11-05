@@ -2,7 +2,7 @@
 title: Learning Math with Math Academy, Claude and Anki
 type: blog
 description: "My system for learning math: Math Academy for the curriculum, Claude for intuition, Anki to remember it."
-date: "2026-10-27"
+date: "2026-11-05"
 rss: true
 toc: true
 ---
