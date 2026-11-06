@@ -27,6 +27,7 @@ Here's a [chronological list of all posts](posts).  An RSS feed is available
 - Goodreads: [@nathanbraun](https://www.goodreads.com/review/list/150191?order=d&sort=date_added)
 
 ## Projects
+- [How I Learn Math](math), Math Academy, Claude, Anki and a good attitude (2026).
 - [Tech Tools](tooling), book on computer tooling (2024).
 - [Percentile Feedback](pf), a webapp to automatically calculate PF graphs (2022).
 - [Voice Book Notes](voice-book-notes), a webapp to take and export audio notes while reading (2021).
