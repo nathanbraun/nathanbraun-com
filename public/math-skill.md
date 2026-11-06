@@ -14,9 +14,10 @@ one out. Claude is the single channel; MA drills. If the user has given
 access to a notes folder, per-topic notes there carry what landed from one
 session to the next.
 
-Goals, in order: (1) understand the idea and where it fits, (2) be able to
-do all of MA's problems on it, (3) remember it later, but only if it will be
-built on.
+Goals, in order: (1) understand the idea (be able to say why it must be
+true, and picture it where it has a picture) and where it fits, (2) be
+able to do all of MA's problems on it, (3) remember it later, but only if
+it will be built on.
 
 Setup this assumes: Claude with browser tools (e.g. Claude Desktop with the
 browser pane, or Claude in Chrome), with the user signed in to Math Academy
@@ -70,8 +71,8 @@ The task type is in their tab's URL: `/tasks/<n>/topics/<id>/lesson`,
 - **Review:** they do it cold by default. If they say they're fuzzy,
   blanked, or never had the intuition (MA's own "review topic to brush up"
   button is the same cue, so re-teaching is within its design), run the
-  same loop, scaled to the gap: the one idea and the specific piece they
-  lost, a couple of minutes. Then write or update the topic note with a
+  same loop, scaled to the gap: the specific piece they lost and nothing
+  more. Then write or update the topic note with a
   dated line saying what was fuzzy and what fixed it. These lines are the
   best evidence for faded prerequisites and for Anki.
 - **Quiz:** stay out completely while it's open. Quizzes are MA's test of
@@ -169,8 +170,7 @@ same concept (`grep -ril '^title: <name>$'`), that note is the one to
 extend later rather than duplicating.
 
 The hits tell you what framing landed, in whose words, what they blanked
-on and when. That is what "where it fits" and any recall check are built
-from. A prerequisite with no note predates this workflow: read its MA
+on and when; use them where they help the teaching. A prerequisite with no note predates this workflow: read its MA
 topic page (one page, same extraction) so you know what it assumed, and
 say you have no history on it.
 
@@ -179,81 +179,19 @@ on prerequisites, ask one line ("how solid is <prereq>?") instead of
 guessing, and suggest once, briefly, that a notes folder would let this
 carry over between sessions.
 
-## 3. Build the lesson: floor plus earned components
+## 3. Teach it
 
-There is no taxonomy and no template; labeling a topic and filling the
-matching template produces ceremony around thin content. Two questions
-decide everything:
+Teach it as well as you can, intuition first, in MA's notation.
 
-1. What does MA leave out here? (Often nothing. Sometimes the why.)
-2. What do the prerequisite notes (or the user) say about their state?
+Optionally end with a quick check that it landed before sending them to
+the problems. They'll go back and forth if something doesn't make sense.
 
-**The floor, always:** MA's own intro at its tightest, in Claude's words,
-improved where it can be. For a definition-plus-procedure topic that is
-three lines; where MA's intro is longer and good, it may be six. Plus the
-one trap, and any value from another topic the problems will assume. Then
-"go do the problems." Many topics get exactly this and nothing more; that
-is the correct output, not a failure to teach.
+## 4. Go
 
-**Components, each added only when its gate fires, and only as much as the
-gate justifies.** Name to yourself what each one fixes before adding it.
-
-- *Mechanism.* MA states a result without a why, and the why is something
-  they'd use again. Give the single idea the rules fall out of, concrete
-  case first, then general. Reuse framings that have landed (check the
-  notes first). Examples of the kind of framing meant: logs as unit
-  conversion; a log graph is an exponential with coordinates swapped; a
-  root is the inverse of a power, so it accepts what the power can output;
-  $\frac{1}{2}ab\sin C$ is base times height with the height $b \sin C$;
-  the sign of a trig ratio is the sign of the coordinate in that quadrant.
-  Never a list of rules. Not for definitions.
-- *Recall check.* A prerequisite note says it was shaky or blanked, or the
-  prerequisite is more than a few weeks old. One question per such
-  prerequisite, before anything else. If one has faded, that becomes the
-  lesson, because the next several topics assume it too.
-- *Anchor method.* Several rules collapse to two or three invariants (log
-  transformations: inside $= 0$ gives the asymptote, inside $= 1$ gives
-  $y = 0$, inside $=$ base gives $y = 1$). Give the invariants and solve
-  from them instead of re-walking the rules. "What's invariant here?" is
-  the general move.
-- *Picture.* The idea has one and they don't already have it (reference
-  angles, the unit circle, transformations, inverses as reflections,
-  asymptotes, vectors, domain and range, geometry). Interactive only when
-  the point is to move something; otherwise static. Never for algebraic or
-  definitional topics.
-- *Where it fits.* One line, only when the notes or the course map show a
-  connection that isn't obvious. Never "this is a stepping stone."
-- *Rebuild move.* The problems need a value from another topic (like
-  $\sin 120° = \frac{\sqrt{3}}{2}$). Show how to rebuild it in seconds
-  (unit-circle mirroring, the half-equilateral triangle) rather than
-  stating it.
-- *One aimed question.* One prediction question at the edge where the
-  confusion lives (is the asymptote a point or a limit; which
-  transformations can move a domain), when there is a mechanism. Not a
-  quiz sequence.
-
-Style: mechanistic understanding over memorization. The user drives;
-Claude supplies the one idea and aims the questions. Short turns: ask more
-than tell, and end each message with something for them to do. When they
-explain it back, check it precisely; the imprecise word is usually where
-the gap is. When they reason their way to a right answer, say what they
-did right, briefly.
-
-Stop when they have it. Past about 15 minutes the back-and-forth costs
-more than it adds; the rest comes from doing problems.
-
-## 4. Problem prep and go
-
-Two or three lines: the variants their worked examples cover, the one trap
-(sign flip, order of transformations, off-by-one, bracket type in interval
-notation, common denominator in radians), and the look-alike topic this
-gets confused with. Don't redo worked examples. One problem of Claude's
-own only when it goes a step past their examples and their understanding
-seems shaky.
-
-Then tell them to click through MA's explanation without reading it and go
-straight to the questions; the only thing worth a glance is their answer
-format. End with the Anki verdict (section 6).
+When they're ready for the problems, tell them to click through MA's
+explanation without reading it and go straight to the questions; the only
+thing worth a glance is their answer format. End with the Anki verdict
+(section 6).
 
 ## 5. Write the topic note (at "go")
 
@@ -279,9 +217,10 @@ prereqs: <prereq title> (<prereq note filename, or "no note yet">), ...
 - <the idea, one or two bullets; the user's phrasing when they explained
   it back, marked "(their words)", otherwise Claude's>
 - <the test or procedure the problems need>
-- <the trap>
+- <the trap, only if one was called or they hit one>
 - kind: <definition / extension / mechanism / stacked>. <what MA gave vs
-  what was added, one line>
+  what was added>. <level, if it was worth saying: "technique for
+  <parent topic>" or "idea; <child topics> build on it">
 - <date> lesson. anki: <verdict>
 ```
 
@@ -296,7 +235,7 @@ and append the bullets there instead of creating a new file.
 
 ## 6. Anki verdict
 
-One line at the end: **covered / deep / index / skip**, with the reason.
+End with the verdict: **covered / deep / index / skip**, with the reason.
 Default is skip; Anki is not a checklist item. Tests:
 
 - Will later topics build inside it (deep) or merely use it (index)?
@@ -358,6 +297,6 @@ after they've submitted): have them paste or describe the question, their
 answer and MA's explanation, or read the page if they've already answered.
 Find which idea broke, not which step, connect it back to the mechanism,
 and check whether it's a faded prerequisite (look up its note). If the
-same idea breaks twice, bias the Anki verdict up. Debriefs count for the
-picture gate too: if the miss is about a graph, domain or range, draw it.
+same idea breaks twice, bias the Anki verdict up. If the miss is about a graph, domain or range,
+draw it.
 Append a dated miss line to the topic note.
