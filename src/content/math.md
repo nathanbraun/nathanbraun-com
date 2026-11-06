@@ -40,7 +40,7 @@ An intuition engine/teacher/explainer, for understanding (in depth) whatever
 topic I'm on. Something I can go back and forth with, ask questions, etc. I use
 Claude.
 
-Something to remember what I've learned. I use Anki for this.
+Something to remember what I've learned, Anki.
 
 ### Mindset
 I liked this essay by Nabeel Qureshi [How to Understand
@@ -113,7 +113,7 @@ and engage in a back and forth.
 
 So that's what I do. Math Academy handles the lesson and review topic ordering,
 but I completely ignore the instruction part of their lessons. Instead I built
-this workflow (link [below](#claude-skill): 
+this workflow (link [below](#claude-skill)): 
 
 **1. A split screen in Claude Desktop**
 
