@@ -75,7 +75,7 @@ To learn an established subject like math, you need:
 
 [Math Academy](https://mathacademy.com) is great at all this. I've been using it
 about a year. Apparently it's what [Alpha School](https://alpha.school) uses as
-the engine to teach all of their students math, and I can see why.
+the engine to teach all of their students, and I can see why.
 
 They've basically broken down all of math, from 4th grade to university courses
 like linear algebra and differential equations, into appropriately sized
@@ -104,9 +104,9 @@ Graph" class="shadow" /></div>
 ### Intuition engine/explainer
 
 Math Academy is good as a collection of topics and associated problem sets. It's
-not always great when it comes to actual *teaching*. Usually a Math Academy
-lesson is just a barebones explanation and some worked examples. Sometimes
-that's fine, but I've found getting intuition is more work.
+not always great when it comes to actual *teaching*. Usually a lesson is just a
+barebones explanation and some worked examples. Sometimes that's fine, but I've
+found getting intuition is more work.
 
 Luckily, Claude *is* great at intuitive explanations, and it can take questions
 and engage in a back and forth.
@@ -138,15 +138,16 @@ so I asked Claude about it.
 <div><img src="/images/ma_followup.webp" alt="A Math Academy topic"
 class="shadow mx-auto my-6"/></div>
 
-We ended went back and forth a few times until I got it and solved Claude's
-practice question it gave me on it.
+Claude ended up explaining it to me and gave me a couple practice questions to
+make sure I got it.
 
 **3. Once I have the intuition, I do the Math Academy problems.**
 
 Usually post Claude explaining it they're straightforward, but not always. If I
 do have questions Claude can help generally (with e.g. topics or prerequisite
-topics), but it's not allowed to help with specific problems. Interestingly
-Claude came up with this rule when I worked with it on designing the workflow.
+topics), but it's not allowed to help with specific problems I have open.
+Interestingly Claude came up with this rule when I worked with it on designing
+the workflow.
 
 ### Remembering what I've learned with Anki
 
@@ -189,21 +190,21 @@ months.
 I will say the very first math topic I Anki'd (logarithms and exponentials and
 their derivatives) I still have down cold, so that part seems to be working.
 
-It's been pretty fun too. I think having to study math in school for so long
-makes people take for granted how interesting it is. It's really a unique blend
-of abstractions (what are numbers really) and perfect logical consistency.
-Anyone can get started with it (apparently even fish can count to 4) but the
-smartest people in the world can work on it their whole lives and still have
-more to learn.
+It's been pretty fun. I think having to study math in school for so long makes
+people take for granted how interesting it is. It's really a unique blend of
+abstractions (what are numbers really) and perfect logical consistency. Anyone
+can get started with it (apparently even fish can count to 4) but the smartest
+people in the world can work on it their whole lives and still have more to
+learn.
 
-Scott Adams said that one of the keys to happiness was to be optimistic about
-the future, and one way to do *that* was to take up a sport like golf or tennis,
-something you could keep getting better at. After doing it a bit, I think that
-goes for learning math too.
+Scott Adams says in *How to Fail at Everything* that one of the keys to
+happiness is being optimistic about the future, and one way to do that is to
+work at something you can gradually get better at. He suggests golf or tennis,
+but after doing it a bit I think it works for math too.
 
 ## Claude Skill
-I wrote the whole workflow in a  Claude skill (`/math`), which is available
-here:
+I wrote the whole Claude-Math Academy-Anki card workflow in a Claude skill
+(`/math`), which is available here:
 
 [https://nathanbraun.com/math-skill.md](https://nathanbraun.com/math-skill.md)
 
