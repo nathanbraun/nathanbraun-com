@@ -32,7 +32,7 @@ Frontmatter schema for content files:
 
 ### Layouts
 
-- `BaseLayout.astro` — HTML shell with meta tags, navigation header, Umami analytics
+- `BaseLayout.astro` — HTML shell with meta tags, navigation header, PostHog analytics (`posthog-js`, cookie persistence, no consent banner)
 - `MarkdownLayout.astro` — wraps BaseLayout, adds `.markdown-content` prose styles
 
 ### Styling
@@ -41,4 +41,4 @@ Tailwind with `@tailwindcss/typography` plugin. Custom fonts: IBM Plex Sans (bod
 
 ### Netlify Config
 
-`netlify.toml` has a proxy redirect from `/stats/*` to the Umami analytics instance.
+`netlify.toml` proxies `/ingest/*` (and `/ingest/static/*`) to PostHog's US hosts so analytics requests are first-party; `posthog.init` uses `api_host: '/ingest'`.

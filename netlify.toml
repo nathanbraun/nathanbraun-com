@@ -15,12 +15,6 @@
   force = true
 
 [[redirects]]
-  from = "/stats/*"
-  to = "https://umami.natebraun.com/:splat"
-  status = 200
-  force = true
-
-[[redirects]]
   from = "/ltcwff"
   to = "/code-sports-books"
   status = 301
