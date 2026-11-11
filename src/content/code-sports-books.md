@@ -246,7 +246,8 @@ You can see some more [here](/code-sports-books/testimonials).
 ## Follow up books
 In addition to the 5 main sports, I also did an annual "fantasy football dev
 kit" where we'd walk through building 'real life' projects using a
-projection/simulation API I'd built.
+projection/simulation API I'd built (an extended look/walkthrough of these
+simulations is [here](/fantasy-monte-carlo)).
 
 The developer kit included access to the API for one year. It was my first real
 foray into recurring revenue, which was nice. It mostly functioned as an
