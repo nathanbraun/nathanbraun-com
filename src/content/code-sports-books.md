@@ -114,7 +114,8 @@ straightforward to apply it to others.
 
 They were definitely more about teaching these concepts than getting into
 advanced sports analytics or stats. It wasn't like if you read it you'd be able
-to go immediately work for the Brewers. Though these coding skills would be
+to go immediately work for the Brewers (that'd require [something like
+this](/baseball-knowledge-graph)). Though these coding skills would be
 prerequisites for jobs like that, and I did have readers from inside the
 industry.
 
@@ -265,9 +266,6 @@ it. Ironically, it's much more relevant now that AI writes most code.
 
 ## AI and declining relevance
 
-I've been using AI coding tools since soon after they were invented (initially
-just fancy autocomplete).
-
 I was working on the first edition of Tech Tools when early AI was out. It was
 very helpful in setting up configs etc. But was definitely hit or miss and
 couldn't reliably one shot code yet.
@@ -287,13 +285,11 @@ completely.
 
 I was still selling some copies, which I had mixed thoughts on. Part of me felt
 like I was selling flip phones to people in 2012. But at same time, I am a
-better user of AI because I know how to code.
-
-Was learning to code, and *then* learning about AI necessarily the best/most
-efficient way to go about things? Prob not. But -- just like smart phones
-probably >> flip phones (per revealed preference), there are tradeoffs to smart
-phones. I felt like it was something for people to discover on their own
-timelines.
+better user of AI because I know how to code. Was learning to code, and *then*
+learning about AI necessarily the best/most efficient way to go about things?
+Prob not. But -- just like smart phones probably >> flip phones (per revealed
+preference), there are tradeoffs to smart phones. I felt like it was something
+for people to discover on their own timelines.
 
 But eventually (with Claude Code etc) I basically came to the conclusion that
 coding the old way is "solved". It was pretty clear the books were no longer
