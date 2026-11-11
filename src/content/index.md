@@ -38,7 +38,7 @@ Here's a [chronological list of all posts](posts).  An RSS feed is available
 ## Fantasy & Sports Analytics Projects
 - [Baseball Knowledge Graph](baseball-knowledge-graph), up to speed with frontier analytics quickly (2026)
 - [Fantasy God Mode](fgm), next generation of fantasy model suite (2026)
-- [Monte Carlo with Fantasy Football](fgm), working with distributions via simulation (2024)
+- [Monte Carlo with Fantasy Football](fantasy-monte-carlo), working with distributions via simulation (2024)
 - [Fantasy Math](fantasymath), model for weekly fantasy start-sit advice (2017-2025)
 - [Learn to Code with Sports](code-sports-books), books on learning Python & data science (2019-2026)
 - [Fantasy Monday](monday), a free Monday only version of Fanasy Math (2017-present)
