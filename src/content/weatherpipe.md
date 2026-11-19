@@ -9,9 +9,9 @@ date: "2026-11-19"
 
 # Weatherpipe
 
-Weatherpipe is a cross-platform, improved version of the [Weather
-Strip](https://weatherstrip.app) app that I built over a few weeks in the spring
-of 2026.
+[Weatherpipe](https://www.weatherpipe.com) is a cross-platform, improved version
+of the [Weather Strip](https://weatherstrip.app) app that I built over a few
+weeks in the spring of 2026.
 
 The main benefit of both apps: **they make understanding/internalizing the
 upcoming (like later today-week) weather very fast**, like almost instantaneous.
