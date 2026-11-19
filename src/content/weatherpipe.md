@@ -104,6 +104,8 @@ cluttered.
 So instead I added the ability to press down and drag over an interval to bring
 up accumulated amounts.
 
+<img src="/images/weatherpipe/long-press.jpg" alt="Weatherpipe with 5am to 7pm Wednesday selected by long press; badges below show 64 over 42 degrees, 26 mph wind, 90 percent chance of rain with 1.70 inches, and 45 percent chance of thunder" style="width: 360px; max-width: 100%; margin: 0 auto;" />
+
 **3. Swap main line metrics.**
 
 In Weatherpipe, you can tap air quality, wind (sustained and gusts), or UV to
@@ -113,10 +115,14 @@ to see when there are particular things we care about.
 I used it a bunch for air quality when wildfires were bad this summer. Or you
 can, say, look at wind if interested in e.g. a golf tournament.
 
+<img src="/images/weatherpipe/air-quality.jpg" alt="Weatherpipe web version for Denver with the AQI badge selected, so the main line shows air quality falling from 115 to 47 instead of temperature" style="width: 360px; max-width: 100%; margin: 0 auto;" />
+
 **4. Horizontal layout toggle.**
 
 You can flip your phone on edge for a larger, horizonal view. In theory this
 shows more and larger detail, but I don't find myself using it much in practice.
+
+![Weatherpipe in landscape mode showing all of Tuesday and Wednesday across the full width of the phone](/images/weatherpipe/landscape.jpg)
 
 **5. Better aesthetics.**
 
