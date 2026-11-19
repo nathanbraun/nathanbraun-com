@@ -27,6 +27,7 @@ Here's a [chronological list of all posts](posts).  An RSS feed is available
 - Goodreads: [@nathanbraun](https://www.goodreads.com/review/list/150191?order=d&sort=date_added)
 
 ## Projects
+- [Weatherpipe](weatherpipe), cross platform (mobile and web) weather visualization app (2026).
 - [How I Learn Math](math), Math Academy, Claude, Anki and a good attitude (2026).
 - [Tech Tools](tooling), book on computer tooling (2024).
 - [Percentile Feedback](pf), a webapp to automatically calculate PF graphs (2022).
